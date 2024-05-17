@@ -1,0 +1,22 @@
+<Mission>
+<Objects>
+  <Entity Name="ArkNpcSpawner_NatashaNikova1" EntityId="1768" EntityGuid="4866A4BDDA172DED" ch:patch_mode="true" ch:apply_if="{{ Simmons_Inclusion }}">
+   <Properties sNpcArchetype="ArkHumans.Scientists.MarcoSimmons"/>
+  </Entity>
+  <Entity Name="Crafting.RecyclerJunk.BiohazardWaste2" Pos="724.30035,1620.26392,23.8956" EntityId="4106" EntityGuid="421D40A8DE5C1336" ch:patch_mode="true" ch:apply_if="{{ NMDiv_Fix_UnreachableJunk }}">
+  </Entity>
+  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityId="4032" EntityGuid="4B7A43E5CAE85D5F" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+   <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
+  </Entity>
+  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityId="3916" EntityGuid="4DC1410C1C2265BC" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+   <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
+  </Entity>
+  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityId="3871" EntityGuid="490FC2E8873E0CDD" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+   <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
+   <RenderProxy />
+  </Entity>
+  <Entity Name="Data.TranScribe6" EntityId="3213" EntityGuid="4EA1C1685C41AC03" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
+   <Properties2 bAutoPlayAudioLog="0"/>
+  </Entity>
+  </Objects>
+</Mission>

@@ -1,0 +1,15 @@
+<Mission>
+<Objects>
+  <Entity Name="Turrets.Turret_Default2" EntityId="2524" EntityGuid="40D86431D94D8498" ch:remove="true" ch:apply_if="{{ GUTS_ZeroG_Turrets_Removal }}"/>
+  <Entity Name="Turrets.Turret_Default3" EntityId="2391" EntityGuid="41CAD50D3D71F4C7" ch:remove="true" ch:apply_if="{{ GUTS_ZeroG_Turrets_Removal }}"/>
+  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityId="3999" EntityGuid="4B2097F8CE8FDECA" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+   <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
+  </Entity>
+  <Entity Name="Data.TranScribe3" EntityId="3384" EntityGuid="4F6F9B17258CE921" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
+   <Properties2 bAutoPlayAudioLog="0"/>
+  </Entity>
+  <Entity Name="Data.TranScribe4" EntityId="2633" EntityGuid="49AE634E90CADC8A" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
+   <Properties2 bAutoPlayAudioLog="0"/>
+  </Entity>
+</Objects>
+</Mission>

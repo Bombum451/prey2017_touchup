@@ -1,0 +1,5 @@
+
+<Objectives>
+ <Objective id="844024417271590973" ch:patch_mode="true" ch:apply_if="{{ Artrax_Quest_NotASideQuest }}" optional="false">
+ </Objective>
+</Objectives>

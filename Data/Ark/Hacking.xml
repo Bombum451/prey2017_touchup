@@ -1,0 +1,9 @@
+
+<ArkHacking>
+ <DifficultyLevels ch:patch_mode="true" ch:apply_if="{{ Hacking_TimeChanges }}">
+  <DifficultyLevel minTravelDistance="1.0" maxTravelDistance="1.5" timePerPuzzle="12.0" chainLength="1" pathObstacles="2" pathStunObstacles="2" otherStunObstacles="4"/>
+  <DifficultyLevel minTravelDistance="1.0" maxTravelDistance="1.5" timePerPuzzle="20.0" chainLength="1" pathObstacles="2" pathStunObstacles="2" otherStunObstacles="4"/>
+  <DifficultyLevel minTravelDistance="1.0" maxTravelDistance="1.5" timePerPuzzle="25.0" chainLength="2" pathObstacles="2" pathStunObstacles="2" otherStunObstacles="4"/>
+  <DifficultyLevel minTravelDistance="1.0" maxTravelDistance="1.5" timePerPuzzle="30.0" chainLength="2" pathObstacles="2" pathStunObstacles="2" otherStunObstacles="4"/>
+ </DifficultyLevels>
+</ArkHacking>

@@ -1,0 +1,13 @@
+<Mission>
+<Objects>
+  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityId="2452" EntityGuid="49A29C3EA6F87DB4" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+   <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
+  </Entity>
+  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityId="2431" EntityGuid="4184EF26CCF20563" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+   <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
+  </Entity>
+  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityId="2447" EntityGuid="4435FA73D00977AC" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+   <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
+  </Entity>
+</Objects>
+</Mission>

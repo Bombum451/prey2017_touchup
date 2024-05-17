@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Quin Matteson</LastAuthor>
+  <LastSaved>2016-11-28T23:36:28Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13200</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="LocStuff">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="125" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="131.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="812.25"/>
+   <Column ss:Width="1342.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">loc_4349723564947721391</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;b&gt;DAY 2:&lt;/b&gt; I woke up, still in the street. An M35 truck was stopped near me and the driver was yelling at me to get in. There were several people in the back already - four or five soldiers and about a dozen civilians including children. I got in the truck and someone gave me a bottle of water. &lt;br&gt;&lt;br&gt;I asked what was happening and a solder just shrugged. I told him I had driven the M35 during my service. People in the truck were crying and I looked back. The pink smoke was now mixed with gray and swirled high into the sky. There was so much of it and it seemed to cover the entire city. We kept picking up people until the truck was full. &lt;br&gt;&lt;br&gt;Before we got to the highway we heard shooting. The soldiers climbed down and readied their weapons. The commander told me to drive the truck as far as possible to the west, then they ran toward the shooting.</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;b&gt;DAY 2:&lt;/b&gt; I woke up, still in the street. An M35 truck was stopped near me and the driver was yelling at me to get in. There were several people in the back already - four or five soldiers and about a dozen civilians including children. I got in the truck and someone gave me a bottle of water. &lt;br&gt;&lt;br&gt;I asked what was happening and a soldier just shrugged. I told him I had driven the M35 during my service. People in the truck were crying and I looked back. The pink smoke was now mixed with gray and swirled high into the sky. There was so much of it and it seemed to cover the entire city. We kept picking up people until the truck was full. &lt;br&gt;&lt;br&gt;Before we got to the highway we heard shooting. The soldiers climbed down and readied their weapons. The commander told me to drive the truck as far as possible to the west, then they ran toward the shooting.</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">loc_4349723564947729140</Data></Cell>
+    <Cell><Data ss:Type="String">The TranStar Corporation commissioned several high profile artists to create works exclusively for Talos I, the orbital research and development facility that has brought us the Neuromod and many other technological wonders.&lt;br&gt;&lt;br&gt;Renowned Belgian sculptor Fredrick Smaart sculpted the work &quot;Smoke Signals&quot; which forms the centerpiece of the employee dining hall. &lt;br&gt;&lt;br&gt;The installation artist simply known as &quot;Jessie&quot; constructed the chain of marbled glass panels which soar gracefully overhead in the Talos I Lobby.&lt;br&gt;And former street artist Patryk O. designed a series of exclusive posters for TranStar featuring impressions of orbit, eclipse and other celestial themes in his signature geometric style. He also developed the Neuromod promotional image featuring the likeness of actor Daisy Prince.&lt;br&gt;&lt;br&gt; TranStar President Alex Yu, commented, &quot;Art inspires, fires our creativity, makes us look beyond our present circumstances to what might be possible.&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">The TranStar Corporation commissioned several high profile artists to create works exclusively for Talos I, the orbital research and development facility that has brought us the Neuromod and many other technological wonders.&lt;br&gt;&lt;br&gt;Renowned Belgian sculptor Fredrick Smaart sculpted the work &quot;Smoke Signals&quot; which forms the centerpiece of the employee dining hall. &lt;br&gt;&lt;br&gt;The installation artist simply known as &quot;Jessie&quot; constructed the chain of marbled glass panels which soar gracefully overhead in the Talos I Lobby.&lt;br&gt;And former street artist Patryk O. designed a series of exclusive posters for TranStar featuring impressions of orbit, eclipse and other celestial themes in his signature geometric style. He also developed the Neuromod promotional image featuring the likeness of actor Daisy Prince.&lt;br&gt;&lt;br&gt;TranStar President Alex Yu, commented, &quot;Art inspires, fires our creativity, makes us look beyond our present circumstances to what might be possible.&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">loc_4349723564947499647</Data></Cell>
+    <Cell><Data ss:Type="String">[Excerpt from an article on the colonization of Mars, by Dan Ousley] &lt;br&gt;&lt;br&gt;...but the costs of these Mars installations and their continued maintenance is staggering - and their spartan shells are a far cry from the idyllic colonies pictured by turn of the century inspirational space tourism posters.  &lt;br&gt;&lt;br&gt;All that might be about to change. In a rare interview, TranStar president Alex Yu reveals his vision of a Mars where families in short sleeves can picnic in a grassy field, then pick out the point of light that is Earth after the sun sets.  &lt;br&gt;&lt;br&gt;Enabling this vision requires terraforming Mars, the most challenging engineering problem the Human race has ever faced. &lt;br&gt;&lt;br&gt;Yu presents an innocuous gray moss to me. An extremophile organism designed specifically for that purpose. Dubbed &lt;i&gt;Takakia Catherine&lt;/i&gt;, the simple looking plant is actually a fantastically efficient organic machine that, given enough centuries, will convert the Martian atmosphere into something that very much resembles our own.</Data></Cell>
+    <Cell><Data ss:Type="String">[Excerpt from an article on the colonization of Mars, by Dan Ousley] &lt;br&gt;&lt;br&gt;...but the costs of these Mars installations and their continued maintenance is staggering - and their spartan shells are a far cry from the idyllic colonies pictured by turn of the century inspirational space tourism posters.  &lt;br&gt;&lt;br&gt;All that might be about to change. In a rare interview, TranStar president Alex Yu reveals his vision of a Mars where families in short sleeves can picnic in a grassy field, then pick out the point of light that is Earth after the sun sets.  &lt;br&gt;&lt;br&gt;Enabling this vision requires terraforming Mars, the most challenging engineering problem the human race has ever faced. &lt;br&gt;&lt;br&gt;Yu presents an innocuous gray moss to me. An extremophile organism designed specifically for that purpose. Dubbed &lt;i&gt;Takakia Catherine&lt;/i&gt;, the simple looking plant is actually a fantastically efficient organic machine that, given enough centuries, will convert the Martian atmosphere into something that very much resembles our own.</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+    </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <LeftColumnVisible>2</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <x:ExcelWorkbook/>
+</Workbook>

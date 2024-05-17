@@ -1,0 +1,10 @@
+
+<PlayerConfig>
+ <Stats packageFile="Ark/Player/StatPackages.xml" ch:apply_if="{{ Still_Mimicry_Invisibility }}">
+  <Stat name="mimicMinVisibilityScalar" value="0"/>
+ </Stats>
+ <Stats packageFile="Ark/Player/StatPackages.xml" ch:apply_if="{{ Time_Slowdown }}">
+  <Stat name="focusMenuModeTimeScale" value="0.1"/>
+  <Stat name="psiTargetingMinTimeScale" value="0.1"/>
+ </Stats>
+</PlayerConfig>

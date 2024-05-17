@@ -1,0 +1,6 @@
+
+<ArkCharacters>
+ <Characters>
+  <ArkCharacter ID="12889009725043561219" Name="Natasha Nikova" Label="@loc_15373294129892759717" JobTitle="@loc_15373294129891703480" ch:patch_mode="true" ch:apply_if="{{ Simmons_Inclusion }}"/>
+ </Characters>
+</ArkCharacters>

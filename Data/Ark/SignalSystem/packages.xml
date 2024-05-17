@@ -1,0 +1,9 @@
+
+<packages>
+ <package name="Operator_Medical" id="3149325216943890650" ch:patch_mode="true" ch:apply_if="{{ No_MedOp_O2 }}">
+	<signal signalID="10739735956147535099" value="0"/>  <!--oxygen-->
+ </package>
+  <package name="OnLaserExplosionKill" id="8109010857459426814" ch:patch_mode="true" ch:apply_if="{{ QBeam_AoE_NoBlindness }}">
+  <signal signalID="3149325216914689666" value="0"/>   <!--flash-->
+ </package>
+</packages>

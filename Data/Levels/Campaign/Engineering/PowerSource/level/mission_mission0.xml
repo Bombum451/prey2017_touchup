@@ -1,0 +1,16 @@
+   <Mission>
+   <Objects>
+  <Entity Name="Data.TranScribe6" EntityId="3237" EntityGuid="4BDB59699E616702" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
+   <Properties2 bAutoPlayAudioLog="0"/>
+  </Entity>
+  <Entity Name="Data.TranScribe7" EntityId="3293" EntityGuid="4902B3D6DE07F50A" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
+   <Properties2 bAutoPlayAudioLog="0"/>
+  </Entity>
+  <Entity Name="Data.TranScribe4" EntityId="2417" EntityGuid="4F2087F29100F689" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
+   <Properties2 bAutoPlayAudioLog="0"/>
+  </Entity>
+  <Entity Name="Data.TranScribe5" EntityId="2570" EntityGuid="4BCC94CFE6068CC6" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
+   <Properties2 bAutoPlayAudioLog="0"/>
+  </Entity>
+  </Objects>
+  </Mission>

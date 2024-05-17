@@ -1,0 +1,14 @@
+   <Mission>
+   <Objects>
+   <Entity Name="Data.Keycard5" Archetype="ArkPickups.Data.Keycard" Pos="153.1,90.9,693.9" Rotate="-0.10710677,0,0,-0.10710677" EntityClass="ArkKeycard" EntityId="3026" EntityGuid="4FDA91B7404BPB33" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="CargoBay_Scripting" ch:apply_if="{{ CargoBayA_DuplicateCard }}">
+   <Properties2 iCountOverride="0" keycard_Keycard="4349723564917331725"/>
+   <RenderProxy />
+  </Entity>
+  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityId="1864" EntityGuid="4BB5FBFE32A84AFE" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+   <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
+  </Entity>
+  <Entity Name="TranScribe_SarahElazar" EntityId="1870" EntityGuid="4B1ADDC035225A00" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
+   <Properties2 bAutoPlayAudioLog="0"/>
+  </Entity>
+  </Objects>
+  </Mission>

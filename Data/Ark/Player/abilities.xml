@@ -1,0 +1,8 @@
+
+<ArkAbilities>
+ <Abilities>
+  <ArkAbility ID="3149325216929347148" ch:patch_mode="true" NightmareHeat="0" ch:apply_if="{{ Psi_Aptitude_NightmareHeat_Removal }}">
+  <ArkAbility ID="3149325216929347150" ch:patch_mode="true" NightmareHeat="0" ch:apply_if="{{ Psi_Aptitude_NightmareHeat_Removal }}">
+  <ArkAbility ID="3149325216929347152" ch:patch_mode="true" NightmareHeat="0" ch:apply_if="{{ Psi_Aptitude_NightmareHeat_Removal }}">
+ </Abilities>
+</ArkAbilities>
