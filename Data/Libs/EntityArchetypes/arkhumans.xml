@@ -1,5 +1,5 @@
 <EntityPrototypeLibrary>
- <EntityPrototype Name="Player.Morgan Karl Female" Id="{CEB1633E-5F0A-4B63-A991-CCD1C61B3E3A}" ArchetypeId="10739735956144685618"ch:patch_mode="true" ch:apply_if="{{ Recycling_Yield_Anomaly_Fixing }}">
+ <EntityPrototype Name="Player.Morgan Karl Female" Id="{CEB1633E-5F0A-4B63-A991-CCD1C61B3E3A}" ArchetypeId="10739735956144685618" ch:patch_mode="true" ch:apply_if="{{ Recycling_Yield_Anomaly_Fixing }}">
   <Properties>
    <RecycleData organic="50"/>
   </Properties>

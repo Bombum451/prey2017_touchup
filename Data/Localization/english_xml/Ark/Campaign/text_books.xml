@@ -41,6 +41,13 @@
    <Column ss:Width="131.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="812.25"/>
    <Column ss:Width="1342.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51" ss:StyleID="s65">
+    <Cell ss:Index="2" ss:StyleID="s67"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ORIGINAL TEXT</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">TRANSLATED TEXT</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LOCKED</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
+   </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_4349723564947721391</Data></Cell>
     <Cell><Data ss:Type="String">&lt;b&gt;DAY 2:&lt;/b&gt; I woke up, still in the street. An M35 truck was stopped near me and the driver was yelling at me to get in. There were several people in the back already - four or five soldiers and about a dozen civilians including children. I got in the truck and someone gave me a bottle of water. &lt;br&gt;&lt;br&gt;I asked what was happening and a solder just shrugged. I told him I had driven the M35 during my service. People in the truck were crying and I looked back. The pink smoke was now mixed with gray and swirled high into the sky. There was so much of it and it seemed to cover the entire city. We kept picking up people until the truck was full. &lt;br&gt;&lt;br&gt;Before we got to the highway we heard shooting. The soldiers climbed down and readied their weapons. The commander told me to drive the truck as far as possible to the west, then they ran toward the shooting.</Data></Cell>

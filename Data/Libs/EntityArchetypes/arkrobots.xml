@@ -1,5 +1,5 @@
 <EntityPrototypeLibrary>
  <EntityPrototype Name="Operators\Named.IgweBot" Id="{0211CA5D-DCF7-4AEE-8DC8-FA7693C1AF34}" ArchetypeId="844024417311500523" ch:patch_mode="true" ch:apply_if="{{ MedOp_Endgame_Igwe }}">
-  <Properties loottable_ContainerLootTable="NPC_Operator_Medical" fileModel="objects/characters/robots/operatormedic/operatormedic.cdf" scanningDisplayName="@npc_medoperator" >
+  <Properties loottable_ContainerLootTable="NPC_Operator_Medical" fileModel="objects/characters/robots/operatormedic/operatormedic.cdf" scanningDisplayName="@npc_medoperator"/>
  </EntityPrototype>
 </EntityPrototypeLibrary>

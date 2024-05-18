@@ -33,6 +33,13 @@
    <Column ss:AutoFitWidth="0" ss:Width="207"/>
    <Column ss:AutoFitWidth="0" ss:Width="171"/>
    <Column ss:Width="299.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51" ss:StyleID="s65">
+    <Cell ss:Index="2" ss:StyleID="s67"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ORIGINAL TEXT</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">TRANSLATED TEXT</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LOCKED</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
+   </Row>
    <Row ss:AutoFitHeight="0">
     <Cell>
      <Data ss:Type="String">loc_15373294129891703515</Data>

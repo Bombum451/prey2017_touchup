@@ -1,10 +1,10 @@
 <EntityPrototypeLibrary>
- <EntityPrototype Name="BreakRooms.Water_Cooler_A" Id="{CD15CA6A-16E7-47B4-A7E9-30A8016C7766}" ArchetypeId="10739735956144680706"ch:patch_mode="true" ch:apply_if="{{ WaterCooler_PsychicWater_Removal }}">
+ <EntityPrototype Name="BreakRooms.Water_Cooler_A" Id="{CD15CA6A-16E7-47B4-A7E9-30A8016C7766}" ArchetypeId="10739735956144680706" ch:patch_mode="true" ch:apply_if="{{ WaterCooler_PsychicWater_Removal }}">
   <Properties>
    <MissionReward signalPackage_PsiRewardOnUse=""/>
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Systems.Reactor_Divertor" Id="{547F8246-42D7-492F-990B-9A64F03492EB}" ArchetypeId="10739735956144680709" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-  <Properties bIsMimicable="1">
+  <Properties bIsMimicable="1"/>
  </EntityPrototype>
 </EntityPrototypeLibrary>

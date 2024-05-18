@@ -37,12 +37,12 @@
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="510.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="521.25"/>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">KEY</Data></Cell>
-    <Cell><Data ss:Type="String">ORIGINAL TEXT</Data></Cell>
-    <Cell><Data ss:Type="String">TRANSLATED TEXT</Data></Cell>
-    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
-    <Cell><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="51" ss:StyleID="s65">
+    <Cell ss:Index="2" ss:StyleID="s67"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ORIGINAL TEXT</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">TRANSLATED TEXT</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LOCKED</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129887560798</Data></Cell>
@@ -540,7 +540,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129887560949</Data></Cell>
     <Cell><Data ss:Type="String">Elias,&lt;br&gt;You left your character sheet on the printer.  Don't forget we moved the game to the rec center in Crew Facilities and it's an hour later than usual.  Do us a favor and take a happy pill before showing up.  See you there.  </Data></Cell>
-    <Cell><Data ss:Type="String">Elias,<br>You left your character sheet on the printer.  Don't forget we moved the game to the rec center in Crew Quarters and it's an hour later than usual. Do us a favor and take a happy pill before showing up. See you there.</Data></Cell>
+    <Cell><Data ss:Type="String">Elias,<br/>You left your character sheet on the printer.  Don't forget we moved the game to the rec center in Crew Quarters and it's an hour later than usual. Do us a favor and take a happy pill before showing up. See you there.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>

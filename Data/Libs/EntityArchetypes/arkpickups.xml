@@ -66,38 +66,37 @@
   </Properties>
  </EntityPrototype>
   <EntityPrototype Name="MissionItems.SelfDestructKey_Morgan" Id="{F3FBA15C-9664-4634-B9D1-9844219DBA10}" ArchetypeId="10739735956144611937" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
-  <Properties bIsPlotCritical="0">
+  <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
    <EntityPrototype Name="MissionItems.SelfDestructKey_Alex" Id="{4BD9198E-2EC7-4A44-9E34-46B8D8C578B2}" ArchetypeId="10739735956144611938" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
-    <Properties bIsPlotCritical="0">
+    <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
    <EntityPrototype Name="MissionItems.CherishedFamilyPhoto" Id="{E77A5744-DD68-4439-A380-49784A903A7D}" ArchetypeId="10739735956144611949" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
-    <Properties bIsPlotCritical="0">
+    <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
    <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" Id="{B9FE0989-6A3E-4CE9-9C4C-86BE46AF4C8B}" ArchetypeId="10739735956144611955" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-    <Properties bIsMimicable="1">
+    <Properties bIsMimicable="1"/>
   </EntityPrototype>
   <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_A" Id="{2C9CD062-2EDA-477D-8797-66F862D6F43C}" ArchetypeId="10739735956144611956" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-    <Properties bIsMimicable="1">
+    <Properties bIsMimicable="1"/>
   </EntityPrototype>
   <EntityPrototype Name="Crafting.RecyclerJunk.PetriDishSample" Id="{FCC4609F-D6BD-4AE0-9496-62B7DD45C3D1}" ArchetypeId="10739735956144611964" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-    <Properties bIsMimicable="1">
+    <Properties bIsMimicable="1"/>
   </EntityPrototype>
    <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_B" Id="{13C71526-2912-4399-8219-36B6A01D9131}" ArchetypeId="10739735956144611973" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-    <Properties bIsMimicable="1">
+    <Properties bIsMimicable="1"/>
   </EntityPrototype>
    <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_C" Id="{F08986FB-019F-43DE-B92B-FCE376E49CF2}" ArchetypeId="10739735956144611974" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-    <Properties bIsMimicable="1">
+    <Properties bIsMimicable="1"/>
   </EntityPrototype>
    <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_D" Id="{CC754531-064F-4F9A-B8D9-8ACA8F35726E}" ArchetypeId="10739735956144611981" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-    <Properties bIsMimicable="1">
+    <Properties bIsMimicable="1"/>
   </EntityPrototype>
    <EntityPrototype Name="Crafting.RecyclerJunk.Yellow_Tulips_A_Pickup" Id="{0B66EEB0-6068-47F2-8DF5-F9060B337E40}" ArchetypeId="10739735956144611982" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-    <Properties bIsMimicable="1">
+    <Properties bIsMimicable="1"/>
   </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_II" Id="{48B0C6BF-8269-481E-8529-97067D2A7699}" ArchetypeId="10739735956144611990" ch:patch_mode="true" ch:apply_if="{{ Recycling_Immune_Chipsets }}">
-  <Properties bIsPlotCritical="1">
-  </Properties>
+  <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_II" Id="{48B0C6BF-8269-481E-8529-97067D2A7699}" ArchetypeId="10739735956144611990" ch:patch_mode="true" ch:apply_if="{{ SuitChipsets_Use_ProperGraphic }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
@@ -110,12 +109,10 @@
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.Random" Id="{B02C9A27-1DF5-4EF4-BB08-605873580195}" ArchetypeId="10739735956144611998" ch:patch_mode="true" ch:apply_if="{{ Recycling_Immune_Chipsets }}">
-  <Properties bIsPlotCritical="1">
-  </Properties>
+  <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.EMP_Shielding" Id="{0B9670A7-6C64-4603-AD69-0201C32D6278}" ArchetypeId="10739735956144612025" ch:patch_mode="true" ch:apply_if="{{ Recycling_Immune_Chipsets }}">
-  <Properties bIsPlotCritical="1">
-  </Properties>
+  <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.EMP_Shielding" Id="{0B9670A7-6C64-4603-AD69-0201C32D6278}" ArchetypeId="10739735956144612025" ch:patch_mode="true" ch:apply_if="{{ SuitChipsets_Use_ProperGraphic }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
@@ -128,12 +125,10 @@
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.FlashlightDuration" Id="{1B291796-E93E-4DD8-8EFE-EB4B3B02FA0E}" ArchetypeId="10739735956144612028" ch:patch_mode="true" ch:apply_if="{{ Recycling_Immune_Chipsets }}">
-  <Properties bIsPlotCritical="1">
-  </Properties>
+  <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.ImprovedStamina" Id="{42BD4E55-3A8E-464F-A92A-5EB2DB844367}" ArchetypeId="10739735956144612029" ch:patch_mode="true" ch:apply_if="{{ Recycling_Immune_Chipsets }}">
-  <Properties bIsPlotCritical="1">
-  </Properties>
+  <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.ImprovedStamina" Id="{42BD4E55-3A8E-464F-A92A-5EB2DB844367}" ArchetypeId="10739735956144612029" ch:patch_mode="true" ch:apply_if="{{ SuitChipsets_Use_ProperGraphic }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
@@ -141,8 +136,7 @@
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.LastChance" Id="{BA180BB8-F494-4B47-B876-CEBD58CE7E31}" ArchetypeId="10739735956144612035" ch:patch_mode="true" ch:apply_if="{{ Recycling_Immune_Chipsets }}">
-  <Properties bIsPlotCritical="1">
-  </Properties>
+  <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.LastChance" Id="{BA180BB8-F494-4B47-B876-CEBD58CE7E31}" ArchetypeId="10739735956144612035" ch:patch_mode="true" ch:apply_if="{{ SuitChipsets_Use_ProperGraphic }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
@@ -308,11 +302,10 @@
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="MissionItems.MikhailaFathersRing" Id="{9D19A259-30CF-42C0-8451-0E196E2A2248}" ArchetypeId="10641886185862789262" ch:patch_mode="true">
-    <Properties bIsPlotCritical="0">
+    <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.RecyclerLootBonus" Id="{143BEB72-FF3C-4B20-A190-66FEE5ECD8AE}" ArchetypeId="844024417326870839" ch:patch_mode="true" ch:apply_if="{{ Recycling_Immune_Chipsets }}">
-  <Properties bIsPlotCritical="1">
-  </Properties>
+  <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.RecyclerLootBonus" Id="{143BEB72-FF3C-4B20-A190-66FEE5ECD8AE}" ArchetypeId="844024417326870839" ch:patch_mode="true" ch:apply_if="{{ SuitChipsets_Use_ProperGraphic }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
