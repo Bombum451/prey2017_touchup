@@ -348,7 +348,7 @@
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="160.5"/>
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="99"/>
    <Row ss:AutoFitHeight="0" ss:Height="51" ss:StyleID="s65">
-    <Cell ss:Index="2" ss:StyleID="s67"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">KEY</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">ORIGINAL TEXT</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">TRANSLATED TEXT</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">LOCKED</Data></Cell>
@@ -436,7 +436,7 @@
    <Row>
     <Cell ss:StyleID="s85"><Data ss:Type="String">i_fabplanhypopsiDesc</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">A psychostimulant that increases the psychic potential of an individual when injected.</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">A psychoactive stimulant that restores the psychic potential of an individual upon injection.</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">A psychostimulant that restores the psychic potential of an individual upon injection.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
    <Row>
