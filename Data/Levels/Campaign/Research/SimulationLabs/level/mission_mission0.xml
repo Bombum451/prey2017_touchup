@@ -15,8 +15,5 @@
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
    <RenderProxy />
   </Entity>
-  <Entity Name="Data.TranScribe6" EntityId="3213" EntityGuid="4EA1C1685C41AC03" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
-   <Properties2 bAutoPlayAudioLog="0"/>
-  </Entity>
   </Objects>
 </Mission>

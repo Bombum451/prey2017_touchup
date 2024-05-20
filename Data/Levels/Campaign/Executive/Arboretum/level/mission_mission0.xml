@@ -9,20 +9,5 @@
   <Entity Name="Containers/Medium.Cabinet_Lab9" EntityId="2667" EntityGuid="42A7383DC83E6C8F" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Data.TranScribe2" EntityId="2850" EntityGuid="4E5F65869C98A311" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
-   <Properties2 bAutoPlayAudioLog="0"/>
-  </Entity>
-  <Entity Name="Data.TranScribe5" EntityId="2635" EntityGuid="498DA68941899A25" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
-   <Properties2 bAutoPlayAudioLog="0"/>
-  </Entity>
-  <Entity Name="Data.TranScribe11" EntityId="2656" EntityGuid="49C60F19158ABB7D" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
-   <Properties2 bAutoPlayAudioLog="0"/>
-  </Entity>
-  <Entity Name="Data.TranScribe13" EntityId="2659" EntityGuid="4ACC51635229E2E0" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
-   <Properties2 bAutoPlayAudioLog="0"/>
-  </Entity>
-  <Entity Name="Data.TranScribe6" EntityId="2448" EntityGuid="4505DE16A37CAEF3" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
-   <Properties2 bAutoPlayAudioLog="0"/>
-  </Entity>
 </Objects>
 </Mission>

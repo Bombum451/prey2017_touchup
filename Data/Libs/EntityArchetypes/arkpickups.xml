@@ -4,11 +4,6 @@
    <Inventory iHeight="1" sIcon="ui_icon_inv_psi_hypo_proper" iWidth="2"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Medical.PsiHypo" Id="{DC97C476-B642-4E4B-8E03-D15B065E513F}" ArchetypeId="10739735956144611825" ch:patch_mode="true" ch:apply_if="{{ Psi_Hypos == 'Mooncrash' }}">
-  <Properties>
-   <Inventory iHeight="1" sIcon="ui_icon_inv_psi_hypo_1x1" iWidth="1"/>
-  </Properties>
- </EntityPrototype>
  <EntityPrototype Name="Mods.Suit.HeavyMachineryAssist" Id="{81168A14-3E43-4D03-ABA7-12557A82270D}" ArchetypeId="10739735956144611898" ch:patch_mode="true" ch:apply_if="{{ SuitChipsets_Use_ProperGraphic }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
@@ -441,44 +436,14 @@
   <Properties bIsPlotCritical="1">
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Weapons.Shotgun" Id="{E99DB795-2466-495B-896E-F5ED851B61C5}" ArchetypeId="10739735956144611834" ch:patch_mode="true" ch:apply_if="{{ Disable_AutoReload }}">
-  <Properties>
-   <Weapon bAutoloadAmmo="0"/>
-  </Properties>
- </EntityPrototype>
- <EntityPrototype Name="Weapons.Pistol" Id="{F1088325-4F28-4263-A7AF-6EE79D310E0B}" ArchetypeId="10739735956144611893" ch:patch_mode="true" ch:apply_if="{{ Disable_AutoReload }}">
-  <Properties>
-   <Weapon bAutoloadAmmo="0"/>
-  </Properties>
- </EntityPrototype>
- <EntityPrototype Name="Weapons.StunGun" Id="{778B1645-D8DF-4AFF-9FBB-CD9D55CC707F}" ArchetypeId="10739735956144611951" ch:patch_mode="true" ch:apply_if="{{ Disable_AutoReload }}">
-  <Properties>
-   <Weapon bAutoloadAmmo="0"/>
-  </Properties>
- </EntityPrototype>
- <EntityPrototype Name="Weapons.ToyGun" Id="{B0DE346B-3B49-4E1D-B0BB-388DDC5F8189}" ArchetypeId="10739735956144611953" ch:patch_mode="true" ch:apply_if="{{ Disable_AutoReload }}">
-  <Properties>
-   <Weapon bAutoloadAmmo="0"/>
-  </Properties>
- </EntityPrototype>
- <EntityPrototype Name="Weapons.Unique.Pistol_Golden" Id="{A1CC52D1-6077-4274-862A-C78878498673}" ArchetypeId="10739735956144611984" ch:patch_mode="true" ch:apply_if="{{ Disable_AutoReload }}">
-  <Properties>
-   <Weapon bAutoloadAmmo="0"/>
-  </Properties>
- </EntityPrototype>
- <EntityPrototype Name="Weapons.Unique.Shotgun_Golden" Id="{836662F0-0A85-4140-84A2-2065410CA7F6}" ArchetypeId="3149325216979386322" ch:patch_mode="true" ch:apply_if="{{ Disable_AutoReload }}">
-  <Properties>
-   <Weapon bAutoloadAmmo="0"/>
-  </Properties>
- </EntityPrototype>
  <EntityPrototype Name="Weapons.Shotgun" Id="{E99DB795-2466-495B-896E-F5ED851B61C5}" ArchetypeId="10739735956144611834" ch:patch_mode="true" ch:apply_if="{{ ZeroG_Recoil }}">
   <Properties>
-   <Weapon playerImpulseZeroG="6"/>
+   <Weapon playerImpulseZeroG="2.5"/>
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Weapons.Pistol" Id="{F1088325-4F28-4263-A7AF-6EE79D310E0B}" ArchetypeId="10739735956144611893" ch:patch_mode="true" ch:apply_if="{{ ZeroG_Recoil }}">
   <Properties>
-   <Weapon playerImpulseZeroG="0.25"/>
+   <Weapon playerImpulseZeroG="0.3"/>
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Weapons.ToyGun" Id="{B0DE346B-3B49-4E1D-B0BB-388DDC5F8189}" ArchetypeId="10739735956144611953" ch:patch_mode="true" ch:apply_if="{{ ZeroG_Recoil }}">
@@ -488,17 +453,17 @@
  </EntityPrototype>
  <EntityPrototype Name="Weapons.Unique.Pistol_Golden" Id="{A1CC52D1-6077-4274-862A-C78878498673}" ArchetypeId="10739735956144611984" ch:patch_mode="true" ch:apply_if="{{ ZeroG_Recoil }}">
   <Properties>
-   <Weapon playerImpulseZeroG="0.25"/>
+   <Weapon playerImpulseZeroG="0.3"/>
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Weapons.Unique.Shotgun_Golden" Id="{836662F0-0A85-4140-84A2-2065410CA7F6}" ArchetypeId="3149325216979386322" ch:patch_mode="true" ch:apply_if="{{ ZeroG_Recoil }}">
   <Properties>
-   <Weapon playerImpulseZeroG="6"/>
+   <Weapon playerImpulseZeroG="2.5"/>
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Weapons.GooGun" Id="{CC557248-453A-4859-BF29-7BB6228AE0F4}" ArchetypeId="10739735956144611850" ch:patch_mode="true" ch:apply_if="{{ ZeroG_Recoil }}">
   <Properties>
-   <Weapon playerImpulseZeroG="0.5"/>
+   <Weapon playerImpulseZeroG="0.3"/>
   </Properties>
  </EntityPrototype>
 </EntityPrototypeLibrary>

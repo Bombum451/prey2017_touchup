@@ -3,20 +3,5 @@
   <Entity Name="WorkstationMorganKarl" EntityId="4402" EntityGuid="4118BE54823ACA5E" ch:patch_mode="true" ch:apply_if="{{ MorganWorkstation_Lobby_LVL4Hack }}">
    <Properties2 ability_HackRequirementOverride="3149325216928600154"/>
   </Entity>
-  <Entity Name="KohlsTest_FGE" EntityId="1078" EntityGuid="41F8EB9D2E0BB5DC" ch:patch_mode="true" ch:apply_if="{{ Autoplay_Disable }}">
-   <FlowGraph>
-    <Nodes>
-     <Node Id="14237">
-      <Inputs bAutoplay="0"/>
-     </Node>
-     <Node Id="14238">
-      <Inputs bAutoplay="0"/>
-     </Node>
-     <Node Id="14239">
-      <Inputs bAutoplay="0"/>
-     </Node>
-    </Nodes>
-   </FlowGraph>
-  </Entity>
 </Objects>
 </Mission>
