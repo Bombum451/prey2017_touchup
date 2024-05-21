@@ -472,4 +472,9 @@
    <Weapon playerImpulseZeroG="0.3"/>
   </Properties>
  </EntityPrototype>
+ <EntityPrototype Name="MissionItems.MikhailaFathersRing" Id="{9D19A259-30CF-42C0-8451-0E196E2A2248}" ArchetypeId="10641886185862789262" ch:patch_mode="true" ch:apply_if="{{ Mirrored_Mikhaila_Ring }}">
+  <Properties>
+   <Inventory sIcon="ui_icon_inv_weddingring_alt"/>
+  </Properties>
+ </EntityPrototype>
 </EntityPrototypeLibrary>
