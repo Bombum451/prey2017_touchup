@@ -1,6 +1,6 @@
 
 <ArkSecurityStations>
  <SecurityStations>
-  <ArkSecurityStation ID="12889009725015170735" ch:patch_mode="true" PersonnelTitle="Volunteers"/>
+  <ArkSecurityStation ID="12889009725015170735" ch:patch_mode="true" PersonnelTitle="@loc_12889009725088949354"/>
  </SecurityStations>
 </ArkSecurityStations>

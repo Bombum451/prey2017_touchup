@@ -51,12 +51,12 @@
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Food.Can.GreenTea" Id="{9B01EABE-0635-4701-888E-C17CDDB9970A}" ArchetypeId="10739735956144611930" ch:patch_mode="true">
-  <Properties textDescription="A refreshing can of cold-brew green tea by TranStar Kitchens.&lt;br&gt;&lt;br&gt;Restores %HealthRestored% health points and %PSIRestored% Psi points.">
+  <Properties>
    <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Food.Can.KafeKarsk" Id="{3F10C811-6991-45CF-93A2-83391D273188}" ArchetypeId="10739735956144611932" ch:patch_mode="true">
-   <Properties textDescription="A can of Kafe Karsk by TranStar Kitchens.&lt;br&gt;&lt;br&gt;Restores %HealthRestored% health points and %PSIRestored% Psi points.">
+   <Properties>
    <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>
   </Properties>
  </EntityPrototype>

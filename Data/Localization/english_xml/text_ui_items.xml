@@ -475,6 +475,18 @@
     <Cell ss:StyleID="Default"><Data ss:Type="String">FlexiFoam Bolt</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell><Data ss:Type="String">i_foodKafeKarskDesc</Data></Cell>
+    <Cell><Data ss:Type="String">A can of Kafe Karsk by TranStar Kitchens.&lt;br&gt;&lt;br&gt;Restores %HealthRestored% health points.</Data></Cell>
+    <Cell><Data ss:Type="String">A can of Kafe Karsk by TranStar Kitchens.&lt;br&gt;&lt;br&gt;Restores %HealthRestored% health points and %PSIRestored% Psi points.</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:StyleID="s84">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">i_foodGreenTeaDesc</Data></Cell>
+    <Cell><Data ss:Type="String">A refreshing can of cold-brew green tea by TranStar Kitchens.&lt;br&gt;&lt;br&gt;Restores %HealthRestored% health points.</Data></Cell>
+    <Cell><Data ss:Type="String">A refreshing can of cold-brew green tea by TranStar Kitchens.&lt;br&gt;&lt;br&gt;Restores %HealthRestored% health points and %PSIRestored% Psi points.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCKED</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
