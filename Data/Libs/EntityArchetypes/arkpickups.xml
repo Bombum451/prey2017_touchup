@@ -60,6 +60,12 @@
    <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>
   </Properties>
  </EntityPrototype>
+ <EntityPrototype Name="Food.Can.PopStar" Id="{0745362A-3A01-4F1B-ACCF-6B16FDC56475}" ArchetypeId="10739735956144611929" ch:patch_mode="true" ch:apply_if="{{ PopStar_Restore_Psi }}">
+  <Properties>
+   <AppliedOnConsume signalpackage_SignalPackage="10641886185857972955"/>
+   <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>
+  </Properties>
+ </EntityPrototype>
   <EntityPrototype Name="MissionItems.SelfDestructKey_Morgan" Id="{F3FBA15C-9664-4634-B9D1-9844219DBA10}" ArchetypeId="10739735956144611937" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
   <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
