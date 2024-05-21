@@ -4,4 +4,47 @@
    <RecycleData organic="50"/>
   </Properties>
  </EntityPrototype>
+ <EntityPrototype Name="Security.Sarah Elazar" Id="{682D479A-BEC6-47C1-B250-5812D548A163}" ArchetypeId="10739735956144685627" ch:patch_mode="true" ch:apply_if="{{ Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed">
+   <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Main.Commander Dahl" Id="{372BC15C-27EE-4D65-B630-E645593EAC96}" ArchetypeId="10739735956144685628" ch:patch_mode="true" ch:apply_if="{{ Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed">
+   <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Security.Alfred Rose" Id="{44B81EFF-85C9-42A7-839C-1B6088364CD6}" ArchetypeId="10739735956144685634" ch:patch_mode="true" ch:apply_if="{{ Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed">
+   <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Security.Austin Cool" Id="{AB534CED-88E5-4FDC-99D5-353360DD5A94}" ArchetypeId="10739735956144685635" ch:patch_mode="true" ch:apply_if="{{ Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed">
+   <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Security.Darcy Maddox" Id="{624803BD-080D-429B-B1D4-4D425E9B3658}" ArchetypeId="10739735956144685636" ch:patch_mode="true" ch:apply_if="{{ Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed">
+   <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Security.Kevin Hague " Id="{7E4E05CA-F150-4B30-B287-969480028984}" ArchetypeId="10739735956144685637" ch:patch_mode="true" ch:apply_if="{{ Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed">
+   <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Security.Sam Hertz" Id="{9310FC3A-6739-4744-9149-A99C9E8C8C64}" ArchetypeId="10739735956144685638" ch:patch_mode="true" ch:apply_if="{{ Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed">
+   <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Security.Rani Chaudhary" Id="{0790015A-1E53-43EB-99AC-2B55A8D104AB}" ArchetypeId="10739735956144685648" ch:patch_mode="true" ch:apply_if="{{ Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed">
+   <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
+  </Properties>
+ </EntityPrototype>
+<EntityPrototype Name="Main.Commander Dahl_Unarmed" Id="{9ACE5841-281D-4493-BA20-1DD9DEA2F076}" ArchetypeId="10739735956144685827" ch:patch_mode="true" ch:apply_if="{{ Fix_Unarmed_Dahl }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed"/>
+ </EntityPrototype>
 </EntityPrototypeLibrary>
