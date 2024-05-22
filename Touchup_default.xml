@@ -1,10 +1,6 @@
 <Touchup version="1.1">
 	<Hacking_TimeChanges type="bool" display_name="Easier Hacking 2 timer" description="Incompatible with mods that change hacking">true</Hacking_TimeChanges>
-	<Psi_Hypos type="enum" display_name="Psi Hypos">
-	<selected>Horizontal</selected>
-	<option name="Vanilla" description="One cell wide horizontally and two cells tall vertically.">Vanilla</option>
-	<option name="Horizontal" description="Two cells wide horizontally and one cell tall vertically.">Horizontal</option>
-	</Psi_Hypos>
+	<Horizontal_Psi_Hypos type="bool" display_name="Horizontal Psi Hypos" description="One cell wide horizontally and two cells tall vertically.">true</Horizontal_Psi_Hypos>
 	<GUTS_ZeroG_Turrets_Removal type="bool" display_name="Remove Turrets in G.U.T.S. Zero-G Cargo Tunnel">true</GUTS_ZeroG_Turrets_Removal>
 	<Psi_Aptitude_NightmareHeat_Removal type="bool" display_name="Psionic Aptitude neuromods cannot attract the Nightmare">true</Psi_Aptitude_NightmareHeat_Removal>
 	<WaterCooler_PsychicWater_Removal type="bool" display_name="Psychic Water does not apply to water coolers">true</WaterCooler_PsychicWater_Removal>
@@ -26,9 +22,11 @@
 	<CargoBayA_DuplicateCard type="bool" display_name="Duplicate for Austin Cool's Cargo Bay A keycard">true</CargoBayA_DuplicateCard>
 	<CrewQuarters_RelocatedTizzy type="bool" display_name="More easily noticable Tizzy">true</CrewQuarters_RelocatedTizzy>
 	<NMDiv_Fix_UnreachableJunk type="bool" display_name="Relocated unreachable junk item in Neuromod Division">true</NMDiv_Fix_UnreachableJunk>
-	<Disable_AutoReload type="bool" display_name="Disable automatic reloads, except for the GLOO Cannon and Q-Beam">true</Disable_AutoReload>
 	<Fixed_Hardware_Foot type="bool" display_name="Fixed Hardware Labs recycled toe">true</Fixed_Hardware_Foot>
 	<Fixed_Lab_Cabinets type="bool" display_name="Fixed empty lab cabinets">true</Fixed_Lab_Cabinets>
-	<Pointless_Transcribe_Removal type="bool" display_name="Remove one-sentence transcribe repeating emailed info">true</Pointless_Transcribe_Removal>
 	<ZeroG_Recoil type="bool" display_name="Weapons push in Zero-G">true</ZeroG_Recoil>
+	<Fix_Armed_Humans type="bool" display_name="Fix armed NPCs">true</Fix_Armed_Humans>
+	<Psychotronics_Remove_Resistor type="bool" display_name="Remove useless grounding resistor in Psychotronics">true</Psychotronics_Remove_Resistor>
+	<Mirrored_Mikhaila_Ring type="bool" display_name="Mirror the icon of Mikhaila's father's ring for variety">true</Mirrored_Mikhaila_Ring>
+	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
 </Touchup>

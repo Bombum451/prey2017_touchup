@@ -1,0 +1,5 @@
+<Mission>
+<Objects>
+  <Entity Name="Systems.Grounding_Resistor2" EntityId="3784" EntityGuid="4232E9DCE5B6AB47" ch:remove="true" ch:apply_if="{{ Psychotronics_Remove_Resistor }}"/>
+</Objects>
+</Mission>
