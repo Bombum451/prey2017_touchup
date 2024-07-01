@@ -232,7 +232,7 @@
      <Data ss:Type="String">Many of &lt;i&gt;Talos I&lt;/i&gt; &apos;s resources are manufactured and shipped from the moon.</Data>
     </Cell>
     <Cell>
-     <Data ss:Type="String">Many of &lt;i&gt;Talos I&lt;/i&gt; &apos;s resources are manufactured and shipped from the moon.</Data>
+     <Data ss:Type="String">Many of &lt;i&gt;Talos I&lt;/i&gt; &apos;s resources are manufactured and shipped from the Moon.</Data>
     </Cell>
     <Cell>
      <Data ss:Type="String">LOCKED</Data>
@@ -488,6 +488,40 @@
     </Cell>
     <Cell>
      <Data ss:Type="String">The TranStar Corporation is controlled by a powerful Board of Directors whose members keep their identities and motives obscured. Some are rumored to be over a century old thanks to TranStar life extension technology. William and Catherine Yu are the public faces of the Board.</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">LOCKED</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String"/>
+    </Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell>
+     <Data ss:Type="String">loc_3149325216969955014</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Weapon Kits can be used to tune and improve standard security weapons and non-standard tech weapons.</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Weapon Upgrade Kits can be used to tune and improve standard security weapons and non-standard tech weapons.</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">LOCKED</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String"/>
+    </Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell>
+     <Data ss:Type="String">loc_3149325216969952395</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Under the watchful gaze of Capt. Jada Marks, personnel on the Bridge oversee orbital station keeping, monitor space weather, and direct shuttle traffic and communications.</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Under the watchful gaze of Captain Jada Marks, personnel on the Bridge oversee orbital station keeping, monitor space weather, and direct shuttle traffic and communications.</Data>
     </Cell>
     <Cell>
      <Data ss:Type="String">LOCKED</Data>
