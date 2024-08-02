@@ -1,5 +1,5 @@
 <EntityPrototypeLibrary>
- <EntityPrototype Name="Medical.PsiHypo" Id="{DC97C476-B642-4E4B-8E03-D15B065E513F}" ArchetypeId="10739735956144611825" ch:patch_mode="true" ch:apply_if="{{ Psi_Hypos == 'Horizontal' }}">
+ <EntityPrototype Name="Medical.PsiHypo" Id="{DC97C476-B642-4E4B-8E03-D15B065E513F}" ArchetypeId="10739735956144611825" ch:patch_mode="true" ch:apply_if="{{ Horizontal_Psi_Hypos }}">
   <Properties>
    <Inventory iHeight="1" sIcon="ui_icon_inv_psi_hypo_proper" iWidth="2"/>
   </Properties>
