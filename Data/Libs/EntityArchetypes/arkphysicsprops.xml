@@ -785,7 +785,21 @@
  <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype_wStand" Id="{81908CD3-F022-41F0-A11F-A407DBCEAE8B}" ArchetypeId="1077242911025355469" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
+ 
  <EntityPrototype Name="Luxury.Table Round B" Id="{16FBF838-61C0-48DE-8EA4-6648D152614F}" ArchetypeId="418270515502134684" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
+ 
+ <EntityPrototype Name="Bathroom.Towels" Id="{0F6461E9-4567-436A-B364-754107B8F1FB}" ArchetypeId="10739735956144680777" ch:patch_mode="true" ch:apply_if="{{ Mass_Adjust }}">
+  <Properties>
+   <Physics Mass="2"/>
+  </Properties>
+ </EntityPrototype>
+ 
+ <EntityPrototype Name="Luxury.SideTable_A" Id="{1C3ED465-F1C3-434B-A60D-14837FAD58C4}" ArchetypeId="10739735956144680774" ch:patch_mode="true" ch:apply_if="{{ Mass_Adjust }}">
+  <Properties>
+   <Physics Mass="25"/>
+  </Properties>
+ </EntityPrototype>
+ 
 </EntityPrototypeLibrary>

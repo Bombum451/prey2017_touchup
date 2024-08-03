@@ -29,4 +29,5 @@
 	<Psychotronics_Remove_Resistor type="bool" display_name="Remove useless grounding resistor in Psychotronics">true</Psychotronics_Remove_Resistor>
 	<Mirrored_Mikhaila_Ring type="bool" display_name="Mirror the icon of Mikhaila's father's ring for variety">true</Mirrored_Mikhaila_Ring>
 	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
+	<Mass_Adjust type="bool" display_name="Adjust movable object masses for more realistic throwing">true</Mass_Adjust>
 </Touchup>
