@@ -69,10 +69,16 @@
   <EntityPrototype Name="MissionItems.SelfDestructKey_Morgan" Id="{F3FBA15C-9664-4634-B9D1-9844219DBA10}" ArchetypeId="10739735956144611937" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
   <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-   <EntityPrototype Name="MissionItems.SelfDestructKey_Alex" Id="{4BD9198E-2EC7-4A44-9E34-46B8D8C578B2}" ArchetypeId="10739735956144611938" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.SelfDestructKey_Alex" Id="{4BD9198E-2EC7-4A44-9E34-46B8D8C578B2}" ArchetypeId="10739735956144611938" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-   <EntityPrototype Name="MissionItems.CherishedFamilyPhoto" Id="{E77A5744-DD68-4439-A380-49784A903A7D}" ArchetypeId="10739735956144611949" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.CherishedFamilyPhoto" Id="{E77A5744-DD68-4439-A380-49784A903A7D}" ArchetypeId="10739735956144611949" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
+    <Properties bIsPlotCritical="0"/>
+  </EntityPrototype>
+  <EntityPrototype Name="MissionItems.MM_Superfruit" Id="{8537E9DC-D4EE-4A16-B94E-FD72517B4490}" ArchetypeId="10739735956144611883" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
+    <Properties bIsPlotCritical="0"/>
+  </EntityPrototype>
+  <EntityPrototype Name="MissionItems.BigNullwaveTransmitter" Id="{07FED623-2BC7-4313-9C38-16C19B896AD6}" ArchetypeId="10739735956144611895" ch:patch_mode="true" ch:apply_if="{{ NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
    <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" Id="{B9FE0989-6A3E-4CE9-9C4C-86BE46AF4C8B}" ArchetypeId="10739735956144611955" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
