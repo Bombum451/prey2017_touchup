@@ -1,0 +1,18 @@
+<ParticleLibrary>
+ <Particles Name="Psychotronics.TouchCalibration_00" ch:patch_mode="true" ch:apply_if="{{ Fix_Psychotronics_LG }}">
+  <Childs>
+   <Particles Name="ThumbRed_00">
+    <Params DrawOnTop="false"/>
+   </Particles>
+   <Particles Name="Text_00">
+    <Params DrawOnTop="false"/>
+   </Particles>
+   <Particles Name="ScalingRing_00">
+    <Params DrawOnTop="false"/>
+   </Particles>
+   <Particles Name="ThumbGreen_00">
+    <Params DrawOnTop="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>
