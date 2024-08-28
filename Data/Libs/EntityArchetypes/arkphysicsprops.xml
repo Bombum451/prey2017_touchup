@@ -802,4 +802,10 @@
   </Properties>
  </EntityPrototype>
  
+ <EntityPrototype Name="Apartment.Pizzabox_A" Id="{3EB1386F-8C51-479C-98C2-6B94E56C6CE4}" ArchetypeId="10739735956144680811" ch:patch_mode="true" ch:apply_if="{{ Mass_Adjust }}">
+  <Properties>
+   <Physics Mass="3"/>
+  </Properties>
+ </EntityPrototype>
+ 
 </EntityPrototypeLibrary>
