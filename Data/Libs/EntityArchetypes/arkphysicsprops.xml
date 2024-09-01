@@ -140,10 +140,6 @@
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.Bottle_Soap_A" Id="{4541689A-A8BD-4D16-9C07-BAF1CD1A68CA}" ArchetypeId="10739735956144680921" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-  <Properties bIsMimicable="1"/>
- </EntityPrototype>
-
  <EntityPrototype Name="Office.Pencil_Case_A" Id="{3736B15F-EBB0-4703-8555-550F05D0F34E}" ArchetypeId="10739735956144680923" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
@@ -582,10 +578,6 @@
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Tray_Metal_A" Id="{7EE65663-B8C0-4EE4-9F4E-99FC6C0C297C}" ArchetypeId="4655021599962512706" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-  <Properties bIsMimicable="1"/>
- </EntityPrototype>
-
  <EntityPrototype Name="Industrial.Laser_Lab_A_Part_3" Id="{43F5DCCD-9741-4BDD-9DDD-1C50D3607532}" ArchetypeId="13038346798778873319" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
@@ -751,10 +743,6 @@
  </EntityPrototype>
 
  <EntityPrototype Name="Luxury.Bass_A_Base" Id="{1227C1F6-4A44-4313-832A-DBCD7D01FDE6}" ArchetypeId="2706199392213663624" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
-  <Properties bIsMimicable="1"/>
- </EntityPrototype>
-
- <EntityPrototype Name="Misc.Paint_Bottles" Id="{1CF5E680-C696-4CA0-B9B2-550749F85046}" ArchetypeId="1077242911022769522" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
