@@ -796,4 +796,11 @@
   </Properties>
  </EntityPrototype>
  
+ <EntityPrototype Name="Luxury.SmokingSet_A_Cigarbox" Id="{81F26912-7B6A-48EB-AE3F-3E2B0D8C82DB}" ArchetypeId="10739735956144680797" ch:patch_mode="true" ch:apply_if="{{ Faux_Cigar_Removal }}">
+  <Properties object_Model="Objects/Environment/Props/NeoDeco/SmokingSet/smokingset_a_cigarbox.cgf"/>
+  </EntityPrototype>
+  
+ <EntityPrototype Name="Luxury.SmokingSet_A_Ashtray" Id="{F8EDAC10-0CF5-4181-8525-63F9AC557BF5}" ArchetypeId="10739735956144680863" ch:patch_mode="true" ch:apply_if="{{ Faux_Cigar_Removal }}">
+  <Properties object_Model="objects/environment/props/neodeco/smokingset/smokingset_a_ashtray.cgf"/>
+ </EntityPrototype>
 </EntityPrototypeLibrary>

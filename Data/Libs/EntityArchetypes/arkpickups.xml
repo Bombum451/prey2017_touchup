@@ -483,4 +483,7 @@
    <Inventory sIcon="ui_icon_inv_weddingring_alt"/>
   </Properties>
  </EntityPrototype>
+ <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" Id="{B9FE0989-6A3E-4CE9-9C4C-86BE46AF4C8B}" ArchetypeId="10739735956144611955" ch:patch_mode="true" ch:apply_if="{{ Faux_Cigar_Removal }}">
+  <Properties object_GeometryTP="objects/environment/props/neodeco/smokingset/smokingset_a_cigar.cgf"/>
+ </EntityPrototype>
 </EntityPrototypeLibrary>

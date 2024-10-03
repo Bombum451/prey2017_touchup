@@ -1,0 +1,31 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="SmokingSet_A_mat" MtlFlags="524448" Shader="Illum" GenMask="40020080000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="0" Shininess="255" AlphaTest="0.0099999998" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/props/neodeco/smokingset_a/smokingset_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/props/neodeco/smokingset_a/smokingset_a_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/props/neodeco/smokingset_a/smokingset_a_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="SmokingSet_A_Glass_mat" MtlFlags="524450" Shader="Illum" GenMask="40020080000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="0" Shininess="255" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/props/neodeco/smokingset_a/smokingset_a_glass_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/props/neodeco/smokingset_a/smokingset_a_glass_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/props/neodeco/smokingset_a/smokingset_a_glass_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="collision_SmokingSet_A" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_Wood_Medium" MatTemplate="" Diffuse="1,0,0" Opacity="0" Shininess="10" LayerAct="1">
+   <Textures/>
+  </Material>
+  <Material Name="ShadowShell_mat" MtlFlags="524416" Shader="Illum" GenMask="20000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,1,1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/special/shadowshell.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>
