@@ -1194,7 +1194,7 @@
           <Data ss:Type="String">Alex has a private escape pod. It's locked up. I made a copy of  the key and hid it on top of the data tower near the chair. You know the one I'm talking about.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Alex has a private escape pod. It's locked up. I made a copy of  the key and hid it on top of the data tower near the chair. You know the one I'm talking about.</Data>
+          <Data ss:Type="String">Alex has a private escape pod. It's locked up. I made a copy of the key and hid it on top of the data tower near the chair. You know the one I'm talking about.</Data>
         </Cell>
       </Row>
       <Row>
@@ -1695,4 +1695,4 @@ So, you're probably on your own.</Data>
       </Row>
     </Table>
   </Worksheet>
-</Workbook>
+</Workbook>>
