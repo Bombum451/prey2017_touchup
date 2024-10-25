@@ -15,5 +15,6 @@
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
    <RenderProxy />
   </Entity>
+  <Entity Name="Screens\Misc.Kiosk_Info_Short_Screen2" Material="Objects/Environment/Props/NeoDeco/Kiosk_Info_A/kiosk_info_rearscreen_SimFull_2" EntityId="5394" EntityGuid="4E3A18B85D0E7302" ch:patch_mode="true"/>
   </Objects>
 </Mission>
