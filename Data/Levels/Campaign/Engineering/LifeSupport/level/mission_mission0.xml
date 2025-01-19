@@ -1,18 +1,18 @@
 <Mission>
 <Objects>
-  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityId="2452" EntityGuid="49A29C3EA6F87DB4" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityId="2452" EntityGuid="49A29C3EA6F87DB4" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityId="2431" EntityGuid="4184EF26CCF20563" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityId="2431" EntityGuid="4184EF26CCF20563" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityId="2447" EntityGuid="4435FA73D00977AC" ch:patch_mode="true" ch:apply_if="{{ Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityId="2447" EntityGuid="4435FA73D00977AC" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="ArkNpcSpawner_VoltaicPhantom1" EntityId="534" EntityGuid="4017113E568B030D" ch:patch_mode="true" ch:apply_if="{{ Remmer_Fix }}">
+  <Entity Name="ArkNpcSpawner_VoltaicPhantom1" EntityId="534" EntityGuid="4017113E568B030D" ch:applyIf="{{ Remmer_Fix }}">
    <Properties sNpcArchetype="ArkNpcs.Phantoms.ThermalPhantom"/>
   </Entity>
-  <Entity Name="Crafting.RecyclerJunk.WireSpool10" Pos="157.90355,269.14612,57.92" EntityId="2043" EntityGuid="457C37BAE63A8BDC" ch:patch_mode="true"/>
-  <Entity Name="Crafting.RecyclerJunk.WireSpool7" Pos="157.48926,269.14899,57.92" EntityId="2040" EntityGuid="410A5CF2C886B1D3" ch:patch_mode="true"/>
+  <Entity Name="Crafting.RecyclerJunk.WireSpool10" Pos="157.90355,269.14612,57.92" EntityId="2043" EntityGuid="457C37BAE63A8BDC" />
+  <Entity Name="Crafting.RecyclerJunk.WireSpool7" Pos="157.48926,269.14899,57.92" EntityId="2040" EntityGuid="410A5CF2C886B1D3" />
 </Objects>
 </Mission>

@@ -1,6 +1,6 @@
 <Mission>
 <Objects>
-  <Entity Name="WorkstationMorganKarl" EntityId="4402" EntityGuid="4118BE54823ACA5E" ch:patch_mode="true" ch:apply_if="{{ MorganWorkstation_Lobby_LVL4Hack }}">
+  <Entity Name="WorkstationMorganKarl" EntityId="4402" EntityGuid="4118BE54823ACA5E" ch:applyIf="{{ MorganWorkstation_Lobby_LVL4Hack }}">
    <Properties2 ability_HackRequirementOverride="3149325216928600154"/>
   </Entity>
 </Objects>

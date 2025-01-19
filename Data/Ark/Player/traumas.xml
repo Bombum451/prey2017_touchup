@@ -1,7 +1,7 @@
 
 <ArkTraumas>
  <Traumas>
-  <ArkTrauma ID="12348086275196485446" Name="DrunkGood" ch:patch_mode="true">
+  <ArkTrauma ID="12348086275196485446" Name="DrunkGood">
    <Phases>
     <ArkTraumaPhase HudIcon="rested"/>
    </Phases>

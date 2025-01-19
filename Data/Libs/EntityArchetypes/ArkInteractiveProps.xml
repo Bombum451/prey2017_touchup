@@ -1,34 +1,34 @@
 <EntityPrototypeLibrary>
- <EntityPrototype Name="BreakRooms.Water_Cooler_A" Id="{CD15CA6A-16E7-47B4-A7E9-30A8016C7766}" ArchetypeId="10739735956144680706" ch:patch_mode="true" ch:apply_if="{{ WaterCooler_PsychicWater_Removal }}">
+ <EntityPrototype Name="BreakRooms.Water_Cooler_A" Id="{CD15CA6A-16E7-47B4-A7E9-30A8016C7766}" ArchetypeId="10739735956144680706" ch:applyIf="{{ WaterCooler_PsychicWater_Removal }}">
   <Properties>
    <MissionReward signalPackage_PsiRewardOnUse=""/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Systems.Reactor_Divertor" Id="{547F8246-42D7-492F-990B-9A64F03492EB}" ArchetypeId="10739735956144680709" ch:patch_mode="true" ch:apply_if="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Systems.Reactor_Divertor" Id="{547F8246-42D7-492F-990B-9A64F03492EB}" ArchetypeId="10739735956144680709" ch:applyIf="{{ More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Apartment.Apt_Stove_A" Id="{DDE63921-C01C-462E-9BD5-43DEB47D19F1}" ArchetypeId="10739735956144680715" ch:patch_mode="true">
+ <EntityPrototype Name="Apartment.Apt_Stove_A" Id="{DDE63921-C01C-462E-9BD5-43DEB47D19F1}" ArchetypeId="10739735956144680715" >
   <Properties textActiveUseMessage="@ui_turnoff"/>
  </EntityPrototype>
- <EntityPrototype Name="Apartment.Apt_Sink_Kitchen" Id="{2FD28C39-DEC1-4A86-9183-5E4B5DC9FAF3}" ArchetypeId="10739735956144680701" ch:patch_mode="true">
+ <EntityPrototype Name="Apartment.Apt_Sink_Kitchen" Id="{2FD28C39-DEC1-4A86-9183-5E4B5DC9FAF3}" ArchetypeId="10739735956144680701" >
   <Properties textUseMessage="@ui_activate"/>
  </EntityPrototype>
- <EntityPrototype Name="Apartment.Apt_Sink_Bathroom" Id="{FE405401-2799-4CF9-9BD9-8ABFD26DB79C}" ArchetypeId="10739735956144680702" ch:patch_mode="true">
+ <EntityPrototype Name="Apartment.Apt_Sink_Bathroom" Id="{FE405401-2799-4CF9-9BD9-8ABFD26DB79C}" ArchetypeId="10739735956144680702" >
   <Properties textUseMessage="@ui_activate"/>
  </EntityPrototype>
- <EntityPrototype Name="NeoDeco.NeoDeco Bathroom Sink" Id="{8799E57B-F826-4840-9BE0-C8BE133210EF}" ArchetypeId="10739735956144680707" ch:patch_mode="true">
+ <EntityPrototype Name="NeoDeco.NeoDeco Bathroom Sink" Id="{8799E57B-F826-4840-9BE0-C8BE133210EF}" ArchetypeId="10739735956144680707" >
   <Properties textUseMessage="@ui_activate"/>
  </EntityPrototype>
- <EntityPrototype Name="Bathroom.Faucet_Crew" Id="{5873ADEE-5B4D-4A9F-B267-9E4CD3B077C1}" ArchetypeId="10739735956144680716" ch:patch_mode="true">
+ <EntityPrototype Name="Bathroom.Faucet_Crew" Id="{5873ADEE-5B4D-4A9F-B267-9E4CD3B077C1}" ArchetypeId="10739735956144680716" >
   <Properties textUseMessage="@ui_activate"/>
  </EntityPrototype>
- <EntityPrototype Name="NeoDeco.NeoDeco Bar Tap Sink" Id="{82F125D3-BA93-4BD0-90EC-3AA61983D05F}" ArchetypeId="10739735956144680717" ch:patch_mode="true">
+ <EntityPrototype Name="NeoDeco.NeoDeco Bar Tap Sink" Id="{82F125D3-BA93-4BD0-90EC-3AA61983D05F}" ArchetypeId="10739735956144680717" >
   <Properties textUseMessage="@ui_activate"/>
  </EntityPrototype>
- <EntityPrototype Name="NeoDeco.NeoDeco Island Kitchen A Faucet" Id="{F80614DF-BE88-452A-B295-84708B349FB4}" ArchetypeId="10739735956144680727" ch:patch_mode="true">
+ <EntityPrototype Name="NeoDeco.NeoDeco Island Kitchen A Faucet" Id="{F80614DF-BE88-452A-B295-84708B349FB4}" ArchetypeId="10739735956144680727" >
   <Properties textUseMessage="@ui_activate"/>
  </EntityPrototype>
- <EntityPrototype Name="Bathroom.Faucet_ColdWar" Id="{AE7C7D1F-D02B-4C69-AF4A-4F9F521C72A5}" ArchetypeId="10739735956144680728" ch:patch_mode="true">
+ <EntityPrototype Name="Bathroom.Faucet_ColdWar" Id="{AE7C7D1F-D02B-4C69-AF4A-4F9F521C72A5}" ArchetypeId="10739735956144680728" >
   <Properties textUseMessage="@ui_activate"/>
  </EntityPrototype>
 </EntityPrototypeLibrary>
