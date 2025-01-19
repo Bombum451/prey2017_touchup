@@ -40,27 +40,13 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell>
-     <Data ss:Type="String">loc_13680621263405958365</Data>
+     <Data ss:Type="String">tu_volunteers</Data>
     </Cell>
     <Cell>
-     <Data ss:Type="String">Please keep traffic through the skill recorder area at a minumum during recording sessions to avoid data corruption. Authorized personnel only.</Data>
+     <Data ss:Type="String">Volontäre</Data>
     </Cell>
     <Cell>
-     <Data ss:Type="String">Please keep traffic through the skill recorder area at a minimum during recording sessions to avoid data corruption. Authorized personnel only.</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">LOCKED</Data>
-    </Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell>
-     <Data ss:Type="String">loc_6732635291229000972</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Lock security booth</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Lock Security Booth</Data>
+     <Data ss:Type="String">Volontäre</Data>
     </Cell>
     <Cell>
      <Data ss:Type="String">LOCKED</Data>
@@ -69,22 +55,17 @@
      <Data ss:Type="String"/>
     </Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell>
-     <Data ss:Type="String">loc_6732635291229000998</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Unlock security booth</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Unlock Security Booth</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">LOCKED</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String"/>
-    </Cell>
+   <Row>
+    <Cell><Data ss:Type="String">tu_backlashbuff</Data></Cell>
+    <Cell><Data ss:Type="String">Rückstoß-Reaktor S-p58</Data></Cell>
+    <Cell><Data ss:Type="String">[O] Rückstoß-Reaktor S-p58</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">tu_mechtechs</Data></Cell>
+    <Cell><Data ss:Type="String">[O] M3chT3ch dx_2.0</Data></Cell>
+    <Cell><Data ss:Type="String">M3chT3ch dx_2.0</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
      </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

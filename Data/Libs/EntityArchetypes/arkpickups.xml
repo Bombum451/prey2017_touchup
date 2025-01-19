@@ -486,4 +486,17 @@
  <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" Id="{B9FE0989-6A3E-4CE9-9C4C-86BE46AF4C8B}" ArchetypeId="10739735956144611955" ch:patch_mode="true" ch:apply_if="{{ Faux_Cigar_Removal }}">
   <Properties object_GeometryTP="objects/environment/props/neodeco/smokingset/smokingset_a_cigar.cgf"/>
  </EntityPrototype>
+ 
+ <EntityPrototype Name="Mods.Suit.BacklashBuff" Id="{E728B2C7-95F9-440C-B3A8-87E85650A405}" ArchetypeId="10641886185855732953" ch:patch_mode="true" ch:apply_if="{{ ChipsetSwap }}">
+  <Properties object_GeometryTP="Objects/Environment/Props/Gameplay/Chipset_Box_A/chipset_box_a.cgf" gameMetric_MetricPickedUp="10641886185849157993" textDisplayName="@tu_backlashbuff">
+   <EquipmentMod bSuitMod="0"/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Mods.Psychoscope.MechTechs" Id="{716EEE51-B9C5-4D53-A5D0-1AC1604AC3DA}" ArchetypeId="10641886185855801616" ch:patch_mode="true" ch:apply_if="{{ ChipsetSwap }}">
+  <Properties sHUDIcon="ui_icon_inv_modchip_suit" object_GeometryTP="Objects/Environment/Props/Gameplay/Chipset_Box_A/chipset_box_b.cgf" gameMetric_MetricPickedUp="10641886185849157992" textDisplayName="@tu_mechtechs">
+   <EquipmentMod bSuitMod="1"/>
+   <Inventory sIcon="ui_icon_inv_modchip_suit"/>
+  </Properties>
+ </EntityPrototype>
+ 
 </EntityPrototypeLibrary>
