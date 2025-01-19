@@ -4,6 +4,6 @@
   <ArkCharacter ID="12889009725043561219" Name="Natasha Nikova" Label="@loc_15373294129892759717" JobTitle="@loc_15373294129891703480" ch:applyIf="{{ Simmons_Inclusion }}"/>
   <ArkCharacter ID="4349723564944017803" RosterLocation="844024417252490146" ch:applyIf="{{ Simmons_Inclusion }}"/>
   <ArkCharacter ID="761057047962626308" Name="Brett Seydel" RosterLocation="4349723564886052417" ch:applyIf="{{ Simmons_Inclusion }}"/>
-  <ArkCharacter ID="6732635291182868247" Name="Anthony Aquilante" RosterLocation="6732635291182790112" ch:applyIf="{{ Simmons_Inclusion }}"/>
+  <ArkCharacter ID="6732635291182868247" Name="Anthony Aquilante" RosterLocation="6732635291182790112" HasTrackingChip="false" ch:applyIf="{{ Simmons_Inclusion }}"/>
  </Characters>
 </ArkCharacters>
