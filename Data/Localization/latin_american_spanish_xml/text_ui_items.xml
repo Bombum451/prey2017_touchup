@@ -38,70 +38,17 @@
     <Cell ss:StyleID="s68"><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell>
-     <Data ss:Type="String">loc_13680621263405958365</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Please keep traffic through the skill recorder area at a minumum during recording sessions to avoid data corruption. Authorized personnel only.</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Please keep traffic through the skill recorder area at a minimum during recording sessions to avoid data corruption. Authorized personnel only.</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">LOCKED</Data>
-    </Cell>
+   <Row ch:applyIf="{{ ChipsetSwap }}">
+    <Cell><Data ss:Type="String">i_ChipsetBacklashBuff</Data></Cell>
+    <Cell><Data ss:Type="String">Reactor de repulsión S-p58</Data></Cell>
+    <Cell><Data ss:Type="String">[O] Reactor de repulsión S-p58</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell>
-     <Data ss:Type="String">loc_6732635291229000972</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Lock security booth</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Lock Security Booth</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">LOCKED</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String"/>
-    </Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell>
-     <Data ss:Type="String">loc_6732635291229000998</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Unlock security booth</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Unlock Security Booth</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">LOCKED</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String"/>
-    </Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell>
-     <Data ss:Type="String">tu_volunteers</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Volunteers</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Volunteers</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">LOCKED</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String"/>
-    </Cell>
+   <Row ch:applyIf="{{ ChipsetSwap }}">
+    <Cell><Data ss:Type="String">I_ChipsetMechTechs</Data></Cell>
+    <Cell><Data ss:Type="String">[O] M3chT3ch dx_2.0</Data></Cell>
+    <Cell><Data ss:Type="String">M3chT3ch dx_2.0</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
      </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

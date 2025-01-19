@@ -43,10 +43,10 @@
      <Data ss:Type="String">tu_volunteers</Data>
     </Cell>
     <Cell>
-     <Data ss:Type="String">Добровольцы</Data>
+     <Data ss:Type="String">志愿者</Data>
     </Cell>
     <Cell>
-     <Data ss:Type="String">Добровольцы</Data>
+     <Data ss:Type="String">志愿者</Data>
     </Cell>
     <Cell>
      <Data ss:Type="String">LOCKED</Data>
@@ -54,18 +54,6 @@
     <Cell>
      <Data ss:Type="String"/>
     </Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">tu_backlashbuff</Data></Cell>
-    <Cell><Data ss:Type="String">Ускоритель парирования S-p58</Data></Cell>
-    <Cell><Data ss:Type="String">[O] Ускоритель парирования S-p58</Data></Cell>
-    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">tu_mechtechs</Data></Cell>
-    <Cell><Data ss:Type="String">[O] Р3мт3хник dx_2.0</Data></Cell>
-    <Cell><Data ss:Type="String">Р3мт3хник dx_2.0</Data></Cell>
-    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
      </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

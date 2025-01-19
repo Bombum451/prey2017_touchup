@@ -38,31 +38,14 @@
     <Cell ss:StyleID="s68"><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell>
-     <Data ss:Type="String">tu_volunteers</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Ochotnicy</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">Ochotnicy</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String">LOCKED</Data>
-    </Cell>
-    <Cell>
-     <Data ss:Type="String"/>
-    </Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">tu_backlashbuff</Data></Cell>
-    <Cell><Data ss:Type="String">Reaktor odbicia S-p58</Data></Cell>
-    <Cell><Data ss:Type="String">[O] Reaktor odbicia S-p58</Data></Cell>
+   <Row ch:applyIf="{{ ChipsetSwap }}">
+    <Cell><Data ss:Type="String">i_ChipsetBacklashBuff</Data></Cell>
+    <Cell><Data ss:Type="String">Rückstoß-Reaktor S-p58</Data></Cell>
+    <Cell><Data ss:Type="String">[O] Rückstoß-Reaktor S-p58</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
-   <Row>
-    <Cell><Data ss:Type="String">tu_mechtechs</Data></Cell>
+   <Row ch:applyIf="{{ ChipsetSwap }}">
+    <Cell><Data ss:Type="String">I_ChipsetMechTechs</Data></Cell>
     <Cell><Data ss:Type="String">[O] M3chT3ch dx_2.0</Data></Cell>
     <Cell><Data ss:Type="String">M3chT3ch dx_2.0</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
