@@ -1,6 +1,6 @@
 <Mission>
 <Objects>
-  <Entity Name="Data.TrackingChip2" Archetype="ArkPickups.Data.TrackingChip" Pos="546.20544,1167.4282,115.01361" Rotate="0.68301278,-0.18301281,0.18301268,-0.6830126" EntityClass="ArkTrackingChip" EntityGuid="4D3F6F0731790A70" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" NoDecals="1" Layer="PowerSource_Scripting" HiddenInNodes="1">
+  <Entity Name="Data.TrackingChip2" Archetype="ArkPickups.Data.TrackingChip" Pos="543.06,1167.14,115.76" EntityClass="ArkTrackingChip" EntityGuid="4D3F6F0731790A70" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" NoDecals="1" Layer="PowerSource_Scripting" HiddenInNodes="1" ch:applyIf="{{ Simmons_Inclusion }}">
    <Properties2 iCountOverride="0" character_TrackedCharacter="6732635291182868247"/>
    <RenderProxy />
   </Entity>
