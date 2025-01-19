@@ -488,12 +488,13 @@
  </EntityPrototype>
  
  <EntityPrototype Name="Mods.Suit.BacklashBuff" Id="{E728B2C7-95F9-440C-B3A8-87E85650A405}" ArchetypeId="10641886185855732953" ch:applyIf="{{ ChipsetSwap }}">
-  <Properties object_GeometryTP="Objects/Environment/Props/Gameplay/Chipset_Box_A/chipset_box_a.cgf" gameMetric_MetricPickedUp="10641886185849157993" textDisplayName="@tu_backlashbuff">
+  <Properties sHUDIcon="ui_icon_inv_modchip" object_GeometryTP="Objects/Environment/Props/Gameplay/Chipset_Box_A/chipset_box_a.cgf" gameMetric_MetricPickedUp="10641886185849157993">
    <EquipmentMod bSuitMod="0"/>
+   <Inventory sIcon="ui_icon_inv_modchip"/>
   </Properties>
  </EntityPrototype>
  <EntityPrototype Name="Mods.Psychoscope.MechTechs" Id="{716EEE51-B9C5-4D53-A5D0-1AC1604AC3DA}" ArchetypeId="10641886185855801616" ch:applyIf="{{ ChipsetSwap }}">
-  <Properties sHUDIcon="ui_icon_inv_modchip_suit" object_GeometryTP="Objects/Environment/Props/Gameplay/Chipset_Box_A/chipset_box_b.cgf" gameMetric_MetricPickedUp="10641886185849157992" textDisplayName="@tu_mechtechs">
+  <Properties sHUDIcon="ui_icon_inv_modchip_suit" object_GeometryTP="Objects/Environment/Props/Gameplay/Chipset_Box_A/chipset_box_b.cgf" gameMetric_MetricPickedUp="10641886185849157992">
    <EquipmentMod bSuitMod="1"/>
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
