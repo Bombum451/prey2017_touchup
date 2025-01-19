@@ -1,6 +1,6 @@
 <Mission>
  <Objects>
-  <Entity Name="ArkNpcSpawner_Tizzy1" Pos="1262.8309,964.36096,227.03699" Rotate="0.99492073,-0.013403559,0.087927662,0.047136873" EntityId="1310" EntityGuid="4B37EC2EF2B6C1E8" ch:applyIf="{{ CrewQuarters_RelocatedTizzy }}">
+  <Entity Name="ArkNpcSpawner_Tizzy1" Pos="1262.8309,964.36096,227.03699" Rotate="0.99492073,-0.013403559,0.087927662,0.047136873" EntityGuid="4B37EC2EF2B6C1E8" ch:applyIf="{{ CrewQuarters_RelocatedTizzy }}">
   </Entity>
  </Objects>
 </Mission>

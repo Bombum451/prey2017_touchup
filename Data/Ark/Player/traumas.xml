@@ -3,7 +3,7 @@
  <Traumas>
   <ArkTrauma ID="12348086275196485446" Name="DrunkGood">
    <Phases>
-    <ArkTraumaPhase HudIcon="rested"/>
+    <ArkTraumaPhase HudIcon="rested" ch:index="1000"/>
    </Phases>
   </ArkTrauma>
  </Traumas>
