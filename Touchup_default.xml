@@ -35,4 +35,5 @@
 	<WeaponMods type="bool" display_name="Weapon modification capitalization fix">true</WeaponMods>
 	<NMDiv_Volunteers type="bool" display_name="Correct name for volunteer tracker">true</NMDiv_Volunteers>
 	<ChipsetSwap type="bool" display_name="Backlash suit chipset now psychoscope">true</ChipsetSwap>
+	<FocusNotCheap type="bool" display_name="Combat Focus unaffected by chipsets meant for Typhon powers">true</FocusNotCheap>
 </Touchup>

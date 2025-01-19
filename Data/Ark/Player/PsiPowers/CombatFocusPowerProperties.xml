@@ -1,0 +1,4 @@
+
+<CombatFocusPowerProperties ch:applyIf="{{ FocusNotCheap }}">
+ <Common CostReductionStat="1.0"/>
+</CombatFocusPowerProperties>
