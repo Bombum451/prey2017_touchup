@@ -1,5 +1,8 @@
 <Mission>
  <Objects>
   <Entity Name="TU.DeepStorage.RestroomDoor" Archetype="ArkGameplayArchitecture.Door.Door_Standard_A_Dmg_Open" Pos="1287.6801,752.13,304" EntityClass="ArkDoor" EntityGuid="4A140C84BC34BD19" CastShadowMinSpec="1" CastSunShadowMinSpec="3" ShadowCasterType="0" Layer="CorporateIT_Entrance"/>
+  <Entity Name="Systems.BackupDrive1" Pos="1292.25,758.21997,264.63" Rotate="1,-1.1387701e-07,-4.0444544e-08,-4.6057035e-15" EntityClass="ArkLight" EntityGuid="42C5841D27BF100E"/>
+  <Entity Name="ArkMarker11" Pos="1292.25,758.21997,264.63" EntityClass="ArkMarker" EntityGuid="46CDD01EF91D0DCC"/>
+  <Entity Name="Tech.Mission_BackupDrive2" Pos="1273.1649,777.36017,290.13989" Rotate="1,-1.1387701e-07,-4.0444544e-08,-4.6057035e-15" EntityClass="GeomEntity" EntityGuid="4B99059065A3C02A"/>
  </Objects>
 </Mission>
