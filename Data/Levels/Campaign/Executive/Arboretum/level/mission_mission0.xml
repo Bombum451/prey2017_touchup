@@ -9,5 +9,19 @@
   <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="42A7383DC83E6C8F" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
+  <Entity Name="DataCoreDoorFGE" EntityClass="FlowgraphEntity" EntityGuid="4BFAD5343DC9228D">
+   <FlowGraph>
+    <Nodes>
+     <Node Id="1000" Class="String:SetString" pos="23720,10350,0">
+      <Inputs In="@tu_holdstill"/>
+     </Node>
+    </Nodes>
+    <Edges>
+     <Edge nodeIn="1000" nodeOut="14786" portIn="Set" portOut="true" enabled="1"/>
+	 <Edge nodeIn="1000" nodeOut="899" portIn="Set" portOut="True" enabled="1"/>
+	 <Edge nodeIn="809" nodeOut="1000" portIn="SetTextInaccessible" portOut="Out" enabled="1"/>
+    </Edges>
+   </FlowGraph>
+  </Entity>
 </Objects>
 </Mission>
