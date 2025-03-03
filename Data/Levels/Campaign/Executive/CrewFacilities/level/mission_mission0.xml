@@ -1,6 +1,6 @@
 <Mission>
  <Objects>
-  <Entity Name="ArkNpcSpawner_Tizzy1" Pos="1262.8309,964.36096,227.03699" Rotate="0.99492073,-0.013403559,0.087927662,0.047136873" EntityGuid="4B37EC2EF2B6C1E8" ch:applyIf="{{ CrewQuarters_RelocatedTizzy }}">
+  <Entity Name="ArkNpcSpawner_Tizzy1" Pos="1262.8309,964.36096,227.03699" Rotate="0.99492073,-0.013403559,0.087927662,0.047136873" EntityGuid="4B37EC2EF2B6C1E8" ch:applyIf="{{ QoL.CrewQuarters_RelocatedTizzy }}">
   </Entity>
   <Entity Name="Tech.Tape Drive Obstructor" Archetype="ArkPhysicsProps.Tech.Tape Drive A" Pos="1278.9399,949.33002,240.39999" Rotate="-4.3711388e-08,-0,1,-0" EntityClass="RigidBodyEx" EntityGuid="8736367B0378281C" CastShadowViewDistRatio="25" CastShadowMinSpec="1" CastSunShadowMinSpec="3" ShadowCasterType="2" Layer="CrewFacilities_Scripting">
    <Properties2 bUsedAsDynamicObstacle="1"/>

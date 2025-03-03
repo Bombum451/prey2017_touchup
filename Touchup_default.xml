@@ -1,12 +1,17 @@
 <TouchUp>
+
+<Bugs type="xmlnode">
 	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
 	<Fix_Armed_Humans type="bool" display_name="Fix armed NPCs">true</Fix_Armed_Humans>
-	<Simmons_Inclusion type="bool" display_name="Crew presence fixes">true</Simmons_Inclusion>
+	<Crew_Fixes type="bool" display_name="Crew presence fixes">true</Crew_Fixes>
 	<No_MedOp_O2 type="bool" display_name="Medical Operators don't wrongly restore oxygen">true</No_MedOp_O2>
 	<QBeam_AoE_NoBlindness type="bool" display_name="AoE Q-Beam blasts can't give unimplemented Blindess trauma">true</QBeam_AoE_NoBlindness>
 	<Fixed_Vodka_Icon type="bool" display_name="Fixed vodka icon">true</Fixed_Vodka_Icon>
 	<SuitChipsets_Use_ProperGraphic type="bool" display_name="Proper suit chipset icon">true</SuitChipsets_Use_ProperGraphic>
 	<Fix_Psychotronics_LG type="bool" display_name="Fix Psychotronics LG button being visible through walls">true</Fix_Psychotronics_LG>
+</Bugs>
+	
+<Inconsistency type="xmlnode">
 	<WeaponMods type="bool" display_name="Weapon modification capitalization fix">true</WeaponMods>
 	<NMDiv_Volunteers type="bool" display_name="Correct name for volunteer tracker">true</NMDiv_Volunteers>
 	<ChipsetSwap type="bool" display_name="Backlash suit chipset now psychoscope">true</ChipsetSwap>
@@ -27,6 +32,9 @@
 	<Psi_Aptitude_NightmareHeat_Removal type="bool" display_name="Psionic Aptitude neuromods can't attract the Nightmare">true</Psi_Aptitude_NightmareHeat_Removal>
 	<WaterCooler_PsychicWater_Removal type="bool" display_name="Psychic Water doesn't apply to water coolers">true</WaterCooler_PsychicWater_Removal>
 	<Faux_Cigar_Removal type="bool" display_name="Remove real-looking but non-interactable cigar decals">true</Faux_Cigar_Removal>
+</Inconsistency>
+			
+<QoL type="xmlnode">
 	<Hacking_TimeChanges type="bool" display_name="Easier Hacking II timer" description="Incompatible with mods that change hacking.">true</Hacking_TimeChanges>
 	<Horizontal_Psi_Hypos type="bool" display_name="Horizontal Psi Hypos" description="One cell wide horizontally and two cells tall vertically.">true</Horizontal_Psi_Hypos>
 	<GUTS_ZeroG_Turrets_Removal type="bool" display_name="Remove Unusable Turrets in G.U.T.S. Zero-G Cargo Tunnel">true</GUTS_ZeroG_Turrets_Removal>
@@ -37,4 +45,6 @@
 	<NonEssential_StoryItem_Recycling type="bool" display_name="Unusable story items can be recycled">true</NonEssential_StoryItem_Recycling>
 	<Recycling_Immune_Chipsets type="bool" display_name="Chipsets cannot be destroyed with Recycler Charges">true</Recycling_Immune_Chipsets>
 	<Mirrored_Mikhaila_Ring type="bool" display_name="Mirror the icon of Mikhaila's father's ring for variety">true</Mirrored_Mikhaila_Ring>
+</QoL>
+	
 </TouchUp>

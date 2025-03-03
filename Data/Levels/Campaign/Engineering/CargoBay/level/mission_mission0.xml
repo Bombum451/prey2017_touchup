@@ -1,10 +1,10 @@
    <Mission>
    <Objects>
-   <Entity Name="Data.Keycard5" Archetype="ArkPickups.Data.Keycard" Pos="153.10001,90.699997,693.90002" Rotate="0.96592581,0,0,0.25881904" EntityClass="ArkKeycard" EntityGuid="4FDA91B7404BBB33" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="CargoBay_Scripting" ch:applyIf="{{ CargoBayA_DuplicateCard }}">
+   <Entity Name="Data.Keycard5" Archetype="ArkPickups.Data.Keycard" Pos="153.10001,90.699997,693.90002" Rotate="0.96592581,0,0,0.25881904" EntityClass="ArkKeycard" EntityGuid="4FDA91B7404BBB33" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="CargoBay_Scripting" ch:applyIf="{{ QoL.CargoBayA_DuplicateCard }}">
    <Properties2 iCountOverride="0" keycard_Keycard="4349723564917331725"/>
    <RenderProxy />
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityGuid="4BB5FBFE32A84AFE" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityGuid="4BB5FBFE32A84AFE" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
   </Objects>

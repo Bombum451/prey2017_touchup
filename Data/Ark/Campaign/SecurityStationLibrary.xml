@@ -1,6 +1,6 @@
 
 <ArkSecurityStations>
  <SecurityStations>
-  <ArkSecurityStation ID="12889009725015170735" ch:applyIf="{{ NMDiv_Volunteers }}" PersonnelTitle="@tu_volunteers"/>
+  <ArkSecurityStation ID="12889009725015170735" ch:applyIf="{{ Inconsistency.NMDiv_Volunteers }}" PersonnelTitle="@tu_volunteers"/>
  </SecurityStations>
 </ArkSecurityStations>

@@ -1,6 +1,6 @@
 
 <PlayerConfig>
  <Stats>
-  <Stat name="mimicMaxVisibilityScalar" value="0.4" ch:applyIf="{{ StealthMimic }}"/>
+  <Stat name="mimicMaxVisibilityScalar" value="0.4" ch:applyIf="{{ Inconsistency.StealthMimic }}"/>
  </Stats>
 </PlayerConfig>

@@ -1,18 +1,18 @@
 <Mission>
 <Objects>
-  <Entity Name="Crafting.Ingredients.Organic7" EntityGuid="4EE0B59280CA1DF9" ch:applyIf="{{ Fixed_Hardware_Foot }}">
+  <Entity Name="Crafting.Ingredients.Organic7" EntityGuid="4EE0B59280CA1DF9" ch:applyIf="{{ Inconsistency.Fixed_Hardware_Foot }}">
    <Properties2 iCountOverride="2"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="40DF2A0FCBBDE09B" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="40DF2A0FCBBDE09B" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Lab.Cabinet_Lab8" EntityGuid="40F34C5F4E191BD6" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Lab.Cabinet_Lab8" EntityGuid="40F34C5F4E191BD6" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="42EDCD2240E17A26" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="42EDCD2240E17A26" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Shelf_Lab5" EntityGuid="4758AA230AD47707" ch:applyIf="{{ Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Shelf_Lab5" EntityGuid="4758AA230AD47707" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Large"/>
    <RenderProxy />
   </Entity>

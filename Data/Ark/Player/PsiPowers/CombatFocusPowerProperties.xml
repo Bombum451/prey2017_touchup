@@ -1,4 +1,4 @@
 
 <CombatFocusPowerProperties>
- <Common CostReductionStat="1.0" ch:applyIf="{{ FocusNotCheap }}"/>
+ <Common CostReductionStat="1.0" ch:applyIf="{{ Inconsistency.FocusNotCheap }}"/>
 </CombatFocusPowerProperties>

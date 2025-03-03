@@ -1,5 +1,5 @@
 <ParticleLibrary>
- <Particles Name="Psychotronics.TouchCalibration_00" ch:applyIf="{{ Fix_Psychotronics_LG }}">
+ <Particles Name="Psychotronics.TouchCalibration_00" ch:applyIf="{{ Bugs.Fix_Psychotronics_LG }}">
   <Childs>
    <Particles Name="ThumbRed_00">
     <Params DrawOnTop="false"/>

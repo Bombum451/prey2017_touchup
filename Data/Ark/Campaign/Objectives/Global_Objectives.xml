@@ -1,5 +1,5 @@
 
 <Objectives>
- <Objective id="844024417271590973" ch:applyIf="{{ Artrax_Quest_NotASideQuest }}" optional="false">
+ <Objective id="844024417271590973" ch:applyIf="{{ Inconsistency.Artrax_Quest_NotASideQuest }}" optional="false">
  </Objective>
 </Objectives>

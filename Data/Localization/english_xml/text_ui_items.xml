@@ -493,13 +493,13 @@
     <Cell><Data ss:Type="String">A can of PopStar energy drink by TranStar Kitchens.&lt;br&gt;&lt;br&gt;Restores %HealthRestored% health points and %PSIRestored% Psi points.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
-   <Row ch:applyIf="{{ ChipsetSwap }}">
+   <Row ch:applyIf="{{ Inconsistency.ChipsetSwap }}">
     <Cell><Data ss:Type="String">i_ChipsetBacklashBuff</Data></Cell>
     <Cell><Data ss:Type="String">Backlash Reactor S-p58</Data></Cell>
     <Cell><Data ss:Type="String">[O] Backlash Reactor S-p58</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
-   <Row ch:applyIf="{{ ChipsetSwap }}">
+   <Row ch:applyIf="{{ Inconsistency.ChipsetSwap }}">
     <Cell><Data ss:Type="String">I_ChipsetMechTechs</Data></Cell>
     <Cell><Data ss:Type="String">[O] M3chT3ch dx_2.0</Data></Cell>
     <Cell><Data ss:Type="String">M3chT3ch dx_2.0</Data></Cell>

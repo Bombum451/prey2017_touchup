@@ -1,46 +1,46 @@
 
 <EntityPrototypeLibrary>
- <EntityPrototype Name="Containers/Misc.Toolbox" Id="{7DFB8A18-3AB1-4898-AE89-7694312AD43F}" ArchetypeId="10396455764390116172" ch:applyIf="{{ Changed_Container_Sizes }}">
+ <EntityPrototype Name="Containers/Misc.Toolbox" Id="{7DFB8A18-3AB1-4898-AE89-7694312AD43F}" ArchetypeId="10396455764390116172" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="MEDIUM"/>
  </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Containers/NeoDeco.Boss_Desk_L" Id="{79C2EB63-63A4-4558-B09F-6C63234779F3}" ArchetypeId="10396455764390116234" ch:applyIf="{{ Changed_Container_Sizes }}">
+ <EntityPrototype Name="Containers/NeoDeco.Boss_Desk_L" Id="{79C2EB63-63A4-4558-B09F-6C63234779F3}" ArchetypeId="10396455764390116234" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="SMALL"/>
  </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Containers/NeoDeco.Boss_Desk_R" Id="{070F0D6D-6597-4953-B1EB-65E69D63FE6C}" ArchetypeId="10396455764390116235" ch:applyIf="{{ Changed_Container_Sizes }}">
+ <EntityPrototype Name="Containers/NeoDeco.Boss_Desk_R" Id="{070F0D6D-6597-4953-B1EB-65E69D63FE6C}" ArchetypeId="10396455764390116235" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="SMALL"/>
  </Properties>
  </EntityPrototype>
-  <EntityPrototype Name="Containers/Misc.ExteriorSupplyBox" Id="{A4432C2C-5698-45AA-9F11-187B23B78237}" ArchetypeId="13856881013223230434" ch:applyIf="{{ Changed_Container_Sizes }}">
+  <EntityPrototype Name="Containers/Misc.ExteriorSupplyBox" Id="{A4432C2C-5698-45AA-9F11-187B23B78237}" ArchetypeId="13856881013223230434" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="MEDIUM"/>
  </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Containers/Misc.OperatorChassis_Engineer" Id="{0EE94776-492B-4D28-83CD-FCE385E70E4D}" ArchetypeId="10641886185863999453" ch:applyIf="{{ Changed_Container_Sizes }}">
+ <EntityPrototype Name="Containers/Misc.OperatorChassis_Engineer" Id="{0EE94776-492B-4D28-83CD-FCE385E70E4D}" ArchetypeId="10641886185863999453" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="SMALL"/>
  </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Containers/Misc.OperatorChassis_Military" Id="{7836CFCA-2C45-45B9-A054-99797EB31062}" ArchetypeId="10641886185864010703" ch:applyIf="{{ Changed_Container_Sizes }}">
+ <EntityPrototype Name="Containers/Misc.OperatorChassis_Military" Id="{7836CFCA-2C45-45B9-A054-99797EB31062}" ArchetypeId="10641886185864010703" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="SMALL"/>
  </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Containers/Misc.OperatorChassis_Medical" Id="{DC5688ED-21AC-45BA-9A9B-5046F1357EF2}" ArchetypeId="10641886185864010704" ch:applyIf="{{ Changed_Container_Sizes }}">
+ <EntityPrototype Name="Containers/Misc.OperatorChassis_Medical" Id="{DC5688ED-21AC-45BA-9A9B-5046F1357EF2}" ArchetypeId="10641886185864010704" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="SMALL"/>
  </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Containers/Misc.OperatorChassis_Science" Id="{FECE88D3-4830-4176-8069-35FBEB2F4E3A}" ArchetypeId="10641886185864010705" ch:applyIf="{{ Changed_Container_Sizes }}">
+ <EntityPrototype Name="Containers/Misc.OperatorChassis_Science" Id="{FECE88D3-4830-4176-8069-35FBEB2F4E3A}" ArchetypeId="10641886185864010705" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="SMALL"/>
  </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Containers/Misc.OperatorChassis_Tizzy" Id="{03CAE885-3B0E-47D8-B88C-A4DE9FFC9484}" ArchetypeId="844024417362748384" ch:applyIf="{{ Changed_Container_Sizes }}">
+ <EntityPrototype Name="Containers/Misc.OperatorChassis_Tizzy" Id="{03CAE885-3B0E-47D8-B88C-A4DE9FFC9484}" ArchetypeId="844024417362748384" ch:applyIf="{{ Inconsistency.Changed_Container_Sizes }}">
  <Properties>
    <ContainerInfo es_ContainerSize="SMALL"/>
  </Properties>

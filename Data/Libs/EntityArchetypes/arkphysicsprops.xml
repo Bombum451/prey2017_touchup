@@ -1,806 +1,806 @@
 <EntityPrototypeLibrary>
- <EntityPrototype Name="Misc.Tray_Metal_A" Id="{7EE65663-B8C0-4EE4-9F4E-99FC6C0C297C}" ArchetypeId="4655021599962512706" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Tray_Metal_A" Id="{7EE65663-B8C0-4EE4-9F4E-99FC6C0C297C}" ArchetypeId="4655021599962512706" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
 </EntityPrototype>
- <EntityPrototype Name="Misc.Paint_Bottles" Id="{1CF5E680-C696-4CA0-B9B2-550749F85046}" ArchetypeId="1077242911022769522" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Paint_Bottles" Id="{1CF5E680-C696-4CA0-B9B2-550749F85046}" ArchetypeId="1077242911022769522" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
 </EntityPrototype>
- <EntityPrototype Name="Bathroom.Soap" Id="{7E912E45-B035-424F-9FA5-726804EF188B}" ArchetypeId="10739735956144680764" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Bathroom.Soap" Id="{7E912E45-B035-424F-9FA5-726804EF188B}" ArchetypeId="10739735956144680764" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
 </EntityPrototype>
-<EntityPrototype Name="Boxes-Crates.Crate_Small_A" Id="{C69B1B72-257F-4337-BA49-B55EC0C61A0D}" ArchetypeId="10739735956144680768" ch:applyIf="{{ More_Mimicable_Stuff }}">
+<EntityPrototype Name="Boxes-Crates.Crate_Small_A" Id="{C69B1B72-257F-4337-BA49-B55EC0C61A0D}" ArchetypeId="10739735956144680768" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Tech.Computer Cart" Id="{A1627D0F-963C-4303-A2EE-285FC3D47BFA}" ArchetypeId="10739735956144680773" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Computer Cart" Id="{A1627D0F-963C-4303-A2EE-285FC3D47BFA}" ArchetypeId="10739735956144680773" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Kitchen.Kitchen_Plate" Id="{CA7B871B-FA8B-43EB-820B-C597C3DD51ED}" ArchetypeId="10739735956144680823" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Kitchen.Kitchen_Plate" Id="{CA7B871B-FA8B-43EB-820B-C597C3DD51ED}" ArchetypeId="10739735956144680823" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Misc.Luggage_Cart" Id="{975A531D-5072-4AE8-B424-6E6A4332EB29}" ArchetypeId="10739735956144680852" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Luggage_Cart" Id="{975A531D-5072-4AE8-B424-6E6A4332EB29}" ArchetypeId="10739735956144680852" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Science.Trauma_Cart" Id="{DBFBECFB-9571-4536-B6E5-149ED2AB1FDE}" ArchetypeId="10739735956144680853" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Trauma_Cart" Id="{DBFBECFB-9571-4536-B6E5-149ED2AB1FDE}" ArchetypeId="10739735956144680853" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Luxury.Serving Cart" Id="{B094C304-CF01-4EDC-9E55-87A33F42A58D}" ArchetypeId="10739735956144680862" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Serving Cart" Id="{B094C304-CF01-4EDC-9E55-87A33F42A58D}" ArchetypeId="10739735956144680862" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Luxury.SmokingSet_A_Ashtray" Id="{F8EDAC10-0CF5-4181-8525-63F9AC557BF5}" ArchetypeId="10739735956144680863" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.SmokingSet_A_Ashtray" Id="{F8EDAC10-0CF5-4181-8525-63F9AC557BF5}" ArchetypeId="10739735956144680863" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Apartment.CoffeeTable_Apt" Id="{9440D9F6-2185-4D98-9680-55E513B22D40}" ArchetypeId="10739735956144680867" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.CoffeeTable_Apt" Id="{9440D9F6-2185-4D98-9680-55E513B22D40}" ArchetypeId="10739735956144680867" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Apartment.Couch Apt" Id="{C9647518-982B-409A-A52F-0780571C30D0}" ArchetypeId="10739735956144680868" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.Couch Apt" Id="{C9647518-982B-409A-A52F-0780571C30D0}" ArchetypeId="10739735956144680868" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Apartment.Shelf_Furniture_Apt" Id="{01765DA5-9076-4C05-B792-B837A1F670FC}" ArchetypeId="10739735956144680869" ch:applyIf="{{ More_Mimicable_Stuff }}">
+  <EntityPrototype Name="Apartment.Shelf_Furniture_Apt" Id="{01765DA5-9076-4C05-B792-B837A1F670FC}" ArchetypeId="10739735956144680869" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
  
- <EntityPrototype Name="Apartment.Couch Hallway" Id="{FAADE77A-8264-403D-ABD4-6CD681F7B38D}" ArchetypeId="10739735956144680870" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.Couch Hallway" Id="{FAADE77A-8264-403D-ABD4-6CD681F7B38D}" ArchetypeId="10739735956144680870" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.Chair Fake Transtar" Id="{4B8F2D69-1265-4848-BCDD-EA85EEB9F042}" ArchetypeId="10739735956144680871" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.Chair Fake Transtar" Id="{4B8F2D69-1265-4848-BCDD-EA85EEB9F042}" ArchetypeId="10739735956144680871" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Coffee Table B" Id="{B8F90770-7FEC-43DA-9F44-0038F5CBD821}" ArchetypeId="10739735956144680872" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Coffee Table B" Id="{B8F90770-7FEC-43DA-9F44-0038F5CBD821}" ArchetypeId="10739735956144680872" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Coffee Table A" Id="{B10CA787-BE6E-454F-82FE-C350DC5B0278}" ArchetypeId="10739735956144680873" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Coffee Table A" Id="{B10CA787-BE6E-454F-82FE-C350DC5B0278}" ArchetypeId="10739735956144680873" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Table Round" Id="{9A5812DA-C058-4F23-84B3-A72D32FC522F}" ArchetypeId="10739735956144680874" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Table Round" Id="{9A5812DA-C058-4F23-84B3-A72D32FC522F}" ArchetypeId="10739735956144680874" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Table Hallway" Id="{4161164B-0CD1-4185-BAE3-2C37F1CF32E1}" ArchetypeId="10739735956144680875" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Table Hallway" Id="{4161164B-0CD1-4185-BAE3-2C37F1CF32E1}" ArchetypeId="10739735956144680875" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Reployer" Id="{9EB22EF6-9A75-423C-B87F-5976459E48A0}" Class="ArkLight" Description="" ArchetypeId="10739735956144680876" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Reployer" Id="{9EB22EF6-9A75-423C-B87F-5976459E48A0}" Class="ArkLight" Description="" ArchetypeId="10739735956144680876" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Sofa Chair" Id="{85415609-C495-41AF-9363-E094CBC933AD}" ArchetypeId="10739735956144680877" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Sofa Chair" Id="{85415609-C495-41AF-9363-E094CBC933AD}" ArchetypeId="10739735956144680877" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Sofa" Id="{D9EC946B-98C6-4335-9A99-8F28EB89ADAF}" ArchetypeId="10739735956144680878" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Sofa" Id="{D9EC946B-98C6-4335-9A99-8F28EB89ADAF}" ArchetypeId="10739735956144680878" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Tape Drive A" Id="{1BFEE045-97E4-42DC-A1A2-F249E5F1EC19}" ArchetypeId="10739735956144680880" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Tape Drive A" Id="{1BFEE045-97E4-42DC-A1A2-F249E5F1EC19}" ArchetypeId="10739735956144680880" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.Test_Sim_Box_A" Id="{48027C3F-EFB3-4C93-92BF-E5D24DA8071A}" ArchetypeId="10739735956144680884" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.Test_Sim_Box_A" Id="{48027C3F-EFB3-4C93-92BF-E5D24DA8071A}" ArchetypeId="10739735956144680884" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Chairs.Chair_Breakroom" Id="{A4949C95-AB88-4BCC-8ADC-8B603F11800B}" ArchetypeId="10739735956144680885" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Chairs.Chair_Breakroom" Id="{A4949C95-AB88-4BCC-8ADC-8B603F11800B}" ArchetypeId="10739735956144680885" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
 
- <EntityPrototype Name="Science.Tool_Medical_B" Id="{3EFEFF9A-C42F-471B-A82E-1626641E84B7}" ArchetypeId="10739735956144680893" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Tool_Medical_B" Id="{3EFEFF9A-C42F-471B-A82E-1626641E84B7}" ArchetypeId="10739735956144680893" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Tool_Medical_D" Id="{A6240D8D-FAE6-480D-9A84-56FBE2CFFE4F}" ArchetypeId="10739735956144680894" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Tool_Medical_D" Id="{A6240D8D-FAE6-480D-9A84-56FBE2CFFE4F}" ArchetypeId="10739735956144680894" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Pillow_Throw" Id="{0823C10C-DE05-4173-B538-126606543A3E}" ArchetypeId="10739735956144680903" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Pillow_Throw" Id="{0823C10C-DE05-4173-B538-126606543A3E}" ArchetypeId="10739735956144680903" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Whiteboard_Markers" Id="{55BA6A2E-B5E9-445B-BCA1-A1C2E52777F7}" ArchetypeId="10739735956144680905" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Whiteboard_Markers" Id="{55BA6A2E-B5E9-445B-BCA1-A1C2E52777F7}" ArchetypeId="10739735956144680905" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Post_Divider_A" Id="{67ACD4A6-B18B-40CB-BA34-1D8D04DFFEC8}" ArchetypeId="10739735956144680908" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Post_Divider_A" Id="{67ACD4A6-B18B-40CB-BA34-1D8D04DFFEC8}" ArchetypeId="10739735956144680908" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Crate_B" Id="{C7314690-86D7-4ABC-BC48-0457E169B20D}" ArchetypeId="10739735956144680910" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Crate_B" Id="{C7314690-86D7-4ABC-BC48-0457E169B20D}" ArchetypeId="10739735956144680910" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Voltmeter" Id="{A31E384E-6F86-4975-91F2-6FBD6B7C43A5}" Class="ArkLight" Description="" ArchetypeId="10739735956144680911" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Voltmeter" Id="{A31E384E-6F86-4975-91F2-6FBD6B7C43A5}" Class="ArkLight" Description="" ArchetypeId="10739735956144680911" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Compression_Wrap" Id="{0D2D1BE1-8114-4AC3-A689-7811E01E1A8C}" ArchetypeId="10739735956144680912" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Compression_Wrap" Id="{0D2D1BE1-8114-4AC3-A689-7811E01E1A8C}" ArchetypeId="10739735956144680912" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Bathroom.Shampoo_Small" Id="{B16D7A2F-65F7-44EE-BF31-794AE517EBD8}" ArchetypeId="10739735956144680913" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Bathroom.Shampoo_Small" Id="{B16D7A2F-65F7-44EE-BF31-794AE517EBD8}" ArchetypeId="10739735956144680913" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Kettle" Id="{50F8D471-0E3C-443B-A2A4-78DF4955A5E1}" ArchetypeId="10739735956144680915" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Kettle" Id="{50F8D471-0E3C-443B-A2A4-78DF4955A5E1}" ArchetypeId="10739735956144680915" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Portable Computer" Id="{9C31038E-0E53-4E81-9C4F-2989621D5D1B}" ArchetypeId="10739735956144680916" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Portable Computer" Id="{9C31038E-0E53-4E81-9C4F-2989621D5D1B}" ArchetypeId="10739735956144680916" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Tea Pot" Id="{7E0DD0A7-CE12-4B73-A916-1ECDCBB97E2A}" ArchetypeId="10739735956144680918" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Tea Pot" Id="{7E0DD0A7-CE12-4B73-A916-1ECDCBB97E2A}" ArchetypeId="10739735956144680918" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.SignPole" Id="{9BDA373E-41FA-473A-8E4C-C33DBA195A92}" ArchetypeId="10739735956144680919" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.SignPole" Id="{9BDA373E-41FA-473A-8E4C-C33DBA195A92}" ArchetypeId="10739735956144680919" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Pencil_Case_A" Id="{3736B15F-EBB0-4703-8555-550F05D0F34E}" ArchetypeId="10739735956144680923" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Pencil_Case_A" Id="{3736B15F-EBB0-4703-8555-550F05D0F34E}" ArchetypeId="10739735956144680923" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.Bottle_Cleaner_A" Id="{B75FF09F-9D15-45CF-97E9-23777DE3390F}" ArchetypeId="10739735956144680924" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.Bottle_Cleaner_A" Id="{B75FF09F-9D15-45CF-97E9-23777DE3390F}" ArchetypeId="10739735956144680924" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Table_Lounge_A" Id="{A528D32D-A3C0-4F0B-9E2A-B970E2124030}" Class="ArkLight" Description="" ArchetypeId="10739735956144680925" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Table_Lounge_A" Id="{A528D32D-A3C0-4F0B-9E2A-B970E2124030}" Class="ArkLight" Description="" ArchetypeId="10739735956144680925" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Table_Chess_A" Id="{02B08632-779D-4FE3-AE0E-95C72231BF9E}" ArchetypeId="10739735956144680926" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Table_Chess_A" Id="{02B08632-779D-4FE3-AE0E-95C72231BF9E}" ArchetypeId="10739735956144680926" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Table_Chess_A_Timer" Id="{C5BA6759-04C5-4EF2-B9F8-66D659D2F3E9}" ArchetypeId="10739735956144680927" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Table_Chess_A_Timer" Id="{C5BA6759-04C5-4EF2-B9F8-66D659D2F3E9}" ArchetypeId="10739735956144680927" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Chair_Lounge_A" Id="{C6276DD8-F435-42B4-A0E4-D4A3F9CA2B49}" ArchetypeId="10739735956144680928" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Chair_Lounge_A" Id="{C6276DD8-F435-42B4-A0E4-D4A3F9CA2B49}" ArchetypeId="10739735956144680928" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Statue_Desk_B" Id="{A5E1972F-C537-4FF9-9522-5F1BE437E880}" ArchetypeId="10739735956144680929" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Statue_Desk_B" Id="{A5E1972F-C537-4FF9-9522-5F1BE437E880}" ArchetypeId="10739735956144680929" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.NeuromodCalibration" Id="{7AEDF5E0-A8EC-49AC-833A-4B3B3066E7D5}" ArchetypeId="10739735956144680930" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.NeuromodCalibration" Id="{7AEDF5E0-A8EC-49AC-833A-4B3B3066E7D5}" ArchetypeId="10739735956144680930" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Martini Shaker" Id="{6D6F7C96-84B5-4F2F-ACA9-AED9F7DE43B8}" ArchetypeId="10739735956144680931" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Martini Shaker" Id="{6D6F7C96-84B5-4F2F-ACA9-AED9F7DE43B8}" ArchetypeId="10739735956144680931" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Martini Glass" Id="{86C553D2-6D69-4246-B404-D8897E58A481}" ArchetypeId="10739735956144680932" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Martini Glass" Id="{86C553D2-6D69-4246-B404-D8897E58A481}" ArchetypeId="10739735956144680932" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Decanter" Id="{AD17DD4E-A350-4A71-B862-F92E10ACFC0D}" ArchetypeId="10739735956144680933" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Decanter" Id="{AD17DD4E-A350-4A71-B862-F92E10ACFC0D}" ArchetypeId="10739735956144680933" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Gilded Tray" Id="{7675AB1B-B162-47FF-8424-58F5DC649E80}" ArchetypeId="10739735956144680934" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Gilded Tray" Id="{7675AB1B-B162-47FF-8424-58F5DC649E80}" ArchetypeId="10739735956144680934" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Martini Tumbler" Id="{690E9559-3BEF-4799-B3D9-0BCF86499923}" ArchetypeId="10739735956144680935" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Martini Tumbler" Id="{690E9559-3BEF-4799-B3D9-0BCF86499923}" ArchetypeId="10739735956144680935" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Sign_Maintenance_A" Id="{AD902CB2-5D4F-4C75-B193-2FEAD1F1E2EB}" Class="ArkLight" Description="" ArchetypeId="10739735956144680936" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Sign_Maintenance_A" Id="{AD902CB2-5D4F-4C75-B193-2FEAD1F1E2EB}" Class="ArkLight" Description="" ArchetypeId="10739735956144680936" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Tool_Measuring_A" Id="{EA85789A-4AAF-4D31-A313-359BCF5578AD}" ArchetypeId="10739735956144680937" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Tool_Measuring_A" Id="{EA85789A-4AAF-4D31-A313-359BCF5578AD}" ArchetypeId="10739735956144680937" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Tool_Measuring_B" Id="{65867E2A-BA7A-4150-9B1D-6084F7E52296}" ArchetypeId="10739735956144680938" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Tool_Measuring_B" Id="{65867E2A-BA7A-4150-9B1D-6084F7E52296}" ArchetypeId="10739735956144680938" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Tool_Measuring_C" Id="{C0D344C3-812C-451D-9417-6236E324D0A8}" ArchetypeId="10739735956144680939" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Tool_Measuring_C" Id="{C0D344C3-812C-451D-9417-6236E324D0A8}" ArchetypeId="10739735956144680939" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Tool_Medical_C" Id="{935BE8DF-A7F3-49FB-99AB-A6BA06744B4D}" ArchetypeId="10739735956144680940" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Tool_Medical_C" Id="{935BE8DF-A7F3-49FB-99AB-A6BA06744B4D}" ArchetypeId="10739735956144680940" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Tool_Medical_A" Id="{F59D0355-CF18-41D3-96F6-813002106CC1}" ArchetypeId="10739735956144680941" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Tool_Medical_A" Id="{F59D0355-CF18-41D3-96F6-813002106CC1}" ArchetypeId="10739735956144680941" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Clock_Desk" Id="{87CA5FFE-EF10-4B26-9568-4E3E44A7BEFA}" ArchetypeId="10739735956144680942" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Clock_Desk" Id="{87CA5FFE-EF10-4B26-9568-4E3E44A7BEFA}" ArchetypeId="10739735956144680942" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Kitchen.Coffee_Mug_B" Id="{A66C4742-C513-404E-8C53-80702DE61221}" ArchetypeId="10739735956144680943" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Kitchen.Coffee_Mug_B" Id="{A66C4742-C513-404E-8C53-80702DE61221}" ArchetypeId="10739735956144680943" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cardboard_Box_30x20x20" Id="{EB1D7031-F38D-418D-9F44-7AED7C694FEB}" ArchetypeId="10739735956144680944" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cardboard_Box_30x20x20" Id="{EB1D7031-F38D-418D-9F44-7AED7C694FEB}" ArchetypeId="10739735956144680944" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cardboard_Box_50x25x40" Id="{C8C27DB4-F645-4D27-8048-36CC56B4875B}" ArchetypeId="10739735956144680945" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cardboard_Box_50x25x40" Id="{C8C27DB4-F645-4D27-8048-36CC56B4875B}" ArchetypeId="10739735956144680945" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cardboard_Box_70x35x35" Id="{C50D5DBA-FEC7-4483-8DE7-B8F5942C9981}" ArchetypeId="10739735956144680946" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cardboard_Box_70x35x35" Id="{C50D5DBA-FEC7-4483-8DE7-B8F5942C9981}" ArchetypeId="10739735956144680946" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cardboard_Box_100x50x100" Id="{D0F0A95C-CA87-4AE0-949F-02C36630A97C}" ArchetypeId="10739735956144680947" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cardboard_Box_100x50x100" Id="{D0F0A95C-CA87-4AE0-949F-02C36630A97C}" ArchetypeId="10739735956144680947" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cardboard_Box_80x180x40" Id="{6A46CCFA-82A6-40F3-8ED7-D67EB59E94DE}" ArchetypeId="10739735956144680948" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cardboard_Box_80x180x40" Id="{6A46CCFA-82A6-40F3-8ED7-D67EB59E94DE}" ArchetypeId="10739735956144680948" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cardboard_Box_80x80x80" Id="{2F961450-E120-4A10-8954-D845877101B7}" ArchetypeId="10739735956144680949" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cardboard_Box_80x80x80" Id="{2F961450-E120-4A10-8954-D845877101B7}" ArchetypeId="10739735956144680949" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cardboard_Box_Damaged" Id="{CDACCC9A-7554-4A18-B7FA-92360EB71BC6}" ArchetypeId="10739735956144680950" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cardboard_Box_Damaged" Id="{CDACCC9A-7554-4A18-B7FA-92360EB71BC6}" ArchetypeId="10739735956144680950" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Sign_Stand_A" Id="{39D9D6E3-2078-429D-A8BB-5ED8520DB4F4}" ArchetypeId="10739735956144680951" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Sign_Stand_A" Id="{39D9D6E3-2078-429D-A8BB-5ED8520DB4F4}" ArchetypeId="10739735956144680951" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Crate_B_Med" Id="{7E86D663-96C2-42AA-A047-A71626ECEAAB}" ArchetypeId="10739735956144680952" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Crate_B_Med" Id="{7E86D663-96C2-42AA-A047-A71626ECEAAB}" ArchetypeId="10739735956144680952" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Crate_B_Large" Id="{13C9C6F5-A1AD-4EC5-8DC9-2F779C1E5E17}" ArchetypeId="10739735956144680953" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Crate_B_Large" Id="{13C9C6F5-A1AD-4EC5-8DC9-2F779C1E5E17}" ArchetypeId="10739735956144680953" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Tape_Dispenser" Id="{2F91355C-4722-45A2-8502-234EEDF091D8}" ArchetypeId="10739735956144680954" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Tape_Dispenser" Id="{2F91355C-4722-45A2-8502-234EEDF091D8}" ArchetypeId="10739735956144680954" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Chairs.Chair_Dining" Id="{618D6C43-EDC5-4252-922D-075E0B17ED54}" ArchetypeId="10739735956144680955" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Chairs.Chair_Dining" Id="{618D6C43-EDC5-4252-922D-075E0B17ED54}" ArchetypeId="10739735956144680955" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Microphone" Id="{5B7FFAFF-0BEA-45AE-84D4-312E4409535B}" ArchetypeId="10739735956144680956" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Microphone" Id="{5B7FFAFF-0BEA-45AE-84D4-312E4409535B}" ArchetypeId="10739735956144680956" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Detail_Tank_Large_A_Part2" Id="{B6D0EBB7-55D6-4E2C-A84C-6BAEF53FCD24}" ArchetypeId="10739735956144680958" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Detail_Tank_Large_A_Part2" Id="{B6D0EBB7-55D6-4E2C-A84C-6BAEF53FCD24}" ArchetypeId="10739735956144680958" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Detail_Tank_Large_A_Part3" Id="{B6F714E3-140C-4128-BF97-C28C394033C2}" ArchetypeId="10739735956144680959" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Detail_Tank_Large_A_Part3" Id="{B6F714E3-140C-4128-BF97-C28C394033C2}" ArchetypeId="10739735956144680959" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Detail_Tank_Large_A_Part5" Id="{80898998-7717-4CE9-B982-2062D04706FB}" ArchetypeId="10739735956144680961" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Detail_Tank_Large_A_Part5" Id="{80898998-7717-4CE9-B982-2062D04706FB}" ArchetypeId="10739735956144680961" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Chairs.Bench_Leather_Single" Id="{3B76ADDF-0B73-4517-B614-0B674CAC6C16}" ArchetypeId="10739735956144680965" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Chairs.Bench_Leather_Single" Id="{3B76ADDF-0B73-4517-B614-0B674CAC6C16}" ArchetypeId="10739735956144680965" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Culture_Counter" Id="{E31DF1DE-86F7-477C-AB23-B3EB45C3D29A}" Class="ArkLight" Description="" ArchetypeId="10739735956144680966" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Culture_Counter" Id="{E31DF1DE-86F7-477C-AB23-B3EB45C3D29A}" Class="ArkLight" Description="" ArchetypeId="10739735956144680966" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.Dinner_Plate" Id="{3DAA8825-CEBA-46CF-9582-CEA45D3EF552}" ArchetypeId="10739735956144680968" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.Dinner_Plate" Id="{3DAA8825-CEBA-46CF-9582-CEA45D3EF552}" ArchetypeId="10739735956144680968" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Gym.Kettle_Bell_A" Id="{31D05A59-85D9-4054-8807-D68391E7F6AE}" ArchetypeId="10739735956144680969" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Gym.Kettle_Bell_A" Id="{31D05A59-85D9-4054-8807-D68391E7F6AE}" ArchetypeId="10739735956144680969" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.ToiletPaper_Roll" Id="{A79C061D-42FD-40E0-84FC-CFA42B1CE503}" ArchetypeId="10739735956144680970" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.ToiletPaper_Roll" Id="{A79C061D-42FD-40E0-84FC-CFA42B1CE503}" ArchetypeId="10739735956144680970" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Chairs.Chair_Boss" Id="{F4B59460-06DF-4809-AB23-9776DB954D9A}" ArchetypeId="10739735956144680971" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Chairs.Chair_Boss" Id="{F4B59460-06DF-4809-AB23-9776DB954D9A}" ArchetypeId="10739735956144680971" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Post_Divider_A_RedRope" Id="{C4452BE0-711D-4F3F-8E91-1A1C26EAF1EE}" ArchetypeId="10739735956144680972" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Post_Divider_A_RedRope" Id="{C4452BE0-711D-4F3F-8E91-1A1C26EAF1EE}" ArchetypeId="10739735956144680972" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Oil_Canister " Id="{506F656D-FFE1-430A-9B00-79998B3F8346}" ArchetypeId="10739735956144680973" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Oil_Canister " Id="{506F656D-FFE1-430A-9B00-79998B3F8346}" ArchetypeId="10739735956144680973" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Space.Soviet_Spacecraft_Door" Id="{11CAD4EF-F6C2-4A9B-B06A-12A86E3DC988}" ArchetypeId="10739735956144680974" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Space.Soviet_Spacecraft_Door" Id="{11CAD4EF-F6C2-4A9B-B06A-12A86E3DC988}" ArchetypeId="10739735956144680974" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Glovebox_A" Id="{DAB51842-AD31-44E1-8BF0-F9CB02526449}" ArchetypeId="10739735956144680976" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Glovebox_A" Id="{DAB51842-AD31-44E1-8BF0-F9CB02526449}" ArchetypeId="10739735956144680976" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Sign_Radiation_A" Id="{C419A5F7-7D7D-4FD8-AA0E-2F07AB002046}" ArchetypeId="10739735956144680977" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Sign_Radiation_A" Id="{C419A5F7-7D7D-4FD8-AA0E-2F07AB002046}" ArchetypeId="10739735956144680977" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.ScrewBin2" Id="{75556B5D-7181-4829-BA39-42AB5C3269AD}" ArchetypeId="10739735956144680979" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.ScrewBin2" Id="{75556B5D-7181-4829-BA39-42AB5C3269AD}" ArchetypeId="10739735956144680979" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.ScrewBin3" Id="{69321AD0-D3EE-4C6D-8B40-DD85C2F0B725}" ArchetypeId="10739735956144680980" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.ScrewBin3" Id="{69321AD0-D3EE-4C6D-8B40-DD85C2F0B725}" ArchetypeId="10739735956144680980" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Binder_A2" Id="{4A52F3D9-3408-4A88-9BAF-97292247EE30}" ArchetypeId="10739735956144680981" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Binder_A2" Id="{4A52F3D9-3408-4A88-9BAF-97292247EE30}" ArchetypeId="10739735956144680981" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Binder_A3" Id="{8F494EBD-25EA-46DA-AA10-FB365E567475}" ArchetypeId="10739735956144680982" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Binder_A3" Id="{8F494EBD-25EA-46DA-AA10-FB365E567475}" ArchetypeId="10739735956144680982" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Binder_A4" Id="{08731EFF-E536-4E00-B5F4-E702052FC955}" ArchetypeId="10739735956144680983" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Binder_A4" Id="{08731EFF-E536-4E00-B5F4-E702052FC955}" ArchetypeId="10739735956144680983" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Cot_A" Id="{E261E6FA-B8EB-4042-8176-8B01A3B9244A}" ArchetypeId="10739735956144680984" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Cot_A" Id="{E261E6FA-B8EB-4042-8176-8B01A3B9244A}" ArchetypeId="10739735956144680984" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.Steamer_A" Id="{08C3B94B-893B-4F74-A70D-D12C60E85FA1}" ArchetypeId="10739735956144680987" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.Steamer_A" Id="{08C3B94B-893B-4F74-A70D-D12C60E85FA1}" ArchetypeId="10739735956144680987" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Specimen_A" Id="{B293AC2D-D23B-46A5-AA7D-E77B32626884}" ArchetypeId="10739735956144680988" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Specimen_A" Id="{B293AC2D-D23B-46A5-AA7D-E77B32626884}" ArchetypeId="10739735956144680988" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Specimen_B" Id="{AD866588-B040-46C8-9813-FAB57A1B55CA}" ArchetypeId="10739735956144680989" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Specimen_B" Id="{AD866588-B040-46C8-9813-FAB57A1B55CA}" ArchetypeId="10739735956144680989" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Statue_Moon_Marble_A" Id="{47F7D752-D5FA-4CB0-848E-7F88D860FFB2}" ArchetypeId="10739735956144680990" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Statue_Moon_Marble_A" Id="{47F7D752-D5FA-4CB0-848E-7F88D860FFB2}" ArchetypeId="10739735956144680990" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Statue_Mineral_A" Id="{F8E396FF-CF8D-4696-91CB-07B9A52FC106}" ArchetypeId="10739735956144680991" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Statue_Mineral_A" Id="{F8E396FF-CF8D-4696-91CB-07B9A52FC106}" ArchetypeId="10739735956144680991" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Statue_Mineral_B" Id="{9DCD5A16-CBD8-49AA-B73A-E5344DE8937E}" ArchetypeId="10739735956144680992" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Statue_Mineral_B" Id="{9DCD5A16-CBD8-49AA-B73A-E5344DE8937E}" ArchetypeId="10739735956144680992" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Statue_Mineral_C" Id="{474CB48E-663E-4251-B432-4F94E8FD9544}" ArchetypeId="10739735956144680993" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Statue_Mineral_C" Id="{474CB48E-663E-4251-B432-4F94E8FD9544}" ArchetypeId="10739735956144680993" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Pillow_Bed" Id="{3B31F4EE-36AC-4E2B-8050-391A91DC4AE5}" ArchetypeId="10739735956144680994" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Pillow_Bed" Id="{3B31F4EE-36AC-4E2B-8050-391A91DC4AE5}" ArchetypeId="10739735956144680994" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Pillow_Bed2" Id="{6D31C276-8992-42E1-ADBC-0551FB84E18B}" ArchetypeId="10739735956144680995" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Pillow_Bed2" Id="{6D31C276-8992-42E1-ADBC-0551FB84E18B}" ArchetypeId="10739735956144680995" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Pillow_Bed3" Id="{F78518FF-F0CF-47AC-B107-9BCE259566FB}" ArchetypeId="10739735956144680996" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Pillow_Bed3" Id="{F78518FF-F0CF-47AC-B107-9BCE259566FB}" ArchetypeId="10739735956144680996" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.PingPong_Paddle_A" Id="{13A8D17E-8B49-44AD-A47B-8C70DF280B56}" ArchetypeId="10739735956144680997" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.PingPong_Paddle_A" Id="{13A8D17E-8B49-44AD-A47B-8C70DF280B56}" ArchetypeId="10739735956144680997" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Palette_A" Id="{8566A112-0031-41FB-9852-9314140460B5}" ArchetypeId="10739735956144680999" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Palette_A" Id="{8566A112-0031-41FB-9852-9314140460B5}" ArchetypeId="10739735956144680999" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Poster_Movie_Stand" Id="{E34BD352-2029-4087-AC4C-9234E74C8F08}" Class="ArkLight" Description="" ArchetypeId="10739735956144681000" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Poster_Movie_Stand" Id="{E34BD352-2029-4087-AC4C-9234E74C8F08}" Class="ArkLight" Description="" ArchetypeId="10739735956144681000" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Kitchen.Teapot_Chinese_A" Id="{3BD5F550-B8B9-45D7-83C7-2AB99ECD54BF}" ArchetypeId="10739735956144681001" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Kitchen.Teapot_Chinese_A" Id="{3BD5F550-B8B9-45D7-83C7-2AB99ECD54BF}" ArchetypeId="10739735956144681001" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Kitchen.Skimmer" Id="{83EE09ED-4A86-4427-ABF4-A5A460AA6AD8}" ArchetypeId="10739735956144681002" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Kitchen.Skimmer" Id="{83EE09ED-4A86-4427-ABF4-A5A460AA6AD8}" ArchetypeId="10739735956144681002" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Kitchen.Ladle" Id="{BED70216-B7A4-4864-884C-B4BACD64BA48}" ArchetypeId="10739735956144681003" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Kitchen.Ladle" Id="{BED70216-B7A4-4864-884C-B4BACD64BA48}" ArchetypeId="10739735956144681003" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Light_Fixtures.Light_Flood_B" Id="{51F25A00-33EF-478A-8FF9-1FB7C72D32C8}" ArchetypeId="10739735956144681005" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Light_Fixtures.Light_Flood_B" Id="{51F25A00-33EF-478A-8FF9-1FB7C72D32C8}" ArchetypeId="10739735956144681005" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Light_Fixtures.Light_Worklight_A" Id="{55DDD850-69E7-4AAE-9A5B-4D05F8B77064}" ArchetypeId="10739735956144681006" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Light_Fixtures.Light_Worklight_A" Id="{55DDD850-69E7-4AAE-9A5B-4D05F8B77064}" ArchetypeId="10739735956144681006" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Cabinet Reel Single" Id="{CF2FC857-FEF4-4536-95B4-B3D23D597DD7}" ArchetypeId="10739735956144681008" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Cabinet Reel Single" Id="{CF2FC857-FEF4-4536-95B4-B3D23D597DD7}" ArchetypeId="10739735956144681008" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cargo_A_Small" Id="{79BB737B-D55B-409B-A987-4101FA2215D4}" ArchetypeId="10739735956144681009" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cargo_A_Small" Id="{79BB737B-D55B-409B-A987-4101FA2215D4}" ArchetypeId="10739735956144681009" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cargo_A_Small_2" Id="{4F30CFB3-9814-4943-B9A1-1853D0BC2A42}" ArchetypeId="10739735956144681010" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cargo_A_Small_2" Id="{4F30CFB3-9814-4943-B9A1-1853D0BC2A42}" ArchetypeId="10739735956144681010" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Boxes-Crates.Cargo_A_Large" Id="{7375045B-258A-47F5-A13B-320F053051EE}" ArchetypeId="10739735956144681011" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Boxes-Crates.Cargo_A_Large" Id="{7375045B-258A-47F5-A13B-320F053051EE}" ArchetypeId="10739735956144681011" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Gym.Dumbbell_III_Large" Id="{17595B23-7A71-43E8-AA37-FD2B6E54FC50}" ArchetypeId="10739735956144681012" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Gym.Dumbbell_III_Large" Id="{17595B23-7A71-43E8-AA37-FD2B6E54FC50}" ArchetypeId="10739735956144681012" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Gym.Dumbbell_II_Medium" Id="{E1417FA7-4978-47F6-890D-4D8BAAAF4C7C}" ArchetypeId="10739735956144681013" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Gym.Dumbbell_II_Medium" Id="{E1417FA7-4978-47F6-890D-4D8BAAAF4C7C}" ArchetypeId="10739735956144681013" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Gym.Dumbbell_I_Small" Id="{E27DCBBB-AEDB-4753-A17D-8663AC641967}" ArchetypeId="10739735956144681015" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Gym.Dumbbell_I_Small" Id="{E27DCBBB-AEDB-4753-A17D-8663AC641967}" ArchetypeId="10739735956144681015" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Gauzebox_A" Id="{47C42B8C-2084-49DC-BFDF-CB9336146E2D}" ArchetypeId="10739735956144681016" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Gauzebox_A" Id="{47C42B8C-2084-49DC-BFDF-CB9336146E2D}" ArchetypeId="10739735956144681016" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Garden.Shears" Id="{E9B11397-5CDC-4708-A28B-F81B8FA2A061}" ArchetypeId="10739735956144681017" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Garden.Shears" Id="{E9B11397-5CDC-4708-A28B-F81B8FA2A061}" ArchetypeId="10739735956144681017" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Garden.Can_Water" Id="{7F2167AD-B062-4DAA-AA54-94A34A4B8F30}" ArchetypeId="10739735956144681018" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Garden.Can_Water" Id="{7F2167AD-B062-4DAA-AA54-94A34A4B8F30}" ArchetypeId="10739735956144681018" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Garden.Trowel" Id="{6839896C-AAB4-4049-B316-DD4AA6809492}" ArchetypeId="10739735956144681019" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Garden.Trowel" Id="{6839896C-AAB4-4049-B316-DD4AA6809492}" ArchetypeId="10739735956144681019" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Cot_Rollup" Id="{E7E015A4-5A20-4952-8387-18D97F011523}" ArchetypeId="10739735956144681020" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Cot_Rollup" Id="{E7E015A4-5A20-4952-8387-18D97F011523}" ArchetypeId="10739735956144681020" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Garden.Bag_Garden" Id="{25CA256E-C148-4A9B-ACCC-BBA5D4C6C449}" ArchetypeId="10739735956144681023" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Garden.Bag_Garden" Id="{25CA256E-C148-4A9B-ACCC-BBA5D4C6C449}" ArchetypeId="10739735956144681023" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
 
- <EntityPrototype Name="Misc.Cart_Laundry_A" Id="{4D978656-E397-4C0E-AD1C-F20BDB1E1011}" ArchetypeId="10739735956144681031" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Cart_Laundry_A" Id="{4D978656-E397-4C0E-AD1C-F20BDB1E1011}" ArchetypeId="10739735956144681031" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Grate_A_NeoDeco" Id="{B0E1F4D1-287A-4F99-B122-4E40DEB29390}" ArchetypeId="10739735956144681037" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Grate_A_NeoDeco" Id="{B0E1F4D1-287A-4F99-B122-4E40DEB29390}" ArchetypeId="10739735956144681037" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
 
- <EntityPrototype Name="Science.Alembic_A_3" Id="{1A2C36BD-1EE3-4637-9785-8F95B11D4DCB}" ArchetypeId="10739735956144681039" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Alembic_A_3" Id="{1A2C36BD-1EE3-4637-9785-8F95B11D4DCB}" ArchetypeId="10739735956144681039" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Alembic_A_1" Id="{A7941285-B824-4D35-821E-37677D937A16}" ArchetypeId="10739735956144681040" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Alembic_A_1" Id="{A7941285-B824-4D35-821E-37677D937A16}" ArchetypeId="10739735956144681040" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Alembic_A_2" Id="{757B8218-27BD-4649-B196-CA037202E84F}" ArchetypeId="10739735956144681041" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Alembic_A_2" Id="{757B8218-27BD-4649-B196-CA037202E84F}" ArchetypeId="10739735956144681041" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
 
- <EntityPrototype Name="Kitchen.Grinder" Id="{9126226B-FB0D-49A1-94F0-119F780DA13E}" ArchetypeId="10739735956144681053" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Kitchen.Grinder" Id="{9126226B-FB0D-49A1-94F0-119F780DA13E}" ArchetypeId="10739735956144681053" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Brush_Toilet_A" Id="{5214944A-D6F6-4CA3-A364-A25AFE78841A}" ArchetypeId="10739735956144681055" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Brush_Toilet_A" Id="{5214944A-D6F6-4CA3-A364-A25AFE78841A}" ArchetypeId="10739735956144681055" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
 
- <EntityPrototype Name="Misc.Case_Display_B_Broken_Small" Id="{148160C3-8FF8-410D-8B87-687F5EFDDC4B}" ArchetypeId="10739735956144681062" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Case_Display_B_Broken_Small" Id="{148160C3-8FF8-410D-8B87-687F5EFDDC4B}" ArchetypeId="10739735956144681062" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Girder_Hub_01" Id="{A4DF335A-FE99-4051-820F-CFE3DB727ABD}" ArchetypeId="10739735956144681063" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Girder_Hub_01" Id="{A4DF335A-FE99-4051-820F-CFE3DB727ABD}" ArchetypeId="10739735956144681063" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
 
- <EntityPrototype Name="Gameplay.Debris_Panel_01" Id="{8229F1DB-1A66-4E55-8D9D-6DB46C03DD97}" ArchetypeId="10739735956144681073" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Gameplay.Debris_Panel_01" Id="{8229F1DB-1A66-4E55-8D9D-6DB46C03DD97}" ArchetypeId="10739735956144681073" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.LookingGlass_Hanging_Part_B" Id="{D2331C82-CD43-4811-8624-7BD8B671147F}" ArchetypeId="10739735956144681074" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.LookingGlass_Hanging_Part_B" Id="{D2331C82-CD43-4811-8624-7BD8B671147F}" ArchetypeId="10739735956144681074" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.LookingGlass_Hanging_Part_C2" Id="{868AC6F6-E83D-4CAA-95B2-660E4882A9AA}" ArchetypeId="10739735956144681075" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.LookingGlass_Hanging_Part_C2" Id="{868AC6F6-E83D-4CAA-95B2-660E4882A9AA}" ArchetypeId="10739735956144681075" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.LookingGlass_Hanging_Part_C3" Id="{BDEA1266-4A70-4BAE-AFF7-7333D8D04AE9}" ArchetypeId="10739735956144681076" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.LookingGlass_Hanging_Part_C3" Id="{BDEA1266-4A70-4BAE-AFF7-7333D8D04AE9}" ArchetypeId="10739735956144681076" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.LookingGlass_Hanging_Part_C4" Id="{D783F424-86DA-4536-A6C5-55EADFB8777B}" ArchetypeId="10739735956144681077" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.LookingGlass_Hanging_Part_C4" Id="{D783F424-86DA-4536-A6C5-55EADFB8777B}" ArchetypeId="10739735956144681077" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Keytar_A" Id="{2227925B-0196-45EA-BDC4-7C1A69AD0003}" ArchetypeId="10739735956144681080" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Keytar_A" Id="{2227925B-0196-45EA-BDC4-7C1A69AD0003}" ArchetypeId="10739735956144681080" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Amp_Guitar_A" Id="{34381BA9-59E3-4E08-9E8E-033DD343329D}" ArchetypeId="10739735956144681081" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Amp_Guitar_A" Id="{34381BA9-59E3-4E08-9E8E-033DD343329D}" ArchetypeId="10739735956144681081" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
 
- <EntityPrototype Name="Misc.Tank_Eel_Lid_A" Id="{C3FBA19E-0D5A-4A45-AC53-A80D134C1EB4}" ArchetypeId="10739735956144681087" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Tank_Eel_Lid_A" Id="{C3FBA19E-0D5A-4A45-AC53-A80D134C1EB4}" ArchetypeId="10739735956144681087" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Tank_Eel_A" Id="{60050F78-DB79-46FF-AF30-DBF0BF2888AA}" ArchetypeId="10739735956144681088" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Tank_Eel_A" Id="{60050F78-DB79-46FF-AF30-DBF0BF2888AA}" ArchetypeId="10739735956144681088" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Tank_Eel_A_Open" Id="{CC8D40C6-20BD-4853-8D15-8C7C2D42A250}" ArchetypeId="10739735956144681089" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Tank_Eel_A_Open" Id="{CC8D40C6-20BD-4853-8D15-8C7C2D42A250}" ArchetypeId="10739735956144681089" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Guitar_A" Id="{A78DB7DD-82A1-43C4-BE4C-19D6C724D82B}" ArchetypeId="10739735956144681091" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Guitar_A" Id="{A78DB7DD-82A1-43C4-BE4C-19D6C724D82B}" ArchetypeId="10739735956144681091" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Guitar_A_Stand" Id="{33230612-1874-4B1E-B50C-734A755CD3FE}" ArchetypeId="10739735956144681092" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Guitar_A_Stand" Id="{33230612-1874-4B1E-B50C-734A755CD3FE}" ArchetypeId="10739735956144681092" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.GUT_Pipe_Large_Chunk2" Id="{2C7B163C-40BE-4E3E-9527-236FC558E9BD}" ArchetypeId="10739735956144681094" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.GUT_Pipe_Large_Chunk2" Id="{2C7B163C-40BE-4E3E-9527-236FC558E9BD}" ArchetypeId="10739735956144681094" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.GUT_Pipe_Large_Chunk1" Id="{A502569A-6F27-4F4E-AAC6-166B27EA2F68}" ArchetypeId="10739735956144681095" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.GUT_Pipe_Large_Chunk1" Id="{A502569A-6F27-4F4E-AAC6-166B27EA2F68}" ArchetypeId="10739735956144681095" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Laser_Lab_A_Part_3" Id="{43F5DCCD-9741-4BDD-9DDD-1C50D3607532}" ArchetypeId="13038346798778873319" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Laser_Lab_A_Part_3" Id="{43F5DCCD-9741-4BDD-9DDD-1C50D3607532}" ArchetypeId="13038346798778873319" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Tarp_Fabric_A_Folded" Id="{A60263E6-2D7E-4E0A-BB94-168CCBEA4E97}" ArchetypeId="13038346798778875691" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Tarp_Fabric_A_Folded" Id="{A60263E6-2D7E-4E0A-BB94-168CCBEA4E97}" ArchetypeId="13038346798778875691" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Space.Robot_Construction_A_Arm" Id="{7F9442EC-F191-4635-ACBF-68D52EBB4F40}" ArchetypeId="13038346798778876677" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Space.Robot_Construction_A_Arm" Id="{7F9442EC-F191-4635-ACBF-68D52EBB4F40}" ArchetypeId="13038346798778876677" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Fan_Utility_Blades" Id="{CDC3B0A9-1874-415E-A430-1EF17DC9AD0E}" ArchetypeId="13038346798778887463" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Fan_Utility_Blades" Id="{CDC3B0A9-1874-415E-A430-1EF17DC9AD0E}" ArchetypeId="13038346798778887463" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Gaming_DiceTube_A" Id="{FAC29579-EC90-4787-AFA7-271B87DB54F3}" ArchetypeId="13038346798778987738" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Gaming_DiceTube_A" Id="{FAC29579-EC90-4787-AFA7-271B87DB54F3}" ArchetypeId="13038346798778987738" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Pipe_Chunk_Large_A" Id="{EC5A9226-CD0B-48DF-A1BF-F055B0AD91E0}" ArchetypeId="4655021599963461233" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Pipe_Chunk_Large_A" Id="{EC5A9226-CD0B-48DF-A1BF-F055B0AD91E0}" ArchetypeId="4655021599963461233" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Pipe_Chunk_Large_A2" Id="{398D57F9-2399-49F5-897C-69A0A5ECCA66}" ArchetypeId="4655021599963461922" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Pipe_Chunk_Large_A2" Id="{398D57F9-2399-49F5-897C-69A0A5ECCA66}" ArchetypeId="4655021599963461922" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Pipe_Chunk_Medium_A" Id="{4FE46CD6-03F7-41F6-8B2E-12F06F879C90}" ArchetypeId="4655021599963464418" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Pipe_Chunk_Medium_A" Id="{4FE46CD6-03F7-41F6-8B2E-12F06F879C90}" ArchetypeId="4655021599963464418" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Pipe_Chunk_Medium_A2" Id="{BDFEF299-119A-412D-BA49-95F7FC25D005}" ArchetypeId="4655021599963465644" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Pipe_Chunk_Medium_A2" Id="{BDFEF299-119A-412D-BA49-95F7FC25D005}" ArchetypeId="4655021599963465644" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Clothes_Shoes_A_Male1_L" Id="{4D96E94D-9677-48CD-A46C-1879F9D0377B}" ArchetypeId="13038346798779481998" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Clothes_Shoes_A_Male1_L" Id="{4D96E94D-9677-48CD-A46C-1879F9D0377B}" ArchetypeId="13038346798779481998" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Clothes_Shoes_A_Male1_R" Id="{82A8B52A-D949-42D5-9C5F-3357F1A2BE77}" ArchetypeId="13038346798779482043" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Clothes_Shoes_A_Male1_R" Id="{82A8B52A-D949-42D5-9C5F-3357F1A2BE77}" ArchetypeId="13038346798779482043" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Clothes_Shoes_A_Female1_R" Id="{41822237-4351-4D5A-84FE-FD0FFF2AB794}" ArchetypeId="13038346798779482063" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Clothes_Shoes_A_Female1_R" Id="{41822237-4351-4D5A-84FE-FD0FFF2AB794}" ArchetypeId="13038346798779482063" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Clothes_Shoes_A_Female1_L" Id="{3CA68570-DE0C-4F02-AEE9-58963A6C7F94}" ArchetypeId="13038346798779482081" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Clothes_Shoes_A_Female1_L" Id="{3CA68570-DE0C-4F02-AEE9-58963A6C7F94}" ArchetypeId="13038346798779482081" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Clothes_Bin_A" Id="{42B9E58A-5064-4A30-A594-0E5B66934C08}" ArchetypeId="13038346798779503023" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Clothes_Bin_A" Id="{42B9E58A-5064-4A30-A594-0E5B66934C08}" ArchetypeId="13038346798779503023" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Clothes_Bin_A_Loose" Id="{97C021C7-F486-4C7C-B632-2AEA622541C9}" ArchetypeId="13038346798779503050" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Clothes_Bin_A_Loose" Id="{97C021C7-F486-4C7C-B632-2AEA622541C9}" ArchetypeId="13038346798779503050" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Garden.Bag_Garden_Stack" Id="{BAB95C66-D51B-4321-94B0-BCAA530A3E16}" ArchetypeId="13038346798779832184" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Garden.Bag_Garden_Stack" Id="{BAB95C66-D51B-4321-94B0-BCAA530A3E16}" ArchetypeId="13038346798779832184" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Lens_LookingGlass_Center" Id="{C2C4DBC1-DFA5-4B7E-AE2B-41FEB881A03F}" ArchetypeId="4655021599964834073" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Lens_LookingGlass_Center" Id="{C2C4DBC1-DFA5-4B7E-AE2B-41FEB881A03F}" ArchetypeId="4655021599964834073" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Science.Prototype_Neuromod_A" Id="{72369574-34CE-4382-A7F1-8B19037F3F02}" ArchetypeId="4655021599965191686" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Science.Prototype_Neuromod_A" Id="{72369574-34CE-4382-A7F1-8B19037F3F02}" ArchetypeId="4655021599965191686" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.ToiletPaper_Roll_Unbreakable" Id="{6614DFA3-410E-4C35-8599-12770F05C70D}" ArchetypeId="6732635291227186066" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.ToiletPaper_Roll_Unbreakable" Id="{6614DFA3-410E-4C35-8599-12770F05C70D}" ArchetypeId="6732635291227186066" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.VideoGame_A" Id="{981C4CF8-EE6F-459E-8556-EB723EC942C4}" ArchetypeId="13038346798784411355" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.VideoGame_A" Id="{981C4CF8-EE6F-459E-8556-EB723EC942C4}" ArchetypeId="13038346798784411355" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Chairs.Stool_Lab_Short_A" Id="{799AE882-A91F-4BC5-8612-BE485C3D1297}" ArchetypeId="5424032354696621562" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Chairs.Stool_Lab_Short_A" Id="{799AE882-A91F-4BC5-8612-BE485C3D1297}" ArchetypeId="5424032354696621562" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Folders_Tied_A" Id="{B388505F-D651-47B1-B625-A04EDF1EF1C4}" ArchetypeId="4655021599969150870" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Folders_Tied_A" Id="{B388505F-D651-47B1-B625-A04EDF1EF1C4}" ArchetypeId="4655021599969150870" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Folders_Tied_A2" Id="{EED8B686-3045-46CC-8431-FD261CE002CA}" ArchetypeId="4655021599969150873" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Folders_Tied_A2" Id="{EED8B686-3045-46CC-8431-FD261CE002CA}" ArchetypeId="4655021599969150873" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Chairs.Chair_Dining_Apartment" Id="{BBB091F3-E3FD-4D9F-ABC8-78B0FAC965C3}" ArchetypeId="7330614216232985213" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Chairs.Chair_Dining_Apartment" Id="{BBB091F3-E3FD-4D9F-ABC8-78B0FAC965C3}" ArchetypeId="7330614216232985213" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Tissuebox_A" Id="{2A3AD864-3EBD-495C-88AF-CBB427DF5FAE}" ArchetypeId="1077242911017333208" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Tissuebox_A" Id="{2A3AD864-3EBD-495C-88AF-CBB427DF5FAE}" ArchetypeId="1077242911017333208" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Tissuebox_A_Open" Id="{10A175F4-6900-4BF8-9EE8-CCA3CC12440D}" ArchetypeId="1077242911017333298" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Tissuebox_A_Open" Id="{10A175F4-6900-4BF8-9EE8-CCA3CC12440D}" ArchetypeId="1077242911017333298" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Apartment.MilitaryOperator_Gunless" Id="{83408AB9-A21C-4BF3-88DB-2BB0479521AE}" ArchetypeId="761057048002627991" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Apartment.MilitaryOperator_Gunless" Id="{83408AB9-A21C-4BF3-88DB-2BB0479521AE}" ArchetypeId="761057048002627991" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype" Id="{64D5EF15-8F24-4DF4-A247-35B9C67C5E5F}" ArchetypeId="1077242911017472048" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype" Id="{64D5EF15-8F24-4DF4-A247-35B9C67C5E5F}" ArchetypeId="1077242911017472048" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype_Headband" Id="{E0DE1B7A-8299-4ABA-A935-67E1E872EF6A}" ArchetypeId="1077242911017476568" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype_Headband" Id="{E0DE1B7A-8299-4ABA-A935-67E1E872EF6A}" ArchetypeId="1077242911017476568" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype_Frame" Id="{06BCDC6E-B09E-4919-B0A6-44E8183A3ACC}" ArchetypeId="1077242911017476587" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype_Frame" Id="{06BCDC6E-B09E-4919-B0A6-44E8183A3ACC}" ArchetypeId="1077242911017476587" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Sign_NoEntry_Industrial" Id="{4C667597-DD84-4D70-9E78-6562E89A6EC0}" ArchetypeId="4655021599970381335" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Sign_NoEntry_Industrial" Id="{4C667597-DD84-4D70-9E78-6562E89A6EC0}" ArchetypeId="4655021599970381335" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.NeuromodCalibration_ManikinHead" Id="{A82023B9-04E5-4397-B093-C7EFAA0FE5DC}" ArchetypeId="1077242911017491554" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.NeuromodCalibration_ManikinHead" Id="{A82023B9-04E5-4397-B093-C7EFAA0FE5DC}" ArchetypeId="1077242911017491554" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Bathroom.ShavingCream_Male" Id="{8C492982-A151-4E15-ADBD-9932E0BFFCA4}" ArchetypeId="13038346798786255267" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Bathroom.ShavingCream_Male" Id="{8C492982-A151-4E15-ADBD-9932E0BFFCA4}" ArchetypeId="13038346798786255267" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Bathroom.ShavingCream_Female" Id="{11495254-061A-4F53-896D-2E4276511B49}" ArchetypeId="13038346798786255343" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Bathroom.ShavingCream_Female" Id="{11495254-061A-4F53-896D-2E4276511B49}" ArchetypeId="13038346798786255343" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Morgan_MessengerBag_Male" Id="{D7779332-6581-4626-9703-78DCA375DBEB}" ArchetypeId="13038346798786261633" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Morgan_MessengerBag_Male" Id="{D7779332-6581-4626-9703-78DCA375DBEB}" ArchetypeId="13038346798786261633" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Morgan_Purse_Female" Id="{82FC0432-C383-42A2-96E6-3C9075462CC2}" ArchetypeId="13038346798786261785" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Morgan_Purse_Female" Id="{82FC0432-C383-42A2-96E6-3C9075462CC2}" ArchetypeId="13038346798786261785" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Wood_Panel" Id="{FDDBEDA7-EF88-47F2-9AC5-C18EE51B93CF}" ArchetypeId="9708656441736473098" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Wood_Panel" Id="{FDDBEDA7-EF88-47F2-9AC5-C18EE51B93CF}" ArchetypeId="9708656441736473098" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Rock_Tile" Id="{CF107DC9-F105-4677-AFCA-9E393D586256}" ArchetypeId="9708656441736478562" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Rock_Tile" Id="{CF107DC9-F105-4677-AFCA-9E393D586256}" ArchetypeId="9708656441736478562" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Space.Station_Panel_01" Id="{D08E0A31-3260-493B-B889-6CA4B36B701A}" ArchetypeId="13856881013224082934" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Space.Station_Panel_01" Id="{D08E0A31-3260-493B-B889-6CA4B36B701A}" ArchetypeId="13856881013224082934" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Space.Station_Panel_02" Id="{FCDA52D6-BD97-4785-B9E5-7613401929E9}" ArchetypeId="13856881013224084409" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Space.Station_Panel_02" Id="{FCDA52D6-BD97-4785-B9E5-7613401929E9}" ArchetypeId="13856881013224084409" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Industrial.Security_Cage" Id="{9D163F01-39FF-490A-B28F-E1CFD5AD3E7A}" ArchetypeId="761057048004096997" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Industrial.Security_Cage" Id="{9D163F01-39FF-490A-B28F-E1CFD5AD3E7A}" ArchetypeId="761057048004096997" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Luxury.Bass_A_Base" Id="{1227C1F6-4A44-4313-832A-DBCD7D01FDE6}" ArchetypeId="2706199392213663624" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Bass_A_Base" Id="{1227C1F6-4A44-4313-832A-DBCD7D01FDE6}" ArchetypeId="2706199392213663624" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Server_Box_A" Id="{92764580-DAFB-4CD9-9434-AFA20706473F}" ArchetypeId="6434217965622248386" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Server_Box_A" Id="{92764580-DAFB-4CD9-9434-AFA20706473F}" ArchetypeId="6434217965622248386" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Poster_Movie_Stand_Blank" Id="{20935620-7E62-45A1-9FB0-6949B745E84F}" Class="ArkLight" Description="" ArchetypeId="1077242911024487303" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Poster_Movie_Stand_Blank" Id="{20935620-7E62-45A1-9FB0-6949B745E84F}" Class="ArkLight" Description="" ArchetypeId="1077242911024487303" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Cosmonaut_Helmet" Id="{6B139C34-D133-46D4-88BD-25FE2E74EAE0}" ArchetypeId="12023677250608019022" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Cosmonaut_Helmet" Id="{6B139C34-D133-46D4-88BD-25FE2E74EAE0}" ArchetypeId="12023677250608019022" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Cosmonaut_GloveR" Id="{83AEE6D4-6E84-437A-9922-70148251599C}" ArchetypeId="12023677250608019275" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Cosmonaut_GloveR" Id="{83AEE6D4-6E84-437A-9922-70148251599C}" ArchetypeId="12023677250608019275" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Misc.Cosmonaut_GloveL" Id="{CC70B3A7-3A6A-4A3D-B6B9-03B6E36E8051}" ArchetypeId="12023677250608019323" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Misc.Cosmonaut_GloveL" Id="{CC70B3A7-3A6A-4A3D-B6B9-03B6E36E8051}" ArchetypeId="12023677250608019323" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Office.Plant_Potted_E" Id="{9FAACBFB-A99C-48A2-AA84-7D46DD94B17A}" ArchetypeId="2706199392216658932" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Office.Plant_Potted_E" Id="{9FAACBFB-A99C-48A2-AA84-7D46DD94B17A}" ArchetypeId="2706199392216658932" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
 
- <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype_wStand" Id="{81908CD3-F022-41F0-A11F-A407DBCEAE8B}" ArchetypeId="1077242911025355469" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Tech.Visor_LookingGlass_Prototype_wStand" Id="{81908CD3-F022-41F0-A11F-A407DBCEAE8B}" ArchetypeId="1077242911025355469" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
  
- <EntityPrototype Name="Luxury.Table Round B" Id="{16FBF838-61C0-48DE-8EA4-6648D152614F}" ArchetypeId="418270515502134684" ch:applyIf="{{ More_Mimicable_Stuff }}">
+ <EntityPrototype Name="Luxury.Table Round B" Id="{16FBF838-61C0-48DE-8EA4-6648D152614F}" ArchetypeId="418270515502134684" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
   <Properties bIsMimicable="1"/>
  </EntityPrototype>
  
- <EntityPrototype Name="Bathroom.Towels" Id="{0F6461E9-4567-436A-B364-754107B8F1FB}" ArchetypeId="10739735956144680777" ch:applyIf="{{ Mass_Adjust }}">
+ <EntityPrototype Name="Bathroom.Towels" Id="{0F6461E9-4567-436A-B364-754107B8F1FB}" ArchetypeId="10739735956144680777" ch:applyIf="{{ Inconsistency.Mass_Adjust }}">
   <Properties>
    <Physics Mass="2"/>
   </Properties>
  </EntityPrototype>
  
- <EntityPrototype Name="Luxury.SideTable_A" Id="{1C3ED465-F1C3-434B-A60D-14837FAD58C4}" ArchetypeId="10739735956144680774" ch:applyIf="{{ Mass_Adjust }}">
+ <EntityPrototype Name="Luxury.SideTable_A" Id="{1C3ED465-F1C3-434B-A60D-14837FAD58C4}" ArchetypeId="10739735956144680774" ch:applyIf="{{ Inconsistency.Mass_Adjust }}">
   <Properties>
    <Physics Mass="25"/>
   </Properties>
  </EntityPrototype>
  
- <EntityPrototype Name="Apartment.Pizzabox_A" Id="{3EB1386F-8C51-479C-98C2-6B94E56C6CE4}" ArchetypeId="10739735956144680811" ch:applyIf="{{ Mass_Adjust }}">
+ <EntityPrototype Name="Apartment.Pizzabox_A" Id="{3EB1386F-8C51-479C-98C2-6B94E56C6CE4}" ArchetypeId="10739735956144680811" ch:applyIf="{{ Inconsistency.Mass_Adjust }}">
   <Properties>
    <Physics Mass="3"/>
   </Properties>
  </EntityPrototype>
  
- <EntityPrototype Name="Luxury.SmokingSet_A_Cigarbox" Id="{81F26912-7B6A-48EB-AE3F-3E2B0D8C82DB}" ArchetypeId="10739735956144680797" ch:applyIf="{{ Faux_Cigar_Removal }}">
+ <EntityPrototype Name="Luxury.SmokingSet_A_Cigarbox" Id="{81F26912-7B6A-48EB-AE3F-3E2B0D8C82DB}" ArchetypeId="10739735956144680797" ch:applyIf="{{ Inconsistency.Faux_Cigar_Removal }}">
   <Properties object_Model="Objects/Environment/Props/NeoDeco/SmokingSet/smokingset_a_cigarbox.cgf"/>
   </EntityPrototype>
   
- <EntityPrototype Name="Luxury.SmokingSet_A_Ashtray" Id="{F8EDAC10-0CF5-4181-8525-63F9AC557BF5}" ArchetypeId="10739735956144680863" ch:applyIf="{{ Faux_Cigar_Removal }}">
+ <EntityPrototype Name="Luxury.SmokingSet_A_Ashtray" Id="{F8EDAC10-0CF5-4181-8525-63F9AC557BF5}" ArchetypeId="10739735956144680863" ch:applyIf="{{ Inconsistency.Faux_Cigar_Removal }}">
   <Properties object_Model="objects/environment/props/neodeco/smokingset/smokingset_a_ashtray.cgf"/>
  </EntityPrototype>
 </EntityPrototypeLibrary>

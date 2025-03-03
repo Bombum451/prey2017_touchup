@@ -1,7 +1,7 @@
 
 <ArkEmails>
  <Emails>
-  <ArkEmail ID="11824555372641671166" From="6732635291182868501" ch:applyIf="{{ Email_Formatting_Fix }}">
+  <ArkEmail ID="11824555372641671166" From="6732635291182868501" ch:applyIf="{{ Inconsistency.Email_Formatting_Fix }}">
 	<To ch:action="replaceChildren">
     <Recipient value="11824555372641671002"/>
 	</To>
