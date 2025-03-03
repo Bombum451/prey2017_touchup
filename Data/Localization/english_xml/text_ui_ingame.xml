@@ -175,6 +175,12 @@
     <Cell><Data ss:Type="String">Launch Mooncrash</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
+  <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">tu_puton</Data></Cell>
+    <Cell><Data ss:Type="String">Put On</Data></Cell>
+    <Cell><Data ss:Type="String">Put On</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+  </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
