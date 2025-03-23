@@ -154,7 +154,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129891630411</Data></Cell>
     <Cell><Data ss:Type="String">Find the Drive</Data></Cell>
-    <Cell><Data ss:Type="String">Find the Drive - Look for Pulsating Green Light</Data></Cell>
+    <Cell><Data ss:Type="String">Find the Drive</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
