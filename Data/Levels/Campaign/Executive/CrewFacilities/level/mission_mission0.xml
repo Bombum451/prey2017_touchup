@@ -6,5 +6,20 @@
    <Properties2 bUsedAsDynamicObstacle="1"/>
    <RenderProxy />
   </Entity>
+  
+  <Entity Name="CookQuestFGE" EntityClass="FlowgraphEntity" EntityGuid="4918DA4E7F82BFAB">
+   <FlowGraph>
+    <Nodes>
+     <Node Id="185" Class="Inventory:ItemAdd" pos="0,0,0">
+      <Inputs entityId="0" archetype="ArkPickups.MissionItems.CookingAwardRecyclable" quantity="1" playfanfare="0"/>
+     </Node>
+    </Nodes>
+    <Edges>
+     <Edge nodeIn="185" nodeOut="184" portIn="add" portOut="out" enabled="1"/>
+	 <Edge nodeIn="185" nodeOut="16" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
  </Objects>
 </Mission>
