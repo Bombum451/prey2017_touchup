@@ -37,6 +37,7 @@
 	<Immersion_Level_Edits type="bool" display_name="Minor immersion level edits">true</Immersion_Level_Edits>
 	<CrewQ_VoidCover type="bool" display_name="Crew Quarters Executive Suites hull breach has a tape drive to obscure the void">true</CrewQ_VoidCover>
 	<Displayed_Names type="bool" display_name="Adds names to objects when hovered over">true</Displayed_Names>
+	<Danielle_NotOnRoster type="bool" display_name="Danielle Sho not longer on the roster, like January says">true</Danielle_NotOnRoster>
 </Inconsistency>
 			
 <QoL type="xmlnode">

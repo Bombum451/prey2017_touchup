@@ -6,6 +6,7 @@
    <Properties2 bUsedAsDynamicObstacle="1"/>
    <RenderProxy />
   </Entity>
+  <Entity Name="Data.TrackingChip1" EntityGuid="41B64FFEDE62452A" ch:action="delete" ch:applyIf="{{ Inconsistency.Danielle_NotOnRoster }}"/>
   
   <Entity Name="CookQuestFGE" EntityClass="FlowgraphEntity" EntityGuid="4918DA4E7F82BFAB" ch:applyIf="{{ QoL.Persistent_Award }}">
    <FlowGraph>
