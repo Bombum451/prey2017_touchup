@@ -7,5 +7,8 @@
   <Entity Name="Containers/Medium.Cabinet_Lab8" EntityGuid="4BB5FBFE32A84AFE" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
+  
+  <Entity Name="Books.ArkBk_CQ_EvacuationPart1" Pos="153.3606,145.0882,695.14386" Rotate="0.91245276,-0.098338589,-0.073922753,-0.39024949" EntityGuid="4B9F81AE479263F1" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
+  
   </Objects>
   </Mission>
