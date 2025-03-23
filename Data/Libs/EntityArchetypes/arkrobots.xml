@@ -2,4 +2,12 @@
  <EntityPrototype Name="Operators\Named.IgweBot" Id="{0211CA5D-DCF7-4AEE-8DC8-FA7693C1AF34}" ArchetypeId="844024417311500523" ch:applyIf="{{ Inconsistency.MedOp_Endgame_Igwe }}">
   <Properties loottable_ContainerLootTable="NPC_Operator_Medical" fileModel="objects/characters/robots/operatormedic/operatormedic.cdf" scanningDisplayName="@npc_medoperator"/>
  </EntityPrototype>
+ 
+ <EntityPrototype Name="Operators\Named.Skillet" Id="{F48F97A8-9B0C-4737-84F7-B4D03550E79B}" ch:applyIf="{{ Inconsistency.Skillet_RepairFix }}">
+  <Properties>
+   <Repair nSparePartsRequired="3"/>
+  </Properties>
+ </EntityPrototype>
+
+ 
 </EntityPrototypeLibrary>

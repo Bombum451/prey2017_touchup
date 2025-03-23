@@ -40,6 +40,7 @@
 	<Displayed_Names type="bool" display_name="Adds names to objects when hovered over">true</Displayed_Names>
 	<Danielle_NotOnRoster type="bool" display_name="Danielle Sho not longer on the roster, like January says">true</Danielle_NotOnRoster>
 	<Magazine_Fixes type="bool" display_name="Magazine logic improvements">true</Magazine_Fixes>
+	<Skillet_RepairFix type="bool" display_name="Repairing Skillet isn't free">true</Skillet_RepairFix>
 </Inconsistency>
 			
 <QoL type="xmlnode">
