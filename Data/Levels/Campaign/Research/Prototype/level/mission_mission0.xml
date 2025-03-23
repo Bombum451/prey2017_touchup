@@ -17,6 +17,10 @@
    <RenderProxy />
   </Entity>
   
+  <Entity Name="InteractiveScreens.SecurityStation1" EntityGuid="405010344B3A7D1A" ch:applyIf="{{ Bugs.Workstation_Examine_Fixes }}">
+   <Properties2 bMovePlayerOnExamine="0"/>
+  </Entity>
+  
   <Entity Name="Magazines_Readable.Magazine_Global2" EntityGuid="4CACB25D4897B09B" ch:applyIf="{{ Inconsistency.Magazine_Fixes }}">
    <Properties2 note_OnRead="4349723564947499642"/>
   </Entity>

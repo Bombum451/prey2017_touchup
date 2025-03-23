@@ -9,6 +9,7 @@
 	<Fixed_Vodka_Icon type="bool" display_name="Fixed vodka icon">true</Fixed_Vodka_Icon>
 	<SuitChipsets_Use_ProperGraphic type="bool" display_name="Proper suit chipset icon">true</SuitChipsets_Use_ProperGraphic>
 	<Fix_Psychotronics_LG type="bool" display_name="Fix Psychotronics LG button being visible through walls">true</Fix_Psychotronics_LG>
+	<Workstation_Examine_Fixes type="bool" display_name="Prevent teleportation with workstation examinations">true</Workstation_Examine_Fixes>
 	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
 </Bugs>
 	
