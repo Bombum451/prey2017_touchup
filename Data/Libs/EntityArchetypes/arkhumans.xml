@@ -44,7 +44,10 @@
    <ArkHumanArmed itemarchetype_LootWeapon="ArkPickups.Weapons.Pistol"/>
   </Properties>
  </EntityPrototype>
-<EntityPrototype Name="Main.Commander Dahl_Unarmed" Id="{9ACE5841-281D-4493-BA20-1DD9DEA2F076}" ArchetypeId="10739735956144685827" ch:applyIf="{{ Fix_Unarmed_Dahl }}">
+ <EntityPrototype Name="Security.Tamiko Hayashi" Id="{10FBB91A-CECC-4A09-89E8-DEBBFAF305C5}" ArchetypeId="10739735956144685639" ch:applyIf="{{ Bugs.Fix_Armed_Humans }}">
+  <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Main.Commander Dahl_Unarmed" Id="{9ACE5841-281D-4493-BA20-1DD9DEA2F076}" ArchetypeId="10739735956144685827" ch:applyIf="{{ Bugs.Fix_Armed_Humans }}">
   <Properties loottable_ContainerLootTable="NPC_Human_Security_Unarmed"/>
  </EntityPrototype>
 </EntityPrototypeLibrary>
