@@ -12,7 +12,7 @@
   <Entity Name="ArkNpcSpawner_VoltaicPhantom1" EntityGuid="4017113E568B030D" ch:applyIf="{{ Bugs.Inconsistency.Remmer_Fix }}">
    <Properties sNpcArchetype="ArkNpcs.Phantoms.ThermalPhantom"/>
   </Entity>
-  <Entity Name="Crafting.RecyclerJunk.WireSpool10" Pos="157.90355,269.14612,57.92" EntityGuid="457C37BAE63A8BDC"/>
-  <Entity Name="Crafting.RecyclerJunk.WireSpool7" Pos="157.48926,269.14899,57.92" EntityGuid="410A5CF2C886B1D3"/>
+  <Entity Name="Crafting.RecyclerJunk.WireSpool10" Pos="157.90355,269.14612,57.92" EntityGuid="457C37BAE63A8BDC" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
+  <Entity Name="Crafting.RecyclerJunk.WireSpool7" Pos="157.48926,269.14899,57.92" EntityGuid="410A5CF2C886B1D3" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
 </Objects>
 </Mission>

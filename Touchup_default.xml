@@ -32,6 +32,11 @@
 	<Psi_Aptitude_NightmareHeat_Removal type="bool" display_name="Psionic Aptitude neuromods can't attract the Nightmare">true</Psi_Aptitude_NightmareHeat_Removal>
 	<WaterCooler_PsychicWater_Removal type="bool" display_name="Psychic Water doesn't apply to water coolers">true</WaterCooler_PsychicWater_Removal>
 	<Faux_Cigar_Removal type="bool" display_name="Remove real-looking but non-interactable cigar decals">true</Faux_Cigar_Removal>
+	<Elevator_Phantom_Gibs type="bool" display_name="Elevator phantom doesn't leave behind gibs">true</Elevator_Phantom_Gibs>
+	<Morgan_CrewQ_Emails type="bool" display_name="Morgan's Crew Quarters workstation has emails">true</Morgan_CrewQ_Emails>
+	<Immersion_Level_Edits type="bool" display_name="Minor immersion level edits">true</DeepStorage_Restroom>
+	<CrewQ_VoidCover type="bool" display_name="Crew Quarters Executive Suites hull breach has a tape drive to obscure the void">true</CrewQ_VoidCover>
+	<Displayed_Names type="bool" display_name="Adds names to objects when hovered over">true</Displayed_Names>
 </Inconsistency>
 			
 <QoL type="xmlnode">
@@ -45,6 +50,10 @@
 	<NonEssential_StoryItem_Recycling type="bool" display_name="Unusable story items can be recycled">true</NonEssential_StoryItem_Recycling>
 	<Recycling_Immune_Chipsets type="bool" display_name="Chipsets cannot be destroyed with Recycler Charges">true</Recycling_Immune_Chipsets>
 	<Mirrored_Mikhaila_Ring type="bool" display_name="Mirror the icon of Mikhaila's father's ring for variety">true</Mirrored_Mikhaila_Ring>
+	<ZeroG_Objective_Improvements type="bool" display_name="Make Zero-G objectives less cryptic without markers">true</ZeroG_Objective_Improvements>
+	<Persistent_Award type="bool" display_name="Cooking Award doesn't disappear when you give it away">true</Persistent_Award>
+	<DeepStorage_LockClear type="bool" display_name="Deep Storage voice lock tells you to hold still">true</DeepStorage_LockClear>
+	<ImportantInteractText type="bool" display_name="Unique interaction text for important things">true</ImportantInteractText>
 </QoL>
 	
 </TouchUp>

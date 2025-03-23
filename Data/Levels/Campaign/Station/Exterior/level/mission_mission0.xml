@@ -1,7 +1,7 @@
 <Mission>
 <Objects>
-  <Entity Name="Weapons.Instalaser1" Pos="722.78998,719.16998,859.38" EntityClass="ArkWeaponInstalaser" EntityGuid="459C0B177607B42C"/>
-  <Entity Name="ArkNpcSpawner_MarianaArias1" Pos="722.22998,719.5,859.19" EntityClass="ArkNpcSpawner" EntityGuid="4E45C77F9DCDECF4">
+  <Entity Name="Weapons.Instalaser1" Pos="722.78998,719.16998,859.38" EntityClass="ArkWeaponInstalaser" EntityGuid="459C0B177607B42C" ch:applyIf="{{ QoL.ZeroG_Objective_Improvements }}"/>
+  <Entity Name="ArkNpcSpawner_MarianaArias1" Pos="722.22998,719.5,859.19" EntityClass="ArkNpcSpawner" EntityGuid="4E45C77F9DCDECF4" ch:applyIf="{{ QoL.ZeroG_Objective_Improvements }}">
    <PhysicsState pos="722.22998,719.5,859.19"/>
   </Entity>
 </Objects>

@@ -1,7 +1,7 @@
 
 <ArkWorkstations>
  <Workstations>
-  <ArkWorkstation ID="844024417285411024" Name="CQ_MorgansQuarters" User="1713490239389131093">
+  <ArkWorkstation ID="844024417285411024" Name="CQ_MorgansQuarters" User="1713490239389131093" ch:applyIf="{{ Inconsistency.Morgan_CrewQ_Emails }}">
    <Emails>
     <Email value="1713490239429913080" ch:index="1"/>
     <Email value="13680621263404431075" ch:index="2"/>

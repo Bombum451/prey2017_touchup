@@ -1,5 +1,5 @@
 <EntityPrototypeLibrary>
- <EntityPrototype Name="UniformUsePrompt" Id="{301C3EFD-519E-47F8-95D0-336159B3F607}" ArchetypeId="12889009725038839112">
+ <EntityPrototype Name="UniformUsePrompt" Id="{301C3EFD-519E-47F8-95D0-336159B3F607}" ArchetypeId="12889009725038839112" ch:applyIf="{{ QoL.ImportantInteractText }}">
   <Properties textUseMessage="@tu_puton"/>
  </EntityPrototype>
 </EntityPrototypeLibrary>

@@ -220,7 +220,7 @@
      <Data ss:Type="String">LOCKED</Data>
     </Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ch:applyIf="{{ QoL.ZeroG_Objective_Improvements }}">
     <Cell>
      <Data ss:Type="String">loc_15373294129891630520</Data>
     </Cell>

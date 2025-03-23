@@ -9,7 +9,7 @@
   <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="42A7383DC83E6C8F" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="DataCoreDoorFGE" EntityClass="FlowgraphEntity" EntityGuid="4BFAD5343DC9228D">
+  <Entity Name="DataCoreDoorFGE" EntityClass="FlowgraphEntity" EntityGuid="4BFAD5343DC9228D" ch:applyIf="{{ QoL.DeepStorage_LockClear }}">
    <FlowGraph>
     <Nodes>
      <Node Id="1000" Class="String:SetString" pos="23720,10350,0">
