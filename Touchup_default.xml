@@ -1,7 +1,6 @@
 <TouchUp>
 
 <Bugs type="xmlnode">
-	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
 	<Fix_Armed_Humans type="bool" display_name="Fix armed NPCs">true</Fix_Armed_Humans>
 	<Crew_Fixes type="bool" display_name="Crew presence fixes">true</Crew_Fixes>
 	<No_MedOp_O2 type="bool" display_name="Medical Operators don't wrongly restore oxygen">true</No_MedOp_O2>
@@ -11,6 +10,7 @@
 	<Fix_Psychotronics_LG type="bool" display_name="Fix Psychotronics LG button being visible through walls">true</Fix_Psychotronics_LG>
 	<Workstation_Examine_Fixes type="bool" display_name="Prevent teleportation with workstation examinations">true</Workstation_Examine_Fixes>
 	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
+	<Pos_Drunk_Fix type="bool" display_name="Icon for positive drunkenness no longer jaggy">true</Pos_Drunk_Fix>
 </Bugs>
 	
 <Inconsistency type="xmlnode">
@@ -37,14 +37,17 @@
 	<Morgan_CrewQ_Emails type="bool" display_name="Morgan's Crew Quarters workstation has emails">true</Morgan_CrewQ_Emails>
 	<Immersion_Level_Edits type="bool" display_name="Minor immersion level edits">true</Immersion_Level_Edits>
 	<CrewQ_VoidCover type="bool" display_name="Crew Quarters Executive Suites hull breach has a tape drive to obscure the void">true</CrewQ_VoidCover>
-	<Displayed_Names type="bool" display_name="Adds names to objects when hovered over">true</Displayed_Names>
+	<Displayed_Names type="bool" display_name="Adds names to objects when hovered over and fixes interaction texts">true</Displayed_Names>
 	<Danielle_NotOnRoster type="bool" display_name="Danielle Sho not longer on the roster, like January says">true</Danielle_NotOnRoster>
 	<Magazine_Fixes type="bool" display_name="Magazine logic improvements">true</Magazine_Fixes>
 	<Skillet_RepairFix type="bool" display_name="Repairing Skillet isn't free">true</Skillet_RepairFix>
+	<InGameMapImprovements type="bool" display_name="Ingame map screen improvements">true</InGameMapImprovements>
+	<FoodUIFix type="bool" display_name="All psi-restoring food items display restored psi in the UI">true</FoodUIFix>
+	<PopStar_Restore_Psi type="bool" display_name="PopStar restores psi, like all the other drinks">true</PopStar_Restore_Psi>
 </Inconsistency>
 			
 <QoL type="xmlnode">
-	<Hacking_TimeChanges type="bool" display_name="Easier Hacking II timer" description="Incompatible with mods that change hacking.">true</Hacking_TimeChanges>
+	<Hacking_TimeChanges type="bool" display_name="Hacking II no longer uniquely difficult">true</Hacking_TimeChanges>
 	<Horizontal_Psi_Hypos type="bool" display_name="Horizontal Psi Hypos" description="One cell wide horizontally and two cells tall vertically.">true</Horizontal_Psi_Hypos>
 	<GUTS_ZeroG_Turrets_Removal type="bool" display_name="Remove Unusable Turrets in G.U.T.S. Zero-G Cargo Tunnel">true</GUTS_ZeroG_Turrets_Removal>
 	<Psychotronics_Remove_Resistor type="bool" display_name="Remove useless grounding resistor in Psychotronics">true</Psychotronics_Remove_Resistor>

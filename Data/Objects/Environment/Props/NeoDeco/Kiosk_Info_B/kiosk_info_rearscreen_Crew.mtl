@@ -1,0 +1,17 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="collision_Kiosk_Info_A_RearScreen_Screen_mat_Glass_Unbreakable" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_Electrical" MatTemplate="" Diffuse="1,0,0" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures/>
+  </Material>
+  <Material Name="Kiosk_Info_A_RearScreen_Screen_Mat" MtlFlags="526464" Shader="Monitor" GenMask="11" StringGenMask="" SurfaceType="mat_Electrical" MatTemplate="" Diffuse="1,1,1" Specular="0.017641956,0.017641956,0.017641956" Emittance="1,1,1,4" Opacity="1" Shininess="255" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/props/neodeco/kiosk_info_b/kiosk_info_a_crew_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/props/tech/console_screens_a/glass_screen_ddna.tif"/>
+    <Texture Map="Emittance" File="textures/defaults/white.dds"/>
+   </Textures>
+   <PublicParams GrainAmount="2.358" DeformAmount="0" DeformTillingY="0" EmittanceMapGamma="1" GrainTilling="8.54" BendScale="0.2" RandomSalt="0" ChromaGlitchWidth="0.1" ResolutionX="384" ResolutionY="256" InterlacingTilling="1" GlitchEnabled="0" Contrast="1" Saturation="1" DeformTillingX="0" GrainSaturation="0" FresnelScale="1" InterlacingAmount="0.029999999" VSyncFreq="1" PixelVisibility="0.56800002" FresnelBias="1" BlockGlitchReduction="1" ChromaGlitchSpeed="30" ChromaShift="0.050000001" BlockGlitchSpeed="24" ViewAngle="180" DeformFreq="0" BlockSize="32"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

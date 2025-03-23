@@ -1,7 +1,7 @@
 
 <ArkTraumas>
  <Traumas>
-  <ArkTrauma ID="12348086275196485446" Name="DrunkGood">
+  <ArkTrauma ID="12348086275196485446" Name="DrunkGood" ch:applyIf="{{ Bugs.Pos_Drunk_Fix }}">
    <Phases>
     <ArkTraumaPhase HudIcon="rested" ch:index="1000"/>
    </Phases>

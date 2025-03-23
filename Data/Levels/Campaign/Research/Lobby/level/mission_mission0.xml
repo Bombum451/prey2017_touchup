@@ -9,5 +9,7 @@
   
   <Entity Name="Magazines.ArkMag_ArtOnTalos1" EntityGuid="4BA8FF69EFF94144" ch:action="delete" ch:applyIf="{{ Inconsistency.Magazine_Fixes }}"/>
   
+  <Entity Name="Screens\Misc.Kiosk_Info_Rearscreen_Screen1" Material="Objects/Environment/Props/NeoDeco/Kiosk_Info_B/kiosk_info_rearscreen_lobby" EntityGuid="47724FCDE6433237" ch:applyIf="{{ Inconsistency.InGameMapImprovements }}"/>
+  
 </Objects>
 </Mission>

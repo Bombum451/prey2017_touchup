@@ -1,9 +1,6 @@
 
 <ArkHacking>
  <DifficultyLevels ch:applyIf="{{ QoL.Hacking_TimeChanges }}">
-  <DifficultyLevel ch:index="1000" minTravelDistance="1.0" maxTravelDistance="1.5" timePerPuzzle="12.0" chainLength="1" pathObstacles="2" pathStunObstacles="2" otherStunObstacles="4"/>
-  <DifficultyLevel ch:index="2000" minTravelDistance="1.0" maxTravelDistance="1.5" timePerPuzzle="20.0" chainLength="1" pathObstacles="2" pathStunObstacles="2" otherStunObstacles="4"/>
-  <DifficultyLevel ch:index="3000" minTravelDistance="1.0" maxTravelDistance="1.5" timePerPuzzle="25.0" chainLength="2" pathObstacles="2" pathStunObstacles="2" otherStunObstacles="4"/>
-  <DifficultyLevel ch:index="4000" minTravelDistance="1.0" maxTravelDistance="1.5" timePerPuzzle="30.0" chainLength="2" pathObstacles="2" pathStunObstacles="2" otherStunObstacles="4"/>
+  <DifficultyLevel ch:index="2000" timePerPuzzle="20.0"/>
  </DifficultyLevels>
 </ArkHacking>

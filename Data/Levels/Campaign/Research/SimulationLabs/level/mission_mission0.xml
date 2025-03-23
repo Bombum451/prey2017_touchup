@@ -3,8 +3,7 @@
   <Entity Name="ArkNpcSpawner_NatashaNikova1" EntityGuid="4866A4BDDA172DED" ch:applyIf="{{ Bugs.Crew_Fixes }}">
    <Properties sNpcArchetype="ArkHumans.Scientists.MarcoSimmons"/>
   </Entity>
-  <Entity Name="Crafting.RecyclerJunk.BiohazardWaste2" Pos="724.30035,1620.26392,23.8956" EntityGuid="421D40A8DE5C1336" ch:applyIf="{{ QoL.NMDiv_Fix_UnreachableJunk }}">
-  </Entity>
+  <Entity Name="Crafting.RecyclerJunk.BiohazardWaste2" Pos="724.30035,1620.26392,23.8956" EntityGuid="421D40A8DE5C1336" ch:applyIf="{{ QoL.NMDiv_Fix_UnreachableJunk }}"/>
   <Entity Name="Containers/Medium.Cabinet_Lab8" EntityGuid="4B7A43E5CAE85D5F" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
@@ -15,6 +14,9 @@
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
    <RenderProxy />
   </Entity>
-  <Entity Name="Screens\Misc.Kiosk_Info_Short_Screen2" Material="Objects/Environment/Props/NeoDeco/Kiosk_Info_A/kiosk_info_rearscreen_SimFull_2" EntityGuid="4E3A18B85D0E7302" />
+  
+  <Entity Name="Screens\Misc.Kiosk_Info_Short_Screen2" Material="Objects/Environment/Props/NeoDeco/Kiosk_Info_B/kiosk_info_rearscreen_SimFull_2" EntityGuid="4E3A18B85D0E7302" ch:applyIf="{{ Inconsistency.InGameMapImprovements }}"/>
+  <Entity Name="Screens\Misc.Kiosk_Info_Short_Screen1" Material="Objects/Environment/Props/NeoDeco/Kiosk_Info_B/kiosk_info_rearscreen_SimFull" EntityGuid="464F85F7D2E4A55F" ch:applyIf="{{ Inconsistency.InGameMapImprovements }}"/>
+  
   </Objects>
 </Mission>
