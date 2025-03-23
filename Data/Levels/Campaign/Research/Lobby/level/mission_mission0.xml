@@ -3,5 +3,8 @@
   <Entity Name="WorkstationMorganKarl" EntityGuid="4118BE54823ACA5E" ch:applyIf="{{ Inconsistency.MorganWorkstation_Lobby_LVL4Hack }}">
    <Properties2 ability_HackRequirementOverride="3149325216928600154"/>
   </Entity>
+  <Entity Name="ArkNpcSpawner_BasePhantom5" EntityClass="ArkNpcSpawner" EntityGuid="4460897022ED4828">
+   <Properties sNpcArchetype="ArkNpcs.Phantoms.Elevator"/>
+  </Entity>
 </Objects>
 </Mission>
