@@ -9,6 +9,7 @@
 	<Fixed_Vodka_Icon type="bool" display_name="Fixed vodka icon">true</Fixed_Vodka_Icon>
 	<SuitChipsets_Use_ProperGraphic type="bool" display_name="Proper suit chipset icon">true</SuitChipsets_Use_ProperGraphic>
 	<Fix_Psychotronics_LG type="bool" display_name="Fix Psychotronics LG button being visible through walls">true</Fix_Psychotronics_LG>
+	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
 </Bugs>
 	
 <Inconsistency type="xmlnode">
@@ -18,7 +19,6 @@
 	<FocusNotCheap type="bool" display_name="Combat Focus unaffected by chipsets meant for Typhon powers">true</FocusNotCheap>
 	<StealthMimic type="bool" display_name="Mimic Matter now actually somewhat stealthy as it's described">true</StealthMimic>
 	<Mass_Adjust type="bool" display_name="Adjust movable object masses for more realistic throwing">true</Mass_Adjust>
-	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
 	<Fixed_Hardware_Foot type="bool" display_name="Fixed Hardware Labs recycled toe">true</Fixed_Hardware_Foot>
 	<Fixed_Lab_Cabinets type="bool" display_name="Fixed empty lab cabinets">true</Fixed_Lab_Cabinets>
 	<ZeroG_Recoil type="bool" display_name="Weapons push in Zero-G">true</ZeroG_Recoil>
