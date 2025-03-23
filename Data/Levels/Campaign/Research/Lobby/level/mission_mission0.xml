@@ -6,5 +6,8 @@
   <Entity Name="ArkNpcSpawner_BasePhantom5" EntityClass="ArkNpcSpawner" EntityGuid="4460897022ED4828" ch:applyIf="{{ Inconsistency.Elevator_Phantom_Gibs }}">
    <Properties sNpcArchetype="ArkNpcs.Phantoms.Elevator"/>
   </Entity>
+  
+  <Entity Name="Magazines.ArkMag_ArtOnTalos1" EntityGuid="4BA8FF69EFF94144" ch:action="delete" ch:applyIf="{{ Inconsistency.Magazine_Fixes }}"/>
+  
 </Objects>
 </Mission>

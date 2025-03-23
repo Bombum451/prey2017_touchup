@@ -16,5 +16,13 @@
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Large"/>
    <RenderProxy />
   </Entity>
+  
+  <Entity Name="Magazines_Readable.Magazine_Global2" EntityGuid="4CACB25D4897B09B" ch:applyIf="{{ Inconsistency.Magazine_Fixes }}">
+   <Properties2 note_OnRead="4349723564947499642"/>
+  </Entity>
+  <Entity Name="Magazines_Readable.Magazine_RisingStars2" EntityGuid="4061EC70BE7C14E6" ch:applyIf="{{ Inconsistency.Magazine_Fixes }}">
+   <Properties2 note_OnRead="4349723564947499639"/>
+  </Entity>
+  
 </Objects>
 </Mission>

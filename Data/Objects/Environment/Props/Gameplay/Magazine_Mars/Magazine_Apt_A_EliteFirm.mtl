@@ -1,0 +1,17 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="collision_Magazine_Apt_A1" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_Paper" MatTemplate="" Diffuse="1,0,0" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures/>
+  </Material>
+  <Material Name="Magazine_Apt_A_EliteFirm_mat" MtlFlags="524416" Shader="Illum" GenMask="8005000000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Paper" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/props/gameplay/magazine_mars/magazine_readable_a_elitefirm_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/props/gameplay/magazine_readable_a/magazine_readable_a_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/props/gameplay/magazine_readable_a/magazine_readable_a_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

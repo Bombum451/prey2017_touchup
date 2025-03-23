@@ -31,4 +31,9 @@
  <EntityPrototype Name="Bathroom.Faucet_ColdWar" Id="{AE7C7D1F-D02B-4C69-AF4A-4F9F521C72A5}" ArchetypeId="10739735956144680728" >
   <Properties textUseMessage="@ui_activate"/>
  </EntityPrototype>
+ 
+ <EntityPrototype Name="Magazines_Readable.Magazine_TheDeterminist" Id="{6F7217AC-D84A-47A4-94E3-DE43BC2CD5B5}" ch:applyIf="{{ Inconsistency.Magazine_Fixes }}">
+  <Properties object_Model="objects/environment/props/gameplay/magazine_mars/magazine_readable_a_elitefirm.cgf"/>
+ </EntityPrototype>
+ 
 </EntityPrototypeLibrary>
