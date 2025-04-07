@@ -55,7 +55,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129891630236</Data></Cell>
     <Cell><Data ss:Type="String">A stranger named January contacted me and urged me to break out of my apartment. </Data></Cell>
-    <Cell><Data ss:Type="String">A stranger named January contacted me and urged me to break out of my apartment </Data></Cell>
+    <Cell><Data ss:Type="String">A stranger named January contacted me and urged me to break out of my apartment.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
