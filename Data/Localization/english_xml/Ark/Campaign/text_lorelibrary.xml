@@ -47,10 +47,17 @@
     <Cell ss:StyleID="s68"><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ch:applyIf="{{ QoL.CorruptedDeviceScan }}">>
     <Cell><Data ss:Type="String">loc_13680621263411781636</Data></Cell>
     <Cell><Data ss:Type="String">&lt;b&gt;MORGAN'S NOTES:&lt;/b&gt;&lt;br&gt;A few of the Typhon have demonstrated an ability to interfere with technology, but the Technopath can take over a system entirely. I've found screens surrounded by dark, psychoetheric matter. Displays distorted. Programming incomprehensible. Destroying the Technopath should clear it up. With some systems, like Operators, the changes appear to be permanent.</Data></Cell>
-    <Cell><Data ss:Type="String">&lt;b&gt;MORGAN'S NOTES:&lt;/b&gt;&lt;br&gt;A few of the Typhon have demonstrated an ability to interfere with technology, but the Technopath can take over a system entirely. I've found screens surrounded by dark, psychoetheric matter. Displays distorted. Programming incomprehensible. Destroying the Technopath should clear it up. With some systems, like Operators, the changes appear to be permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;b&gt;MORGAN'S NOTES:&lt;/b&gt;&lt;br&gt;A few of the Typhon have demonstrated an ability to interfere with technology, but the Technopath can take over a system entirely. I've found screens surrounded by dark, psychoetheric matter. Displays distorted. Programming incomprehensible. It's remarkable. The tech is completely hijacked, hardware and software. All the way down to the machine code. The Typhon is intuitively sabotaging and repurposing on the fly, remotely. Destroying the Technopath should clear it up. With some systems, like Operators, the changes appear to be permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ch:applyIf="{{ QoL.CorruptedDeviceScan }}">
+    <Cell><Data ss:Type="String">loc_13856881013228071083</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;b&gt;MORGAN'S NOTES:&lt;/b&gt;&lt;br&gt;A few of the Typhon have demonstrated an ability to interfere with technology, but the Technopath can take over a system entirely. I've found screens surrounded by a dark, psychoetheric matter. Displays distorted. Programming incomprehensible. Destroying the Technopath should clear it up. With some systems, like Operators, the changes appear to be permanent.&lt;br&gt;&lt;br&gt;Found more. Looked a little closer - it's remarkable. The tech is completely hijacked, hardware and software. All the way down to the machine code. The Typhon is intuitively sabotaging and repurposing on the fly, remotely. </Data></Cell>
+    <Cell><Data ss:Type="String">&lt;b&gt;MORGAN'S NOTES:&lt;/b&gt;&lt;br&gt;A few of the Typhon have demonstrated an ability to interfere with technology, but the Technopath can take over a system entirely. I've found screens surrounded by dark, psychoetheric matter. Displays distorted. Programming incomprehensible. It's remarkable. The tech is completely hijacked, hardware and software. All the way down to the machine code. The Typhon is intuitively sabotaging and repurposing on the fly, remotely. Destroying the Technopath should clear it up. With some systems, like Operators, the changes appear to be permanent.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>

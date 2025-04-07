@@ -61,6 +61,7 @@
 	<Persistent_Award type="bool" display_name="Cooking Award doesn't disappear when you give it away">true</Persistent_Award>
 	<DeepStorage_LockClear type="bool" display_name="Deep Storage voice lock tells you to hold still">true</DeepStorage_LockClear>
 	<ImportantInteractText type="bool" display_name="Unique interaction text for important things">true</ImportantInteractText>
+	<CorruptedDeviceScan type="bool" display_name="Makes the corrupted device scanning more logical">true</CorruptedDeviceScan>
 </QoL>
 	
 </TouchUp>

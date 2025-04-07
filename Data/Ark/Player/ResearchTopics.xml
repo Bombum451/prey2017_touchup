@@ -1,0 +1,6 @@
+
+<ArkResearchTopics>
+ <Topics>
+  <ArkResearchTopic id="13856881013228065214" name="CorruptedDeviceNode" loreScansRequired="1" ch:applyIf="{{ QoL.CorruptedDeviceScan }}"/>
+ </Topics>
+</ArkResearchTopics>
