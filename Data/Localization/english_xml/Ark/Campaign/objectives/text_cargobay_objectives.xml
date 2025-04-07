@@ -74,21 +74,21 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129891630106</Data></Cell>
     <Cell><Data ss:Type="String">Doctor Dayo Igwe appears to be trapped inside a shipping container outside the Cargo Bay. If I can get the number of his container I can use the Docking Terminal to return him to safety. I'll have to do it before his oxygen runs out.</Data></Cell>
-    <Cell><Data ss:Type="String">Doctor Dayo Igwe appears to be trapped inside a shipping container outside the Cargo Bay. If I can get the number of his container I can use the Docking Terminal to return him to safety. I'll have to do it before his oxygen runs out.</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Dayo Igwe appears to be trapped inside a shipping container outside the Cargo Bay. If I can get the number of his container, I can use the Docking Terminal to return him to safety. I'll have to do it before his oxygen runs out.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129891630107</Data></Cell>
     <Cell><Data ss:Type="String">Doctor Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I found a way to get him back into the relative safety of Talos I. Now I can meet him inside.</Data></Cell>
-    <Cell><Data ss:Type="String">Doctor Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I found a way to get him back into the relative safety of Talos I. Now I can meet him inside.</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I found a way to get him back into the relative safety of Talos I. Now I can meet him inside.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129891630108</Data></Cell>
     <Cell><Data ss:Type="String">Doctor Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I didn't get him inside Talos I in time to save him.</Data></Cell>
-    <Cell><Data ss:Type="String">Doctor Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I didn't get him inside Talos I in time to save him.</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I didn't get him inside Talos I in time to save him.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
@@ -175,7 +175,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_844024417315026438</Data></Cell>
     <Cell><Data ss:Type="String">Doctor Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I found a way to get him back into the relative safety of Talos I. </Data></Cell>
-    <Cell><Data ss:Type="String">Doctor Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I found a way to get him back into the relative safety of Talos I. </Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Dayo Igwe was trapped inside a shipping container outside the Cargo Bay. I found a way to get him back into the relative safety of Talos I. </Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
