@@ -347,7 +347,7 @@
           <Data ss:Type="String">Did we get'em all?</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Did we get'em all?</Data>
+          <Data ss:Type="String">Did we get 'em all?</Data>
         </Cell>
       </Row>
       <Row>
@@ -809,7 +809,7 @@
           <Data ss:Type="String">How are we supposed to fight that!</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">How are we supposed to fight that!</Data>
+          <Data ss:Type="String">How are we supposed to fight that?!</Data>
         </Cell>
       </Row>
       <Row>
@@ -916,10 +916,10 @@
           <Data ss:Type="String">BDDB548E56CA7FB7</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">I'm out of here as soon as my legs stop shaking. </Data>
+          <Data ss:Type="String">I'm out of here as soon as my legs stop shaking.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">I'm out of here as soon as my legs stop shaking. </Data>
+          <Data ss:Type="String">I'm out of here as soon as my legs stop shaking.</Data>
         </Cell>
       </Row>
       <Row>
@@ -971,10 +971,10 @@
           <Data ss:Type="String">BDDB548E56CA8190</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">I just want to get home. Feel real grass under my feet. </Data>
+          <Data ss:Type="String">I just want to get home. Feel real grass under my feet.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">I just want to get home. Feel real grass under my feet. </Data>
+          <Data ss:Type="String">I just want to get home. Feel real grass under my feet.</Data>
         </Cell>
       </Row>
       <Row>

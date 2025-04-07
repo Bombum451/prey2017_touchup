@@ -39,7 +39,7 @@
           <Data ss:Type="String">Get away... get away getaway getaway!</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Get away... get away getaway getaway!</Data>
+          <Data ss:Type="String">Get away... get away get away get away!</Data>
         </Cell>
       </Row>
       <Row>
@@ -127,7 +127,7 @@
           <Data ss:Type="String">Ah God, what's wrong with me.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Ah God, what's wrong with me.</Data>
+          <Data ss:Type="String">God, what's wrong with me?</Data>
         </Cell>
       </Row>
       <Row>
@@ -135,10 +135,10 @@
           <Data ss:Type="String">BDDB548E55F1D9F2</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Shut up. Shuttup shuttup shuttup! </Data>
+          <Data ss:Type="String">Shut up. Shuttup shuttup shuttup!</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Shut up. Shuttup shuttup shuttup! </Data>
+          <Data ss:Type="String">Shut up. Shut up shut up shut up!</Data>
         </Cell>
       </Row>
       <Row>
@@ -146,10 +146,10 @@
           <Data ss:Type="String">BDDB548E55F1DB7D</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Juss... leave me alone. </Data>
+          <Data ss:Type="String">Juss... leave me alone.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Juss... leave me alone. </Data>
+          <Data ss:Type="String">Just... leave me alone.</Data>
         </Cell>
       </Row>
       <Row>
@@ -564,10 +564,10 @@
           <Data ss:Type="String">BDDB548E56CA4304</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">I don't believe in the devil. </Data>
+          <Data ss:Type="String">I don't believe in the devil.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">I don't believe in the devil. </Data>
+          <Data ss:Type="String">I don't believe in the devil.</Data>
         </Cell>
       </Row>
       <Row>
