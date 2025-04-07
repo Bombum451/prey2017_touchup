@@ -80,6 +80,9 @@
  <EntityPrototype Name="MissionItems.MikhailaFathersRing" Id="{9D19A259-30CF-42C0-8451-0E196E2A2248}" ArchetypeId="10641886185862789262" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
+ <EntityPrototype Name="MissionItems.WaterPressureRegulator" Id="{8870821C-1D27-443B-B8C2-378C10575841}" ArchetypeId="10739735956144611945" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+    <Properties bIsPlotCritical="0"/>
+  </EntityPrototype>
    <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" Id="{B9FE0989-6A3E-4CE9-9C4C-86BE46AF4C8B}" ArchetypeId="10739735956144611955" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
