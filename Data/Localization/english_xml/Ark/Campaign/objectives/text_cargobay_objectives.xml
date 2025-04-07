@@ -119,7 +119,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129891630117</Data></Cell>
     <Cell><Data ss:Type="String">The Shipping Container holding Dr. Igwe is #2312. I can enter that number at the Docking Terminal to return him to safety in Talos.</Data></Cell>
-    <Cell><Data ss:Type="String">The Shipping Container holding Dr. Igwe is #2312. I can enter that number at the Docking Terminal to return him to safety in Talos.</Data></Cell>
+    <Cell><Data ss:Type="String">The Shipping Container holding Dr. Igwe is #2312.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
