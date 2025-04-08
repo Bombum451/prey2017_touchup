@@ -102,10 +102,10 @@
           <Data ss:Type="String">BDDB548E56264C08</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning. Examination theater compromised. </Data>
+          <Data ss:Type="String">Warning. Examination theater compromised.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning. Examination theater compromised. </Data>
+          <Data ss:Type="String">Warning. Examination theater compromised.</Data>
         </Cell>
       </Row>
       <Row>
@@ -113,10 +113,10 @@
           <Data ss:Type="String">BDDB548E56264C34</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Live exam terminated. Lifting local lockdown. </Data>
+          <Data ss:Type="String">Live exam terminated. Lifting local lockdown.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Live exam terminated. Lifting local lockdown. </Data>
+          <Data ss:Type="String">Live exam terminated. Lifting local lockdown.</Data>
         </Cell>
       </Row>
       <Row>
@@ -157,10 +157,10 @@
           <Data ss:Type="String">BDDB548E56268957</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning: plasma shockwave imminent. </Data>
+          <Data ss:Type="String">Warning: plasma shockwave imminent.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning: plasma shockwave imminent. </Data>
+          <Data ss:Type="String">Warning: plasma shockwave imminent.</Data>
         </Cell>
       </Row>
       <Row>
@@ -278,10 +278,10 @@
           <Data ss:Type="String">BDDB548E56A2A242</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 60 minutes. </Data>
+          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 60 minutes.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 60 minutes. </Data>
+          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 60 minutes.</Data>
         </Cell>
       </Row>
       <Row>
@@ -289,10 +289,10 @@
           <Data ss:Type="String">BDDB548E56A2A264</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Seek shelter. Magnetosphere shielding is down. </Data>
+          <Data ss:Type="String">Seek shelter. Magnetosphere shielding is down.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Seek shelter. Magnetosphere shielding is down. </Data>
+          <Data ss:Type="String">Seek shelter. Magnetosphere shielding is down.</Data>
         </Cell>
       </Row>
       <Row>
@@ -311,10 +311,10 @@
           <Data ss:Type="String">BDDB548E56A2A5AC</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 30 minutes. </Data>
+          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 30 minutes.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 30 minutes. </Data>
+          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 30 minutes.</Data>
         </Cell>
       </Row>
       <Row>
@@ -322,10 +322,10 @@
           <Data ss:Type="String">BDDB548E56A2A5D4</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 15 minutes. </Data>
+          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 15 minutes.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 15 minutes. </Data>
+          <Data ss:Type="String">Solar particle event will result in lethal radiation across Talos I in approximately 15 minutes.</Data>
         </Cell>
       </Row>
       <Row>
@@ -498,10 +498,10 @@
           <Data ss:Type="String">E93FD2D456C23384</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">We'd like to remind you that company policy requires you to log any voluntary extension of your work hours with the station counselor. </Data>
+          <Data ss:Type="String">We'd like to remind you that company policy requires you to log any voluntary extension of your work hours with the station counselor.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">We'd like to remind you that company policy requires you to log any voluntary extension of your work hours with the station counselor. </Data>
+          <Data ss:Type="String">We'd like to remind you that company policy requires you to log any voluntary extension of your work hours with the station counselor.</Data>
         </Cell>
       </Row>
       <Row>
@@ -534,7 +534,7 @@
           <Data ss:Type="String">Mr. Tucker from HR would like to remind you that if your personal data has changed since the previous pay cycle please contact him immediately. Mr. Tucker's office is on the second floor of the Lobby.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Mr. Tucker from HR would like to remind you that if your personal data has changed since the previous pay cycle please contact him immediately. Mr. Tucker's office is on the second floor of the Lobby.</Data>
+          <Data ss:Type="String">Mr. Tucker from HR would like to remind you that if your personal data has changed since the previous pay cycle - please contact him immediately. Mr. Tucker's office is on the second floor of the Lobby.</Data>
         </Cell>
       </Row>
       <Row>
@@ -556,7 +556,7 @@
           <Data ss:Type="String">Registration for the Talos Employees Talent Show is now open. See Galen in the crew quarters front desk to reserve a slot.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Registration for the Talos Employees Talent Show is now open. See Galen in the crew quarters front desk to reserve a slot.</Data>
+          <Data ss:Type="String">Registration for the Talos Employees Talent Show is now open. See Galen in the Crew Quarters front desk to reserve a slot.</Data>
         </Cell>
       </Row>
       <Row>
@@ -567,7 +567,7 @@
           <Data ss:Type="String">Dr. Hadley Dalton will deliver a supplemental seminar on neural connectomes in the lobby training center later this week. Sounds exciting. Space is limited so reserve your seat by emailing Dr. Dalton.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Dr. Hadley Dalton will deliver a supplemental seminar on neural connectomes in the lobby training center later this week. Sounds exciting. Space is limited so reserve your seat by emailing Dr. Dalton.</Data>
+          <Data ss:Type="String">Dr. Hadley Dalton will deliver a supplemental seminar on neural connectomes in the Lobby training center later this week. Sounds exciting. Space is limited - so reserve your seat by emailing Dr. Dalton.</Data>
         </Cell>
       </Row>
       <Row>
@@ -578,7 +578,7 @@
           <Data ss:Type="String">Don't forget that Transtar safety standards call for a weekly inspection of your uniform. Report to the Hardware Labs for a diagnostic.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Don't forget that Transtar safety standards call for a weekly inspection of your uniform. Report to the Hardware Labs for a diagnostic.</Data>
+          <Data ss:Type="String">Don't forget that TranStar safety standards call for a weekly inspection of your uniform. Report to the Hardware Labs for a diagnostic.</Data>
         </Cell>
       </Row>
       <Row>
@@ -589,7 +589,7 @@
           <Data ss:Type="String">Security reminder. Sticky notes--even well hidden ones--are not a secure means of storing your work station password.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Security reminder. Sticky notes--even well hidden ones--are not a secure means of storing your work station password.</Data>
+          <Data ss:Type="String">Security reminder. Sticky notes - even well hidden ones - are not a secure means of storing your workstation password.</Data>
         </Cell>
       </Row>
       <Row>
@@ -600,7 +600,7 @@
           <Data ss:Type="String">Our resident counselor, Dr.Khol, would like to encourage anyone experiencing symptoms of disturbed sleep, chronic stress, or anxiety to schedule an appointment in the Trauma Center.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Our resident counselor, Dr.Kohl, would like to encourage anyone experiencing symptoms of disturbed sleep, chronic stress, or anxiety to schedule an appointment in the Trauma Center.</Data>
+          <Data ss:Type="String">Our resident counselor, Dr. Kohl, would like to encourage anyone experiencing symptoms of disturbed sleep, chronic stress, or anxiety to schedule an appointment in the Trauma Center.</Data>
         </Cell>
       </Row>
       <Row>
@@ -732,7 +732,7 @@
           <Data ss:Type="String">Air Supply System Repaired. Stand by for Oxygenation.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Air Supply System Repaired. Stand by for Oxygenation.</Data>
+          <Data ss:Type="String">Air Supply System repaired. Stand by for oxygenation.</Data>
         </Cell>
       </Row>
       <Row>
@@ -875,7 +875,7 @@
           <Data ss:Type="String"> If you're not wearing a blue uniform, you're probably not authorized.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String"> If you're not wearing a blue uniform, you're probably not authorized.</Data>
+          <Data ss:Type="String">If you're not wearing a blue uniform, you're probably not authorized.</Data>
         </Cell>
       </Row>
       <Row>
@@ -894,10 +894,10 @@
           <Data ss:Type="String">BDDB548E571E980B</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String"> You are the first line of defense against unsanctioned materials entering Talos I. </Data>
+          <Data ss:Type="String"> You are the first line of defense against unsanctioned materials entering Talos I.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String"> You are the first line of defense against unsanctioned materials entering Talos I. </Data>
+          <Data ss:Type="String">You are the first line of defense against unsanctioned materials entering Talos I.</Data>
         </Cell>
       </Row>
       <Row>
@@ -930,7 +930,7 @@
           <Data ss:Type="String">Warning. Reactor detonation in T minus 20 minutes.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning. Reactor detonation in T minus 20 minutes.</Data>
+          <Data ss:Type="String">Warning. Reactor detonation in T-minus 20 minutes.</Data>
         </Cell>
       </Row>
       <Row>
@@ -941,7 +941,7 @@
           <Data ss:Type="String">Warning. Reactor detonation in T minus 15 minutes.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning. Reactor detonation in T minus 15 minutes.</Data>
+          <Data ss:Type="String">Warning. Reactor detonation in T-minus 15 minutes.</Data>
         </Cell>
       </Row>
       <Row>
@@ -963,7 +963,7 @@
           <Data ss:Type="String">Warning. Reactor detonation in T minus 5 minutes.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning. Reactor detonation in T minus 5 minutes.</Data>
+          <Data ss:Type="String">Warning. Reactor detonation in T-minus 5 minutes.</Data>
         </Cell>
       </Row>
       <Row>
@@ -974,7 +974,7 @@
           <Data ss:Type="String">Warning. Reactor detonation in T minus 25 minutes.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning. Reactor detonation in T minus 25 minutes.</Data>
+          <Data ss:Type="String">Warning. Reactor detonation in T-minus 25 minutes.</Data>
         </Cell>
       </Row>
       <Row>
@@ -985,7 +985,7 @@
           <Data ss:Type="String">Warning. Reactor detonation in T minus 30 minutes.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Warning. Reactor detonation in T minus 30 minutes.</Data>
+          <Data ss:Type="String">Warning. Reactor detonation in T-minus 30 minutes.</Data>
         </Cell>
       </Row>
       <Row>
@@ -1007,7 +1007,7 @@
           <Data ss:Type="String">You have a...9 A.M. appointment in the testing facility.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">You have a...9 A.M. appointment in the testing facility.</Data>
+          <Data ss:Type="String">You have a... 9 A.M. appointment in the testing facility.</Data>
         </Cell>
       </Row>
       <Row>
