@@ -39,7 +39,7 @@
           <Data ss:Type="String">...what is going on?</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">...what is going on?</Data>
+          <Data ss:Type="String">... what is going on?</Data>
         </Cell>
       </Row>
       <Row>
@@ -72,7 +72,7 @@
           <Data ss:Type="String">...vanished.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">...vanished.</Data>
+          <Data ss:Type="String">... vanished.</Data>
         </Cell>
       </Row>
       <Row>
@@ -116,7 +116,7 @@
           <Data ss:Type="String">...there better not be anything...</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">...there better not be anything...</Data>
+          <Data ss:Type="String">There better not be anything...</Data>
         </Cell>
       </Row>
       <Row>
@@ -215,7 +215,7 @@
           <Data ss:Type="String">you ever been half awake...</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">you ever been half awake...</Data>
+          <Data ss:Type="String">You ever been half awake?</Data>
         </Cell>
       </Row>
       <Row>
