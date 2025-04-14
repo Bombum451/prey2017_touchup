@@ -26,5 +26,21 @@
     </Nodes>
    </FlowGraph>
   </Entity>
+  
+  <Entity Name="Audio_FlowGraph" EntityClass="FlowgraphEntity" EntityGuid="4E68D7FBDC76CF95">
+   <FlowGraph>
+    <Nodes>
+     <Node Id="10000" Class="Mission:GameTokenCheck" pos="0,0,0">
+      <Inputs gametokenid_Token="1017937291" CheckValue="true"/>
+     </Node>
+	</Nodes>
+	<Edges>
+		<Edge nodeIn="5739" nodeOut="5734" portIn="in" portOut="Out" enabled="0"/>
+		<Edge nodeIn="10000" nodeOut="5734" portIn="Trigger" portOut="Out" enabled="1"/>
+		<Edge nodeIn="5739" nodeOut="10000" portIn="in" portOut="false" enabled="1"/>
+	</Edges>
+   </FlowGraph>
+  </Entity>
+  
 </Objects>
 </Mission>
