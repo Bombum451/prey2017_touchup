@@ -1,5 +1,30 @@
 <Mission>
 <Objects>
   <Entity Name="Systems.Grounding_Resistor2" EntityGuid="4232E9DCE5B6AB47" ch:action="delete" ch:applyIf="{{ QoL.Psychotronics_Remove_Resistor }}"/>
+  
+  <Entity Name="FlowgraphEntity21" EntityClass="FlowgraphEntity" EntityGuid="4BB66D481876249E">
+   <FlowGraph>
+    <Nodes>
+     <Node Id="1660" Class="Ark:Workstation:WorkstationPopup" EntityGUID_64="4BED469161F2A87C">
+      <Inputs text_Body="@FG_LOC_PT_ReleasingMimic" Duration="7"/>
+     </Node>
+     <Node Id="1661" Class="Time:Delay">
+      <Inputs delay="7" resetOnInput="0"/>
+     </Node>
+     <Node Id="4429" Class="Ark:Workstation:WorkstationPopup" EntityGUID_64="4BED469161F2A87C">
+      <Inputs text_Body="@FG_LOC_PT_ExtractingMaterial" Duration="11"/>
+     </Node>
+     <Node Id="4430" Class="Time:Delay">
+      <Inputs delay="11"/>
+     </Node>
+     <Node Id="4681" Class="Ark:Workstation:WorkstationPopup" EntityGUID_64="4BED469161F2A87C">
+      <Inputs text_Body="@FG_LOC_PT_ExtractingMimic" Duration="12"/>
+     </Node>
+     <Node Id="4682" Class="Time:Delay">
+      <Inputs delay="12"/>
+     </Node>
+    </Nodes>
+   </FlowGraph>
+  </Entity>
 </Objects>
 </Mission>
