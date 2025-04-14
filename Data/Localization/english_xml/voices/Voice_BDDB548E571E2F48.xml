@@ -138,7 +138,7 @@
           <Data ss:Type="String">Find anything good in that armory?</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">Find anything good in that armory?</Data>
+          <Data ss:Type="String">You find anything good in that armory?</Data>
         </Cell>
       </Row>
       <Row>
