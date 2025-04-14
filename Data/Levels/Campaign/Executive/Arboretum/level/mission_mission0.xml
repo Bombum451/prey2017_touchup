@@ -23,5 +23,8 @@
     </Edges>
    </FlowGraph>
   </Entity>
+  
+  <Entity Name="MissionItems.WaterPressureRegulator2" Archetype="ArkPickups.Crafting.FabricationPlans.WaterPressureRegulator" Pos="1716.6499,318.12,59.04998" Rotate="0.70710677,0.70710677,0,0" EntityGuid="47BCBDD0FC681FD0"/>
+  
 </Objects>
 </Mission>
