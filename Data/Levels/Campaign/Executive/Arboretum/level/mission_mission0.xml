@@ -26,5 +26,7 @@
   
   <Entity Name="MissionItems.WaterPressureRegulator2" Archetype="ArkPickups.Crafting.FabricationPlans.WaterPressureRegulator" Pos="1716.65,317.92999,59.035" Rotate="0.9238795,0,-0,-0.38268346" EntityGuid="47BCBDD0FC681FD0"/>
   
+  <Entity Name="BreakablePanels.AccessPanel_NewFancy1" Pos="1711.0601,391.48993,43.499996" Rotate="0.70710677,0,-0,-0.70710677" EntityGuid="41111BBBDE6228CD"/>
+  
 </Objects>
 </Mission>
