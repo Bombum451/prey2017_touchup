@@ -10,5 +10,15 @@
   
   <Entity Name="Books.ArkBk_CQ_EvacuationPart1" Pos="153.3606,145.0882,695.14386" Rotate="0.91245276,-0.098338589,-0.073922753,-0.39024949" EntityGuid="4B9F81AE479263F1" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
   
+  <Entity Name="Food.Bowl.DimSum4" Pos="78.28759,93.64447,685.84528" Rotate="0.75532603,-0.020752218,0.0022152634,0.65501678" EntityGuid="440923D3FD315B04"/>
+  <Entity Name="Food.Bowl.DimSum5" Pos="81.62352,93.643303,685.95215" Rotate="0.99417895,-0.0044941907,0.0077062161,-0.10737103" EntityGuid="4FD9910660EEBC95"/>
+  <Entity Name="Food.Bowl.DimSum6" Pos="78.320084,93.665016,685.96136" Rotate="0.75950503,-0.032183088,-0.00062530197,0.64970434" EntityGuid="4D767B95F5448623"/>
+  <Entity Name="Food.Bowl.DimSum7" Pos="81.639229,93.625572,685.83215" Rotate="0.78454697,-0.007007367,0.0027414637,-0.62002379" EntityGuid="4085358A2CCA7873"/>
+  <Entity Name="ArkNpcSpawner_QuintenPurvis1" EntityGuid="43D92FAA3F8C79EB">
+	<PhysicsState awake="0"/>
+  </Entity>
+  <Entity Name="Misc.Cot_A1" Pos="79.64,94.265,685.85" Rotate="0.10452856,0,0,0.99452186" EntityGuid="4B02139AF3975596"/>
+
+  
   </Objects>
   </Mission>
