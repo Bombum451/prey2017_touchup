@@ -42,5 +42,16 @@
    </FlowGraph>
   </Entity>
   
+  <Entity Name="ArkNpcSpawner_Mimic20" EntityGuid="4B8BB4B2F129EC3D">
+   <Properties sNpcArchetype="ArkNpcs.Mimics.HarvestMimic"/>
+  </Entity>
+  <Entity Name="ArkNpcSpawner_Mimic12" EntityGuid="4C67A41EEE20C5F0">
+   <Properties sNpcArchetype="ArkNpcs.Mimics.HarvestMimic"/>
+  </Entity>
+  <Entity Name="ArkNpcSpawner_Mimic16" EntityGuid="4757798FA337D481">
+   <Properties sNpcArchetype="ArkNpcs.Mimics.HarvestMimic"/>
+  </Entity>
+  
+  
 </Objects>
 </Mission>
