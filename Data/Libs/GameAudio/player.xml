@@ -1,0 +1,17 @@
+
+<ATLConfig>
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_WPN_Taser_DryFire" path="Weapons/Stun_Gun">
+   <WwiseEvent wwise_name=" "/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_WPN_Taser_DryFire" path="Weapons/Stun_Gun">
+   <WwiseEvent wwise_name=" "/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Taser_Dry_Prime" path="Weapons/Stun_Gun">
+	<WwiseEvent wwise_name=" "/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Taser_DryFire" path="Weapons/Stun_Gun">
+	<WwiseEvent wwise_name=" "/>
+  </ATLTrigger>
+ </AudioTriggers>
+</ATLConfig>
