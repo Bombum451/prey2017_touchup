@@ -51,6 +51,13 @@
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">loc_HumanCorpseFound</Data></Cell>
+    <Cell><Data ss:Type="String">Human Corpse (found)</Data></Cell>
+    <Cell><Data ss:Type="String">Human Corpse (Found)</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <Unsynced/>
