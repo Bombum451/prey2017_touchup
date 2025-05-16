@@ -1,0 +1,12 @@
+
+<ArkAudioLogLibrary>
+<AudioLogCollections>
+
+  <ArkAudioLogCollection ID="6732635291192443611" Name="Hans Kelstrup&apos;s TranScribe">
+   <LinkedAudioLogs>
+    <AudioLog value="6732635291192443492" ch:index="2000" ch:action="delete"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  
+ </AudioLogCollections>
+</ArkAudioLogLibrary>
