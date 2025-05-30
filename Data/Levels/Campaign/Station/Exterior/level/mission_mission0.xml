@@ -4,5 +4,8 @@
   <Entity Name="ArkNpcSpawner_MarianaArias1" Pos="722.22998,719.5,859.19" EntityClass="ArkNpcSpawner" EntityGuid="4E45C77F9DCDECF4" ch:applyIf="{{ QoL.ZeroG_Objective_Improvements }}">
    <PhysicsState pos="722.22998,719.5,859.19"/>
   </Entity>
+  
+  <Entity Name="Turrets.Turret_Default1" Archetype="ArkRobots.Turrets.Turret_Default_TU_ZeroG" EntityGuid="47556392A17D1F8F"/>
+  
 </Objects>
 </Mission>

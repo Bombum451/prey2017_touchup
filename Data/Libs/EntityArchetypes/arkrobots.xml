@@ -8,6 +8,14 @@
    <Repair nSparePartsRequired="3"/>
   </Properties>
  </EntityPrototype>
+ 
+ 
+<EntityPrototype Name="Turrets.Turret_Default_TU_ZeroG" Id="{8B9BA96F-41D5-4DE2-A3D6-5C9BD63B1941}" ArchetypeId="6883245447439525460" ch:basedOn="Name=Turrets.Turret_Default">
+  <Properties>
+   <carryDirection x="0" y="0" z="0"/>
+  </Properties>
+</EntityPrototype>
+ 
 
  
 </EntityPrototypeLibrary>

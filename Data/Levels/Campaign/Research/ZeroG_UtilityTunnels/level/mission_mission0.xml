@@ -1,7 +1,9 @@
 <Mission>
 <Objects>
-  <Entity Name="Turrets.Turret_Default2" EntityGuid="40D86431D94D8498" ch:action="delete" ch:applyIf="{{ QoL.GUTS_ZeroG_Turrets_Removal }}"/>
-  <Entity Name="Turrets.Turret_Default3" EntityGuid="41CAD50D3D71F4C7" ch:action="delete" ch:applyIf="{{ QoL.GUTS_ZeroG_Turrets_Removal }}"/>
+  <Entity Name="Turrets.Turret_Default2" Archetype="ArkRobots.Turrets.Turret_Default_TU_ZeroG" EntityGuid="40D86431D94D8498">
+  </Entity>
+  <Entity Name="Turrets.Turret_Default3" Archetype="ArkRobots.Turrets.Turret_Default_TU_ZeroG" EntityGuid="41CAD50D3D71F4C7">
+  </Entity>
   <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="4B2097F8CE8FDECA" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
