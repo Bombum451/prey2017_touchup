@@ -29,5 +29,30 @@
    <Properties2 bIsBroken="0" bOverrideAIIgnore="0" bUsedAsDynamicObstacle="1"/>
    <RenderProxy />
   </Entity>
+  
+  <Entity Name="FG_Objectives" EntityGuid="40B8607BA6DED0F9">
+   <FlowGraph>
+    <Nodes>
+	 
+     <Node Id="150000" Class="Ark:Player:SetItemsRestricted" pos="0,0,0">
+      <Inputs />
+     </Node>
+     <Node Id="150001" Class="ArkPlayer:UnequipWeapon" pos="0,0,0">
+      <Inputs />
+     </Node>
+	 
+    </Nodes>
+    <Edges>
+	
+     <Edge nodeIn="150000" nodeOut="14477" portIn="SetItemsRestricted" portOut="output" enabled="1"/>
+     <Edge nodeIn="150001" nodeOut="14477" portIn="Trigger" portOut="output" enabled="1"/>
+	
+     <Edge nodeIn="13610" nodeOut="13622" portIn="Trigger" portOut="Out" enabled="0"/>
+     <Edge nodeIn="13610" nodeOut="13622" portIn="Trigger" portOut="Out" enabled="0"/>
+
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
   </Objects>
 </Mission>
