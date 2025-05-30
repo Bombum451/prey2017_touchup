@@ -25,5 +25,9 @@
    <RenderProxy />
   </Entity>
   
+  <Entity Name="Gameplay.Goo_Breakable_TU1" Archetype="ArkPhysicsProps.Gameplay.Goo_Breakable" Pos="782.81689,1568.6906,17.992588" Rotate="0.33959714,-0.22733098,-0.50770819,0.7584371" Scale="0.46668553,0.46668553,0.46668553" EntityClass="ArkScalableBreakable" EntityGuid="8771C71F17DB0E1C" CastShadowViewDistRatio="40" CastShadowMinSpec="1" CastSunShadowMinSpec="3" ShadowCasterType="2" Layer="AlwaysLoaded">
+   <Properties2 bIsBroken="0" bOverrideAIIgnore="0" bUsedAsDynamicObstacle="1"/>
+   <RenderProxy />
+  </Entity>
   </Objects>
 </Mission>
