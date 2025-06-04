@@ -18,6 +18,38 @@
 	<PhysicsState awake="0"/>
   </Entity>
   <Entity Name="Misc.Cot_A1" Pos="79.64,94.265,685.85" Rotate="0.10452856,0,0,0.99452186" EntityGuid="4B02139AF3975596"/>
+  
+  <Entity Name="Data.TranScribe_Confession" Archetype="ArkPickups.Data.TranScribe" Pos="0,0,0" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkTranScribe" EntityGuid="639E15DA86B09067" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" HiddenInNodes="1">
+   <Properties2 bAutoPlayAudioLog="1" iCountOverride="0" audioLogCollection_OnPickup="2894851587994256298"/>
+   <RenderProxy />
+  </Entity>
+  
+  <Entity Name="ConfessionTranscribe" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="639E15DA86B09069" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+   <Properties bDrawThroughWalls="0" bHideInEditor="0" bHideInGame="0" clrMainColor="1,0.5,0" nMainDist="100" MainText="" nMaxNoteHeight="0" nMaxNoteWidth="30" fSize="1.2" clrSummaryColor="1,0.5,0" nSummaryDist="20" SummaryText=""/>
+   <FlowGraph Description="" Group="Utilities" enabled="1" MultiPlayer="ClientServer">
+    <Nodes>
+	
+     <Node Id="100" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="43D92FAA3F8C79EB">
+      <Inputs entityId="0" Spawn="0"/>
+     </Node>
+	 
+     <Node Id="300" Class="Inventory:AddItemById" pos="0,0,0">
+      <Inputs entityId="0" ItemId="0" VisibleInWorld="0" PlayFanfare="0"/>
+     </Node>
+     <Node Id="310" Class="Entity:EntityId" pos="0,0,0" EntityGUID_64="639E15DA86B09067">
+      <Inputs entityId="0"/>
+     </Node>
+
+    </Nodes>
+    <Edges>
+	
+     <Edge nodeIn="300" nodeOut="100" portIn="Add" portOut="Succeeded" enabled="1"/>
+     <Edge nodeIn="300" nodeOut="310" portIn="ItemId" portOut="Id" enabled="1"/>
+     <Edge nodeIn="300" nodeOut="100" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+	 
+    </Edges>
+   </FlowGraph>
+  </Entity>
 
   
   </Objects>
