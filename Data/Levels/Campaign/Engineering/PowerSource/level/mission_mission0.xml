@@ -1,8 +1,13 @@
 <Mission>
 <Objects>
+
   <Entity Name="Data.TrackingChip2" Archetype="ArkPickups.Data.TrackingChip" Pos="543.06,1167.14,115.76" EntityClass="ArkTrackingChip" EntityGuid="4D3F6F0731790A70" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" NoDecals="1" Layer="PowerSource_Scripting" HiddenInNodes="1" ch:applyIf="{{ Bugs.Crew_Fixes }}">
    <Properties2 iCountOverride="0" character_TrackedCharacter="6732635291182868247"/>
-   <RenderProxy />
   </Entity>
+  
+  <Entity Name="Player.Neuromod4" EntityGuid="49932A6C6319450E" Layer="Prototype_ExteriorLabs"/>
+  <Entity Name="Player.Neuromod7" EntityGuid="47A745F95204C355" Layer="Prototype_ExteriorLabs"/>
+  <Entity Name="Player.Neuromod8" EntityGuid="47C05DDD683C1131" Layer="Prototype_ExteriorLabs"/>
+  
 </Objects>
 </Mission>
