@@ -18,5 +18,41 @@
   <Entity Name="Screens\Misc.Kiosk_Info_Short_Screen2" Material="Objects/Environment/Props/NeoDeco/Kiosk_Info_B/kiosk_info_rearscreen_SimFull_2" EntityGuid="4E3A18B85D0E7302" ch:applyIf="{{ Inconsistency.InGameMapImprovements }}"/>
   <Entity Name="Screens\Misc.Kiosk_Info_Short_Screen1" Material="Objects/Environment/Props/NeoDeco/Kiosk_Info_B/kiosk_info_rearscreen_SimFull" EntityGuid="464F85F7D2E4A55F" ch:applyIf="{{ Inconsistency.InGameMapImprovements }}"/>
   
+  <Entity Name="InteractiveScreens.Workstation_AliceAiken" EntityGuid="489D312E3A211EAF" ch:action="delete"/>
+  
+  <Entity Name="InteractiveScreens.Workstation_AliceAiken_TU_Replacement" Archetype="ArkGameplayObjects.InteractiveScreens.Workstation" Pos="808.50012,1582.1216,16.499998" Rotate="0.68301278,0.18301272,0.18301268,0.6830126" EntityClass="ArkWorkstationScreen" EntityGuid="489D312E3A211EFF" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Simulation_Analysis_Scripting">
+   <Properties2 ability_HackRequirementOverride="" bMovePlayerOnExamine="1" bStartsPowered="1" bStartsUnlocked="1" bVerbose="0" workstation_Workstation="12889009725007132803"/>
+   <RenderProxy />
+  </Entity>
+  
+  <Entity Name="Gameplay.Goo_Breakable_TU1" Archetype="ArkPhysicsProps.Gameplay.Goo_Breakable" Pos="782.81689,1568.6906,17.992588" Rotate="0.33959714,-0.22733098,-0.50770819,0.7584371" Scale="0.46668553,0.46668553,0.46668553" EntityClass="ArkScalableBreakable" EntityGuid="8771C71F17DB0E1C" CastShadowViewDistRatio="40" CastShadowMinSpec="1" CastSunShadowMinSpec="3" ShadowCasterType="2" Layer="AlwaysLoaded">
+   <Properties2 bIsBroken="0" bOverrideAIIgnore="0" bUsedAsDynamicObstacle="1"/>
+   <RenderProxy />
+  </Entity>
+  
+  <Entity Name="FG_Objectives" EntityGuid="40B8607BA6DED0F9">
+   <FlowGraph>
+    <Nodes>
+	 
+     <Node Id="150000" Class="Ark:Player:SetItemsRestricted" pos="0,0,0">
+      <Inputs />
+     </Node>
+     <Node Id="150001" Class="ArkPlayer:UnequipWeapon" pos="0,0,0">
+      <Inputs />
+     </Node>
+	 
+    </Nodes>
+    <Edges>
+	
+     <Edge nodeIn="150000" nodeOut="14477" portIn="SetItemsRestricted" portOut="output" enabled="1"/>
+     <Edge nodeIn="150001" nodeOut="14477" portIn="Trigger" portOut="output" enabled="1"/>
+	
+     <Edge nodeIn="13610" nodeOut="13622" portIn="Trigger" portOut="Out" enabled="0"/>
+     <Edge nodeIn="13610" nodeOut="13622" portIn="Trigger" portOut="Out" enabled="0"/>
+
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
   </Objects>
 </Mission>

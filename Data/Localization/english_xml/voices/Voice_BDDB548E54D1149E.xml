@@ -501,7 +501,7 @@
           <Data ss:Type="String">You used to sneak into my room when we were kids. Hack into my computer. I still remember when you ruined my Galactic Conquistadors save files.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">You used to sneak into my room when we were kids. Hack into my computer. I still remember when you ruined my Galactic Conquistadors save files.</Data>
+          <Data ss:Type="String">You used to sneak into my room when we were kids, hack into my computer. I still remember when you ruined my Galactic Conquistadors save files.</Data>
         </Cell>
       </Row>
       <Row>
@@ -1194,7 +1194,7 @@
           <Data ss:Type="String">I broke your arm when I found out. I regret that now, but I'm still not fond of you messing with my stuff.</Data>
         </Cell>
         <Cell>
-          <Data ss:Type="String">I broke your arm when I found out. I regret that now, but I'm still not fond of you messing with my stuff.</Data>
+          <Data ss:Type="String">I broke your arm when I found out. I regret that now... but I'm still not fond of you messing with my stuff.</Data>
         </Cell>
       </Row>
       <Row>

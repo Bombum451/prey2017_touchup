@@ -1,0 +1,35 @@
+
+<ArkAudioLogLibrary>
+
+ <AudioLogs>
+  <ArkAudioLog ID="4984401014175196005" Name="LukaReminder" Label="Don't Forget" Conversation="13680621263377874707" From="13680621263361473334">
+   <To>
+    <Recipient value="1713490239389131093"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="7869427448474731991" Name="WhistleBlowerConfession" Label="Annalise's Confession" Conversation="13680621263369437546" From="11824555372635796966">
+   <To/>
+  </ArkAudioLog>
+ </AudioLogs>
+
+<AudioLogCollections>
+
+  <ArkAudioLogCollection ID="6732635291192443611" Name="Hans Kelstrup&apos;s TranScribe">
+   <LinkedAudioLogs>
+    <AudioLog value="6732635291192443492" ch:index="2000" ch:action="delete"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  
+  <ArkAudioLogCollection ID="11929619134478457645" Name="Luka Transcribe" Owner="13680621263361473334">
+   <LinkedAudioLogs>
+    <AudioLog value="4984401014175196005" ch:index="1000"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="2894851587994256298" Name="Whistleblower Transcribe" Owner="4349723564911798102">
+   <LinkedAudioLogs>
+    <AudioLog value="7869427448474731991" ch:index="1000"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  
+ </AudioLogCollections>
+</ArkAudioLogLibrary>

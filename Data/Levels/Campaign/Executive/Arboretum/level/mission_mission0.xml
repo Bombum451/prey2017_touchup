@@ -28,5 +28,33 @@
   
   <Entity Name="BreakablePanels.AccessPanel_NewFancy1" Pos="1711.0601,391.48993,43.499996" Rotate="0.70710677,0,-0,-0.70710677" EntityGuid="41111BBBDE6228CD"/>
   
+  
+  <Entity Name="ApexImage" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="4EF096DF9F79511F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+   <FlowGraph>
+    <Nodes>
+	
+     <Node Id="1" Class="Game:Start" pos="-3300,840,0">
+      <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+     </Node>
+	
+     <Node Id="2" Class="Mission:GameTokenCheck" pos="0,0,0">
+      <Inputs gametokenid_Token="659909599" CheckValue="true"/>
+     </Node>
+	 
+     <Node Id="3" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="1713490239386284818" text_AlternateName="@ui_Arboretum" screenshotPath="ui_saveload_screenshot_arboretum_apex"/>
+     </Node>
+	 
+
+    </Nodes>
+    <Edges>
+
+     <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="output" enabled="1"/>
+     <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
+	 
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
 </Objects>
 </Mission>

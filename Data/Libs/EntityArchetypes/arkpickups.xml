@@ -452,22 +452,9 @@
  </EntityPrototype>
  
  
- <EntityPrototype Name="MissionItems.CookingAwardRecyclable" Id="{5BF3265A-8A1B-4E9A-828D-411EF48F4277}" Library="ArkPickups" Class="ArkItem" Description="" ArchetypeId="907366241403507966">
-  <Properties metaTags_ArkMetaTags="3149325216957278742" bAvailableForRandom="1" bCanBeFavorited="0" bCanTriggerAreas="1" bConsumable="0" bDeprecated="0" textDescription="@i_CookingAwarddesc" bDisallowGrenades="1" iDismantleCount="0" textDisplayName="@i_CookingAward" fDropDistance="2" fDropHeightOffset="0" bDroppable="1" fDropRotationMax="15" fDropRotationMin="1" object_GeometryFP="" object_GeometryTP="objects/environment/props/gameplay/cookingmedal_a/cookingmedal_a_open.cgf" glintconfig_GlintConfig="16934642289625103724" bGooCannotAttachInGravity="1" sHUDIcon="ui_icon_inv_cookingaward" bImportant="1" bIsMimicable="1" bIsPlotCritical="0" bIsRandom="0" bIsTrash="0" fLerpSpeed="18" material_MaterialFP="" material_MaterialTP="" gameMetric_MetricPickedUp="" sStylizedIcon="" bSurvivalMode="0" sType="CookingAward" bUniqueRandom="0" bUsable="0">
-   <Inventory bAddToInventory="1" iHeight="1" sIcon="ui_icon_inv_cookingaward" ei_ItemCategory="4" iWidth="1"/>
-   <Physics Density="-1" Mass="1" bPhysicalize="1" bPushableByAI="1" bPushableByPlayers="1" bResting="1" bRigidBody="1">
-    <CollisionFiltering>
-     <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0"/>
-     <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0"/>
-    </CollisionFiltering>
-   </Physics>
-   <RecycleData exotic="0" mineral="0" organic="0" synthetic="5"/>
-   <Silhouette fAlpha="0.25" color_RGB="1,1,1"/>
-   <Sound audioTrigger_InventorySFX="TEMP_UI_00" audioTrigger_PickupSFX="Pickup"/>
-   <Stacks iCount="1" iDropIncrement="1" iFabricationCount="0" iMaxCount="10" bRandomizeCount="0" iRandomMax="10" iRandomMin="1" bStackable="0"/>
-   <AdditionalArchetypeProperties PrototypeMaterial=""/>
-  </Properties>
-  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="2" CastSunShadowMinSpec="8" LodRatio="100" ViewDistRatio="255" CastShadowViewDistRatio="0" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="1"/>
+ <EntityPrototype Name="MissionItems.CookingAwardRecyclable" Id="{5BF3265A-8A1B-4E9A-828D-411EF48F4277}" ArchetypeId="907366241403507966" ch:basedOn="Name=MissionItems.CookingAward">
+  <Properties bIsPlotCritical="0"/>
  </EntityPrototype>
+ 
  
 </EntityPrototypeLibrary>

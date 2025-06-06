@@ -28,5 +28,9 @@
    <Properties2 note_OnRead="4349723564947499639"/>
   </Entity>
   
+  <Entity Name="Player.Neuromod7" Pos="447.75,420.20999,502.01001" EntityGuid="49AD513F2FB893FF"/>
+  <Entity Name="Player.Neuromod5" Pos="447.81381,420.03,502.01001" EntityGuid="4201D0D875A1B099"/>
+  
+  
 </Objects>
 </Mission>
