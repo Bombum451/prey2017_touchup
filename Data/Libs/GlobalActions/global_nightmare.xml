@@ -42,11 +42,13 @@
   
   <Edge nodeIn="480" nodeOut="2" portIn="Open" portOut="Out" enabled="1"/>
   <Edge nodeIn="480" nodeOut="81" portIn="Open" portOut="Noticed" enabled="1"/>
+  <Edge nodeIn="480" nodeOut="85" portIn="Open" portOut="Noticed" enabled="1"/>
   
   <Edge nodeIn="500" nodeOut="420" portIn="Trigger" portOut="out" enabled="1"/>
   <Edge nodeIn="480" nodeOut="500" portIn="Close" portOut="False" enabled="1"/>
   
   <Edge nodeIn="480" nodeOut="81" portIn="Close" portOut="Unknown" enabled="1"/>
+  <Edge nodeIn="480" nodeOut="85" portIn="Close" portOut="Unknown" enabled="1"/>
   
  </Edges>
  <GraphTokens/>
