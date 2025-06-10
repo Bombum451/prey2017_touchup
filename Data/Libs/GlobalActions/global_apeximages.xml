@@ -1,0 +1,30 @@
+
+<Graph>
+
+ <Nodes> 
+ 
+   <Node Id="1" Class="Mission:GameTokenUpdated" pos="0,0,0">
+      <Inputs gametokenid_Token="659909599" compare_Value="true"/>
+   </Node>
+
+   <Node Id="2" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="1713490239386284818" text_AlternateName="@ui_Arboretum" screenshotPath="ui_saveload_screenshot_arboretum_apex"/>
+   </Node>
+   <Node Id="3" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="844024417275035158" text_AlternateName="@ui_Bridge" screenshotPath="ui_saveload_screenshot_apex"/>
+   </Node>
+   <Node Id="4" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="1713490239377285936" text_AlternateName="@ui_Lobby" screenshotPath="ui_saveload_screenshot_lobby_apex"/>
+   </Node>
+
+  
+ </Nodes>
+ <Edges>
+ 
+  <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+
+ </Edges>
+ 
+</Graph>

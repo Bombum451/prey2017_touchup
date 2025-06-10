@@ -1,32 +1,5 @@
 <Mission>
 <Objects>
-
-  <Entity Name="ApexImage" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="4EF096DF9F79511F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
-   <FlowGraph>
-    <Nodes>
-	
-     <Node Id="1" Class="Game:Start" pos="-3300,840,0">
-      <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
-     </Node>
-	
-     <Node Id="2" Class="Mission:GameTokenCheck" pos="0,0,0">
-      <Inputs gametokenid_Token="659909599" CheckValue="true"/>
-     </Node>
-	 
-     <Node Id="3" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
-      <Inputs location_Location="844024417275035158" text_AlternateName="@ui_Bridge" screenshotPath="ui_saveload_screenshot_apex"/>
-     </Node>
-	 
-
-    </Nodes>
-    <Edges>
-
-     <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="output" enabled="1"/>
-     <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
-	 
-    </Edges>
-   </FlowGraph>
-  </Entity>
   
   <Entity Name="Data.TranScribe_Luka" Archetype="ArkPickups.Data.TranScribe" Pos="0,0,0" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkTranScribe" EntityGuid="639E15DA86B09067" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" HiddenInNodes="1">
    <Properties2 bAutoPlayAudioLog="0" iCountOverride="0" audioLogCollection_OnPickup="11929619134478457645"/>

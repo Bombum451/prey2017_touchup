@@ -11,33 +11,5 @@
   
   <Entity Name="Screens\Misc.Kiosk_Info_Rearscreen_Screen1" Material="Objects/Environment/Props/NeoDeco/Kiosk_Info_B/kiosk_info_rearscreen_lobby" EntityGuid="47724FCDE6433237" ch:applyIf="{{ Inconsistency.InGameMapImprovements }}"/>
   
-  
-  <Entity Name="ApexImage" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="4EF096DF9F79511F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
-   <FlowGraph>
-    <Nodes>
-	
-     <Node Id="1" Class="Game:Start" pos="-3300,840,0">
-      <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
-     </Node>
-	
-     <Node Id="2" Class="Mission:GameTokenCheck" pos="0,0,0">
-      <Inputs gametokenid_Token="659909599" CheckValue="true"/>
-     </Node>
-	 
-     <Node Id="3" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
-      <Inputs location_Location="1713490239377285936" text_AlternateName="@ui_Lobby" screenshotPath="ui_saveload_screenshot_lobby_apex"/>
-     </Node>
-	 
-
-    </Nodes>
-    <Edges>
-
-     <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="output" enabled="1"/>
-     <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
-	 
-    </Edges>
-   </FlowGraph>
-  </Entity>
-  
 </Objects>
 </Mission>
