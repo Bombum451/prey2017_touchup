@@ -61,5 +61,56 @@
   </Entity>
   
   
+  <Entity Name="Turrets.Turret_Default3" EntityGuid="48FB3750B05ADA13">
+     <Properties2 bStartsBroken="0"/>
+  </Entity>
+  <Entity Name="Turrets.Turret_Default2" EntityGuid="4313FB71F6EFF9D5">
+     <Properties2 bStartsBroken="0"/>
+  </Entity>
+  <Entity Name="Turrets.Turret_Default1" EntityGuid="402B1EAD774494FB">
+     <Properties2 bStartsBroken="0"/>
+  </Entity>
+  
+  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+   <FlowGraph>
+    <Nodes>
+	
+     <Node Id="1" Class="Game:Start" pos="0,0,0">
+      <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+     </Node>
+	 
+     <Node Id="2" Class="Mission:GameTokenCheck" pos="0,0,0">
+      <Inputs gametokenid_Token="221588807" CheckValue="false"/>
+     </Node>
+	 
+     <Node Id="3" Class="Mission:GameTokenSet" pos="0,0,0">
+      <Inputs gametokenid_Token="221588807" Value="true"/>
+     </Node>
+	 
+     <Node Id="4" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="48FB3750B05ADA13">
+      <Inputs entityId="0" Sender="0" signalPackage_Package="10641886185795235581" Value="3" NumRepeats="0" RepeatTime="0"/>
+     </Node>
+     <Node Id="5" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="4313FB71F6EFF9D5">
+      <Inputs entityId="0" Sender="0" signalPackage_Package="10641886185795235581" Value="3" NumRepeats="0" RepeatTime="0"/>
+     </Node>
+     <Node Id="6" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="402B1EAD774494FB">
+      <Inputs entityId="0" Sender="0" signalPackage_Package="10641886185795235581" Value="3" NumRepeats="0" RepeatTime="0"/>
+     </Node>
+	 
+    </Nodes>
+    <Edges>
+	
+     <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="output" enabled="1"/>
+	 
+     <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
+	 
+     <Edge nodeIn="4" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
+     <Edge nodeIn="5" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
+     <Edge nodeIn="6" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
+	 
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
 </Objects>
 </Mission>
