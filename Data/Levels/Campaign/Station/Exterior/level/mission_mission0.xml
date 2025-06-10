@@ -7,26 +7,58 @@
   
   <Entity Name="Turrets.Turret_Default1" Archetype="ArkRobots.Turrets.Turret_Default_TU_ZeroG" EntityGuid="47556392A17D1F8F"/>
   
-  <Entity Name="Player.Neuromod4" EntityGuid="49932A6C6319450E" Layer="Prototype_ExteriorLabs"/>
-  <Entity Name="Player.Neuromod7" Pos="717.19031,652.48999,614.30304" EntityGuid="47A745F95204C355" Layer="Prototype_ExteriorLabs"/>
-  <Entity Name="Player.Neuromod8" EntityGuid="47C05DDD683C1131" Layer="Prototype_ExteriorLabs"/>
+  <Entity Name="Player.Neuromod4" EntityGuid="49932A6C6319450E"/>
+  <Entity Name="Player.Neuromod7" Pos="717.19031,652.48999,614.30304" EntityGuid="47A745F95204C355"/>
+  <Entity Name="Player.Neuromod8" EntityGuid="47C05DDD683C1131"/>
+  
+  <Entity Name="PowerPlantNeuromods" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="9E8350EFDC4172B2" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+   <FlowGraph>
+    <Nodes>
+	
+     <Node Id="4" Class="entity:ArkItem" pos="0,0,0" EntityGUID_64="49932A6C6319450E">
+      <Inputs entityId="0" DisableGlint="0" EnableGlint="0" Hide="0" Unhide="0"/>
+     </Node>
+     <Node Id="7" Class="entity:ArkItem" pos="0,0,0" EntityGUID_64="47A745F95204C355">
+      <Inputs entityId="0" DisableGlint="0" EnableGlint="0" Hide="0" Unhide="0"/>
+     </Node>
+     <Node Id="8" Class="entity:ArkItem" pos="0,0,0" EntityGUID_64="47C05DDD683C1131">
+      <Inputs entityId="0" DisableGlint="0" EnableGlint="0" Hide="0" Unhide="0"/>
+     </Node>
+	 
+     <Node Id="40" Class="Mission:GameTokenSet" pos="0,0,0">
+      <Inputs gametokenid_Token="2002355484" Value="true"/>
+     </Node>
+     <Node Id="70" Class="Mission:GameTokenSet" pos="0,0,0">
+      <Inputs gametokenid_Token="2002355487" Value="true"/>
+     </Node>
+     <Node Id="80" Class="Mission:GameTokenSet" pos="0,0,0">
+      <Inputs gametokenid_Token="2002355488" Value="true"/>
+     </Node>
+	 
+    </Nodes>
+    <Edges>
+	
+     <Edge nodeIn="40" nodeOut="4" portIn="Trigger" portOut="OnPickup" enabled="1"/>
+     <Edge nodeIn="70" nodeOut="7" portIn="Trigger" portOut="OnPickup" enabled="1"/>
+     <Edge nodeIn="80" nodeOut="8" portIn="Trigger" portOut="OnPickup" enabled="1"/>
+	 
+    </Edges>
+   </FlowGraph>
+  </Entity>
   
   <Entity Name="ArkNpcSpawner_Danielle" Pos="677.06,741.78003,1105.33" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkNpcSpawner" EntityGuid="639E15DA86B09068" LodRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="1" ShadowCasterType="4" Layer="Exterior_Scripting" HiddenInNodes="1">
    <Properties sNpcArchetype="ArkHumans.Engineers.Danielle Sho" pose_PoseAnim="DeathPose_ZeroG_D" bRigorMortis="0" bSpawnAlwaysUpdate="0" bSpawnBroken="0" bSpawnCorpse="1" bSpawnDormant="0" bSpawnOnGameStart="0"/>
    <Properties2 roomContainer_wanderRoomsContainer="">
     <ArkDialogOverride fPlayerApproachCDFar="-1" fPlayerApproachCDMedium="-1" fPlayerApproachCDNear="-1" fPlayerApproachDistanceFar="-1" fPlayerApproachDistanceMedium="-1" fPlayerApproachDistanceNear="-1" fPlayerLoiterCD="-1" fPlayerLoiterDistance="-1"/>
    </Properties2>
-   <RenderProxy />
   </Entity>
   
   <Entity Name="Data.TranScribe_Danielle" Archetype="ArkPickups.Data.TranScribe" Pos="0,0,0" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkTranScribe" EntityGuid="639E15DA86B09067" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" HiddenInNodes="1">
    <Properties2 bAutoPlayAudioLog="1" iCountOverride="0" audioLogCollection_OnPickup="844024417296981931"/>
-   <RenderProxy />
   </Entity>
   
   <Entity Name="DanielleShowed" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="639E15DA86B09069" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
-   <Properties bDrawThroughWalls="0" bHideInEditor="0" bHideInGame="0" clrMainColor="1,0.5,0" nMainDist="100" MainText="" nMaxNoteHeight="0" nMaxNoteWidth="30" fSize="1.2" clrSummaryColor="1,0.5,0" nSummaryDist="20" SummaryText=""/>
-   <FlowGraph Description="" Group="Utilities" enabled="1" MultiPlayer="ClientServer">
+   <FlowGraph>
     <Nodes>
 	
      <Node Id="1" Class="Game:Start" pos="0,0,0">
