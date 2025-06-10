@@ -7,23 +7,51 @@
       <Inputs gametokenid_Token="659909599" compare_Value="true"/>
    </Node>
 
-   <Node Id="2" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
-      <Inputs location_Location="1713490239386284818" text_AlternateName="@ui_Arboretum" screenshotPath="ui_saveload_screenshot_arboretum_apex"/>
+   <Node Id="10" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="1713490239386284818" text_AlternateName="@ui_Arboretum" screenshotPath="tu_apex_arboretum"/>
    </Node>
-   <Node Id="3" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
-      <Inputs location_Location="844024417275035158" text_AlternateName="@ui_Bridge" screenshotPath="ui_saveload_screenshot_apex"/>
+   <Node Id="20" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="844024417275035158" text_AlternateName="@ui_Bridge" screenshotPath="tu_apex_bridge"/>
    </Node>
-   <Node Id="4" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
-      <Inputs location_Location="1713490239377285936" text_AlternateName="@ui_Lobby" screenshotPath="ui_saveload_screenshot_lobby_apex"/>
+   <Node Id="30" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="1713490239377285936" text_AlternateName="@ui_Lobby" screenshotPath="tu_apex_lobby"/>
+   </Node>
+   <Node Id="40" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="4349723564895209499" text_AlternateName="@ui_Landing" screenshotPath="tu_apex_lifesupport"/>
+   </Node>
+   <Node Id="50" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="15659330456296333985" text_AlternateName="@ui_CargoBay" screenshotPath="tu_apex_cargobay"/>
+   </Node>
+   <Node Id="60" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="4349723564886052417" text_AlternateName="@ui_ZeroG_UtilityTunnels" screenshotPath="tu_apex_guts"/>
+   </Node>
+   <Node Id="70" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="12889009724983807463" text_AlternateName="@ui_SimulationLabs" screenshotPath="tu_apex_nmdiv"/>
+   </Node>
+   <Node Id="80" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="6732635291182790112" text_AlternateName="@ui_PowerSource" screenshotPath="tu_apex_powerplant"/>
+   </Node>
+   <Node Id="90" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="11824555372632688907" text_AlternateName="@ui_Psychotronics" screenshotPath="tu_apex_psychotronics"/>
+   </Node>
+   <Node Id="100" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="1713490239386284988" text_AlternateName="@ui_ShuttleBay" screenshotPath="tu_apex_shuttlebay"/>
    </Node>
 
   
  </Nodes>
  <Edges>
  
-  <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
-  <Edge nodeIn="3" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
-  <Edge nodeIn="4" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="40" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="50" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="60" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="70" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="80" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="90" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="100" nodeOut="1" portIn="Trigger" portOut="Equal True" enabled="1"/>
 
  </Edges>
  
