@@ -2,14 +2,14 @@
 <ArkAudioLogLibrary>
 
  <AudioLogs>
-  <ArkAudioLog ID="4984401014175196005" Name="LukaReminder" Label="Don't Forget" Conversation="13680621263377874707" From="13680621263361473334">
-   <To>
+ 
+  <ArkAudioLog ID="4984401014175196005" Name="LukaReminder" Label="@tu_lukalog" Conversation="13680621263377874707" From="13680621263361473334">
+   <To ch:action="replaceChildren">
     <Recipient value="1713490239389131093"/>
    </To>
   </ArkAudioLog>
-  <ArkAudioLog ID="7869427448474731991" Name="WhistleBlowerConfession" Label="Annalise's Confession" Conversation="13680621263369437546" From="11824555372635796966">
-   <To/>
-  </ArkAudioLog>
+  <ArkAudioLog ID="7869427448474731991" Name="WhistleBlowerConfession" Label="@tu_confessionlog" Conversation="13680621263369437546" From="11824555372635796966"/>
+  
  </AudioLogs>
 
 <AudioLogCollections>

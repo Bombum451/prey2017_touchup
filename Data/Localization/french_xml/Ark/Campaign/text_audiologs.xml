@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG />
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13200</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1 />
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders />
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior />
+   <NumberFormat />
+   <Protection />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="LocStuff">
+  <Table x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="276"/>
+   <Column ss:AutoFitWidth="0" ss:Width="273"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell>
+     <Data ss:Type="String">KEY</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">ORIGINAL TEXT</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">TRANSLATED TEXT</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">LOCKED</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">CHARACTER LIMIT</Data>
+    </Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell>
+     <Data ss:Type="String">tu_lukalog</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Don't Forget</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Comme Ça Vous N&apos;oubliez Pas</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">LOCKED</Data>
+    </Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell>
+     <Data ss:Type="String">tu_confessionlog</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">I Wanted To Be A Gertrude Elion</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Je Voulais Être Comme Gertrude Elion</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">LOCKED</Data>
+    </Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced />
+   <Selected />
+   <TopRowVisible>72</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>98</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+     <RangeSelection>R99C4:R101C4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <x:ExcelWorkbook />
+</Workbook>
