@@ -457,4 +457,13 @@
  </EntityPrototype>
  
  
+ <EntityPrototype Name="CutFood.Box.PacificSliders" Id="{1724BE24-5449-44F3-91E5-D030DEDEAB44}" ArchetypeId="5325583820481450596" ch:basedOn="Name=Food.Box.SkeksisUnagiRollz">
+  <Properties textDescription="@i_foodslidersdesc" textDisplayName="@i_foodsliders" object_GeometryTP="objects/environment/props/gameplay/food/PacificSliders_A/PacificSliders_A.cgf" sHUDIcon="ui_icon_inv_food_sliders">
+   <AppliedOnConsume signalpackage_SignalPackage="10641886185795236374"/>
+   <Description sKeyword2="" signal_keywordSignal2=""/>
+   <Inventory sIcon="ui_icon_inv_food_sliders"/>
+  </Properties>
+ </EntityPrototype>
+ 
+ 
 </EntityPrototypeLibrary>
