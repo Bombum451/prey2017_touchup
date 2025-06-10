@@ -45,4 +45,307 @@
    <ContainerInfo es_ContainerSize="SMALL"/>
  </Properties>
  </EntityPrototype>
+ 
+    <EntityPrototype
+        Name="Containers/Misc.Lobby Locker A">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.Trash_Can_Small">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.Supply_Crate_A">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Apartment.Refridgerator_Apartment_A">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Apartment.Nightstand_A">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers.Kitchen.Breakroom Cabinet">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Apartment.Cabinet_Apt_Kitchen_A_Tall">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers.Kitchen.cabinet_apt_kitchen_a_lower">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Apartment.Cabinet_Apt_Kitchen_A_Upper">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.Toolbox">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.Locker Drawer">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Apartment.Trashcan_Kitchen">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/NeoDeco.Trashcan_Lobby">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers.Kitchen.Breakroom Countertop">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Kitchen.Refridgerator_Breakroom_A">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Lab.Shelf_Lab">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Lab.Cabinet_Lab">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/NeoDeco.Cabinet_NeoDeco">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/NeoDeco.FileCabinet_NeoDeco">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Kitchen.Microwave">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers.Misc.Safe">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/NeoDeco.FileCabinet_B">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.Luggage">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.Cabinet">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Apartment.Apt_Bathroom_Cabinet">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers.Misc.Safe Small">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.GunSafe_A">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/NeoDeco.Boss_Desk_L">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/NeoDeco.Boss_Desk_R">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.Chest">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainer">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers.Misc.SprinklerFertilizerDispenser">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.ExteriorSupplyBox">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainerInterior">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainerServerStack">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainerPanelBack">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainerBackSheet">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.AlienGib_Large">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Containers/Misc.AlienGib_XLarge">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainerServerStackDMG">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainerServerStackB">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainerInteriorRing">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+    <EntityPrototype
+        Name="Exterior.DeepStorageContainerServerStackBmissing">
+        <Properties>
+            <carryDirection
+                y="1" />
+        </Properties>
+    </EntityPrototype>
+ 
 </EntityPrototypeLibrary>
