@@ -30,26 +30,60 @@
    <RenderProxy />
   </Entity>
   
+  <Entity Name="FG_Sq02_Uniform" EntityGuid="4DE1F7D077F4A64B">
+   <FlowGraph>
+    <Edges>
+     <Edge nodeIn="2665" nodeOut="14455" portIn="SetItemsUnrestricted" portOut="out" enabled="0"/>
+     <Edge nodeIn="2665" nodeOut="14456" portIn="SetItemsUnrestricted" portOut="out" enabled="0"/>
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
+  <Entity Name="FG_Sq08_AlexWelcome" EntityGuid="4DC6478DADC863EB">
+   <FlowGraph>
+    <Edges>
+     <Edge nodeIn="2665" nodeOut="14109" portIn="SetItemsUnrestricted" portOut="Finished" enabled="0"/>
+     <Edge nodeIn="2665" nodeOut="14109" portIn="SetItemsUnrestricted" portOut="Load" enabled="0"/>
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
+  <Entity Name="FG_Sq06_Helicopter" EntityGuid="477C5B0DD600B3EB">
+   <FlowGraph>
+    <Edges>
+     <Edge nodeIn="2665" nodeOut="13842" portIn="SetItemsUnrestricted" portOut="Done" enabled="0"/>
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
+  <Entity Name="FG_Sq10_TestD" EntityGuid="45E7ED7C0C4049FE">
+   <FlowGraph>
+    <Edges>
+     <Edge nodeIn="2665" nodeOut="13842" portIn="SetItemsUnrestricted" portOut="Done" enabled="0"/>
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
+  <Entity Name="FG_Sq01_PlayerWakeUp" EntityGuid="4D420FCABDF5FF6D">
+   <FlowGraph>
+    <Nodes>
+	 <Node Id="16000" Class="Ark:Player:SetItemsRestricted" pos="0,0,0"/>
+    </Nodes>
+    <Edges>
+     <Edge nodeIn="16000" nodeOut="13578" portIn="SetItemsRestricted" portOut="ClickTranscribe" enabled="1"/>
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
   <Entity Name="FG_Objectives" EntityGuid="40B8607BA6DED0F9">
    <FlowGraph>
     <Nodes>
 	 
-     <Node Id="150000" Class="Ark:Player:SetItemsRestricted" pos="0,0,0">
-      <Inputs />
      </Node>
-     <Node Id="150001" Class="ArkPlayer:UnequipWeapon" pos="0,0,0">
-      <Inputs />
      </Node>
 	 
     </Nodes>
     <Edges>
-	
-     <Edge nodeIn="150000" nodeOut="14477" portIn="SetItemsRestricted" portOut="output" enabled="1"/>
-     <Edge nodeIn="150001" nodeOut="14477" portIn="Trigger" portOut="output" enabled="1"/>
-	
-     <Edge nodeIn="13610" nodeOut="13622" portIn="Trigger" portOut="Out" enabled="0"/>
-     <Edge nodeIn="13610" nodeOut="13622" portIn="Trigger" portOut="Out" enabled="0"/>
-
     </Edges>
    </FlowGraph>
   </Entity>
