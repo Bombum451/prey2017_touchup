@@ -54,5 +54,28 @@
    </FlowGraph>
   </Entity>
   
+  
+  <Entity Name="Tech.Computer_Cart_A9" EntityGuid="442ABA7F86A22BE7">
+   <Properties bCollisionEnabled="1">
+    <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+   </Properties>
+  </Entity>
+  
+  <Entity Name="Screens\Misc.Computer_Cart_A_Screen2" Material="Objects/Environment/Props/Tech/Computer_Cart_A/computer_cart_Screen_A1" Archetype="ArkLights.Screens\Misc.Computer_Cart_A_Screen" ParentId="3080" EntityClass="ArkLight" EntityGuid="426C1785F883CDB9" CastShadowViewDistRatio="0" CastShadowMinSpec="8" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="SimulationLabs_Sq10_TestC">
+   <Properties2 bActive="1" texture_EmissiveOverride="" bHideMeshInProbes="0" bIsBroken="0" bUsedAsDynamicObstacle="1" nViewDistRatioOverride="0">
+    <EMPLight bEnabled="0" vector_Offset="0,0,0" fRadiusOverride="0"/>
+    <Enabled fStrength="1"/>
+    <Light1 bAffectsThisAreaOnly="1" eiCastShadowsOverride="-1" nCastShadowViewDistRatioOverride="0" bForceDisable="0" bForceIgnoreGeomCaster="0" fFovOverride="0" bHiddenInProbes="0" bIgnoresVisAreas="0" nLightStyleOverride="-1" nLightStylePhaseOverride="0" fLightStyleSpeedOverride="0" fRadiusOverride="0" fShadowBiasOverride="0" nViewDistRatioOverride="0">
+     <Fog bAffectsVolumetricFogOnly="0" fFogRadialLobe="0" bVolumetricFog="0"/>
+     <ShadowCasterTypeFilter bBrush="1" bNPC="1" bPhysics="1" bPlayer="1" bTerrain="1"/>
+    </Light1>
+    <Light2 bAffectsThisAreaOnly="1" eiCastShadowsOverride="-1" nCastShadowViewDistRatioOverride="0" bForceDisable="0" bForceIgnoreGeomCaster="0" fFovOverride="0" bHiddenInProbes="0" bIgnoresVisAreas="0" nLightStyleOverride="-1" nLightStylePhaseOverride="0" fLightStyleSpeedOverride="0" fRadiusOverride="0" fShadowBiasOverride="0" nViewDistRatioOverride="0">
+     <Fog bAffectsVolumetricFogOnly="0" fFogRadialLobe="0" bVolumetricFog="0"/>
+     <ShadowCasterTypeFilter bBrush="1" bNPC="1" bPhysics="1" bPlayer="1" bTerrain="1"/>
+    </Light2>
+    <Time fTimeOff="0" fTimeOn="0"/>
+   </Properties2>
+   <RenderProxy />
+  </Entity>
   </Objects>
 </Mission>
