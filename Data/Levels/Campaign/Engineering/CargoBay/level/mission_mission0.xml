@@ -21,7 +21,7 @@
   <Entity Name="Misc.Cot_A1" Pos="79.64,94.265,685.85" Rotate="0.10452856,0,0,0.99452186" EntityGuid="4B02139AF3975596"/>
   
   <Entity Name="Data.TranScribe_Confession" Archetype="ArkPickups.Data.TranScribe" Pos="0,0,0" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkTranScribe" EntityGuid="639E15DA86B09067" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" HiddenInNodes="1">
-   <Properties2 bAutoPlayAudioLog="1" iCountOverride="0" audioLogCollection_OnPickup="2894851587994256298"/>
+   <Properties2 bAutoPlayAudioLog="0" iCountOverride="0" audioLogCollection_OnPickup="2894851587994256298"/>
    <RenderProxy />
   </Entity>
   
