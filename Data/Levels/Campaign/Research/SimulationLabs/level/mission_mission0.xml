@@ -78,12 +78,40 @@
   <Entity Name="FG_Objectives" EntityGuid="40B8607BA6DED0F9">
    <FlowGraph>
     <Nodes>
-	 
+	 <Node Id="16000" Class="Ark:Player:SetItemsRestricted" pos="0,0,0"/>
+    </Nodes>
+    <Edges>
+     <Edge nodeIn="16000" nodeOut="13622" portIn="SetItemsUnrestricted" portOut="Out" enabled="1"/>
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
+  
+  <Entity Name="FG_Sq06_Helicopter" EntityGuid="477C5B0DD600B3EB">
+   <FlowGraph>
+    <Nodes>
+
+     <Node Id="100000" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="12889009724983807463" text_AlternateName="@ui_TranstarTesting" screenshotPath="tu_testingfacility"/>
      </Node>
+	 
+     <Node Id="200000" Class="Ark:Locations:SetAlternateName" pos="0,0,0">
+      <Inputs location_Location="12889009724983807463" text_AlternateName="@ui_apartment" screenshotPath="ui_saveload_screenshot_apartment"/>
+     </Node>
+	 
+     <Node Id="300000" Class="Mission:GameTokenUpdated" pos="0,0,0">
+        <Inputs gametokenid_Token="1304802513" compare_Value="true"/>
      </Node>
 	 
     </Nodes>
     <Edges>
+	 
+     <Edge nodeIn="2665" nodeOut="13842" portIn="SetItemsUnrestricted" portOut="Done" enabled="0"/>
+	 
+     <Edge nodeIn="100000" nodeOut="13842" portIn="Trigger" portOut="Done" enabled="1"/>
+	 
+     <Edge nodeIn="200000" nodeOut="300000" portIn="Trigger" portOut="Equal True" enabled="1"/>
+	 
     </Edges>
    </FlowGraph>
   </Entity>
