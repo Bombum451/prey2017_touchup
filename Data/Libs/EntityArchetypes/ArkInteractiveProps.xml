@@ -1,5 +1,5 @@
 <EntityPrototypeLibrary>
- <EntityPrototype Name="BreakRooms.Water_Cooler_A" Id="{CD15CA6A-16E7-47B4-A7E9-30A8016C7766}" ArchetypeId="10739735956144680706" ch:applyIf="{{ Inconsistency.WaterCooler_PsychicWater_Removal }}">
+ <EntityPrototype Name="BreakRooms.Water_Cooler_A" Id="{CD15CA6A-16E7-47B4-A7E9-30A8016C7766}" ArchetypeId="10739735956144680706" ch:applyIf="{{ Gameplay.WaterCooler_PsychicWater_Removal }}">
   <Properties>
    <MissionReward signalPackage_PsiRewardOnUse=""/>
   </Properties>

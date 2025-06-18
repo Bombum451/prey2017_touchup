@@ -3,11 +3,11 @@
   <Properties textUseMessage="@tu_puton"/>
  </EntityPrototype>
  
- <EntityPrototype Name="HelicopterUsePrompt" Id="{AD69C688-6575-4D80-B8F4-691BF7FB3729}" ArchetypeId="12889009725038839104">
+ <EntityPrototype Name="HelicopterUsePrompt" Id="{AD69C688-6575-4D80-B8F4-691BF7FB3729}" ArchetypeId="12889009725038839104" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
   <Properties textDisplayName="@loc_15373294129891630217"/>
  </EntityPrototype>
  
- <EntityPrototype Name="TestChair" Id="{9AEAF59D-8B5C-4296-BD37-BE35E7EEFC0D}" ArchetypeId="12889009725038839122">
+ <EntityPrototype Name="TestChair" Id="{9AEAF59D-8B5C-4296-BD37-BE35E7EEFC0D}" ArchetypeId="12889009725038839122" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
   <Properties textDisplayName="@loc_6062853811637017367"/>
  </EntityPrototype>
  

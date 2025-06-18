@@ -54,13 +54,13 @@
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ch:applyIf="{{ Inconsistency.WeaponMods }}">
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ui_clipsize</Data></Cell>
     <Cell><Data ss:Type="String">Ammo capacity</Data></Cell>
     <Cell><Data ss:Type="String">Ammo Capacity</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ch:applyIf="{{ Inconsistency.WeaponMods }}">
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ui_pistolclipsize</Data></Cell>
     <Cell><Data ss:Type="String">Magazine capacity</Data></Cell>
     <Cell><Data ss:Type="String">Magazine Capacity</Data></Cell>

@@ -3,7 +3,7 @@
   <Properties loottable_ContainerLootTable="NPC_Operator_Medical" fileModel="objects/characters/robots/operatormedic/operatormedic.cdf" scanningDisplayName="@npc_medoperator"/>
  </EntityPrototype>
  
- <EntityPrototype Name="Operators\Named.Skillet" Id="{F48F97A8-9B0C-4737-84F7-B4D03550E79B}" ch:applyIf="{{ Inconsistency.Skillet_RepairFix }}">
+ <EntityPrototype Name="Operators\Named.Skillet" Id="{F48F97A8-9B0C-4737-84F7-B4D03550E79B}" ch:applyIf="{{ Bugs.Skillet_RepairFix }}">
   <Properties>
    <Repair nSparePartsRequired="3"/>
   </Properties>

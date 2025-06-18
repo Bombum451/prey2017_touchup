@@ -1,2 +1,1 @@
-
-<ApexVolumeConfig period="0.01"/>
+<ApexVolumeConfig period="0.01" ch:applyIf="{{ Bugs.ApexWallDeath }}"/>

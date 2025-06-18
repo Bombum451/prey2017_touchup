@@ -1,11 +1,11 @@
 <Mission>
 <Objects>
   
-  <Entity Name="Data.TranScribe_Luka" Archetype="ArkPickups.Data.TranScribe" Pos="0,0,0" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkTranScribe" EntityGuid="639E15DA86B09067" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" HiddenInNodes="1">
+  <Entity Name="Data.TranScribe_Luka" Archetype="ArkPickups.Data.TranScribe" Pos="0,0,0" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkTranScribe" EntityGuid="639E15DA86B09067" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" HiddenInNodes="1" ch:applyIf="{{ CutContent.LukaLog }}">
    <Properties2 bAutoPlayAudioLog="0" iCountOverride="0" audioLogCollection_OnPickup="11929619134478457645"/>
   </Entity>
   
-  <Entity Name="LukaTranscribe" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="639E15DA86B09069" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="LukaTranscribe" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="639E15DA86B09069" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ CutContent.LukaLog }}">
    <FlowGraph>
     <Nodes>
 	
@@ -32,17 +32,17 @@
   </Entity>
   
   
-  <Entity Name="Turrets.Turret_Default3" EntityGuid="48FB3750B05ADA13">
+  <Entity Name="Turrets.Turret_Default3" EntityGuid="48FB3750B05ADA13" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
-  <Entity Name="Turrets.Turret_Default2" EntityGuid="4313FB71F6EFF9D5">
+  <Entity Name="Turrets.Turret_Default2" EntityGuid="4313FB71F6EFF9D5" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
-  <Entity Name="Turrets.Turret_Default1" EntityGuid="402B1EAD774494FB">
+  <Entity Name="Turrets.Turret_Default1" EntityGuid="402B1EAD774494FB" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
   
-  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.BrokenTurrets }}">
    <FlowGraph>
     <Nodes>
 	

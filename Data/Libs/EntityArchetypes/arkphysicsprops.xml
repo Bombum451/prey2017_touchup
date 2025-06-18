@@ -805,2100 +805,2100 @@
  </EntityPrototype>
  
  
-<EntityPrototype
+<EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Chair_Lab_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Binder_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Flask_Base">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Stool_Lab_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Flask_C">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Gurney">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Ashtray">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Chair_Conference_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Crate_Small_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Computer Cart">
         <Properties>
             <carryDirection
                 y="-1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.SideTable_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Bathroom.Bucket_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Chair_Apt_Computer_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Bin_Parts_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Vase_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Vase_C">
         <Properties>
             <carryDirection
                 x="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.OperatorPart_Cartridge">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.OperatorPart_Eye">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.OperatorPart_Chassis">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Chair_Office_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.SmokingSet_A_Cigarbox">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Bin_Fabric_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.ScrewBin">
         <Properties>
             <carryDirection
                 y="-1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.GameConsole_Controller">
         <Properties>
             <carryDirection
                 y="-1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Monitor_Apt_A">
         <Properties>
             <carryDirection
                 y="-1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Boltcase_A">
         <Properties>
             <carryDirection
                 y="-1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Lab_Magnifier">
         <Properties>
             <carryDirection
                 x="-1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Divider">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Chair_BarStool">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Desk_Box">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Lobby_Lectern">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Box_Folders_Closed">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.PaperTray">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Kitchen.Kitchen_Plate">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Globe_2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Desk_Plant">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Headphones">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Bench_Leather">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Microscope">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.IVStand">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Whiteboard">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_B1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_B2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_B3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_B4">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_C1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Luggage_Cart">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Trauma_Cart">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Gameplay.Roof_Panel_PowerSource">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Hotplate">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Garden.Rock_Small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Serving Cart">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.SmokingSet_A_Ashtray">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Transtar_Logo">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.CoffeeTable_Apt">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Couch Apt">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Shelf_Furniture_Apt">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Couch Hallway">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Chair Fake Transtar">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Coffee Table B">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Coffee Table A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Table Round">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Table Hallway">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Reployer">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Sofa Chair">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Sofa">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Tape Drive A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Computer Server A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Cabinet Reel B">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Chair_Breakroom">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Gameplay.Goo_Breakable">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Solar_Panel_Small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Solar_Panel_Dmg_02">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Solar_Panel_Dmg_03">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Solar_Panel_Dmg_04">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Solar_Panel_Dmg_05">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Solar_Panel_Dmg_06">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Computer Server A2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Computer Server A3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Computer Server A4">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Tank Storage">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Heatsinks_a1.cgf">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pillow_Throw">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Whiteboard_Eraser">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Whiteboard_Markers">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Post_Divider_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Crate_B">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Compression_Wrap">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Gameplay.Goo_Breakable_Cutscene">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Tea Pot">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.SignPole">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Gym.Punching_Bag">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Dishrack_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Pencil_Case_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Table_Lounge_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Table_Chess_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Table_Chess_A_Timer">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Chair_Lounge_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Gilded Tray">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Cardboard_Box_80x180x40">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Sign_Stand_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Crate_B_Med">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Crate_B_Large">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Chair_Dining">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Microphone">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Detail_Tank_Large_A_Part2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Detail_Tank_Large_A_Part3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Detail_Tank_Large_A_Part5">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Bench_Leather_Single">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Dinner_Plate">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.ToiletPaper_Roll">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Chair_Boss">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Post_Divider_A_RedRope">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Soviet_Spacecraft_Door">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Escape_Pod_Chair">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Glovebox_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Sign_Radiation_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Kitchen.CuttingBoard_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.ScrewBin2">
         <Properties>
             <carryDirection
                 y="-1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.ScrewBin3">
         <Properties>
             <carryDirection
                 y="-1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Binder_A2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Binder_A3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Binder_A4">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cot_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.Steamer_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Statue_Moon_Marble_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Statue_Mineral_B">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pillow_Bed">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pillow_Bed2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pillow_Bed3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.PingPong_Paddle_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Palette_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Poster_Movie_Stand">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Kitchen.Teapot_Chinese_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Kitchen.Skimmer">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Kitchen.Ladle">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Light_Fixtures.Light_Flood_B">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Light_Fixtures.Light_Worklight_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Cabinet Reel Single">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Cargo_A_Small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Cargo_A_Small_2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Boxes-Crates.Cargo_A_Large">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Gauzebox_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cot_Rollup">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cards_Playing_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cards_Playing_A1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cards_Playing_A2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cards_Playing_A3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cards_Playing_A7">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cards_Playing_A8">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cards_Playing_A9">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cart_Laundry_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Debris A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Debris A1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Debris A2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Debris A3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Debris A4">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Grate_A_NeoDeco">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Debris A5">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Alembic_A_3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Alembic_A_1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Alembic_A_2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_A1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_A2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_A3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_A4">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_A0">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_B1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_B2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_B3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_B4">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Papers_B5">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Cigarette_Butts">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Lobby Panel">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Kitchen.Flatware_Knife_LG">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Girder_Hub_01">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Gameplay.Goo_Breakable_Mimickable">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Gameplay.Debris_Panel_01">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_B">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_C2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_C3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.LookingGlass_Hanging_Part_C4">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Keytar_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Envelope_Chinese_Single">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Envelope_Chinese_Stack">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Tile Hanging">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Architecture.Panel_Hanging_Industrial">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Architecture.Podbay_Lower_Panel_Hatch">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Tank_Eel_Lid_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Tank_Eel_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Tank_Eel_A_Open">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Guitar_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Guitar_A_Stand">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.GUT_Pipe_Large_Chunk2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.GUT_Pipe_Large_Chunk1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Garden.Lily_Pad_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Tray_Metal_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Laser_Lab_A_Part_3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Tarp_Fabric_A_Folded">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Robot_Construction_A_Body_Zero-G-Only">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Fan_Utility_Blades">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Gaming_DiceTube_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pipe_Chunk_Large_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pipe_Chunk_Large_A2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pipe_Chunk_Medium_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pipe_Chunk_Medium_A2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Clothes_Shoes_A_Male1_L">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Clothes_Shoes_A_Male1_R">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Clothes_Shoes_A_Female1_R">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Clothes_Shoes_A_Female1_L">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Clothes_Bin_A_Loose">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Garden.Bag_Garden_Stack">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Panel Industrial Lrg">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Panel Industrial Sml">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Lens_LookingGlass_Center">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Prototype_Neuromod_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.ToiletPaper_Roll_Unbreakable">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.YellowTulipInvite">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Ceiling Tile Hanging_Unbreakable">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Folders_Tied_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Office.Folders_Tied_A2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Architecture.Panel_Airlock_Hardware">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Chairs.Chair_Dining_Apartment">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Baseball_Homeplate">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Baseball_Pitcher">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Apartment.MilitaryOperator_Gunless">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Visor_LookingGlass_Prototype">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Visor_LookingGlass_Prototype_Headband">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Tech.Visor_LookingGlass_Prototype_Frame">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Sign_NoEntry_Industrial">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Wood_Panel">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Lightbox_Lab_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Xray_Head_Double_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Kitchen.Plate_Stack_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Science.Table_Lab_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Station_Panel_01">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Space.Station_Panel_02">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Industrial.Security_Cage">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Pinball_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Bass_A_Base">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Rock_Tile_Large">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Paint_Bottles">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Sign_NoSmoking_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Shuttlebay_controlroom_orbit_map">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A_Panel_01">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A_Panel_02">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A_Panel_03">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.electricalbox_support_a_small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Sign_Danger_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.stairs_neodeco_a_2step_3_75m_solid">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.stairs_neodeco_a_half_3_75m_solid">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.stairs_neodeco_a_half_4m_solid">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.stairs_neodeco_a_qtr_4m_solid">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.computer_server_a_blue">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.computer_server_a2_blue">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.electricalbox_support_a_large">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.sign_restroom_a_men">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.sign_restroom_a_women">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.electricalbox_support_a_small_b">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Shuttlebay_controlroom_orbit_map_large">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.computer_server_a">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.computer_server_a2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.sign_security_a">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.circuitbox_a1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.circuitbox_a2">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.circuitbox_a7">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.computer_server_a3">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.light_panel_a_dataejection">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.sign_stairs_a">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.sign_stairs_a_down">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.stairs_neodeco_a_half_4m_solid1">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.sign_restroom_a_men_small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.sign_restroom_a_women_small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.desk_reception_a_light_panel_signbacking">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.electricalbox_support_a_hardware">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Wall_Debrief_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.SkillRecorder_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.cabinet_lab_a">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.deepstorage_central_computer_light">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.stairs_neodeco_a_2step_4m_solid">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.stairs_neodeco_a/stairs_neodeco_a_double_turn_solid_r">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.circuitbox_tower_a">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.circuitbox_custom_a">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A_small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.circuitbox_a1_Small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.circuitbox_a2_Small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.circuitbox_a1_large">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A_scaled_half">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A_Panel_01_small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A_Panel_02_small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Circuitbox_A_Panel_03_small">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Poster_Movie_Stand_Blank">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cosmonaut_Helmet">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cosmonaut_GloveR">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Misc.Cosmonaut_GloveL">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Static_ArkLights.Desk_Reception_A">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Table Round B">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Table Rectangle">
         <Properties>
             <carryDirection
                 y="1" />
         </Properties>
     </EntityPrototype>
-    <EntityPrototype
+    <EntityPrototype ch:applyIf="{{ QoL.PickupOrientationImprove }}"
         Name="Luxury.Table Placemat">
         <Properties>
             <carryDirection

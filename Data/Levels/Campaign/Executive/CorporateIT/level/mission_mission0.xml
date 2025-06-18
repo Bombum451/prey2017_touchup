@@ -6,11 +6,11 @@
   <Entity Name="Tech.Mission_BackupDrive2" Pos="1273.1649,777.36017,290.13989" Rotate="1,-1.1387701e-07,-4.0444544e-08,-4.6057035e-15" EntityClass="GeomEntity" EntityGuid="4B99059065A3C02A" ch:applyIf="{{ QoL.ZeroG_Objective_Improvements }}"/>
   
   
-  <Entity Name="Turrets.Turret_Default3" EntityGuid="48706B937871E800">
+  <Entity Name="Turrets.Turret_Default3" EntityGuid="48706B937871E800" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
   
-  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.BrokenTurrets }}">
    <FlowGraph>
     <Nodes>
 	

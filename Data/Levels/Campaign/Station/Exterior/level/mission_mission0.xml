@@ -5,13 +5,13 @@
    <PhysicsState pos="722.22998,719.5,859.19"/>
   </Entity>
   
-  <Entity Name="Turrets.Turret_Default1" Archetype="ArkRobots.Turrets.Turret_Default_TU_ZeroG" EntityGuid="47556392A17D1F8F"/>
+  <Entity Name="Turrets.Turret_Default1" Archetype="ArkRobots.Turrets.Turret_Default_TU_ZeroG" EntityGuid="47556392A17D1F8F" ch:applyIf="{{ QoL.PickupOrientationImprove }}"/>
   
-  <Entity Name="Player.Neuromod4" EntityGuid="49932A6C6319450E"/>
-  <Entity Name="Player.Neuromod7" Pos="717.19031,652.48999,614.30304" EntityGuid="47A745F95204C355"/>
-  <Entity Name="Player.Neuromod8" EntityGuid="47C05DDD683C1131"/>
+  <Entity Name="Player.Neuromod4" EntityGuid="49932A6C6319450E" ch:applyIf="{{ Bugs.PowerPlantNeuromods }}"/>
+  <Entity Name="Player.Neuromod7" Pos="717.19031,652.48999,614.30304" EntityGuid="47A745F95204C355" ch:applyIf="{{ Bugs.PowerPlantNeuromods }}"/>
+  <Entity Name="Player.Neuromod8" EntityGuid="47C05DDD683C1131" ch:applyIf="{{ Bugs.PowerPlantNeuromods }}"/>
   
-  <Entity Name="PowerPlantNeuromods" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="9E8350EFDC4172B2" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="PowerPlantNeuromods" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="9E8350EFDC4172B2" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.PowerPlantNeuromods }}">
    <FlowGraph>
     <Nodes>
 	
@@ -46,18 +46,18 @@
    </FlowGraph>
   </Entity>
   
-  <Entity Name="ArkNpcSpawner_Danielle" Pos="677.06,741.78003,1105.33" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkNpcSpawner" EntityGuid="639E15DA86B09068" LodRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="1" ShadowCasterType="4" Layer="Exterior_Scripting" HiddenInNodes="1">
+  <Entity Name="ArkNpcSpawner_Danielle" Pos="677.06,741.78003,1105.33" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkNpcSpawner" EntityGuid="639E15DA86B09068" LodRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="1" ShadowCasterType="4" Layer="Exterior_Scripting" HiddenInNodes="1" ch:applyIf="{{ CutContent.DanielleShowed }}">
    <Properties sNpcArchetype="ArkHumans.Engineers.Danielle Sho" pose_PoseAnim="DeathPose_ZeroG_D" bRigorMortis="0" bSpawnAlwaysUpdate="0" bSpawnBroken="0" bSpawnCorpse="1" bSpawnDormant="0" bSpawnOnGameStart="0"/>
    <Properties2 roomContainer_wanderRoomsContainer="">
     <ArkDialogOverride fPlayerApproachCDFar="-1" fPlayerApproachCDMedium="-1" fPlayerApproachCDNear="-1" fPlayerApproachDistanceFar="-1" fPlayerApproachDistanceMedium="-1" fPlayerApproachDistanceNear="-1" fPlayerLoiterCD="-1" fPlayerLoiterDistance="-1"/>
    </Properties2>
   </Entity>
   
-  <Entity Name="Data.TranScribe_Danielle" Archetype="ArkPickups.Data.TranScribe" Pos="0,0,0" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkTranScribe" EntityGuid="639E15DA86B09067" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" HiddenInNodes="1">
+  <Entity Name="Data.TranScribe_Danielle" Archetype="ArkPickups.Data.TranScribe" Pos="0,0,0" Rotate="-4.1841638e-08,-0.017456667,0.99984765,-1.0747347e-07" EntityClass="ArkTranScribe" EntityGuid="639E15DA86B09067" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" HiddenInNodes="1" ch:applyIf="{{ CutContent.DanielleShowed }}">
    <Properties2 bAutoPlayAudioLog="1" iCountOverride="0" audioLogCollection_OnPickup="844024417296981931"/>
   </Entity>
   
-  <Entity Name="DanielleShowed" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="639E15DA86B09069" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="DanielleShowed" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="639E15DA86B09069" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ CutContent.DanielleShowed }}">
    <FlowGraph>
     <Nodes>
 	

@@ -2,7 +2,7 @@
 <Objects>
   <Entity Name="Systems.Grounding_Resistor2" EntityGuid="4232E9DCE5B6AB47" ch:action="delete" ch:applyIf="{{ QoL.Psychotronics_Remove_Resistor }}"/>
   
-  <Entity Name="FlowgraphEntity21" EntityClass="FlowgraphEntity" EntityGuid="4BB66D481876249E">
+  <Entity Name="FlowgraphEntity21" EntityClass="FlowgraphEntity" EntityGuid="4BB66D481876249E" ch:applyIf="{{ QoL.PerceptiblyFasterHarvest }}">
    <FlowGraph>
     <Nodes>
      <Node Id="1660" Class="Ark:Workstation:WorkstationPopup" EntityGUID_64="4BED469161F2A87C">
@@ -27,7 +27,7 @@
    </FlowGraph>
   </Entity>
   
-  <Entity Name="Audio_FlowGraph" EntityClass="FlowgraphEntity" EntityGuid="4E68D7FBDC76CF95">
+  <Entity Name="Audio_FlowGraph" EntityClass="FlowgraphEntity" EntityGuid="4E68D7FBDC76CF95" ch:applyIf="{{ Bugs.HarvestMusic }}">
    <FlowGraph>
     <Nodes>
      <Node Id="10000" Class="Mission:GameTokenCheck" pos="0,0,0">
@@ -42,24 +42,24 @@
    </FlowGraph>
   </Entity>
   
-  <Entity Name="ArkNpcSpawner_Mimic20" EntityGuid="4B8BB4B2F129EC3D">
+  <Entity Name="ArkNpcSpawner_Mimic20" EntityGuid="4B8BB4B2F129EC3D" ch:applyIf="{{ Inconsistency.GibLogic }}">
    <Properties sNpcArchetype="ArkNpcs.Mimics.HarvestMimic"/>
   </Entity>
-  <Entity Name="ArkNpcSpawner_Mimic12" EntityGuid="4C67A41EEE20C5F0">
+  <Entity Name="ArkNpcSpawner_Mimic12" EntityGuid="4C67A41EEE20C5F0" ch:applyIf="{{ Inconsistency.GibLogic }}">
    <Properties sNpcArchetype="ArkNpcs.Mimics.HarvestMimic"/>
   </Entity>
-  <Entity Name="ArkNpcSpawner_Mimic16" EntityGuid="4757798FA337D481">
+  <Entity Name="ArkNpcSpawner_Mimic16" EntityGuid="4757798FA337D481" ch:applyIf="{{ Inconsistency.GibLogic }}">
    <Properties sNpcArchetype="ArkNpcs.Mimics.HarvestMimic"/>
   </Entity>
   
-  <Entity Name="Turrets.Turret_Default7" EntityGuid="424A2129DD587259">
+  <Entity Name="Turrets.Turret_Default7" EntityGuid="424A2129DD587259" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
-  <Entity Name="Turrets.Turret_Default5" EntityGuid="4EEC2F6911516BCB">
+  <Entity Name="Turrets.Turret_Default5" EntityGuid="4EEC2F6911516BCB" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
   
-  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.BrokenTurrets }}">
    <FlowGraph>
     <Nodes>
 	

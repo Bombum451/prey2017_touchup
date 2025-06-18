@@ -38,13 +38,13 @@
     <Cell ss:StyleID="s68"><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">CHARACTER LIMIT</Data></Cell>
    </Row>
-   <Row ch:applyIf="{{ Inconsistency.ChipsetSwap }}">
+   <Row ch:applyIf="{{ Gameplay.ChipsetSwap }}">
     <Cell><Data ss:Type="String">i_ChipsetBacklashBuff</Data></Cell>
     <Cell><Data ss:Type="String">Reattore Contraccolpo S-p58</Data></Cell>
     <Cell><Data ss:Type="String">[O] Reattore Contraccolpo S-p58</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
-   <Row ch:applyIf="{{ Inconsistency.ChipsetSwap }}">
+   <Row ch:applyIf="{{ Gameplay.ChipsetSwap }}">
     <Cell><Data ss:Type="String">I_ChipsetMechTechs</Data></Cell>
     <Cell><Data ss:Type="String">[O] M3chT3ch dx_2.0</Data></Cell>
     <Cell><Data ss:Type="String">M3chT3ch dx_2.0</Data></Cell>

@@ -1,18 +1,18 @@
 <Mission>
 <Objects>
-  <Entity Name="Crafting.Ingredients.Organic7" EntityGuid="4EE0B59280CA1DF9" ch:applyIf="{{ Inconsistency.Fixed_Hardware_Foot }}">
+  <Entity Name="Crafting.Ingredients.Organic7" EntityGuid="4EE0B59280CA1DF9" ch:applyIf="{{ Gameplay.Fixed_Hardware_Foot }}">
    <Properties2 iCountOverride="2"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="40DF2A0FCBBDE09B" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="40DF2A0FCBBDE09B" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Lab.Cabinet_Lab8" EntityGuid="40F34C5F4E191BD6" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Lab.Cabinet_Lab8" EntityGuid="40F34C5F4E191BD6" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="42EDCD2240E17A26" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="42EDCD2240E17A26" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Shelf_Lab5" EntityGuid="4758AA230AD47707" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Shelf_Lab5" EntityGuid="4758AA230AD47707" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Large"/>
    <RenderProxy />
   </Entity>
@@ -28,18 +28,18 @@
    <Properties2 note_OnRead="4349723564947499639"/>
   </Entity>
   
-  <Entity Name="Player.Neuromod7" Pos="447.75,420.20999,502.01001" EntityGuid="49AD513F2FB893FF"/>
-  <Entity Name="Player.Neuromod5" Pos="447.81381,420.03,502.01001" EntityGuid="4201D0D875A1B099"/>
+  <Entity Name="Player.Neuromod7" Pos="447.75,420.20999,502.01001" EntityGuid="49AD513F2FB893FF" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
+  <Entity Name="Player.Neuromod5" Pos="447.81381,420.03,502.01001" EntityGuid="4201D0D875A1B099" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
   
   
-  <Entity Name="Turrets.Turret_Default3" EntityGuid="420204501AD5A526">
+  <Entity Name="Turrets.Turret_Default3" EntityGuid="420204501AD5A526" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
-  <Entity Name="Turrets.Turret_Default2" EntityGuid="49A143BDA7A00A3C">
+  <Entity Name="Turrets.Turret_Default2" EntityGuid="49A143BDA7A00A3C" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
   
-  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.BrokenTurrets }}">
    <FlowGraph>
     <Nodes>
 	

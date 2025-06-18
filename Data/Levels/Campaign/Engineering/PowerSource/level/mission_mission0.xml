@@ -5,11 +5,11 @@
    <Properties2 iCountOverride="0" character_TrackedCharacter="6732635291182868247"/>
   </Entity>
   
-  <Entity Name="Player.Neuromod4" EntityGuid="49932A6C6319450E"/>
-  <Entity Name="Player.Neuromod7" EntityGuid="47A745F95204C355"/>
-  <Entity Name="Player.Neuromod8" EntityGuid="47C05DDD683C1131"/>
+  <Entity Name="Player.Neuromod4" EntityGuid="49932A6C6319450E" ch:applyIf="{{ Bugs.PowerPlantNeuromods }}"/>
+  <Entity Name="Player.Neuromod7" EntityGuid="47A745F95204C355" ch:applyIf="{{ Bugs.PowerPlantNeuromods }}"/>
+  <Entity Name="Player.Neuromod8" EntityGuid="47C05DDD683C1131" ch:applyIf="{{ Bugs.PowerPlantNeuromods }}"/>
   
-  <Entity Name="PowerPlantNeuromods" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="9E8350EFDC4172B2" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="PowerPlantNeuromods" Pos="0,0,0" Rotate="0,0,0,1" EntityClass="FlowgraphEntity" EntityGuid="9E8350EFDC4172B2" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.PowerPlantNeuromods }}">
    <FlowGraph>
     <Nodes>
 	

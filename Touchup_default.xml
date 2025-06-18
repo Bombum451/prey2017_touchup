@@ -1,27 +1,37 @@
 <TouchUp>
 
 <Bugs type="xmlnode">
-	<Fix_Armed_Humans type="bool" display_name="Fix armed NPCs">true</Fix_Armed_Humans>
-	<Crew_Fixes type="bool" display_name="Crew presence fixes">true</Crew_Fixes>
+	<Fix_Armed_Humans type="bool" display_name="Armed NPC guns">true</Fix_Armed_Humans>
+	<Crew_Fixes type="bool" display_name="Crew not missing from roster">true</Crew_Fixes>
 	<No_MedOp_O2 type="bool" display_name="Medical Operators don't wrongly restore oxygen">true</No_MedOp_O2>
 	<QBeam_AoE_NoBlindness type="bool" display_name="AoE Q-Beam blasts can't give unimplemented Blindess trauma">true</QBeam_AoE_NoBlindness>
-	<Fixed_Vodka_Icon type="bool" display_name="Fixed vodka icon">true</Fixed_Vodka_Icon>
-	<SuitChipsets_Use_ProperGraphic type="bool" display_name="Proper suit chipset icon">true</SuitChipsets_Use_ProperGraphic>
+	<Fixed_Icons type="bool" display_name="Fixed icons">true</Fixed_Icons>
 	<Fix_Psychotronics_LG type="bool" display_name="Fix Psychotronics LG button being visible through walls">true</Fix_Psychotronics_LG>
 	<Workstation_Examine_Fixes type="bool" display_name="Prevent teleportation with workstation examinations">true</Workstation_Examine_Fixes>
 	<Remmer_Fix type="bool" display_name="Prevent Kirk Remmer's phantom from dying offscreen">true</Remmer_Fix>
-	<Pos_Drunk_Fix type="bool" display_name="Icon for positive drunkenness no longer jaggy">true</Pos_Drunk_Fix>
+	<PsychoQuestFix type="bool" display_name="Fix Showing Initiative objective marker names">true</PsychoQuestFix>
+	<Skillet_RepairFix type="bool" display_name="Repairing Skillet isn't free">true</Skillet_RepairFix>
+	<ApexWallDeath type="bool" display_name="Prevent going through endgame hazard walls">true</ApexWallDeath>
+	<BrokenTurrets type="bool" display_name="Fix turret names disappearing after repair">true</BrokenTurrets>
+	<CargoBayClipping type="bool" display_name="Reduce noisy container clipping in the Cargo Bay">true</CargoBayClipping>
+	<PowerPlantNeuromods type="bool" display_name="Fix neuromods in Power Plant hull breach">true</PowerPlantNeuromods>
+	<HarvestMusic type="bool" display_name="No uplifting music if Psychotronics harvest complete">true</HarvestMusic>
+	<BrokenNMDivWorkstation type="bool" display_name="Fix Neuromod Division workstation that shows a broken icon">true</BrokenNMDivWorkstation>
 </Bugs>
-	
-<Inconsistency type="xmlnode">
-	<WeaponMods type="bool" display_name="Weapon modification capitalization fix">true</WeaponMods>
-	<NMDiv_Volunteers type="bool" display_name="Correct name for volunteer tracker">true</NMDiv_Volunteers>
+
+<Gameplay type="xmlnode">
 	<ChipsetSwap type="bool" display_name="Backlash suit chipset now psychoscope">true</ChipsetSwap>
 	<FocusNotCheap type="bool" display_name="Combat Focus unaffected by chipsets meant for Typhon powers">true</FocusNotCheap>
 	<StealthMimic type="bool" display_name="Mimic Matter now actually somewhat stealthy as it's described">true</StealthMimic>
-	<Mass_Adjust type="bool" display_name="Adjust movable object masses for more realistic throwing">true</Mass_Adjust>
 	<Fixed_Hardware_Foot type="bool" display_name="Fixed Hardware Labs recycled toe">true</Fixed_Hardware_Foot>
 	<Fixed_Lab_Cabinets type="bool" display_name="Fixed empty lab cabinets">true</Fixed_Lab_Cabinets>
+	<Psi_Aptitude_NightmareHeat_Removal type="bool" display_name="Psionic Aptitude neuromods can't attract the Nightmare">true</Psi_Aptitude_NightmareHeat_Removal>
+	<WaterCooler_PsychicWater_Removal type="bool" display_name="Psychic Water doesn't apply to water coolers">true</WaterCooler_PsychicWater_Removal>
+</Gameplay>
+	
+<Inconsistency type="xmlnode">
+	<NMDiv_Volunteers type="bool" display_name="Correct name for volunteer tracker">true</NMDiv_Volunteers>
+	<Mass_Adjust type="bool" display_name="Adjust movable object masses for more realistic throwing">true</Mass_Adjust>
 	<ZeroG_Recoil type="bool" display_name="Weapons push in Zero-G">true</ZeroG_Recoil>
 	<Artrax_Quest_NotASideQuest type="bool" display_name="ARTAX acquisition no longer labeled a side quest">true</Artrax_Quest_NotASideQuest>
 	<MedOp_Endgame_Igwe type="bool" display_name="Medical Operator inclusion in the Endgame">true</MedOp_Endgame_Igwe>
@@ -30,21 +40,27 @@
 	<Email_Formatting_Fix type="bool" display_name="Fix for switched 'To:' 'From:' in an email">true</Email_Formatting_Fix>
 	<More_Mimicable_Stuff type="bool" display_name="More mimicable props">true</More_Mimicable_Stuff>
 	<Recycling_Yield_Anomaly_Fixing type="bool" display_name="Anomalous recycler yield fixes">true</Recycling_Yield_Anomaly_Fixing>
-	<Psi_Aptitude_NightmareHeat_Removal type="bool" display_name="Psionic Aptitude neuromods can't attract the Nightmare">true</Psi_Aptitude_NightmareHeat_Removal>
-	<WaterCooler_PsychicWater_Removal type="bool" display_name="Psychic Water doesn't apply to water coolers">true</WaterCooler_PsychicWater_Removal>
 	<Faux_Cigar_Removal type="bool" display_name="Remove real-looking but non-interactable cigar decals">true</Faux_Cigar_Removal>
-	<Elevator_Phantom_Gibs type="bool" display_name="Elevator phantom doesn't leave behind gibs">true</Elevator_Phantom_Gibs>
+	<GibLogic type="bool" display_name="Gib logic improvements in special encounters">true</Elevator_Phantom_Gibs>
 	<Morgan_CrewQ_Emails type="bool" display_name="Morgan's Crew Quarters workstation has emails">true</Morgan_CrewQ_Emails>
-	<Immersion_Level_Edits type="bool" display_name="Minor immersion level edits">true</Immersion_Level_Edits>
-	<CrewQ_VoidCover type="bool" display_name="Crew Quarters Executive Suites hull breach has a tape drive to obscure the void">true</CrewQ_VoidCover>
+	<Immersion_Level_Edits type="bool" display_name="Minor level object placement edits">true</Immersion_Level_Edits>
 	<Displayed_Names type="bool" display_name="Adds names to objects when hovered over and fixes interaction texts">true</Displayed_Names>
 	<Danielle_NotOnRoster type="bool" display_name="Danielle Sho not longer on the roster, like January says">true</Danielle_NotOnRoster>
 	<Magazine_Fixes type="bool" display_name="Magazine logic improvements">true</Magazine_Fixes>
-	<Skillet_RepairFix type="bool" display_name="Repairing Skillet isn't free">true</Skillet_RepairFix>
 	<InGameMapImprovements type="bool" display_name="Ingame map screen improvements">true</InGameMapImprovements>
 	<FoodUIFix type="bool" display_name="All psi-restoring food items display restored psi in the UI">true</FoodUIFix>
 	<PopStar_Restore_Psi type="bool" display_name="PopStar restores psi, like all the other drinks">true</PopStar_Restore_Psi>
+	<TestingFacilityImage type="bool" display_name="TranStar Testing Facility has a location image in the menu">true</TestingFacilityImage>
 </Inconsistency>
+
+<CutContent type="xmlnode">
+	<DanielleShowed type="bool" display_name="Danielle Sho corpse and audio log">true</DanielleShowed>
+	<Simmons type="bool" display_name="Marco Simmons corpse">true</Simmons>
+	<ConfessionLog type="bool" display_name="Whistleblower quest confession audio log">true</AnnaliseConfession>
+	<LukaLog type="bool" display_name="Luka Golubkin confrontation audio log">true</LukaLog>
+	<NightmareMusic type="bool" display_name="Nightmare encounter music">true</NightmareMusic>
+	<PacificSliders type="bool" display_name="Pacific Sliders food item">true</PacificSliders>
+</CutContent>
 			
 <QoL type="xmlnode">
 	<Hacking_TimeChanges type="bool" display_name="Hacking II no longer uniquely difficult">true</Hacking_TimeChanges>
@@ -62,6 +78,10 @@
 	<DeepStorage_LockClear type="bool" display_name="Deep Storage voice lock tells you to hold still">true</DeepStorage_LockClear>
 	<ImportantInteractText type="bool" display_name="Unique interaction text for important things">true</ImportantInteractText>
 	<CorruptedDeviceScan type="bool" display_name="Makes the corrupted device scanning more logical">true</CorruptedDeviceScan>
+	<UselessTranscribeRemove type="bool" display_name="Remove redundant one-line audio log">true</UselessTranscribeRemove>
+	<PerceptiblyFasterHarvest type="bool" display_name="Less random waiting in harvest sequence">true</PerceptiblyFasterHarvest>
+	<IntroWeaponWheel type="bool" display_name="Disable weapon wheel in intro">true</IntroWeaponWheel>
+	<PickupOrientationImprove type="bool" display_name="Object pickup orientation improvements">true</PickupOrientationImprove>
 </QoL>
 	
 </TouchUp>

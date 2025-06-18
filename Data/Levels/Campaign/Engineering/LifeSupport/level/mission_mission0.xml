@@ -1,13 +1,13 @@
 <Mission>
 <Objects>
 
-  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="49A29C3EA6F87DB4" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="49A29C3EA6F87DB4" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityGuid="4184EF26CCF20563" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityGuid="4184EF26CCF20563" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="4435FA73D00977AC" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="4435FA73D00977AC" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
   <Entity Name="ArkNpcSpawner_VoltaicPhantom1" EntityGuid="4017113E568B030D" ch:applyIf="{{ Bugs.Remmer_Fix }}">
@@ -16,14 +16,14 @@
   <Entity Name="Crafting.RecyclerJunk.WireSpool10" Pos="157.90355,269.14612,57.92" EntityGuid="457C37BAE63A8BDC" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
   <Entity Name="Crafting.RecyclerJunk.WireSpool7" Pos="157.48926,269.14899,57.92" EntityGuid="410A5CF2C886B1D3" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
   
-  <Entity Name="Turrets.Turret_Default6" EntityGuid="42FFEDAFFECD358F">
+  <Entity Name="Turrets.Turret_Default6" EntityGuid="42FFEDAFFECD358F" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
-  <Entity Name="Turrets.Turret_Default7" EntityGuid="4EF63681694998B1">
+  <Entity Name="Turrets.Turret_Default7" EntityGuid="4EF63681694998B1" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
   
-  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.BrokenTurrets }}">
    <FlowGraph>
     <Nodes>
 	

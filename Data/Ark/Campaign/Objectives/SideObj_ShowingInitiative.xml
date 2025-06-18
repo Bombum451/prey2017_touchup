@@ -1,6 +1,6 @@
 
 <Objectives>
- <Objective id="13680621263383421981">
+ <Objective id="13680621263383421981" ch:applyIf="{{ Bugs.PsychoQuestFix }}">
   <Tasks>
    <Task id="13856881013223141816" markerLabel="@loc_15373294129891632654"/>
    <Task id="13856881013223141956" markerLabel="@loc_15373294129891632654"/>

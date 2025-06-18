@@ -1,12 +1,12 @@
 <Mission>
 <Objects>
-  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="432B118EB7F40466" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="432B118EB7F40466" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityGuid="47A526EB31965EC5" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab8" EntityGuid="47A526EB31965EC5" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
-  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="42A7383DC83E6C8F" ch:applyIf="{{ Inconsistency.Fixed_Lab_Cabinets }}">
+  <Entity Name="Containers/Medium.Cabinet_Lab9" EntityGuid="42A7383DC83E6C8F" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
   <Entity Name="DataCoreDoorFGE" EntityClass="FlowgraphEntity" EntityGuid="4BFAD5343DC9228D" ch:applyIf="{{ QoL.DeepStorage_LockClear }}">
@@ -24,19 +24,19 @@
    </FlowGraph>
   </Entity>
   
-  <Entity Name="MissionItems.WaterPressureRegulator2" Archetype="ArkPickups.Crafting.FabricationPlans.WaterPressureRegulator" Pos="1716.65,317.92999,59.035" Rotate="0.9238795,0,-0,-0.38268346" EntityGuid="47BCBDD0FC681FD0"/>
+  <Entity Name="MissionItems.WaterPressureRegulator2" Archetype="ArkPickups.Crafting.FabricationPlans.WaterPressureRegulator" Pos="1716.65,317.92999,59.035" Rotate="0.9238795,0,-0,-0.38268346" EntityGuid="47BCBDD0FC681FD0" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}"/>
   
-  <Entity Name="BreakablePanels.AccessPanel_NewFancy1" Pos="1711.0601,391.48993,43.499996" Rotate="0.70710677,0,-0,-0.70710677" EntityGuid="41111BBBDE6228CD"/>
+  <Entity Name="BreakablePanels.AccessPanel_NewFancy1" Pos="1711.0601,391.48993,43.499996" Rotate="0.70710677,0,-0,-0.70710677" EntityGuid="41111BBBDE6228CD" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}"/>
   
   
-  <Entity Name="Turrets.Turret_Default3" EntityGuid="491CD4315A58C661">
+  <Entity Name="Turrets.Turret_Default3" EntityGuid="491CD4315A58C661" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
-  <Entity Name="Turrets.Turret_Default4" EntityGuid="4C3F759A6202E2E9">
+  <Entity Name="Turrets.Turret_Default4" EntityGuid="4C3F759A6202E2E9" ch:applyIf="{{ Bugs.BrokenTurrets }}">
      <Properties2 bStartsBroken="0"/>
   </Entity>
   
-  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+  <Entity Name="TU_TurretBreaking" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="457501D23D28A77F" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.BrokenTurrets }}">
    <FlowGraph>
     <Nodes>
 	
