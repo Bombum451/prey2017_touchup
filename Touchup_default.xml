@@ -41,7 +41,7 @@
 	<More_Mimicable_Stuff type="bool" display_name="More mimicable props">true</More_Mimicable_Stuff>
 	<Recycling_Yield_Anomaly_Fixing type="bool" display_name="Anomalous recycler yield fixes">true</Recycling_Yield_Anomaly_Fixing>
 	<Faux_Cigar_Removal type="bool" display_name="Remove real-looking but non-interactable cigar decals">true</Faux_Cigar_Removal>
-	<GibLogic type="bool" display_name="Gib logic improvements in special encounters">true</Elevator_Phantom_Gibs>
+	<GibLogic type="bool" display_name="Gib logic improvements in special encounters">true</GibLogic>
 	<Morgan_CrewQ_Emails type="bool" display_name="Morgan's Crew Quarters workstation has emails">true</Morgan_CrewQ_Emails>
 	<Immersion_Level_Edits type="bool" display_name="Minor level object placement edits">true</Immersion_Level_Edits>
 	<Displayed_Names type="bool" display_name="Adds names to objects when hovered over and fixes interaction texts">true</Displayed_Names>
@@ -56,16 +56,14 @@
 <CutContent type="xmlnode">
 	<DanielleShowed type="bool" display_name="Danielle Sho corpse and audio log">true</DanielleShowed>
 	<Simmons type="bool" display_name="Marco Simmons corpse">true</Simmons>
-	<ConfessionLog type="bool" display_name="Whistleblower quest confession audio log">true</AnnaliseConfession>
+	<ConfessionLog type="bool" display_name="Whistleblower quest confession audio log">true</ConfessionLog>
 	<LukaLog type="bool" display_name="Luka Golubkin confrontation audio log">true</LukaLog>
-	<NightmareMusic type="bool" display_name="Nightmare encounter music">true</NightmareMusic>
 	<PacificSliders type="bool" display_name="Pacific Sliders food item">true</PacificSliders>
 </CutContent>
 			
 <QoL type="xmlnode">
 	<Hacking_TimeChanges type="bool" display_name="Hacking II no longer uniquely difficult">true</Hacking_TimeChanges>
 	<Horizontal_Psi_Hypos type="bool" display_name="Horizontal Psi Hypos" description="One cell wide horizontally and two cells tall vertically.">true</Horizontal_Psi_Hypos>
-	<GUTS_ZeroG_Turrets_Removal type="bool" display_name="Remove Unusable Turrets in G.U.T.S. Zero-G Cargo Tunnel">true</GUTS_ZeroG_Turrets_Removal>
 	<Psychotronics_Remove_Resistor type="bool" display_name="Remove useless grounding resistor in Psychotronics">true</Psychotronics_Remove_Resistor>
 	<CargoBayA_DuplicateCard type="bool" display_name="Duplicate for Austin Cool's Cargo Bay A keycard">true</CargoBayA_DuplicateCard>
 	<CrewQuarters_RelocatedTizzy type="bool" display_name="Better positioned Tizzy">true</CrewQuarters_RelocatedTizzy>
