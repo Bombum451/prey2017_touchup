@@ -83,6 +83,12 @@
  <EntityPrototype Name="MissionItems.WaterPressureRegulator" Id="{8870821C-1D27-443B-B8C2-378C10575841}" ArchetypeId="10739735956144611945" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
+  <EntityPrototype Name="MissionItems.NB_OxygenFuse" Id="{238E6061-87F4-463E-AF76-8F769EEE8147}" ArchetypeId="10739735956144611976" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <Properties bIsPlotCritical="0"/>
+  </EntityPrototype>
+  <EntityPrototype Name="MissionItems.MM_GrowthFormula" Id="{5ED9E7A1-6C7C-4A33-80DE-8B780B4B2452}" ArchetypeId="10739735956144611885" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <Properties bIsPlotCritical="0"/>
+  </EntityPrototype>
    <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" Id="{B9FE0989-6A3E-4CE9-9C4C-86BE46AF4C8B}" ArchetypeId="10739735956144611955" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
