@@ -1,456 +1,456 @@
 <EntityPrototypeLibrary>
- <EntityPrototype Name="Medical.PsiHypo" Id="{DC97C476-B642-4E4B-8E03-D15B065E513F}" ArchetypeId="10739735956144611825" ch:applyIf="{{ QoL.Horizontal_Psi_Hypos }}">
+ <EntityPrototype Name="Medical.PsiHypo" ch:applyIf="{{ QoL.Horizontal_Psi_Hypos }}">
   <Properties>
    <Inventory iHeight="1" sIcon="ui_icon_inv_psi_hypo_proper" iWidth="2"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.HeavyMachineryAssist" Id="{81168A14-3E43-4D03-ABA7-12557A82270D}" ArchetypeId="10739735956144611898" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.HeavyMachineryAssist" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Suit.HeavyMachineryAssist" Id="{81168A14-3E43-4D03-ABA7-12557A82270D}" ArchetypeId="10739735956144611898" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Suit.HeavyMachineryAssist" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_I" Id="{A21F4489-5537-450A-8714-D351BFF20295}" ArchetypeId="10739735956144611899" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+  <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_I" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_I" Id="{A21F4489-5537-450A-8714-D351BFF20295}" ArchetypeId="10739735956144611899" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_I" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-   <EntityPrototype Name="Mods.Suit.SpringStep" Id="{1160DF29-F54E-4E68-8F5A-0D7B7580FAD9}" ArchetypeId="10739735956144611900" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+   <EntityPrototype Name="Mods.Suit.SpringStep" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
-    <EntityPrototype Name="Mods.Suit.SpringStep" Id="{1160DF29-F54E-4E68-8F5A-0D7B7580FAD9}" ArchetypeId="10739735956144611900" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+    <EntityPrototype Name="Mods.Suit.SpringStep" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-    <EntityPrototype Name="Mods.Suit.DecreaseTraumaChance" Id="{34C15168-B873-4316-8F27-520212A8F78B}" ArchetypeId="10739735956144611908" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+    <EntityPrototype Name="Mods.Suit.DecreaseTraumaChance" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.DecreaseTraumaChance" Id="{34C15168-B873-4316-8F27-520212A8F78B}" ArchetypeId="10739735956144611908" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.DecreaseTraumaChance" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="MissionItems.NB_QuantumTransmogrifier" Id="{5F81D169-0CEE-4710-B5D6-A2E5C1400352}" ArchetypeId="10739735956144611909" ch:applyIf="{{ Inconsistency.Recycling_Yield_Anomaly_Fixing }}">
+ <EntityPrototype Name="MissionItems.NB_QuantumTransmogrifier" ch:applyIf="{{ Inconsistency.Recycling_Yield_Anomaly_Fixing }}">
   <Properties>
    <RecycleData exotic="25" mineral="10"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="MissionItems.MikhailaFathersRing" Id="{9D19A259-30CF-42C0-8451-0E196E2A2248}" ArchetypeId="10641886185862789262" ch:applyIf="{{ Inconsistency.Recycling_Yield_Anomaly_Fixing }}">
+ <EntityPrototype Name="MissionItems.MikhailaFathersRing" ch:applyIf="{{ Inconsistency.Recycling_Yield_Anomaly_Fixing }}">
   <Properties>
    <RecycleData mineral="10" synthetic="10"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Food.Can.GreenTea" Id="{9B01EABE-0635-4701-888E-C17CDDB9970A}" ArchetypeId="10739735956144611930" ch:applyIf="{{ Inconsistency.FoodUIFix }}">
+ <EntityPrototype Name="Food.Can.GreenTea" ch:applyIf="{{ Inconsistency.FoodUIFix }}">
   <Properties>
    <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Food.Can.KafeKarsk" Id="{3F10C811-6991-45CF-93A2-83391D273188}" ArchetypeId="10739735956144611932" ch:applyIf="{{ Inconsistency.FoodUIFix }}">
+ <EntityPrototype Name="Food.Can.KafeKarsk" ch:applyIf="{{ Inconsistency.FoodUIFix }}">
    <Properties>
    <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Food.Can.PopStar" Id="{0745362A-3A01-4F1B-ACCF-6B16FDC56475}" ArchetypeId="10739735956144611929" ch:applyIf="{{ Inconsistency.PopStar_Restore_Psi }}">
+ <EntityPrototype Name="Food.Can.PopStar" ch:applyIf="{{ Inconsistency.PopStar_Restore_Psi }}">
   <Properties>
    <AppliedOnConsume signalpackage_SignalPackage="10641886185857972955"/>
    <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>
   </Properties>
  </EntityPrototype>
-  <EntityPrototype Name="MissionItems.SelfDestructKey_Morgan" Id="{F3FBA15C-9664-4634-B9D1-9844219DBA10}" ArchetypeId="10739735956144611937" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.SelfDestructKey_Morgan" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
   <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-  <EntityPrototype Name="MissionItems.SelfDestructKey_Alex" Id="{4BD9198E-2EC7-4A44-9E34-46B8D8C578B2}" ArchetypeId="10739735956144611938" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.SelfDestructKey_Alex" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-  <EntityPrototype Name="MissionItems.CherishedFamilyPhoto" Id="{E77A5744-DD68-4439-A380-49784A903A7D}" ArchetypeId="10739735956144611949" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.CherishedFamilyPhoto" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-  <EntityPrototype Name="MissionItems.MM_Superfruit" Id="{8537E9DC-D4EE-4A16-B94E-FD72517B4490}" ArchetypeId="10739735956144611883" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.MM_Superfruit" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-  <EntityPrototype Name="MissionItems.BigNullwaveTransmitter" Id="{07FED623-2BC7-4313-9C38-16C19B896AD6}" ArchetypeId="10739735956144611895" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.BigNullwaveTransmitter" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
- <EntityPrototype Name="MissionItems.MikhailaFathersRing" Id="{9D19A259-30CF-42C0-8451-0E196E2A2248}" ArchetypeId="10641886185862789262" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+ <EntityPrototype Name="MissionItems.MikhailaFathersRing" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
- <EntityPrototype Name="MissionItems.WaterPressureRegulator" Id="{8870821C-1D27-443B-B8C2-378C10575841}" ArchetypeId="10739735956144611945" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+ <EntityPrototype Name="MissionItems.WaterPressureRegulator" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
     <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-  <EntityPrototype Name="MissionItems.NB_OxygenFuse" Id="{238E6061-87F4-463E-AF76-8F769EEE8147}" ArchetypeId="10739735956144611976" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.NB_OxygenFuse" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
   <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-  <EntityPrototype Name="MissionItems.MM_GrowthFormula" Id="{5ED9E7A1-6C7C-4A33-80DE-8B780B4B2452}" ArchetypeId="10739735956144611885" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
+  <EntityPrototype Name="MissionItems.MM_GrowthFormula" ch:applyIf="{{ QoL.NonEssential_StoryItem_Recycling }}">
   <Properties bIsPlotCritical="0"/>
   </EntityPrototype>
-   <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" Id="{B9FE0989-6A3E-4CE9-9C4C-86BE46AF4C8B}" ArchetypeId="10739735956144611955" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
+   <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
-  <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_A" Id="{2C9CD062-2EDA-477D-8797-66F862D6F43C}" ArchetypeId="10739735956144611956" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
+  <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_A" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
-  <EntityPrototype Name="Crafting.RecyclerJunk.PetriDishSample" Id="{FCC4609F-D6BD-4AE0-9496-62B7DD45C3D1}" ArchetypeId="10739735956144611964" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
+  <EntityPrototype Name="Crafting.RecyclerJunk.PetriDishSample" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
-   <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_B" Id="{13C71526-2912-4399-8219-36B6A01D9131}" ArchetypeId="10739735956144611973" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
+   <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_B" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
-   <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_C" Id="{F08986FB-019F-43DE-B92B-FCE376E49CF2}" ArchetypeId="10739735956144611974" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
+   <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_C" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
-   <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_D" Id="{CC754531-064F-4F9A-B8D9-8ACA8F35726E}" ArchetypeId="10739735956144611981" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
+   <EntityPrototype Name="Crafting.RecyclerJunk.Flowers_D" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
-   <EntityPrototype Name="Crafting.RecyclerJunk.Yellow_Tulips_A_Pickup" Id="{0B66EEB0-6068-47F2-8DF5-F9060B337E40}" ArchetypeId="10739735956144611982" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
+   <EntityPrototype Name="Crafting.RecyclerJunk.Yellow_Tulips_A_Pickup" ch:applyIf="{{ Inconsistency.More_Mimicable_Stuff }}">
     <Properties bIsMimicable="1"/>
   </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_II" Id="{48B0C6BF-8269-481E-8529-97067D2A7699}" ArchetypeId="10739735956144611990" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_II" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_II" Id="{48B0C6BF-8269-481E-8529-97067D2A7699}" ArchetypeId="10739735956144611990" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.PropulsionUpgrade_II" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.Random" Id="{B02C9A27-1DF5-4EF4-BB08-605873580195}" ArchetypeId="10739735956144611998" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.Random" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.Random" Id="{B02C9A27-1DF5-4EF4-BB08-605873580195}" ArchetypeId="10739735956144611998" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.Random" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.EMP_Shielding" Id="{0B9670A7-6C64-4603-AD69-0201C32D6278}" ArchetypeId="10739735956144612025" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.EMP_Shielding" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.EMP_Shielding" Id="{0B9670A7-6C64-4603-AD69-0201C32D6278}" ArchetypeId="10739735956144612025" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.EMP_Shielding" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.FlashlightDuration" Id="{1B291796-E93E-4DD8-8EFE-EB4B3B02FA0E}" ArchetypeId="10739735956144612028" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.FlashlightDuration" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.FlashlightDuration" Id="{1B291796-E93E-4DD8-8EFE-EB4B3B02FA0E}" ArchetypeId="10739735956144612028" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.FlashlightDuration" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ImprovedStamina" Id="{42BD4E55-3A8E-464F-A92A-5EB2DB844367}" ArchetypeId="10739735956144612029" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.ImprovedStamina" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ImprovedStamina" Id="{42BD4E55-3A8E-464F-A92A-5EB2DB844367}" ArchetypeId="10739735956144612029" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.ImprovedStamina" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.LastChance" Id="{BA180BB8-F494-4B47-B876-CEBD58CE7E31}" ArchetypeId="10739735956144612035" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.LastChance" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.LastChance" Id="{BA180BB8-F494-4B47-B876-CEBD58CE7E31}" ArchetypeId="10739735956144612035" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.LastChance" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.LeverageAssist" Id="{6390B291-9A1D-4D81-AF25-8D4D6C3EC6D6}" ArchetypeId="10641886185848372244" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.LeverageAssist" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.LeverageAssist" Id="{6390B291-9A1D-4D81-AF25-8D4D6C3EC6D6}" ArchetypeId="10641886185848372244" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.LeverageAssist" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Food.Alcohol.Vodka" Id="{7111A27E-8C33-4E16-9BB9-33EBBA4808C5}" ArchetypeId="10641886185850097989" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Food.Alcohol.Vodka" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties>
    <Inventory sIcon="ui_icon_inv_food_vodka"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.SuitIntegrityBuff" Id="{EADEC716-31EF-4C6F-8C3D-35ABC4FABD12}" ArchetypeId="10641886185851641307" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.SuitIntegrityBuff" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.SuitIntegrityBuff" Id="{EADEC716-31EF-4C6F-8C3D-35ABC4FABD12}" ArchetypeId="10641886185851641307" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.SuitIntegrityBuff" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.WrenchKnockback" Id="{85EBFA1F-9A19-4342-8A49-427E25A0E60C}" ArchetypeId="10641886185851643558" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.WrenchKnockback" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.WrenchKnockback" Id="{85EBFA1F-9A19-4342-8A49-427E25A0E60C}" ArchetypeId="10641886185851643558" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.WrenchKnockback" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ResistEther" Id="{E387B5C8-6537-49E1-9A27-64C2A80C1593}" ArchetypeId="10641886185851646100" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.ResistEther" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ResistEther" Id="{E387B5C8-6537-49E1-9A27-64C2A80C1593}" ArchetypeId="10641886185851646100" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.ResistEther" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ResistFire" Id="{60377F67-D1E5-4F80-A975-54E40A4291FE}" ArchetypeId="10641886185851646101" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.ResistFire" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ResistFire" Id="{60377F67-D1E5-4F80-A975-54E40A4291FE}" ArchetypeId="10641886185851646101" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.ResistFire" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ResistElectric" Id="{F714CED3-473E-47AE-95B6-801F80FDD82B}" ArchetypeId="10641886185851646102" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.ResistElectric" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ResistElectric" Id="{F714CED3-473E-47AE-95B6-801F80FDD82B}" ArchetypeId="10641886185851646102" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.ResistElectric" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ResistRad" Id="{2B23F93A-8ED8-482A-A88E-48C727129958}" ArchetypeId="10641886185851646103" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.ResistRad" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ResistRad" Id="{2B23F93A-8ED8-482A-A88E-48C727129958}" ArchetypeId="10641886185851646103" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.ResistRad" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.NeverDrunk" Id="{A2D282C3-1F62-4588-ADDF-E0CA6F6F8491}" ArchetypeId="10641886185851646153" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.NeverDrunk" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.NeverDrunk" Id="{A2D282C3-1F62-4588-ADDF-E0CA6F6F8491}" ArchetypeId="10641886185851646153" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.NeverDrunk" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.SneakAttackRestoreHealth" Id="{B8F173F4-2FB7-4013-BA75-BA8CD106CBE2}" ArchetypeId="10641886185851646155" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.SneakAttackRestoreHealth" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.SneakAttackRestoreHealth" Id="{B8F173F4-2FB7-4013-BA75-BA8CD106CBE2}" ArchetypeId="10641886185851646155" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.SneakAttackRestoreHealth" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.OnRobotDeath" Id="{420C7DB0-F27B-4767-8210-047065C11079}" ArchetypeId="10641886185851646207" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.OnRobotDeath" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.OnRobotDeath" Id="{420C7DB0-F27B-4767-8210-047065C11079}" ArchetypeId="10641886185851646207" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.OnRobotDeath" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.PlayerNotRecyclable" Id="{194B9EF5-476D-4495-83BD-E0AE4D591A1A}" ArchetypeId="10641886185851646209" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.PlayerNotRecyclable" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.PlayerNotRecyclable" Id="{194B9EF5-476D-4495-83BD-E0AE4D591A1A}" ArchetypeId="10641886185851646209" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.PlayerNotRecyclable" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.FallDamagesNPCs" Id="{2EB6BA44-DE51-43B0-B8C2-2A63B5AFC923}" ArchetypeId="10641886185851646261" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.FallDamagesNPCs" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.FallDamagesNPCs" Id="{2EB6BA44-DE51-43B0-B8C2-2A63B5AFC923}" ArchetypeId="10641886185851646261" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.FallDamagesNPCs" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.SlidingReduceDamage" Id="{10020231-45C4-4827-B4DA-3759A53D743C}" ArchetypeId="10641886185851646330" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.SlidingReduceDamage" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.SlidingReduceDamage" Id="{10020231-45C4-4827-B4DA-3759A53D743C}" ArchetypeId="10641886185851646330" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.SlidingReduceDamage" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ReduceSpaceCrashDamage" Id="{6495E543-1230-4F2F-8BD0-0399948621A1}" ArchetypeId="10641886185851646347" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.ReduceSpaceCrashDamage" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.ReduceSpaceCrashDamage" Id="{6495E543-1230-4F2F-8BD0-0399948621A1}" ArchetypeId="10641886185851646347" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.ReduceSpaceCrashDamage" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.LaserShield" Id="{0F1AF4AC-00F5-4E59-A291-855CF3D83477}" ArchetypeId="10641886185854668519" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.LaserShield" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.LaserShield" Id="{0F1AF4AC-00F5-4E59-A291-855CF3D83477}" ArchetypeId="10641886185854668519" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.LaserShield" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.BacklashBuff" Id="{E728B2C7-95F9-440C-B3A8-87E85650A405}" ArchetypeId="10641886185855732953" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.BacklashBuff" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.BacklashBuff" Id="{E728B2C7-95F9-440C-B3A8-87E85650A405}" ArchetypeId="10641886185855732953" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.BacklashBuff" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.PhysicalDamageShield" Id="{E88239B9-6361-4010-A4BF-865FF304DDFA}" ArchetypeId="10641886185855805663" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.PhysicalDamageShield" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.PhysicalDamageShield" Id="{E88239B9-6361-4010-A4BF-865FF304DDFA}" ArchetypeId="10641886185855805663" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.PhysicalDamageShield" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.RecyclerLootBonus" Id="{143BEB72-FF3C-4B20-A190-66FEE5ECD8AE}" ArchetypeId="844024417326870839" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.RecyclerLootBonus" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.RecyclerLootBonus" Id="{143BEB72-FF3C-4B20-A190-66FEE5ECD8AE}" ArchetypeId="844024417326870839" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.RecyclerLootBonus" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.RecyclerLootLimiter" Id="{744DAB86-5925-4C89-9B4D-36A7C1244BEE}" ArchetypeId="844024417326871006" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Suit.RecyclerLootLimiter" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Suit.RecyclerLootLimiter" Id="{744DAB86-5925-4C89-9B4D-36A7C1244BEE}" ArchetypeId="844024417326871006" ch:applyIf="{{ Bugs.Fixed_Icons }}">
+ <EntityPrototype Name="Mods.Suit.RecyclerLootLimiter" ch:applyIf="{{ Bugs.Fixed_Icons }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit">
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Psychoscope.EnhancedPSI" Id="{F217F3EB-3C19-4F6A-B39D-4DF935DDD80D}" ArchetypeId="10739735956144611902" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+ <EntityPrototype Name="Mods.Psychoscope.EnhancedPSI" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.DecreaseScanningTime" Id="{4BD66DF4-FEE9-4EBD-A5A8-437E901EF2CC}" ArchetypeId="10739735956144611903" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.DecreaseScanningTime" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.CritChancePlus10_Wrench" Id="{970B3080-1DB0-42CA-8B64-3BC45F1B92B0}" ArchetypeId="10739735956144611904" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.CritChancePlus10_Wrench" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.CritChancePlus10_Shotgun" Id="{89503818-E429-4480-A14B-5DEE233DE4FD}" ArchetypeId="10739735956144611905" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.CritChancePlus10_Shotgun" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.CritChancePlus10_Pistol" Id="{4D0E686D-26F3-429F-93B6-F65B0A85528E}" ArchetypeId="10739735956144611906" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.CritChancePlus10_Pistol" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.Random" Id="{533DE27C-8C90-411B-A54D-7AA484DB79A4}" ArchetypeId="10739735956144611991" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.Random" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.FasterPowersCooldown" Id="{D394B670-4D77-40A4-B4D6-42E99985190C}" ArchetypeId="10739735956144612009" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.FasterPowersCooldown" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.DetectMimics" Id="{B41FC4A5-8D81-4E2A-87C1-74CF935AAFC4}" ArchetypeId="10739735956144612016" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.DetectMimics" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.DetectEliteMimicAndPoltergeist" Id="{8DBAC51E-6002-453B-ABFF-237D8DC10FDD}" ArchetypeId="10739735956144612017" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.DetectEliteMimicAndPoltergeist" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.NullwaveShield" Id="{8A403836-D1F9-4F7F-B83C-C5970BF36494}" ArchetypeId="10739735956144612018" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.NullwaveShield" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.ThermalBlastBuff" Id="{3FC4A0C7-C2B7-4CBC-8217-26BB9EFBDC4F}" ArchetypeId="10739735956144612031" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.ThermalBlastBuff" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.KineticBlastBuff" Id="{E4260BCD-8523-4AEA-9423-03F93ECE71D6}" ArchetypeId="10739735956144612032" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.KineticBlastBuff" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.PsychoshockBuff" Id="{D4AD5AD2-8933-45AC-8033-2A64CC931801}" ArchetypeId="10739735956144612033" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.PsychoshockBuff" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.ElectrostaticBuff" Id="{2D512042-35B4-4C45-A625-8C3B0A74B6FD}" ArchetypeId="10739735956144612034" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.ElectrostaticBuff" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.MarkedEnemiesDamage" Id="{236F5B57-C825-4A15-8027-A1B9365E899C}" ArchetypeId="10641886185848374088" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.MarkedEnemiesDamage" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.FearResistance" Id="{E933D8EA-52DB-4803-AAEA-88FC95EB0C3A}" ArchetypeId="10641886185851636714" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.FearResistance" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.PsychoshockResist" Id="{CCE74FCE-691E-4429-9824-12A5642B6D52}" ArchetypeId="10641886185851638128" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.PsychoshockResist" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.SpendHealthAsPSI" Id="{E9C7EBC0-4142-4FDF-81BC-754BE088A453}" ArchetypeId="10641886185851643639" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.SpendHealthAsPSI" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.AbsorbCoral" Id="{A7FD54A4-6BD1-4F88-912A-E5002D5B8A89}" ArchetypeId="10641886185851643688" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.AbsorbCoral" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.SneakAttackRestoresPSI" Id="{C190F89E-E6C5-4EBB-97BC-363A7B7EBDB4}" ArchetypeId="10641886185851643832" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.SneakAttackRestoresPSI" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.FearBomb" Id="{7EDA8D03-8C5D-45B3-9737-321B3CA9DC89}" ArchetypeId="10641886185851643858" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.FearBomb" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.BuffControlPowers" Id="{4E81F81C-CE98-43EF-91DF-46480A50A44E}" ArchetypeId="10641886185851644004" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.BuffControlPowers" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.ReducePsiCostEnergy" Id="{8D2A499B-B053-4689-94FB-1AF588641B50}" ArchetypeId="10641886185851645937" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.ReducePsiCostEnergy" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.ReducePsiCostMorph" Id="{EB37AB8D-DE8F-44B3-BF71-99E023BDEF68}" ArchetypeId="10641886185851645983" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.ReducePsiCostMorph" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.ReducePsiCostTelepathic" Id="{0A82CA3F-4B4F-47F6-A8A9-30CF03325DEA}" ArchetypeId="10641886185851645992" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.ReducePsiCostTelepathic" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.FreePsiCast" Id="{A591203F-BE97-4B67-B465-075EE138C6F3}" ArchetypeId="10641886185851646033" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.FreePsiCast" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.BuffDamagePowers" Id="{AB5F9D73-E4F1-4C0B-A25F-83EE8C925CCA}" ArchetypeId="10641886185851646060" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.BuffDamagePowers" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.PSIRegen" Id="{952F2818-589D-4BDC-B0BC-0BB618FD8788}" ArchetypeId="10641886185854668154" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.PSIRegen" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.MechTechs" Id="{716EEE51-B9C5-4D53-A5D0-1AC1604AC3DA}" ArchetypeId="10641886185855801616" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.MechTechs" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
-  <EntityPrototype Name="Mods.Psychoscope.IncreaseScanningRange" Id="{CD7C2090-39AB-4161-A434-953F51C1CD61}" ArchetypeId="10641886185857951347" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
+  <EntityPrototype Name="Mods.Psychoscope.IncreaseScanningRange" ch:applyIf="{{ QoL.Recycling_Immune_Chipsets }}">
   <Properties bIsPlotCritical="1"/>
  </EntityPrototype>
- <EntityPrototype Name="Weapons.Shotgun" Id="{E99DB795-2466-495B-896E-F5ED851B61C5}" ArchetypeId="10739735956144611834" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
+ <EntityPrototype Name="Weapons.Shotgun" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
   <Properties>
    <Weapon playerImpulseZeroG="2.5"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Weapons.Pistol" Id="{F1088325-4F28-4263-A7AF-6EE79D310E0B}" ArchetypeId="10739735956144611893" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
+ <EntityPrototype Name="Weapons.Pistol" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
   <Properties>
    <Weapon playerImpulseZeroG="0.3"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Weapons.ToyGun" Id="{B0DE346B-3B49-4E1D-B0BB-388DDC5F8189}" ArchetypeId="10739735956144611953" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
+ <EntityPrototype Name="Weapons.ToyGun" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
   <Properties>
    <Weapon playerImpulseZeroG="0.1"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Weapons.Unique.Pistol_Golden" Id="{A1CC52D1-6077-4274-862A-C78878498673}" ArchetypeId="10739735956144611984" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
+ <EntityPrototype Name="Weapons.Unique.Pistol_Golden" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
   <Properties>
    <Weapon playerImpulseZeroG="0.3"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Weapons.Unique.Shotgun_Golden" Id="{836662F0-0A85-4140-84A2-2065410CA7F6}" ArchetypeId="3149325216979386322" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
+ <EntityPrototype Name="Weapons.Unique.Shotgun_Golden" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
   <Properties>
    <Weapon playerImpulseZeroG="2.5"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Weapons.GooGun" Id="{CC557248-453A-4859-BF29-7BB6228AE0F4}" ArchetypeId="10739735956144611850" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
+ <EntityPrototype Name="Weapons.GooGun" ch:applyIf="{{ Inconsistency.ZeroG_Recoil }}">
   <Properties>
    <Weapon playerImpulseZeroG="0.3"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="MissionItems.MikhailaFathersRing" Id="{9D19A259-30CF-42C0-8451-0E196E2A2248}" ArchetypeId="10641886185862789262" ch:applyIf="{{ QoL.Mirrored_Mikhaila_Ring }}">
+ <EntityPrototype Name="MissionItems.MikhailaFathersRing" ch:applyIf="{{ QoL.Mirrored_Mikhaila_Ring }}">
   <Properties>
    <Inventory sIcon="ui_icon_inv_weddingring_alt"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" Id="{B9FE0989-6A3E-4CE9-9C4C-86BE46AF4C8B}" ArchetypeId="10739735956144611955" ch:applyIf="{{ Inconsistency.Faux_Cigar_Removal }}">
+ <EntityPrototype Name="Crafting.RecyclerJunk.UsedCigar" ch:applyIf="{{ Inconsistency.Faux_Cigar_Removal }}">
   <Properties object_GeometryTP="objects/environment/props/neodeco/smokingset/smokingset_a_cigar.cgf"/>
  </EntityPrototype>
  
- <EntityPrototype Name="Mods.Suit.BacklashBuff" Id="{E728B2C7-95F9-440C-B3A8-87E85650A405}" ArchetypeId="10641886185855732953" ch:applyIf="{{ Gameplay.ChipsetSwap }}">
+ <EntityPrototype Name="Mods.Suit.BacklashBuff" ch:applyIf="{{ Gameplay.ChipsetSwap }}">
   <Properties sHUDIcon="ui_icon_inv_modchip" object_GeometryTP="Objects/Environment/Props/Gameplay/Chipset_Box_A/chipset_box_a.cgf" gameMetric_MetricPickedUp="10641886185849157993">
    <EquipmentMod bSuitMod="0"/>
    <Inventory sIcon="ui_icon_inv_modchip"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Mods.Psychoscope.MechTechs" Id="{716EEE51-B9C5-4D53-A5D0-1AC1604AC3DA}" ArchetypeId="10641886185855801616" ch:applyIf="{{ Gameplay.ChipsetSwap }}">
+ <EntityPrototype Name="Mods.Psychoscope.MechTechs" ch:applyIf="{{ Gameplay.ChipsetSwap }}">
   <Properties sHUDIcon="ui_icon_inv_modchip_suit" object_GeometryTP="Objects/Environment/Props/Gameplay/Chipset_Box_A/chipset_box_b.cgf" gameMetric_MetricPickedUp="10641886185849157992">
    <EquipmentMod bSuitMod="1"/>
    <Inventory sIcon="ui_icon_inv_modchip_suit"/>
