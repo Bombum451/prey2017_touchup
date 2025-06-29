@@ -58,7 +58,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129891632687</Data></Cell>
     <Cell><Data ss:Type="String">I located a Cargo Processing workstation at the airlock between Cargo Bay and G.U.T.S. There appears to be a lot of cargo trapped in the space between, and the processing system is offline until the system is reactivated in both G.U.T.S. and Cargo Bay. Once I complete the process I can open the airlock door in G.U.T.S. and access the cargo.</Data></Cell>
-    <Cell><Data ss:Type="String">I located a Cargo Processing workstation at the airlock between Cargo Bay and G.U.T.S. There appears to be a lot of cargo trapped in the space between, and the processing system is offline until the system is reactivated in both G.U.T.S. and Cargo Bay. Once I complete the process I can open the airlock door in G.U.T.S. and access the cargo.</Data></Cell>
+    <Cell><Data ss:Type="String">I located a Cargo Processing workstation at the airlock between Cargo Bay and the G.U.T.S. There appears to be a lot of cargo trapped in the space between, and the processing system is offline until the system is reactivated in both G.U.T.S. and Cargo Bay. Once I complete the process I can open the airlock door in G.U.T.S. and access the cargo.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
@@ -71,7 +71,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">loc_15373294129891632689</Data></Cell>
     <Cell><Data ss:Type="String">I located a Cargo Processing workstation near the airlock between Cargo Bay and G.U.T.S. There appeared to be a lot of cargo trapped in the space between, and the processing system was offline. After completing the reactivation process at workstations in G.U.T.S. and Cargo Bay, I was able to open the doors and access the cargo.</Data></Cell>
-    <Cell><Data ss:Type="String">I located a Cargo Processing workstation near the airlock between Cargo Bay and G.U.T.S. There appeared to be a lot of cargo trapped in the space between, and the processing system was offline. After completing the reactivation process at workstations in G.U.T.S. and Cargo Bay, I was able to open the doors and access the cargo.</Data></Cell>
+    <Cell><Data ss:Type="String">I located a Cargo Processing workstation near the airlock between Cargo Bay and the G.U.T.S. There appeared to be a lot of cargo trapped in the space between, and the processing system was offline. After completing the reactivation process at workstations in G.U.T.S. and Cargo Bay, I was able to open the doors and access the cargo.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
