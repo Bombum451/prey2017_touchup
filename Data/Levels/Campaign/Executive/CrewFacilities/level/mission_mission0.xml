@@ -68,5 +68,52 @@
    </FlowGraph>
   </Entity>
   
+  
+  <Entity Name="TU.LukaKilling.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="9F9170C68EEFD4E4" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.LukaKillExploit }}">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="1" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="49130BF12380573F">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					
+					<Node Id="10" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					
+					<Node Id="100" Class="Actor:LocalPlayer" pos="-9240,-8310,0">
+						<Inputs />
+					</Node>
+					
+					<Node Id="1000" Class="Logic:ArkCompare" pos="11900,730,0">
+						<Inputs />
+					</Node>
+					
+				    <Node Id="10000" Class="Ark:IncrementGameMetric" pos="0,0,0">
+						<Inputs gamemetric_Metric="7293080054630250742" Amount="1"/>
+				    </Node>
+					<Node Id="20000" Class="Ark:IncrementGameMetric" pos="0,0,0">
+						<Inputs gamemetric_Metric="7293080054630250742" Amount="-1"/>
+				    </Node>
+					
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="10" nodeOut="1" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					
+					<Edge nodeIn="10000" nodeOut="10" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="10" portIn="Check" portOut="Dead" enabled="1"/>
+					
+					<Edge nodeIn="1000" nodeOut="100" portIn="A" portOut="entityId" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="10" portIn="B" portOut="KilledBy" enabled="1"/>
+					
+					<Edge nodeIn="20000" nodeOut="1000" portIn="Trigger" portOut="Equal" enabled="1"/>
+					
+					
+				</Edges>
+			</FlowGraph>
+		</Entity>
+  
  </Objects>
 </Mission>
