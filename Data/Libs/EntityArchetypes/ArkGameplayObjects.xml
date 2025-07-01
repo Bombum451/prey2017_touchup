@@ -1,9 +1,9 @@
 
 <EntityPrototypeLibrary>
- <EntityPrototype Name="Buttons.Button_VoiceBox" Id="{3ECFA53E-4DB8-412C-9104-7E4CC82C8080}" ArchetypeId="13856881013221052475" ch:applyIf="{{ QoL.ImportantInteractText }}">
+ <EntityPrototype Name="Buttons.Button_VoiceBox" ch:applyIf="{{ QoL.ImportantInteractText }}">
   <Properties textUseMessage="@loc_15373294129887559148"/>
  </EntityPrototype>
- <EntityPrototype Name="Buttons.Button_VoiceBox" Id="{3ECFA53E-4DB8-412C-9104-7E4CC82C8080}" ArchetypeId="13856881013221052475" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
+ <EntityPrototype Name="Buttons.Button_VoiceBox" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
   <Properties textDisplayName="@loc_844024417325847678"/>
  </EntityPrototype>
 </EntityPrototypeLibrary>
