@@ -12,7 +12,7 @@
 						<Inputs delay="0.1" resetOnInput="0" />
 					</Node>
 					<Node Id="3" Class="Mission:GameTokenSet" pos="0,0,0">
-						<Inputs gametokenid_Token="2215887054" Value="true" />
+						<Inputs gametokenid_Token="2015887054" Value="true" />
 					</Node>
 					
 				</Nodes>

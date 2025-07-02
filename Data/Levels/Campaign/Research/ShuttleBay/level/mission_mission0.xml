@@ -1,0 +1,50 @@
+<Mission>
+<Objects>
+
+  <Entity Name="TU.Initialization.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="1DD5E6DA85139E01" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="1" Class="Game:Start" pos="0,0,0">
+						<Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1" />
+					</Node>
+					<Node Id="2" Class="Time:Delay" pos="0,0,0">
+						<Inputs delay="0.1" resetOnInput="0" />
+					</Node>
+					<Node Id="3" Class="Mission:GameTokenSet" pos="0,0,0">
+						<Inputs gametokenid_Token="221588708" Value="true" />
+					</Node>
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="2" nodeOut="1" portIn="in" portOut="output" enabled="1"/>
+					<Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="out" enabled="1"/>
+					
+				</Edges>
+	</FlowGraph>
+  </Entity>
+  
+  
+		<Entity Name="FlowgraphEntity11" EntityGuid="4D893F5653E7BBA4" ch:applyIf="{{ QoL.IandIt_Overhaul }}">
+			<FlowGraph>
+				<Nodes>
+					
+					<Node Id="15555" Class="Ark:IncrementGameMetric" pos="0,0,0">
+						<Inputs gamemetric_Metric="7438266898197865481" Amount="2"/>
+				    </Node>
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="15555" nodeOut="14908" portIn="Trigger" portOut="Out" enabled="1"/>
+				
+				</Edges>
+			</FlowGraph>
+		</Entity>
+		
+		
+  
+  
+  </Objects>
+</Mission>
