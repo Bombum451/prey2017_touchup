@@ -1,4 +1,4 @@
 
 <GameTokensLibrary>
- <GameToken Id="221588802" Name="TU.TurretsBroken_LifeSupport" Type="Bool" Value="false"/>
+ <GameToken Id="221588802" Name="TU.LifeSupport.Initialized" Type="Bool" Value="false"/>
 </GameTokensLibrary>

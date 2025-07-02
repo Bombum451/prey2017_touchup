@@ -1,4 +1,4 @@
 
 <GameTokensLibrary>
- <GameToken Id="221588805" Name="TU.TurretsBroken_Crew" Type="Bool" Value="false"/>
+ <GameToken Id="221588805" Name="TU.CrewQuarters.Initialized" Type="Bool" Value="false"/>
 </GameTokensLibrary>

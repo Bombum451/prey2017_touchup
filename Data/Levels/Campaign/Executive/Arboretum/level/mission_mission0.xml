@@ -1,5 +1,30 @@
 <Mission>
 <Objects>
+
+  <Entity Name="TU.Initialization.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="1DD5E6DA85139E01" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="1" Class="Game:Start" pos="0,0,0">
+						<Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1" />
+					</Node>
+					<Node Id="2" Class="Time:Delay" pos="0,0,0">
+						<Inputs delay="0.1" resetOnInput="0" />
+					</Node>
+					<Node Id="3" Class="Mission:GameTokenSet" pos="0,0,0">
+						<Inputs gametokenid_Token="221588808" Value="true" />
+					</Node>
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="2" nodeOut="1" portIn="in" portOut="output" enabled="1"/>
+					<Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="out" enabled="1"/>
+					
+				</Edges>
+	</FlowGraph>
+  </Entity>
+
   <Entity Name="Containers/Medium.Cabinet_Lab7" EntityGuid="432B118EB7F40466" ch:applyIf="{{ Gameplay.Fixed_Lab_Cabinets }}">
    <Properties2 loottable_ContainerLootTable="Theme_Medical_Small"/>
   </Entity>
@@ -48,14 +73,10 @@
       <Inputs gametokenid_Token="221588808" CheckValue="false"/>
      </Node>
 	 
-     <Node Id="3" Class="Mission:GameTokenSet" pos="0,0,0">
-      <Inputs gametokenid_Token="221588808" Value="true"/>
-     </Node>
-	 
-     <Node Id="4" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="491CD4315A58C661">
+     <Node Id="3" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="491CD4315A58C661">
       <Inputs entityId="0" Sender="0" signalPackage_Package="10641886185795235581" Value="3" NumRepeats="0" RepeatTime="0"/>
      </Node>
-     <Node Id="5" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="4C3F759A6202E2E9">
+     <Node Id="4" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="4C3F759A6202E2E9">
       <Inputs entityId="0" Sender="0" signalPackage_Package="10641886185795235581" Value="3" NumRepeats="0" RepeatTime="0"/>
      </Node>
 	 
@@ -65,9 +86,7 @@
      <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="output" enabled="1"/>
 	 
      <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
-	 
      <Edge nodeIn="4" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
-     <Edge nodeIn="5" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
 	 
     </Edges>
    </FlowGraph>

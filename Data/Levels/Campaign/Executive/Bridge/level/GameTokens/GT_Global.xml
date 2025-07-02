@@ -1,4 +1,4 @@
 
 <GameTokensLibrary>
- <GameToken Id="221588807" Name="TU.TurretsBroken_Bridge" Type="Bool" Value="false"/>
+ <GameToken Id="221588807" Name="TU.Bridge.Initialized" Type="Bool" Value="false"/>
 </GameTokensLibrary>

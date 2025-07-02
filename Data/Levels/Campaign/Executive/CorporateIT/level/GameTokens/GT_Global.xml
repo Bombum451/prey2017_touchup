@@ -1,4 +1,4 @@
 
 <GameTokensLibrary>
- <GameToken Id="221588806" Name="TU.TurretsBroken_DeepStorage" Type="Bool" Value="false"/>
+ <GameToken Id="221588806" Name="TU.DeepStorage.Initialized" Type="Bool" Value="false"/>
 </GameTokensLibrary>

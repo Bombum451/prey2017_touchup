@@ -1,5 +1,30 @@
 <Mission>
 <Objects>
+
+  <Entity Name="TU.Initialization.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="1DD5E6DA85139E01" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="1" Class="Game:Start" pos="0,0,0">
+						<Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1" />
+					</Node>
+					<Node Id="2" Class="Time:Delay" pos="0,0,0">
+						<Inputs delay="0.1" resetOnInput="0" />
+					</Node>
+					<Node Id="3" Class="Mission:GameTokenSet" pos="0,0,0">
+						<Inputs gametokenid_Token="221588803" Value="true" />
+					</Node>
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="2" nodeOut="1" portIn="in" portOut="output" enabled="1"/>
+					<Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="out" enabled="1"/>
+					
+				</Edges>
+	</FlowGraph>
+  </Entity>
+
   <Entity Name="Systems.Grounding_Resistor2" EntityGuid="4232E9DCE5B6AB47" ch:action="delete" ch:applyIf="{{ QoL.Psychotronics_Remove_Resistor }}"/>
   
   <Entity Name="FlowgraphEntity21" EntityClass="FlowgraphEntity" EntityGuid="4BB66D481876249E" ch:applyIf="{{ QoL.PerceptiblyFasterHarvest }}">
@@ -71,14 +96,10 @@
       <Inputs gametokenid_Token="221588803" CheckValue="false"/>
      </Node>
 	 
-     <Node Id="3" Class="Mission:GameTokenSet" pos="0,0,0">
-      <Inputs gametokenid_Token="221588803" Value="true"/>
-     </Node>
-	 
-     <Node Id="4" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="424A2129DD587259">
+     <Node Id="3" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="424A2129DD587259">
       <Inputs entityId="0" Sender="0" signalPackage_Package="10641886185795235581" Value="3" NumRepeats="0" RepeatTime="0"/>
      </Node>
-     <Node Id="5" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="4EEC2F6911516BCB">
+     <Node Id="4" Class="Ark:Signal:SendPackage" pos="0,0,0" EntityGUID_64="4EEC2F6911516BCB">
       <Inputs entityId="0" Sender="0" signalPackage_Package="10641886185795235581" Value="3" NumRepeats="0" RepeatTime="0"/>
      </Node>
 	 
@@ -88,9 +109,7 @@
      <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="output" enabled="1"/>
 	 
      <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
-	 
      <Edge nodeIn="4" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
-     <Edge nodeIn="5" nodeOut="2" portIn="Trigger" portOut="true" enabled="1"/>
 	 
     </Edges>
    </FlowGraph>

@@ -1,5 +1,30 @@
 <Mission>
 <Objects>
+
+  <Entity Name="TU.Initialization.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="1DD5E6DA85139E01" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="1" Class="Game:Start" pos="0,0,0">
+						<Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1" />
+					</Node>
+					<Node Id="2" Class="Time:Delay" pos="0,0,0">
+						<Inputs delay="0.1" resetOnInput="0" />
+					</Node>
+					<Node Id="3" Class="Mission:GameTokenSet" pos="0,0,0">
+						<Inputs gametokenid_Token="221600000" Value="true" />
+					</Node>
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="2" nodeOut="1" portIn="in" portOut="output" enabled="1"/>
+					<Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="out" enabled="1"/>
+					
+				</Edges>
+			</FlowGraph>
+		</Entity>
+
   <Entity Name="WorkstationMorganKarl" EntityGuid="4118BE54823ACA5E" ch:applyIf="{{ Inconsistency.MorganWorkstation_Lobby_LVL4Hack }}">
    <Properties2 ability_HackRequirementOverride="3149325216928600154"/>
   </Entity>

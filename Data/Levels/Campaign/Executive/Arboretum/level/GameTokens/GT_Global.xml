@@ -1,4 +1,4 @@
 
 <GameTokensLibrary>
- <GameToken Id="221588808" Name="TU.TurretsBroken_Arboretum" Type="Bool" Value="false"/>
+ <GameToken Id="221588808" Name="TU.Arboretum.Initialized" Type="Bool" Value="false"/>
 </GameTokensLibrary>

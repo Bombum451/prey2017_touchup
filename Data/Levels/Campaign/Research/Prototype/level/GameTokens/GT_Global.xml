@@ -1,4 +1,4 @@
 
 <GameTokensLibrary>
- <GameToken Id="221588804" Name="TU.TurretsBroken_HardwareLabs" Type="Bool" Value="false"/>
+ <GameToken Id="221588804" Name="TU.HardwareLabs.Initialized" Type="Bool" Value="false"/>
 </GameTokensLibrary>

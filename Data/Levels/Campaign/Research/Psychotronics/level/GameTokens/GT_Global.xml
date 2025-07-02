@@ -1,4 +1,4 @@
 
 <GameTokensLibrary>
- <GameToken Id="221588803" Name="TU.TurretsBroken_Psychotronics" Type="Bool" Value="false"/>
+ <GameToken Id="221588803" Name="TU.Psychotronics.Initialized" Type="Bool" Value="false"/>
 </GameTokensLibrary>

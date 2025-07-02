@@ -1,0 +1,4 @@
+
+<GameTokensLibrary>
+ <GameToken Id="221600000" Name="TU.Lobby.Initialized" Type="Bool" Value="false"/>
+</GameTokensLibrary>
