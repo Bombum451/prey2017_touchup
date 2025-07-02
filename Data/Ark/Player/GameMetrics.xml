@@ -1,0 +1,6 @@
+
+<ArkGameMetricLibrary>
+ <Metrics>
+  <ArkGameMetricProperties ID="7438266898197865481" Name="TU_humansdead" Label="TU Total Dead Humans" DefaultValue="0" VisibilityThreshold="1000" HiddenFromUI="true"/>
+ </Metrics>
+</ArkGameMetricLibrary>
