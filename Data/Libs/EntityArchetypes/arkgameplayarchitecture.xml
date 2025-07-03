@@ -347,5 +347,10 @@
                 y="1" />
         </Properties>
     </EntityPrototype>
+	
+ <EntityPrototype Name="Containers.Misc.Safe">
+  <Properties textDisplayNameLocked="@i_container_safe">
+  </Properties>
+ </EntityPrototype>
  
 </EntityPrototypeLibrary>
