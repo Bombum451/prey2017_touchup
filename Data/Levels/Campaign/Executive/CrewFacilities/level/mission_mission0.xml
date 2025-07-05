@@ -87,6 +87,7 @@
    </FlowGraph>
   </Entity>
   
+		<Entity Name="Crafting.RecyclerJunk.PetriDishSample3" Pos="1229.5146,981.20349,218.92" EntityGuid="41EC105A7B1D0CD4"/>
   
   <Entity Name="TU.LukaKilling.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="9F9170C68EEFD4E4" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.LukaKillExploit }}">
 	<FlowGraph>
