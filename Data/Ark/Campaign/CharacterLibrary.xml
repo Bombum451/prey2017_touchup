@@ -2,9 +2,12 @@
 <ArkCharacters>
  <Characters>
   <ArkCharacter ID="12889009725043561219" Name="Natasha Nikova" Label="@loc_15373294129892759717" JobTitle="@loc_15373294129891703480" ch:applyIf="{{ CutContent.Simmons }}"/>
+  
   <ArkCharacter ID="4349723564944017803" RosterLocation="844024417252490146" ch:applyIf="{{ Bugs.Crew_Fixes }}"/>
   <ArkCharacter ID="761057047962626308" Name="Brett Seydel" RosterLocation="4349723564886052417" ch:applyIf="{{ Bugs.Crew_Fixes }}"/>
   <ArkCharacter ID="6732635291182868247" Name="Anthony Aquilante" RosterLocation="6732635291182790112" HasTrackingChip="false" ch:applyIf="{{ Bugs.Crew_Fixes }}"/>
+  <ArkCharacter ID="4349723564911792999" Name="David Branch" VitalSigns="Nominal" IsAlive="true" ch:applyIf="{{ Bugs.Crew_Fixes }}"/>
+  
   <ArkCharacter ID="844024417273151090" Name="Danielle Sho" RosterLocation="" HasTrackingChip="true" ch:applyIf="{{ Inconsistency.Danielle_NotOnRoster }}"/>
  </Characters>
 </ArkCharacters>
