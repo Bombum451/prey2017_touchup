@@ -1,0 +1,6 @@
+
+<EntityPrototypeLibrary>
+ <EntityPrototype Name="Magazines.ArkMag_DeterministMars" ch:applyIf="{{ Inconsistency.Magazine_Fixes }}">
+  <Properties object_Model="objects/environment/props/gameplay/magazine_mars/magazine_readable_a_elitefirm.cgf"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>
