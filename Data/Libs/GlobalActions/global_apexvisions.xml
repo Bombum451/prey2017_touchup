@@ -1,5 +1,5 @@
 
-<Graph>
+<Graph ch:applyIf="{{ Inconsistency.ApexImages }}">
 
  <Nodes> 
  
