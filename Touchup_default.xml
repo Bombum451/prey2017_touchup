@@ -61,6 +61,7 @@
 	<ConfessionLog type="bool" display_name="Whistleblower quest confession audio log">true</ConfessionLog>
 	<LukaLog type="bool" display_name="Luka Golubkin confrontation audio log">true</LukaLog>
 	<PacificSliders type="bool" display_name="Pacific Sliders food item">true</PacificSliders>
+	<NightmareMusic type="bool" display_name="Nightmare encounter music">true</NightmareMusic>
 </CutContent>
 			
 <QoL type="xmlnode">
