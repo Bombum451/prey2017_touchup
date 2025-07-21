@@ -27,7 +27,7 @@
 	<Fixed_Hardware_Foot type="bool" display_name="Fixed Hardware Labs recycled toe">true</Fixed_Hardware_Foot>
 	<Fixed_Lab_Cabinets type="bool" display_name="Fixed empty lab cabinets">true</Fixed_Lab_Cabinets>
 	<Psi_Aptitude_NightmareHeat_Removal type="bool" display_name="Psionic Aptitude neuromods can't attract the Nightmare">true</Psi_Aptitude_NightmareHeat_Removal>
-	<WaterCooler_PsychicWater_Removal type="bool" display_name="Psychic Water doesn't apply to water coolers">true</WaterCooler_PsychicWater_Removal>
+	<PsychicWater_Removal type="bool" display_name="Psychic Water doesn't apply to water coolers and bar taps">true</PsychicWater_Removal>
 	<PopStar_Restore_Psi type="bool" display_name="PopStar restores psi, like all the other drinks">true</PopStar_Restore_Psi>
 </Gameplay>
 	
