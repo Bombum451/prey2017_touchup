@@ -11,25 +11,25 @@
   <Properties textActiveUseMessage="@ui_turnoff"/>
  </EntityPrototype>
  <EntityPrototype Name="Apartment.Apt_Sink_Kitchen" Id="{2FD28C39-DEC1-4A86-9183-5E4B5DC9FAF3}" ArchetypeId="10739735956144680701" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
-  <Properties textUseMessage="@ui_activate"/>
+  <Properties textUseMessage="@ui_drink"/>
  </EntityPrototype>
  <EntityPrototype Name="Apartment.Apt_Sink_Bathroom" Id="{FE405401-2799-4CF9-9BD9-8ABFD26DB79C}" ArchetypeId="10739735956144680702" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
-  <Properties textUseMessage="@ui_activate"/>
+  <Properties textUseMessage="@ui_drink"/>
  </EntityPrototype>
  <EntityPrototype Name="NeoDeco.NeoDeco Bathroom Sink" Id="{8799E57B-F826-4840-9BE0-C8BE133210EF}" ArchetypeId="10739735956144680707" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
-  <Properties textUseMessage="@ui_activate"/>
+  <Properties textUseMessage="@ui_drink"/>
  </EntityPrototype>
  <EntityPrototype Name="Bathroom.Faucet_Crew" Id="{5873ADEE-5B4D-4A9F-B267-9E4CD3B077C1}" ArchetypeId="10739735956144680716" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
-  <Properties textUseMessage="@ui_activate"/>
+  <Properties textUseMessage="@ui_drink"/>
  </EntityPrototype>
  <EntityPrototype Name="NeoDeco.NeoDeco Bar Tap Sink" Id="{82F125D3-BA93-4BD0-90EC-3AA61983D05F}" ArchetypeId="10739735956144680717" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
-  <Properties textUseMessage="@ui_activate"/>
+  <Properties textUseMessage="@ui_drink"/>
  </EntityPrototype>
  <EntityPrototype Name="NeoDeco.NeoDeco Island Kitchen A Faucet" Id="{F80614DF-BE88-452A-B295-84708B349FB4}" ArchetypeId="10739735956144680727" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
-  <Properties textUseMessage="@ui_activate"/>
+  <Properties textUseMessage="@ui_drink"/>
  </EntityPrototype>
  <EntityPrototype Name="Bathroom.Faucet_ColdWar" Id="{AE7C7D1F-D02B-4C69-AF4A-4F9F521C72A5}" ArchetypeId="10739735956144680728" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
-  <Properties textUseMessage="@ui_activate"/>
+  <Properties textUseMessage="@ui_drink"/>
  </EntityPrototype>
  
  <EntityPrototype Name="Magazines_Readable.Magazine_TheDeterminist" Id="{6F7217AC-D84A-47A4-94E3-DE43BC2CD5B5}" ch:applyIf="{{ Inconsistency.Magazine_Fixes }}">
