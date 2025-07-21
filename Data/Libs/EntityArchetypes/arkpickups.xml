@@ -56,7 +56,7 @@
    <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>
   </Properties>
  </EntityPrototype>
- <EntityPrototype Name="Food.Can.PopStar" ch:applyIf="{{ Inconsistency.PopStar_Restore_Psi }}">
+ <EntityPrototype Name="Food.Can.PopStar" ch:applyIf="{{ Gameplay.PopStar_Restore_Psi }}">
   <Properties>
    <AppliedOnConsume signalpackage_SignalPackage="10641886185857972955"/>
    <Description sKeyword2="%PSIRestored%" signal_keywordSignal2="3149325216929787188"/>

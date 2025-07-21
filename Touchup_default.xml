@@ -28,6 +28,7 @@
 	<Fixed_Lab_Cabinets type="bool" display_name="Fixed empty lab cabinets">true</Fixed_Lab_Cabinets>
 	<Psi_Aptitude_NightmareHeat_Removal type="bool" display_name="Psionic Aptitude neuromods can't attract the Nightmare">true</Psi_Aptitude_NightmareHeat_Removal>
 	<WaterCooler_PsychicWater_Removal type="bool" display_name="Psychic Water doesn't apply to water coolers">true</WaterCooler_PsychicWater_Removal>
+	<PopStar_Restore_Psi type="bool" display_name="PopStar restores psi, like all the other drinks">true</PopStar_Restore_Psi>
 </Gameplay>
 	
 <Inconsistency type="xmlnode">
@@ -50,7 +51,6 @@
 	<Magazine_Fixes type="bool" display_name="Magazine logic improvements">true</Magazine_Fixes>
 	<InGameMapImprovements type="bool" display_name="Ingame map screen improvements">true</InGameMapImprovements>
 	<FoodUIFix type="bool" display_name="All psi-restoring food items display restored psi in the UI">true</FoodUIFix>
-	<PopStar_Restore_Psi type="bool" display_name="PopStar restores psi, like all the other drinks">true</PopStar_Restore_Psi>
 	<TestingFacilityImage type="bool" display_name="TranStar Testing Facility has a location image in the menu">true</TestingFacilityImage>
 	<ApexImages type="bool" display_name="Location images update in response to endgame worldspace changes">true</ApexImages>
 </Inconsistency>
