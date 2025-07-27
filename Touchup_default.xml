@@ -53,6 +53,7 @@
 	<FoodUIFix type="bool" display_name="All psi-restoring food items display restored psi in the UI">true</FoodUIFix>
 	<TestingFacilityImage type="bool" display_name="TranStar Testing Facility has a location image in the menu">true</TestingFacilityImage>
 	<ApexImages type="bool" display_name="Location images update in response to endgame worldspace changes">true</ApexImages>
+	<ContainerOpening type="bool" display_name="Invalid container IDs get the wait time proper IDs have in the Cargo Bay">true</ContainerOpening>
 </Inconsistency>
 
 <CutContent type="xmlnode">

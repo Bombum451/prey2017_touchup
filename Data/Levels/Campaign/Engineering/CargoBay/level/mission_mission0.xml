@@ -106,6 +106,26 @@
     </Edges>
    </FlowGraph>
   </Entity>
+  
+  
+		<Entity Name="CargoContainers2" EntityGuid="4FB9B5B146E04DEC" ch:applyIf="{{ Inconsistency.ContainerOpening }}">
+			<FlowGraph>
+				<Nodes>
+
+					<Node Id="17240" Class="Ark:Workstation:WorkstationPopup" pos="0,0,0" EntityGUID_64="4277AEF1A97D6055">
+						<Inputs entityId="0" text_Title="@ui_dockingstationsearchingtitle" text_Body="@ui_dockingstationsearchingdesc" Duration="1" EnableConfirm="1" EnableCancel="0" />
+					</Node>
+					
+				</Nodes>
+				<Edges>
+					
+					<Edge nodeIn="848" nodeOut="862" portIn="Trigger" portOut="Out" enabled="0"/>
+					<Edge nodeIn="17240" nodeOut="862" portIn="Trigger" portOut="Out" enabled="1"/>
+					<Edge nodeIn="848" nodeOut="17240" portIn="Trigger" portOut="Completed" enabled="1" />
+
+				</Edges>
+			</FlowGraph>
+		</Entity>
 
   
 </Objects>
