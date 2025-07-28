@@ -348,7 +348,7 @@
         </Properties>
     </EntityPrototype>
 	
- <EntityPrototype Name="Containers.Misc.Safe">
+ <EntityPrototype Name="Containers.Misc.Safe" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
   <Properties textDisplayNameLocked="@i_container_safe">
   </Properties>
  </EntityPrototype>

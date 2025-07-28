@@ -47,7 +47,7 @@
 	<GibLogic type="bool" display_name="Gib logic improvements in special encounters">true</GibLogic>
 	<Morgan_CrewQ_Emails type="bool" display_name="Morgan's Crew Quarters workstation has emails">true</Morgan_CrewQ_Emails>
 	<Immersion_Level_Edits type="bool" display_name="Minor level object placement edits">true</Immersion_Level_Edits>
-	<Displayed_Names type="bool" display_name="Adds names to objects when hovered over and fixes interaction texts">true</Displayed_Names>
+	<Displayed_Names type="bool" display_name="Adds and fixes object names when hovered over, fixes interaction texts">true</Displayed_Names>
 	<Danielle_NotOnRoster type="bool" display_name="Danielle Sho not longer on the roster, like January says">true</Danielle_NotOnRoster>
 	<Magazine_Fixes type="bool" display_name="Magazine logic improvements">true</Magazine_Fixes>
 	<InGameMapImprovements type="bool" display_name="Ingame map screen improvements">true</InGameMapImprovements>
