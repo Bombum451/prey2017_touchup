@@ -29,6 +29,7 @@
 	<Psi_Aptitude_NightmareHeat_Removal type="bool" display_name="Psionic Aptitude neuromods can't attract the Nightmare">true</Psi_Aptitude_NightmareHeat_Removal>
 	<PsychicWater_Removal type="bool" display_name="Psychic Water doesn't apply to water coolers and bar taps">true</PsychicWater_Removal>
 	<PopStar_Restore_Psi type="bool" display_name="PopStar restores psi, like all the other drinks">true</PopStar_Restore_Psi>
+	<MissingKeycodes type="bool" display_name="Deal with keycodes that are defined in the files but can't be found ingame">true</MissingKeycodes>
 </Gameplay>
 	
 <Inconsistency type="xmlnode">

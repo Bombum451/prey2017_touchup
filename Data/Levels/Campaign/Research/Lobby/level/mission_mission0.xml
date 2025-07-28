@@ -81,6 +81,13 @@
 				</Edges>
 	  </FlowGraph>
 	</Entity>
+	
+	<Entity Name="Door.Door_Sliding_Double_Default4" EntityGuid="48891164A2A411C7" ch:applyIf="{{ Gameplay.MissingKeycodes }}">
+			<Properties2 keycode_UnlockCode=""/>
+	</Entity>
+	<Entity Name="Door.Door_Sliding_Double_Default5" EntityGuid="4C4E030F264D13B3" ch:applyIf="{{ Gameplay.MissingKeycodes }}">
+			<Properties2 keycode_UnlockCode=""/>
+	</Entity>
   
   
 </Objects>

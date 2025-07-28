@@ -157,5 +157,9 @@
    </FlowGraph>
   </Entity>
   
+  <Entity Name="Data.Notes.Stickynote6" Archetype="ArkPickups.Data.Notes.Stickynote" Pos="693.00002,779.54997,680.57031" Rotate="0.8681004,0.059083432,0.10658933,-0.4811959" EntityClass="ArkPages" EntityGuid="4CB573645CC6D3F3" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Exterior_Scripting" ch:applyIf="{{ Gameplay.MissingKeycodes }}">
+	<Properties2 iCountOverride="0" note_OnPickup="4349723564901864075" />
+  </Entity>
+  
 </Objects>
 </Mission>
