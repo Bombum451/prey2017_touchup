@@ -126,6 +126,13 @@
 				</Edges>
 			</FlowGraph>
 		</Entity>
+		
+  <Entity Name="TU.Recycler.Panel" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="148.03999,52.950001,686.81" Rotate="0.70710677,0,0,0.70710677" EntityClass="ArkRepairableObject" EntityGuid="6D9BAAB97E323E4E" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
+	<Properties2 bStartsBroken="0" bVerbose="0"/>
+  </Entity>
+  <Entity Name="TU.Fabricator.Panel" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="149.45,51.630001,686.75" Rotate="0.70710677,0,-0,-0.70710677" EntityClass="ArkRepairableObject" EntityGuid="17A286A1DC9691AF" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
+	<Properties2 bStartsBroken="0" bVerbose="0"/>
+  </Entity>
 
   
 </Objects>
