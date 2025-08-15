@@ -133,6 +133,128 @@
   <Entity Name="TU.Fabricator.Panel" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="149.45,51.630001,686.75" Rotate="0.70710677,0,-0,-0.70710677" EntityClass="ArkRepairableObject" EntityGuid="17A286A1DC9691AF" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
 	<Properties2 bStartsBroken="0" bVerbose="0"/>
   </Entity>
+  
+  
+  <Entity Name="TU.I_And_It.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="D13C389084C0B54A" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ QoL.IandIt_Overhaul }}">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="1" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="433F415E33CDBA3B">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="2" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="42082FDC935C5F63">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="3" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4AFEF62ED3B8B866">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="4" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4C5C23BB709C6883">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="5" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="42FF31117AA14288">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="6" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="40E7BDDFF68E7B97">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="7" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4A0E3BB53FE0AEC5">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="8" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4B50304D16CADACD">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="9" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4B460187C14AC9E4">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+
+					<Node Id="10" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="20" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="30" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="40" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="50" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="60" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="70" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="80" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="90" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					
+				    <Node Id="1000" Class="Ark:IncrementGameMetric" pos="0,0,0">
+						<Inputs gamemetric_Metric="7438266898197865481" Amount="1"/>
+				    </Node>
+					
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="10" nodeOut="1" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="20" nodeOut="2" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="30" nodeOut="3" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="40" nodeOut="4" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="50" nodeOut="5" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="60" nodeOut="6" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="70" nodeOut="7" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="80" nodeOut="8" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="90" nodeOut="9" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					
+					<Edge nodeIn="1000" nodeOut="10" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="20" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="30" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="40" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="50" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="60" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="70" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="80" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="90" portIn="Trigger" portOut="Dead" enabled="1"/>
+					
+					
+				</Edges>
+	  </FlowGraph>
+	</Entity>
+	
+  <Entity Name="TU.I_And_It.Script2" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="D13C389084C0B54B" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ QoL.IandIt_Overhaul }}">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="1" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="48BFA6E3BF3A67E8">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+
+					<Node Id="10" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					
+				    <Node Id="1000" Class="Ark:IncrementGameMetric" pos="0,0,0">
+						<Inputs gamemetric_Metric="7438266898197865481" Amount="1"/>
+				    </Node>
+					
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="10" nodeOut="1" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					
+					<Edge nodeIn="1000" nodeOut="10" portIn="Trigger" portOut="Dead" enabled="1"/>
+								
+				</Edges>
+	  </FlowGraph>
+	</Entity>
 
   
 </Objects>

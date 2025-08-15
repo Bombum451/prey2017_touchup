@@ -101,5 +101,42 @@
    </FlowGraph>
   </Entity>
   
+  <Entity Name="TU.I_And_It.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="D13C389084C0B54A" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ QoL.IandIt_Overhaul }}">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="1" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4D7929DDABB00982">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="2" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="446986B71DB0C1F1">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					
+					<Node Id="10" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="20" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					
+				    <Node Id="1000" Class="Ark:IncrementGameMetric" pos="0,0,0">
+						<Inputs gamemetric_Metric="7438266898197865481" Amount="1"/>
+				    </Node>
+					
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="10" nodeOut="1" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="20" nodeOut="2" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					
+					<Edge nodeIn="1000" nodeOut="10" portIn="Trigger" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="20" portIn="Trigger" portOut="Dead" enabled="1"/>
+					
+					
+				</Edges>
+	  </FlowGraph>
+	</Entity>
+  
 </Objects>
 </Mission>

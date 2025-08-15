@@ -161,5 +161,23 @@
 	<Properties2 iCountOverride="0" note_OnPickup="4349723564901864075" />
   </Entity>
   
+		<Entity Name="IgweCrateScripting" EntityGuid="4F07E68CA54FBD97" ch:applyIf="{{ QoL.IandIt_Overhaul }}">
+			<FlowGraph>
+				<Nodes>
+				
+					<Node Id="2636" Class="Ark:IncrementGameMetric" pos="0,0,0">
+						<Inputs gamemetric_Metric="7438266898197865481" Amount="1" />
+					</Node>
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="2636" nodeOut="1121" portIn="Trigger" portOut="Out" enabled="1"/>
+
+				</Edges>
+			</FlowGraph>
+		</Entity>
+		
+  
 </Objects>
 </Mission>
