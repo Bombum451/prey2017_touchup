@@ -112,7 +112,7 @@
 				    <Node Id="10000" Class="Ark:IncrementGameMetric" pos="0,0,0">
 						<Inputs gamemetric_Metric="7293080054630250742" Amount="1"/>
 				    </Node>
-					<Node Id="20000" Class="Ark:IncrementGameMetric" pos="0,0,0">
+					<Node Id="20000" Class="Ark:IncrementGameMetric" pos="0,0,0"> <!-- if you kill him yourself to begin with, do a -1 so it doesn't record the death twice -->
 						<Inputs gamemetric_Metric="7293080054630250742" Amount="-1"/>
 				    </Node>
 					
