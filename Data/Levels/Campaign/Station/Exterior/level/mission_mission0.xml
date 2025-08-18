@@ -137,9 +137,7 @@
      <Edge nodeIn="10" nodeOut="5" portIn="Trigger" portOut="false" enabled="1"/>
      <Edge nodeIn="20" nodeOut="10" portIn="Trigger" portOut="Completed" enabled="1"/>
      <Edge nodeIn="100" nodeOut="20" portIn="Spawn" portOut="Completed" enabled="1"/>
-	 
-     <Edge nodeIn="100" nodeOut="5" portIn="Spawn" portOut="false" enabled="0"/>
-	 
+
      <Edge nodeIn="200" nodeOut="100" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
      <Edge nodeIn="200" nodeOut="100" portIn="Set" portOut="Succeeded" enabled="1"/>
      <Edge nodeIn="50" nodeOut="100" portIn="Trigger" portOut="Succeeded" enabled="1"/>

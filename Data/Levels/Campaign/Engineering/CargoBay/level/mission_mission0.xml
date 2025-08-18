@@ -57,6 +57,13 @@
       <Inputs entityId="0" Spawn="0"/>
      </Node>
 	 
+     <Node Id="250" Class="Mission:GameTokenCheck" pos="0,0,0">
+      <Inputs gametokenid_Token="221599900" CheckValue="true"/>
+     </Node>
+     <Node Id="260" Class="Mission:GameTokenSet" pos="0,0,0">
+      <Inputs gametokenid_Token="221599900" Value="true"/>
+     </Node>
+	 
      <Node Id="300" Class="Inventory:AddItemById" pos="0,0,0">
       <Inputs entityId="0" ItemId="0" VisibleInWorld="0" PlayFanfare="0"/>
      </Node>
@@ -67,7 +74,11 @@
     </Nodes>
     <Edges>
 	
-     <Edge nodeIn="300" nodeOut="100" portIn="Add" portOut="Succeeded" enabled="1"/>
+	 <Edge nodeIn="250" nodeOut="100" portIn="Trigger" portOut="Succeeded" enabled="1"/>
+	 
+	 <Edge nodeIn="260" nodeOut="250" portIn="Trigger" portOut="false" enabled="1"/>
+	 <Edge nodeIn="300" nodeOut="250" portIn="Add" portOut="false" enabled="1"/>
+	
      <Edge nodeIn="300" nodeOut="310" portIn="ItemId" portOut="Id" enabled="1"/>
      <Edge nodeIn="300" nodeOut="100" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
 	 

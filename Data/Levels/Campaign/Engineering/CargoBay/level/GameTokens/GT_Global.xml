@@ -1,4 +1,5 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588801" Name="TU.CargoBay.Initialized" Type="Bool" Value="false"/>
+ <GameToken Id="221599900" Name="TU.QuintenLogPlaced" Type="Bool" Value="false"/>
 </GameTokensLibrary>
