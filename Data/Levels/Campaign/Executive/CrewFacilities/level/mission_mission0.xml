@@ -109,6 +109,10 @@
 						<Inputs />
 					</Node>
 					
+					<Node Id="5000" Class="Logic:Gate" pos="0,0,0">
+						<Inputs SetClosed="1" AutoCloseCount="0" Reset="0"/>
+					</Node>
+					
 				    <Node Id="10000" Class="Ark:IncrementGameMetric" pos="0,0,0">
 						<Inputs gamemetric_Metric="7293080054630250742" Amount="1"/>
 				    </Node>
@@ -122,8 +126,12 @@
 				
 					<Edge nodeIn="10" nodeOut="1" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
 					
-					<Edge nodeIn="10000" nodeOut="10" portIn="Trigger" portOut="Dead" enabled="1"/>
-					<Edge nodeIn="1000" nodeOut="10" portIn="Check" portOut="Dead" enabled="1"/>
+					<Edge nodeIn="5000" nodeOut="10" portIn="open" portOut="Stunned" enabled="1"/>
+					
+					<Edge nodeIn="5000" nodeOut="10" portIn="in" portOut="Dead" enabled="1"/>
+					
+					<Edge nodeIn="10000" nodeOut="5000" portIn="Trigger" portOut="out" enabled="1"/>
+					<Edge nodeIn="1000" nodeOut="5000" portIn="Check" portOut="out" enabled="1"/>
 					
 					<Edge nodeIn="1000" nodeOut="100" portIn="A" portOut="entityId" enabled="1"/>
 					<Edge nodeIn="1000" nodeOut="10" portIn="B" portOut="KilledBy" enabled="1"/>
