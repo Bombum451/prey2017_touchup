@@ -95,5 +95,48 @@
    </FlowGraph>
   </Entity>
   
+  <Entity Name="TU_BlackboxPhantom_Fix" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="D4258D084DCF9172" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.BlackboxPhantom }}">
+   <FlowGraph>
+    <Nodes>
+	
+     <Node Id="1" Class="Game:Start" pos="0,0,0">
+      <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+     </Node>
+	 
+     <Node Id="2" Class="Mission:GameTokenCheck" pos="0,0,0">
+      <Inputs gametokenid_Token="221588804" CheckValue="false"/>
+     </Node>
+	 
+	 <Node Id="3" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="44A8F7B6CCA9A112">
+		<Inputs entityId="0" Spawn="0" />
+	 </Node>
+	 
+	 <Node Id="4" Class="Ark:Faction:SetFaction" pos="0,0,0">
+		<Inputs entityId="0" faction_Faction="3149325216988038853"/>
+	 </Node>
+	 
+	 <Node Id="5" Class="entity:ArkDoor" pos="0,0,0" EntityGUID_64="48EB80DD4F800663">
+		<Inputs entityId="0" Close="0" Hide="0" Lock="0" Open="0" PowerOff="0" PowerOn="0" UnHide="0" Unlock="0" />
+	 </Node>
+	 
+	 <Node Id="6" Class="Ark:Faction:SetFaction" pos="0,0,0">
+		<Inputs entityId="0" faction_Faction="17591291352618367186"/>
+	 </Node>
+	 
+    </Nodes>
+    <Edges>
+	
+	 <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="output" enabled="1"/>
+	 
+	 <Edge nodeIn="4" nodeOut="3" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+	 <Edge nodeIn="6" nodeOut="3" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+	 
+	 <Edge nodeIn="4" nodeOut="2" portIn="Set" portOut="true" enabled="1"/>
+	 <Edge nodeIn="6" nodeOut="5" portIn="Set" portOut="Open" enabled="1"/>
+	 
+    </Edges>
+   </FlowGraph>
+  </Entity>
+  
 </Objects>
 </Mission>

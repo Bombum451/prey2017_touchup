@@ -18,6 +18,7 @@
 	<HarvestMusic type="bool" display_name="No uplifting music if Psychotronics harvest complete">true</HarvestMusic>
 	<BrokenNMDivWorkstation type="bool" display_name="Fix Neuromod Division workstation that shows a broken icon">true</BrokenNMDivWorkstation>
 	<LukaKillExploit type="bool" display_name="Prevent exploit against pacifism">true</LukaKillExploit>
+	<BlackboxPhantom type="bool" display_name="Fix Blackbox Lab phantom attacking through the door">true</BlackboxPhantom>
 </Bugs>
 
 <Gameplay type="xmlnode">
