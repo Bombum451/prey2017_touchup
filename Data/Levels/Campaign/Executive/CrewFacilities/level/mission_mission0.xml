@@ -87,7 +87,7 @@
    </FlowGraph>
   </Entity>
   
-		<Entity Name="Crafting.RecyclerJunk.PetriDishSample3" Pos="1229.5146,981.20349,218.92" EntityGuid="41EC105A7B1D0CD4"/>
+  <Entity Name="Crafting.RecyclerJunk.PetriDishSample3" Pos="1229.5146,981.20349,218.92" EntityGuid="41EC105A7B1D0CD4"/>
   
   <Entity Name="TU.LukaKilling.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="9F9170C68EEFD4E4" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Bugs.LukaKillCounting }}">
 	<FlowGraph>
@@ -352,6 +352,91 @@
 					<Edge nodeIn="10" nodeOut="1" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
 					
 					<Edge nodeIn="1000" nodeOut="10" portIn="Trigger" portOut="Dead" enabled="1"/>		
+					
+				</Edges>
+	  </FlowGraph>
+	</Entity>
+	
+	
+  <Entity Name="TU.MindSlaveCushion.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="6671D7B7A4D4EE8D" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ QoL.MindSlaveCushion }}">
+	<FlowGraph>
+		<Nodes>
+		
+					<Node Id="1" Class="Game:Start" pos="0,0,0">
+						<Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+					</Node>
+	 
+					<Node Id="2" Class="Mission:GameTokenCheck" pos="0,0,0">
+						<Inputs gametokenid_Token="221588805" CheckValue="false"/>
+					</Node>
+
+					<Node Id="10" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4ADB9868D600D279">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="20" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4423ED4DA6A20AF9">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="30" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="4EA897A128E253DF">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="40" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="44492C00827ECF47">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="50" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="467667A929EE7606">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					<Node Id="60" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="484002BF644194E4">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+
+					<Node Id="100" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="200" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="300" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="400" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="500" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					<Node Id="600" Class="entity:ArkHuman" pos="0,0,0">
+						<Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" UseAlternateMessage="" UseDefaultMessage="0" Used="0" WakeUp="0" />
+					</Node>
+					
+				    <Node Id="15000" Class="entity:ArkDoor" pos="0,0,0" EntityGUID_64="45C225358AD8B10F">
+						<Inputs entityId="0" Close="0" Hide="0" Lock="0" Open="0" PowerOff="0" PowerOn="0" UnHide="0" Unlock="0" />
+					</Node>
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="100" nodeOut="10" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="200" nodeOut="20" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="300" nodeOut="30" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="400" nodeOut="40" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="500" nodeOut="50" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					<Edge nodeIn="600" nodeOut="60" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					
+					<Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="output" enabled="1"/>
+					
+					<Edge nodeIn="100" nodeOut="2" portIn="MakeInvulnerable" portOut="true" enabled="1"/>
+					<Edge nodeIn="200" nodeOut="2" portIn="MakeInvulnerable" portOut="true" enabled="1"/>
+					<Edge nodeIn="300" nodeOut="2" portIn="MakeInvulnerable" portOut="true" enabled="1"/>
+					<Edge nodeIn="400" nodeOut="2" portIn="MakeInvulnerable" portOut="true" enabled="1"/>
+					<Edge nodeIn="500" nodeOut="2" portIn="MakeInvulnerable" portOut="true" enabled="1"/>
+					<Edge nodeIn="600" nodeOut="2" portIn="MakeInvulnerable" portOut="true" enabled="1"/>
+					
+					<Edge nodeIn="100" nodeOut="15000" portIn="MakeVulnerable" portOut="Open" enabled="1"/>
+					<Edge nodeIn="200" nodeOut="15000" portIn="MakeVulnerable" portOut="Open" enabled="1"/>
+					<Edge nodeIn="300" nodeOut="15000" portIn="MakeVulnerable" portOut="Open" enabled="1"/>
+					<Edge nodeIn="400" nodeOut="15000" portIn="MakeVulnerable" portOut="Open" enabled="1"/>
+					<Edge nodeIn="500" nodeOut="15000" portIn="MakeVulnerable" portOut="Open" enabled="1"/>
+					<Edge nodeIn="600" nodeOut="15000" portIn="MakeVulnerable" portOut="Open" enabled="1"/>
 					
 				</Edges>
 	  </FlowGraph>

@@ -87,6 +87,7 @@
 	<IntroWeaponWheel type="bool" display_name="Disable weapon wheel in intro">true</IntroWeaponWheel>
 	<PickupOrientationImprove type="bool" display_name="Object pickup orientation improvements">true</PickupOrientationImprove>
 	<IandIt_Overhaul type="bool" display_name="I and It logic rework">true</IandIt_Overhaul>
+	<MindSlaveCushion type="bool" display_name="Prevents mind-controlled from dying to fire offscreen in the gym">true</MindSlaveCushion>
 </QoL>
 	
 </TouchUp>
