@@ -523,6 +523,12 @@
     <Cell><Data ss:Type="String">A box of synthetic beef sliders by TranStar Kitchens.&lt;br&gt;&lt;br&gt;Restores %HealthRestored% health points.</Data></Cell>
     <Cell><Data ss:Type="String">LOCKED</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell><Data ss:Type="String">i_MikhailasMedicine</Data></Cell>
+    <Cell><Data ss:Type="String">Mikhaila's Booster Shots</Data></Cell>
+    <Cell><Data ss:Type="String">Neurostimprexen</Data></Cell>
+    <Cell><Data ss:Type="String">LOCKED</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
