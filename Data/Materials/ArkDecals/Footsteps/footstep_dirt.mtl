@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20100000800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.052860651,0.052860651,0.052860651" Opacity="0" Shininess="121" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/bullets/bulletdecals_metal_00_a_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/decal/bullets/bulletdecals_metal_00_ddn.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.62800002" DecalFalloff="0.69999999" DecalAlphaMult="1.3200001"/>
+</Material>
