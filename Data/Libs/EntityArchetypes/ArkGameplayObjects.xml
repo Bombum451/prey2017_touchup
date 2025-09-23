@@ -6,4 +6,16 @@
  <EntityPrototype Name="Buttons.Button_VoiceBox" ch:applyIf="{{ Inconsistency.Displayed_Names }}">
   <Properties textDisplayName="@loc_844024417325847678"/>
  </EntityPrototype>
+ 
+ <EntityPrototype Name="Recycler.Recycler_Default" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
+  <Properties>
+   <Repair sRepairAttachment=""/>
+  </Properties>
+ </EntityPrototype>
+ <EntityPrototype Name="Fabricator.Fabricator_Default" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
+  <Properties>
+   <Repair sRepairAttachment=""/>
+  </Properties>
+ </EntityPrototype>
+ 
 </EntityPrototypeLibrary>
