@@ -188,145 +188,49 @@
 	
   <Entity Name="TU.Recycler.RepairBox" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="745.42999,1531.55,25.709999" Rotate="0.70710677,0,0,0.70710677" EntityClass="ArkRepairableObject" EntityGuid="4096A59AD07FAFDB" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
 	<Properties2 bStartsBroken="1" bVerbose="0"/>
+	<EntityLinks>
+		<Link TargetId="$(EntityId:4A5E7760B025657C)" Name="NewLink" />
+	</EntityLinks>
   </Entity>
-  
-  <Entity Name="TU.Recycler.Fixed" Archetype="ArkGameplayObjects.Recycler.Recycler_Default" Pos="747.69977,1531.9,24.4" Rotate="5.9604645e-08,0,0,-0.99999994" EntityClass="ArkRecycler" EntityGuid="4A5E7760B025657D" CastShadowViewDistRatio="15" CastShadowMinSpec="1" CastSunShadowMinSpec="1" ShadowCasterType="2" Layer="Simulation_Fabrication_Scripting" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
-	<Properties2 loottable_ContainerLootTable="" bMovePlayerOnExamine="1" bStartsBroken="0" bStartsPoweredOn="1" bUsable="1" bVerbose="0" />
-  </Entity>
-  
-  <Entity Name="TU.Recycler.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="420840465B76FBB0" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
-	<FlowGraph>
-		<Nodes>
 
-					<Node Id="1" Class="Entity:BeamEntity" pos="0,0,0" EntityGUID_64="4A5E7760B025657C"> <!-- broken recycler -->
-						<Inputs entityId="0" Position="0,0,0"/>
-					</Node>
-					<Node Id="2" Class="Entity:BeamEntity" pos="0,0,0" EntityGUID_64="4A5E7760B025657D"> <!-- fixed recycler -->
-						<Inputs entityId="0" Position="0,0,0"/>
-					</Node>
-					
-					<Node Id="10" Class="Entity:BeamEntity" pos="0,0,0" EntityGUID_64="4A5E7760B025657C"> <!-- broken recycler -->
-						<Inputs entityId="0" Position="747.69977,1531.9,24.4"/> <!-- recycler pos -->
-					</Node>
-					<Node Id="20" Class="Entity:BeamEntity" pos="0,0,0" EntityGUID_64="4A5E7760B025657D"> <!-- fixed recycler -->
-						<Inputs entityId="0" Position="747.69977,1531.9,24.4"/> <!-- recycler pos -->
-					</Node>
-					
-					
-					<Node Id="100" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="4096A59AD07FAFDB"> <!-- repairbox -->
-						<Inputs entityId="0" Break="0" Repair="0" />
-					</Node>	
-					<Node Id="1000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="4096A59AD07FAFDB"> <!-- repairbox -->
-						<Inputs entityId="0" signal_Signal="3149325216915554009"/>
-					</Node>
-					
-					
-					<Node Id="5000" Class="Game:Start" pos="0,0,0">
-						<Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1" />
-					</Node>
-					<Node Id="5100" Class="Mission:GameTokenCheck" pos="0,0,0">
-						<Inputs gametokenid_Token="221588777" CheckValue="false" />
-					</Node>
-					
-					
-				</Nodes>
-				<Edges>
-				
-					<Edge nodeIn="5100" nodeOut="5000" portIn="Trigger" portOut="output" enabled="1"/>
-					<Edge nodeIn="2" nodeOut="5100" portIn="Beam" portOut="true" enabled="1"/>
-					
-					<Edge nodeIn="1" nodeOut="100" portIn="Beam" portOut="Repaired" enabled="1"/>
-					<Edge nodeIn="20" nodeOut="100" portIn="Beam" portOut="Repaired" enabled="1"/>
-					
-					<Edge nodeIn="2" nodeOut="1000" portIn="Beam" portOut="Out" enabled="1"/>
-					<Edge nodeIn="10" nodeOut="1000" portIn="Beam" portOut="Out" enabled="1"/>
-					<Edge nodeIn="100" nodeOut="1000" portIn="Break" portOut="Out" enabled="1"/>
-					
-					
-				</Edges>
-			</FlowGraph>
-		</Entity>
-  
   <Entity Name="TU.Fabricator.RepairBox" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="766.12,1528.39,26.48" Rotate="0.70710677,0,0,0.70710677" EntityClass="ArkRepairableObject" EntityGuid="D4FAE7D481115615" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
 	<Properties2 bStartsBroken="0" bVerbose="0"/>
+	<EntityLinks>
+		<Link TargetId="$(EntityId:401B2E795ACF72BB)" Name="NewLink" />
+	</EntityLinks>
   </Entity>
   
-  <Entity Name="TU.Fabricator.Broken" Archetype="ArkGameplayObjects.Fabricator.Fabricator_Default" Pos="768.15997,1529.1699,25.359703" EntityClass="ArkFabricator" EntityGuid="401B2E795ACF72BC" CastShadowViewDistRatio="10" CastShadowMinSpec="1" CastSunShadowMinSpec="1" ShadowCasterType="2" Layer="Simulation_Fabrication_Scripting" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
-	<Properties2 bMovePlayerOnExamine="1" bStartsBroken="1" bStartsPoweredOn="1" bUsable="1" bVerbose="0"/>
-  </Entity>
-  
-  <Entity Name="TU.Fabricator.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="420840465B76FBB1" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
+  <Entity Name="TU.BreakableRepairBoxes.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="3C7C085D2C7C711" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
 	<FlowGraph>
 		<Nodes>
 
-					<Node Id="1" Class="Entity:BeamEntity" pos="0,0,0" EntityGUID_64="401B2E795ACF72BC"> <!-- broken fabricator -->
-						<Inputs entityId="0" Position="0,0,0"/>
-					</Node>
-					<Node Id="2" Class="Entity:BeamEntity" pos="0,0,0" EntityGUID_64="401B2E795ACF72BB"> <!-- fixed fabricator -->
-						<Inputs entityId="0" Position="0,0,0"/>
-					</Node>
-					
-					<Node Id="10" Class="Entity:BeamEntity" pos="0,0,0" EntityGUID_64="401B2E795ACF72BC"> <!-- broken fabricator -->
-						<Inputs entityId="0" Position="768.15997,1529.1699,25.359703"/> <!-- fabricator pos -->
-					</Node>
-					<Node Id="20" Class="Entity:BeamEntity" pos="0,0,0" EntityGUID_64="401B2E795ACF72BB"> <!-- fixed fabricator -->
-						<Inputs entityId="0" Position="768.15997,1529.1699,25.359703"/> <!-- fabricator pos -->
-					</Node>
-					
-					
-					<Node Id="100" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="D4FAE7D481115615"> <!-- repairbox -->
+					<Node Id="100" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="4CE15D2EFF569E06">
 						<Inputs entityId="0" Break="0" Repair="0" />
 					</Node>	
-					<Node Id="1000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="D4FAE7D481115615"> <!-- repairbox -->
+					<Node Id="1000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="4CE15D2EFF569E06">
 						<Inputs entityId="0" signal_Signal="3149325216915554009"/>
 					</Node>
 					
-					
-					<Node Id="5000" Class="Game:Start" pos="0,0,0">
-						<Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1" />
-					</Node>
-					<Node Id="5100" Class="Mission:GameTokenCheck" pos="0,0,0">
-						<Inputs gametokenid_Token="221588777" CheckValue="false" />
-					</Node>
-					<Node Id="5200" Class="Mission:GameTokenSet" pos="0,0,0">
-						<Inputs gametokenid_Token="221588777" Value="true" />
-					</Node>
-					
-					
-				</Nodes>
-				<Edges>
-				
-					<Edge nodeIn="5100" nodeOut="5000" portIn="Trigger" portOut="output" enabled="1"/>
-					<Edge nodeIn="1" nodeOut="5100" portIn="Beam" portOut="true" enabled="1"/>
-					<Edge nodeIn="5200" nodeOut="1" portIn="Trigger" portOut="Done" enabled="1"/>
-					
-					<Edge nodeIn="1" nodeOut="100" portIn="Beam" portOut="Repaired" enabled="1"/>
-					<Edge nodeIn="20" nodeOut="100" portIn="Beam" portOut="Repaired" enabled="1"/>
-					
-					<Edge nodeIn="2" nodeOut="1000" portIn="Beam" portOut="Out" enabled="1"/>
-					<Edge nodeIn="10" nodeOut="1000" portIn="Beam" portOut="Out" enabled="1"/>
-					<Edge nodeIn="100" nodeOut="1000" portIn="Break" portOut="Out" enabled="1"/>
-					
-					
-				</Edges>
-			</FlowGraph>
-		</Entity>
-		
-  <Entity Name="TU.GravShaft.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="420840465B76FBB2" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
-	<FlowGraph>
-		<Nodes>
-								
-					<Node Id="100" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="4CE15D2EFF569E06"> <!-- repairbox -->
+					<Node Id="200" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="4096A59AD07FAFDB">
 						<Inputs entityId="0" Break="0" Repair="0" />
 					</Node>	
-					<Node Id="1000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="4CE15D2EFF569E06"> <!-- repairbox -->
+					<Node Id="2000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="4096A59AD07FAFDB">
+						<Inputs entityId="0" signal_Signal="3149325216915554009"/>
+					</Node>
+					
+					<Node Id="300" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="D4FAE7D481115615">
+						<Inputs entityId="0" Break="0" Repair="0" />
+					</Node>	
+					<Node Id="3000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="D4FAE7D481115615">
 						<Inputs entityId="0" signal_Signal="3149325216915554009"/>
 					</Node>
 					
 				</Nodes>
 				<Edges>
-				
+
 					<Edge nodeIn="100" nodeOut="1000" portIn="Break" portOut="Out" enabled="1"/>
+					<Edge nodeIn="200" nodeOut="2000" portIn="Break" portOut="Out" enabled="1"/>
+					<Edge nodeIn="300" nodeOut="3000" portIn="Break" portOut="Out" enabled="1"/>
 					
 				</Edges>
 			</FlowGraph>
