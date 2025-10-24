@@ -113,7 +113,7 @@
 	</EntityLinks>
   </Entity>
   
-  <Entity Name="TU.PsychotronicsEntrance.RepairBox" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="361.37,723.92999,481.32999" Rotate="0.70710677,0,-0,-0.70710677" EntityClass="ArkRepairableObject" EntityGuid="4AC569781E19C26B" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
+  <Entity Name="TU.Recycler_Psychotronics.RepairBox" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="361.37,723.92999,481.32999" Rotate="0.70710677,0,-0,-0.70710677" EntityClass="ArkRepairableObject" EntityGuid="4AC569781E19C26B" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
 	<Properties2 bStartsBroken="1" bVerbose="0"/>
 	<EntityLinks>
 		<Link TargetId="$(EntityId:41B76B28EE42D6CF)" Name="NewLink" />
