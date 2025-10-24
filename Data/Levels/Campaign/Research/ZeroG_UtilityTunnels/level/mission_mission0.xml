@@ -77,6 +77,9 @@
    </FlowGraph>
   </Entity>
   
+  <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="4AFB60EDA6DC6643" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
+  <Entity Archetype="ArkGameplayObjects.Fabricator.TU.Breakable" EntityGuid="4C0DD215352BAF82" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
+  <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="476F9493B1C522EC" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
   
   <Entity Name="TU.Fabricator.RepairBox" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="34.889999,398.07999,596.77002" Rotate="0.77162462,0,0,0.63607818" EntityClass="ArkRepairableObject" EntityGuid="D4FAE7D481115615" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
 	<Properties2 bStartsBroken="1" bVerbose="0"/>

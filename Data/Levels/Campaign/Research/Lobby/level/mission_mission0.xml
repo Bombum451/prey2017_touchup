@@ -88,6 +88,10 @@
 			<Properties2 keycode_UnlockCode=""/>
 	</Entity>
 	
+  <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="4C8287A1BCF4C233" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
+  <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="4E88BE59E348530C" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
+  <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="41B76B28EE42D6CF" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
+	
   <Entity Name="TU.Recycler_HardwareEntrance.RepairBox" Archetype="ArkGameplayObjects.RepairableObject.RepairBox" Pos="283.39001,728.35999,496.35001" Rotate="0,0,0,1" EntityClass="ArkRepairableObject" EntityGuid="4096A59AD07FAFDB" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
 	<Properties2 bStartsBroken="1" bVerbose="0"/>
 	<EntityLinks>
