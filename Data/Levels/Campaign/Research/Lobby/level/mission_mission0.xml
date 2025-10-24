@@ -88,6 +88,9 @@
 			<Properties2 keycode_UnlockCode=""/>
 	</Entity>
 	
+  <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="41EA959CDE861019" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
+  <Entity Archetype="ArkGameplayObjects.Fabricator.TU.Breakable" EntityGuid="4C28E21681FF984E" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
+	
   <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="4C8287A1BCF4C233" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
   <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="4E88BE59E348530C" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
   <Entity Archetype="ArkGameplayObjects.Recycler.TU.Breakable" EntityGuid="41B76B28EE42D6CF" ch:applyIf="{{ Gameplay.BreakableFabRecs }}"/>
