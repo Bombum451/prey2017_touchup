@@ -176,6 +176,54 @@
 			</FlowGraph>
 		</Entity>
 		
+  <Entity Name="TU.BreakableRepairBoxes.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="3C7C085D2C7C711" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ Gameplay.BreakableFabRecs }}">
+	<FlowGraph>
+		<Nodes>
+
+					<Node Id="100" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="404C37B43596398C">
+						<Inputs entityId="0" Break="0" Repair="0" />
+					</Node>	
+					<Node Id="1000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="404C37B43596398C">
+						<Inputs entityId="0" signal_Signal="3149325216915554009"/>
+					</Node>
+					<Node Id="101" Class="Ark:EntityControl" pos="0,0,0" EntityGUID_64="42C706C7E2A13050"/>
+					
+					<Node Id="200" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="4E061C757389CB97">
+						<Inputs entityId="0" Break="0" Repair="0" />
+					</Node>	
+					<Node Id="2000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="4E061C757389CB97">
+						<Inputs entityId="0" signal_Signal="3149325216915554009"/>
+					</Node>
+					<Node Id="201" Class="entity:ArkKiosk" pos="0,0,0" EntityGUID_64="4AE900D8ADC97370"/>
+					
+					<Node Id="300" Class="entity:ArkRepairableObject" pos="0,0,0" EntityGUID_64="4F46202E85213FB9">
+						<Inputs entityId="0" Break="0" Repair="0" />
+					</Node>	
+					<Node Id="3000" Class="Ark:Signal:SignalReceiver" pos="0,0,0" EntityGUID_64="4F46202E85213FB9">
+						<Inputs entityId="0" signal_Signal="3149325216915554009"/>
+					</Node>
+					<Node Id="301" Class="Ark:EntityControl" pos="0,0,0" EntityGUID_64="41B96EFE5A3D7341"/>
+					
+				</Nodes>
+				<Edges>
+
+					<Edge nodeIn="100" nodeOut="1000" portIn="Break" portOut="Out" enabled="1"/>
+					<Edge nodeIn="200" nodeOut="2000" portIn="Break" portOut="Out" enabled="1"/>
+					<Edge nodeIn="300" nodeOut="3000" portIn="Break" portOut="Out" enabled="1"/>
+					
+					<Edge nodeIn="101" nodeOut="100" portIn="Show" portOut="Repaired" enabled="1"/>
+					<Edge nodeIn="101" nodeOut="1000" portIn="Hide" portOut="Out" enabled="1"/>
+					
+					<Edge nodeIn="201" nodeOut="200" portIn="KioskPowerOn" portOut="Repaired" enabled="1"/>
+					<Edge nodeIn="201" nodeOut="2000" portIn="KioskPowerOff" portOut="Out" enabled="1"/>
+					
+					<Edge nodeIn="301" nodeOut="300" portIn="Show" portOut="Repaired" enabled="1"/>
+					<Edge nodeIn="301" nodeOut="3000" portIn="Hide" portOut="Out" enabled="1"/>
+					
+				</Edges>
+			</FlowGraph>
+		</Entity>
+		
   
 </Objects>
 </Mission>
