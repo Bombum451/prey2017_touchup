@@ -4,4 +4,8 @@
  <GameToken Id="2002355487" Name="PowerPlantNeuromod7.Looted" Type="Bool" Value="false"/>
  <GameToken Id="2002355488" Name="PowerPlantNeuromod8.Looted" Type="Bool" Value="false"/>
  <GameToken Id="1217575047" Name="TU.PowerPlant.Initialized" Type="Bool" Value="false"/>
+
+ <GameToken Id="327436401" Name="TU.PowerPlant.Fabricator.Working" Type="Bool" Value="false"/>
+ <GameToken Id="327436402" Name="TU.PowerPlant.Recycler.Working" Type="Bool" Value="false"/>
+ 
 </GameTokensLibrary>

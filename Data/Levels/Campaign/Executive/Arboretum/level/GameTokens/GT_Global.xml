@@ -1,4 +1,7 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588808" Name="TU.Arboretum.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327436501" Name="TU.Arboretum.Recycler.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327436502" Name="TU.Arboretum.Fabricator.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>

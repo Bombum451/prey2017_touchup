@@ -1,4 +1,7 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588802" Name="TU.LifeSupport.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327436301" Name="TU.LifeSupport.Fabricator.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327436302" Name="TU.LifeSupport.Recycler.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>

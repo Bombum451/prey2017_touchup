@@ -1,4 +1,6 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588708" Name="TU.ShuttleBay.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327431001" Name="TU.ShuttleBay.Recycler.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>

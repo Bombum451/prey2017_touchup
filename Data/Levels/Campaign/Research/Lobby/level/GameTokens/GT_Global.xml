@@ -1,4 +1,8 @@
 
 <GameTokensLibrary>
  <GameToken Id="221600000" Name="TU.Lobby.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327436201" Name="TU.Lobby.Recycler_HardwareEntrance.Working" Type="Bool" Value="false"/>
+ <GameToken Id="327436202" Name="TU.Lobby.Recycler_Cafeteria.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327436203" Name="TU.Lobby.Recycler_Psychotronics.Working" Type="Bool" Value="false"/>
 </GameTokensLibrary>

@@ -1,4 +1,7 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588805" Name="TU.CrewQuarters.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327436701" Name="TU.CrewQuarters.Fabricator.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327436702" Name="TU.CrewQuarters.Recycler.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>

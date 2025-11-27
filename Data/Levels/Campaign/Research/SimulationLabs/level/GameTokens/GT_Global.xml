@@ -1,5 +1,7 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588703" Name="TU.NeuromodDivision.Initialized" Type="Bool" Value="false"/>
- <GameToken Id="221588777" Name="TU.NeuromodDivision.BreakableFabRec" Type="Bool" Value="false"/>
+
+ <GameToken Id="327431102" Name="TU.NeuromodDivision.Recycler.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327431103" Name="TU.NeuromodDivision.Fabricator.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>

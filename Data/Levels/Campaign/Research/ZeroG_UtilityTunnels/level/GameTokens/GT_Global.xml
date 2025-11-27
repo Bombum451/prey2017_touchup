@@ -1,4 +1,8 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588800" Name="TU.GUTS.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327431201" Name="TU.GUTS.Fabricator.Working" Type="Bool" Value="false"/>
+ <GameToken Id="327431202" Name="TU.GUTS.Recycler_FuelStorage.Working" Type="Bool" Value="false"/>
+ <GameToken Id="327431203" Name="TU.GUTS.Recycler_Psychotronics.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>

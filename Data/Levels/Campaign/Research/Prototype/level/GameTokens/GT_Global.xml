@@ -1,4 +1,8 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588804" Name="TU.HardwareLabs.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327436804" Name="TU.HardwareLabs.Fabricator.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327436805" Name="TU.HardwareLabs.Recycler_MachineShop.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327436806" Name="TU.HardwareLabs.Recycler_Theater.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>

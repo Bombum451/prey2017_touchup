@@ -1,4 +1,7 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588803" Name="TU.Psychotronics.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327436901" Name="TU.Psychotronics.Fabricator.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327436902" Name="TU.Psychotronics.Recycler.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>

@@ -1,4 +1,7 @@
 
 <GameTokensLibrary>
  <GameToken Id="221588806" Name="TU.DeepStorage.Initialized" Type="Bool" Value="false"/>
+ 
+ <GameToken Id="327436601" Name="TU.DeepStorage.Recycler.Working" Type="Bool" Value="true"/>
+ <GameToken Id="327436602" Name="TU.DeepStorage.Fabricator.Working" Type="Bool" Value="true"/>
 </GameTokensLibrary>
