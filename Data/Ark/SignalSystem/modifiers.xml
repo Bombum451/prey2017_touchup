@@ -1,0 +1,13 @@
+
+<modifiers>
+	<modifier name="Alien_TechnopathTurrets" id="3149325216954609881" ch:applyIf="{{ Bugs.TurretCollision }}">
+		<rule ch:index="4000">
+			<inputFilters>
+				<matchingKey signalID="15028473965190842637"/>	<!--turret collision filter tag-->
+			</inputFilters>
+			<outputEffects>
+				<effect signalID="3149325216915554009" scale="0"/>	<!--impact-->
+			</outputEffects>
+		</rule>
+	</modifier>	
+</modifiers>

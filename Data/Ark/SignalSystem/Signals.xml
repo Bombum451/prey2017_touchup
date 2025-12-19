@@ -1,0 +1,4 @@
+
+<signals>   
+	<signal name="TurretCollision_FilterTag" id="15028473965190842637" notes="Signal used in PrancerPete's Turret collision fix"/>
+</signals>

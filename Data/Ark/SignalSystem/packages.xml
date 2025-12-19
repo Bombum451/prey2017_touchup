@@ -6,4 +6,7 @@
   <package name="OnLaserExplosionKill" id="8109010857459426814" ch:applyIf="{{ Bugs.QBeam_AoE_NoBlindness }}">
   <signal signalID="3149325216914689666" value="0"/>   <!--flash-->
  </package>
+ <package name="OnCollision_Default" id="3149325216931792051" ch:applyIf="{{ Bugs.TurretCollision }}">
+  <signal signalID="15028473965190842637"/>		<!--turret collision filter tag-->
+ </package>	
 </packages>

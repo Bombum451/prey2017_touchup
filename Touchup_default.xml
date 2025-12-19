@@ -19,6 +19,7 @@
 	<BrokenNMDivWorkstation type="bool" display_name="Fix Neuromod Division workstation that shows a broken icon">true</BrokenNMDivWorkstation>
 	<LukaKillCounting type="bool" display_name="Fix killing Luka not being registered">true</LukaKillCounting>
 	<BlackboxPhantom type="bool" display_name="Fix Blackbox Lab phantom attacking through the door">true</BlackboxPhantom>
+	<TurretCollision type="bool" display_name="Fix Technopath Turrets colliding with walls and dying">true</TurretCollision>
 </Bugs>
 
 <Gameplay type="xmlnode">
