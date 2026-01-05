@@ -207,6 +207,8 @@
 				</Edges>
 			</FlowGraph>
 		</Entity>
+		
+        <Entity Name="Player.Neuromod12" Pos="581.9729,1208.3169,61.519402" EntityGuid="47F837D3332D6F6B"/>
   
 </Objects>
 </Mission>
