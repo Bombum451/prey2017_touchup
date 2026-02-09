@@ -216,7 +216,28 @@
 				</Edges>
 			</FlowGraph>
 		</Entity>
+		
+		<Entity Name="Data.Keycard3" Archetype="ArkPickups.Data.Keycard" Pos="312.74997,714.82501,898.02496" Rotate="0.98480773,0,0,-0.17364818" EntityClass="ArkKeycard" EntityGuid="46FD71D7B7893CAD" ViewDistRatio="255" CastShadowViewDistRatio="30" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="2" Layer="Lobby_Trauma_Scripting" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}">
+			<Properties2 iCountOverride="0" keycard_Keycard="844024417289637214" />
+		</Entity>
   
+		<Entity Name="TraumaQuest_FGE" EntityGuid="4665202801B3EA59" ch:applyIf="{{ Inconsistency.Immersion_Level_Edits }}">
+			<FlowGraph>
+				<Nodes>					
+					<Node Id="15650" Class="Inventory:AddItemById" pos="0,0,0">
+						<Inputs entityId="0" ItemId="0" VisibleInWorld="0" PlayFanfare="0" />
+					</Node>
+					<Node Id="15655" Class="Entity:EntityId" pos="0,0,0" EntityGUID_64="46FD71D7B7893CAD">
+						<Inputs entityId="0" />
+					</Node>
+				</Nodes>
+				<Edges>
+					<Edge nodeIn="15650" nodeOut="4" portIn="entityId" portOut="SpawnedEntityId" enabled="1" />
+					<Edge nodeIn="15650" nodeOut="4" portIn="Add" portOut="Succeeded" enabled="1" />
+					<Edge nodeIn="15650" nodeOut="15655" portIn="ItemId" portOut="Id" enabled="1" />
+				</Edges>
+			</FlowGraph>
+		</Entity>
   
 </Objects>
 </Mission>
