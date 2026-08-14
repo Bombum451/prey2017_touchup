@@ -232,6 +232,72 @@
 				</Edges>
 			</FlowGraph>
 		</Entity>
+		
+  <Entity Name="TU.IngramSafety.Script" Pos="0,0,0" EntityClass="FlowgraphEntity" EntityGuid="F428581331C89718" CastShadowViewDistRatio="0" CastShadowMinSpec="1" CastSunShadowMinSpec="8" ShadowCasterType="0" Layer="AlwaysLoaded" ch:applyIf="{{ QoL.IngramCushion }}">
+	<FlowGraph>
+		<Nodes>
+		
+					<Node Id="2" Class="Game:Start" pos="0,0,0">
+						<Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1" />
+					</Node>
+
+					<Node Id="10" Class="entity:ArkNpcSpawner" pos="0,0,0" EntityGUID_64="458F48AEFB9672F5">
+						<Inputs entityId="0" Spawn="0" />
+					</Node>
+					
+					 <Node Id="110" Class="Ark:EntityControl" pos="3150,33850,0">
+					  <Inputs entityId="0"/>
+					 </Node>
+					
+					<Node Id="3000" Class="Mission:GameTokenCheck" pos="0,0,0">
+						<Inputs gametokenid_Token="1479027348" CheckValue="true"/> <!-- is aaron released -->
+					</Node>
+					<Node Id="3010" Class="Mission:GameTokenCheck" pos="0,0,0">
+						<Inputs gametokenid_Token="1017937291" CheckValue="true"/> <!-- is aaron dead -->
+					</Node>
+					
+					<Node Id="5000" Class="Ark:Roster:SetVitalSigns" pos="5130,710,0">
+						<Inputs character_Character="4349723564911789705"/>
+					</Node>
+										 
+     <Node Id="3067" Class="Inventory:ItemAdd" pos="-4870,70,0">
+      <Inputs entityId="0" archetype="ArkPickups.Player.Neuromod" quantity="2" playfanfare="0"/>
+     </Node>
+	 
+     <Node Id="4000" Class="entity:ArkLevelTransitionDoor" pos="-413,14,0" EntityGUID_64="4446ED91E0084E99">
+      <Inputs entityId="0" Lock="0" SetStateInaccessibleOff="0" SetStateInaccessibleOn="0" SetTextInaccessible="" Unlock="0"/>
+     </Node>
+     <Node Id="4100" Class="entity:ArkLevelTransitionDoor" pos="-413,14,0" EntityGUID_64="46F4C7D2A9A401E0">
+      <Inputs entityId="0" Lock="0" SetStateInaccessibleOff="0" SetStateInaccessibleOn="0" SetTextInaccessible="" Unlock="0"/>
+     </Node>
+     <Node Id="4200" Class="entity:ArkLevelTransitionDoor" pos="-413,14,0" EntityGUID_64="48F96DFF2591AA10">
+      <Inputs entityId="0" Lock="0" SetStateInaccessibleOff="0" SetStateInaccessibleOn="0" SetTextInaccessible="" Unlock="0"/>
+     </Node>
+	 
+     <Node Id="9000" Class="Logic:Gate" pos="4660,870,0">
+      <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+     </Node>
+					
+				</Nodes>
+				<Edges>
+				
+					<Edge nodeIn="110" nodeOut="10" portIn="entityId" portOut="SpawnedEntityId" enabled="1"/>
+					
+					<Edge nodeIn="9000" nodeOut="4000" portIn="in" portOut="Confirmed" enabled="1"/>
+					<Edge nodeIn="9000" nodeOut="4100" portIn="in" portOut="Confirmed" enabled="1"/>
+					<Edge nodeIn="9000" nodeOut="4200" portIn="in" portOut="Confirmed" enabled="1"/>
+					
+					<Edge nodeIn="3000" nodeOut="9000" portIn="Trigger" portOut="out" enabled="1"/>
+					<Edge nodeIn="3010" nodeOut="3000" portIn="Trigger" portOut="true" enabled="1"/>
+					
+					<Edge nodeIn="110" nodeOut="3010" portIn="Remove" portOut="false" enabled="1"/>
+					<Edge nodeIn="5000" nodeOut="3010" portIn="Safe" portOut="false" enabled="1"/>
+					
+					<Edge nodeIn="3067" nodeOut="2" portIn="add" portOut="output" enabled="0"/> <!-- disabled test for if script is broken-->
+					
+				</Edges>
+	  </FlowGraph>
+	</Entity>
   
 </Objects>
 </Mission>
